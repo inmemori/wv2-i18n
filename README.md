@@ -1,1 +1,1 @@
-# wv2-i18n
+# Text translations for inmemori website
