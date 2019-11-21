@@ -1,0 +1,71 @@
+{
+
+  "common": {
+      "name": "Nom"
+    , "author": "Auteur"
+    , "family": "Famille"
+    , "identifier": "Identifiant"
+    , "password": "Mot de passe"
+  },
+
+  "err": {
+      "login": "Identifiants invalides !"
+  },
+
+  "dates": {
+      "long": "ddd D MMMM YYYY à HH[h]mm"
+    , "short": "dddd D MMMM YYYY"
+  },
+
+  "app-nav": {
+      "info": "Infos"
+    , "memories": "Messages"
+    , "share": "Partager"
+    , "settings": "Paramètres"
+  },
+
+  "places": {
+
+      "dummy": {
+          "name": "Adresse à préciser"
+        , "address": "France"
+      },
+
+      "types": {
+          "dummy": "Étape à préciser"
+        , "ceremony": "Cérémonie"
+        , "contemplation": "Recueillement"
+        , "inhumation": "Inhumation"
+        , "interment": "Enterrement"
+        , "cremation": "Crémation"
+        , "gathering": "Collation"
+        , "reception": "Réception"
+      },
+
+      "labels": {
+          "privacy": "Aura lieu dans l'intimité familiale"
+        , "date": "Date"
+        , "placeholder-date": "jj/mm/aaaa"
+        , "time": "Heure"
+        , "placeholder-time": "hh:mm "
+        , "name": "Nom du lieu"
+        , "placeholder-name": "Crématorium du Père Lachaise"
+        , "address": "Adresse"
+        , "placeholder-address": "71 Rue des Rondeaux, 75020 Paris"
+        , "cta-delete": "Supprimer"
+        , "cta-add": "Ajouter une étape"
+        , "select-type-placeholder": "Choisir un évènement"
+        , "select-type-custom-text": "Évènement de votre choix"
+        , "type": "Nom de l'évènement"
+      },
+
+      "cta": {
+          "delete": "Supprimer"
+        , "add": "Ajouter une étape"
+      }
+
+  }
+
+
+
+}
