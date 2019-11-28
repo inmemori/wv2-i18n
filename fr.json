@@ -8,6 +8,7 @@
     , "password": "Mot de passe"
     , "edit": "Modifier"
     , "cancel": "Annuler"
+    , "share": "Partager"
     , "suggest": "Suggestion"
   },
 
@@ -29,45 +30,48 @@
 
   "places": {
 
-      "dummy": {
-          "name": "Adresse à préciser"
-        , "address": "France"
-      },
+    "dummy": {
+        "name": "Adresse à préciser"
+      , "address": "France"
+    },
 
-      "types": {
-          "dummy": "Étape à préciser"
-        , "ceremony": "Cérémonie"
-        , "contemplation": "Recueillement"
-        , "inhumation": "Inhumation"
-        , "interment": "Enterrement"
-        , "cremation": "Crémation"
-        , "gathering": "Collation"
-        , "reception": "Réception"
-      },
+    "types": {
+        "dummy": "Étape à préciser"
+      , "ceremony": "Cérémonie"
+      , "contemplation": "Recueillement"
+      , "inhumation": "Inhumation"
+      , "interment": "Enterrement"
+      , "cremation": "Crémation"
+      , "gathering": "Collation"
+      , "reception": "Réception"
+    },
 
-      "labels": {
-          "privacy": "Aura lieu dans l'intimité familiale"
-        , "date": "Date"
-        , "placeholder-date": "jj/mm/aaaa"
-        , "time": "Heure"
-        , "placeholder-time": "hh:mm "
-        , "name": "Nom du lieu"
-        , "placeholder-name": "Crématorium du Père Lachaise"
-        , "address": "Adresse"
-        , "placeholder-address": "71 Rue des Rondeaux, 75020 Paris"
-        , "cta-delete": "Supprimer"
-        , "cta-add": "Ajouter une étape"
-        , "select-type-placeholder": "Choisir un évènement"
-        , "select-type-custom-text": "Évènement de votre choix"
-        , "type": "Nom de l'évènement"
-      },
+    "labels": {
+        "privacy": "Aura lieu dans l'intimité familiale"
+      , "date": "Date"
+      , "placeholder-date": "jj/mm/aaaa"
+      , "time": "Heure"
+      , "placeholder-time": "hh:mm "
+      , "name": "Nom du lieu"
+      , "placeholder-name": "Crématorium du Père Lachaise"
+      , "address": "Adresse"
+      , "placeholder-address": "71 Rue des Rondeaux, 75020 Paris"
+      , "cta-delete": "Supprimer"
+      , "cta-add": "Ajouter une étape"
+      , "select-type-placeholder": "Choisir un évènement"
+      , "select-type-custom-text": "Évènement de votre choix"
+      , "type": "Nom de l'évènement"
+    },
 
-      "cta": {
-          "delete": "Supprimer"
-        , "add": "Ajouter une étape"
-      }
+    "cta": {
+        "delete": "Supprimer"
+      , "add": "Ajouter une étape"
+    }
 
   },
+
+
+
 
   "edit-profile": {
     "label": {
@@ -75,6 +79,7 @@
       , "lastname": "Nom"
       , "dob": "Date de naissance"
       , "dod": "Date de décès"
+      , "photo": "Photo"
     },
     "ph": {
         "firstname": "Prénom de votre proche"
@@ -83,6 +88,8 @@
       , "dod": "jj/mm/aaaa"
     }
   },
+
+
 
   "edit-intro": {
     "label": {
@@ -96,20 +103,34 @@
     ]
   },
 
+
+
+
   "new-memory": {
-    "input-fullname-placeholder": "Vos prénom et nom"
-    , "input-email-placeholder": "Votre email"
-    , "input-email-info": "Email pour que la famille puisse vous répondre."
-    , "input-message-placeholder-1": "Écrire un message de condoléances. Il sera visible de tous ceux qui ont connu {{firstname}}."
-    , "input-message-placeholder-2": "Partager un souvenir avec {{firstname}}. Il sera visible de tous ceux qui ont connu {{firstname}}."
-    , "cta": "Partager"
-    , "cta-image": "Joindre une photo"
-    , "cta-image-uploading": "Télécharger..."
-    , "menu": [
-          { "title": "Condoléances", "text": "Exprimez vos condoléances à la famille de {{firstname}}." }
-        , { "title": "Souvenir", "text": "Partagez un moment vécu avec {{firstname}}." }
-        , { "title": "Photos", "text": "L'espace est tellement plus beau avec des photos." }
-      ]
+    "label": {
+        "email": "Email pour que la famille puisse vous répondre."
+      , "consent": "En cliquant sur « Partager », vous consentez au traitement de vos données personnelles nécessaire au bon fonctionnement du service."
+    },
+    "ph": {
+        "name": "Vos prénom et nom"
+      , "email": "Votre email"
+    },
+    "cta": {
+        "share": "Partager"
+      , "photo": "Joindre une photo"
+      , "uploading": "Téléchargement"
+    },
+    "titles": [
+        "Que souhaitez-vous partager ?"
+      , "Condoléances"
+      , "Souvenir"
+      , "Photos"
+    ],
+    "menu": [
+        { "title": "Condoléances", "text": "Exprimez vos condoléances à la famille de {{firstname}}." }
+      , { "title": "Souvenir", "text": "Partagez un moment vécu avec {{firstname}}." }
+      , { "title": "Photos", "text": "L'espace est tellement plus beau avec des photos." }
+    ]
   }
 
 
