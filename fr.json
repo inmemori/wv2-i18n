@@ -22,10 +22,10 @@
   },
 
   "app-nav": {
-      "info": "Infos"
-    , "memories": "Messages"
+      "info": "Acceuil"
+    , "memories": "Hommages"
     , "share": "Partager"
-    , "settings": "Paramètres"
+    , "settings": "Réglages"
   },
 
   "places": {
@@ -131,6 +131,16 @@
       , { "title": "Souvenir", "text": "Partagez un moment vécu avec {{firstname}}." }
       , { "title": "Photos", "text": "L'espace est tellement plus beau avec des photos." }
     ]
+  },
+
+
+  "card-stats": {
+    "label": {
+        "views": "Visites"
+      , "memories": "Messages"
+      , "donations": "dons"
+      , "collected": "collectés"
+    }
   }
 
 
