@@ -45,7 +45,7 @@
       "info": "Accueil"
     , "memories": "Hommages"
     , "share": "Partager"
-    , "settings": "Réglages"
+    , "settings": "Gestion"
   },
 
 
@@ -316,11 +316,11 @@
 
   "card-ft-book": {
       "title": "Commander le livre"
-    , "text": "Tous les messages sur un jolie livre d'hommages"
+    , "text": "Tous les messages sur un joli livre d'hommages"
   },
 
   "card-ft-flower": {
-      "title": "Embellir la cérémony"
+      "title": "Embellir la cérémonie"
     , "text": "Faites livrer des fleurs sur le lieu de votre choix"
   },
 
@@ -335,7 +335,7 @@
     "label": {
         "views": "Visites"
       , "memories": "Messages"
-      , "donations": "dons"
+      , "donations": "Dons"
       , "collected": "collectés"
     }
   },
