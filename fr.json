@@ -1,15 +1,35 @@
 {
 
   "common": {
-      "name": "Nom"
-    , "author": "Auteur"
+      "author": "Auteur"
     , "family": "Famille"
     , "identifier": "Identifiant"
     , "password": "Mot de passe"
+    , "save": "Enregistrer"
     , "edit": "Modifier"
     , "cancel": "Annuler"
+    , "next": "Suivant"
+    , "prev": "Précèdent"
     , "share": "Partager"
+    , "pay": "Payer"
+    , "finish": "Terminer"
     , "suggest": "Suggestion"
+    , "showmore": "Voir plus"
+    , "name": "Nom"
+    , "firstname": "Prénom"
+    , "lastname": "Nom"
+    , "email": "Email"
+    , "phone": "Téléphone"
+    , "address": "Adresse"
+    , "address-info": "Informations complémentaires (digicode, étage...)"
+    , "city": "Ville"
+    , "zipcode": "Code postal"
+    , "country": "Pays"
+    , "vat": "Numéro de TVA"
+    , "shipping": "Livraison"
+    , "dob": "Date de naissance"
+    , "dod": "Date de décès"
+    , "ssn": "N° de sécurité sociale"
   },
 
   "err": {
@@ -28,6 +48,29 @@
     , "settings": "Réglages"
   },
 
+
+
+  "cart": {
+    "labels": {
+        "item": "Produit"
+      , "qty": "Quantité"
+      , "price": "Prix"
+      , "shipping": "Frais de livraison"
+      , "total": "Total"
+    }
+  },
+  
+  "invoice": {
+      "with": "Utiliser une autre adresse pour la facturation"
+  },
+
+  "tx": {
+      "receipt": "Votre paiement de {{tx.amount_f}} a bien été enregistré !\nRéférence : {{tx.ch_id}}"
+  },
+
+  
+
+
   "places": {
 
     "dummy": {
@@ -36,8 +79,7 @@
     },
 
     "types": {
-        "dummy": "Étape à préciser"
-      , "ceremony": "Cérémonie"
+        "ceremony": "Cérémonie"
       , "contemplation": "Recueillement"
       , "inhumation": "Inhumation"
       , "interment": "Enterrement"
@@ -47,20 +89,22 @@
     },
 
     "labels": {
-        "privacy": "Aura lieu dans l'intimité familiale"
+        "event": "Événement"
+      , "custom-type": "Événement de votre choix"
+      , "privacy": "Aura lieu dans l'intimité familiale"
       , "date": "Date"
       , "placeholder-date": "jj/mm/aaaa"
       , "time": "Heure"
-      , "placeholder-time": "hh:mm "
       , "name": "Nom du lieu"
-      , "placeholder-name": "Crématorium du Père Lachaise"
       , "address": "Adresse"
-      , "placeholder-address": "71 Rue des Rondeaux, 75020 Paris"
-      , "cta-delete": "Supprimer"
-      , "cta-add": "Ajouter une étape"
-      , "select-type-placeholder": "Choisir un évènement"
-      , "select-type-custom-text": "Évènement de votre choix"
-      , "type": "Nom de l'évènement"
+      , "info": "Information complémentaire"
+    },
+
+    "ph": {
+        "date": "jj/mm/aaaa"
+      , "time": "hh:mm"
+      , "name": "Crématorium du Père Lachaise"
+      , "address": "71 Rue des Rondeaux, 75020 Paris"
     },
 
     "cta": {
@@ -68,6 +112,143 @@
       , "add": "Ajouter une étape"
     }
 
+  },
+
+  "book": {
+      "steps": [
+        {
+            "title": "Présentation du livre"
+          , "subtitle": "Tous les bouquets sont de taille moyenne et livrés avec une bulle d'eau afin de pouvoir être présentés sur le lieu de cérémonie de votre choix."
+        },{
+            "title": "Mon panier"
+          , "subtitle": ""
+        },{
+            "title": "Livraison"
+          , "subtitle": ""
+        },{
+            "title": "Validez la commande"
+          , "subtitle": ""
+        },{
+            "title": "Commande terminée"
+          , "subtitle": ""
+        }
+      ]
+    , "labels": {
+          "message": ""
+        , "item": "Livre"
+      }
+  },
+
+  "flower": {
+      "steps": [
+        {
+            "title": "Choisissez votre bouquet"
+          , "subtitle": "Tous les bouquets sont de taille moyenne et livrés avec une bulle d'eau afin de pouvoir être présentés sur le lieu de cérémonie de votre choix."
+        },{
+            "title": "Votre sélection"
+          , "subtitle": ""
+        },{
+            "title": "Livraison"
+          , "subtitle": ""
+        },{
+            "title": "Validez la commande"
+          , "subtitle": ""
+        },{
+            "title": "Merci de votre soutien !"
+          , "subtitle": ""
+        }
+      ]
+    , "labels": {
+          "message": "Adressez quelques mots à la famille"
+        , "item": "Bouquet"
+      }
+    , "ph": {
+          "message": "Laisser un message"
+      }
+
+    , "label-interflora": "Interflora vous garantit une livraison 15 minutes avant le début des obsèques."
+    , "shipping-info": "Informations de livraison :\n{{shipping.name}}\n{{shipping.date_f}}"
+  },
+
+  "donation": {
+      "steps": [
+        {
+            "title": "Nouvelle donation"
+          , "subtitle": "InMemori retient une commission de 4% sur le montant des dons afin de financer les frais bancaires."
+        },{
+            "title": "Merci de votre soutien !"
+          , "subtitle": ""
+        }
+      ]
+    , "labels": {
+          "amount": "Montant du don"
+        , "custom": "Autre"
+      }
+    , "ph": {
+          "message": "Laisser un message"
+      }
+  },
+
+  "edit-donation": {
+      "steps": [
+        {
+            "title": "Collecter des dons"
+          , "subtitle": ""
+        },{
+            "title": "Informations"
+          , "subtitle": ""
+        },{
+            "title": "Bénéficiaire"
+          , "subtitle": ""
+        }
+      ]
+    , "tips": [
+        {
+            "title": "Vous activez la\ncollecte de fonds"
+          , "subtitle": "au profit d'une cause ou pour pour financer ses obséques"
+          , "icon": "fas fa-toggle-on"
+        },{
+            "title": "Votre entourage\ndonne"
+          , "subtitle": "et manifeste son soutien en contribuant à une cause porteuse de sens*"
+          , "icon": "fas fa-hand-holding-heart"
+        }
+        ,{
+            "title": "Vous cloturez la\ncagnotte"
+          , "subtitle": "et recevez les fonds sur votre compte bancaire (-4% de frais de gestion)"
+          , "icon": "fas fa-hourglass-end"
+        }
+        ,{
+            "title": "Vous financez la\ncause souhaitée"
+          , "subtitle": "et distribués un reçu fiscal aux donateurs qui le souhaitent"
+          , "icon": "fas fa-donate"
+        }
+      ]
+    , "labels": {
+          "tip1": "Pour collecter de l'argent sur internet, la législation exige de l'organisateur qu'il renseigne les informations suivantes :"
+        , "beneficiary": "Qui est le Bénéficiaire des fonds ?"
+        , "family": "La famille"
+        , "org": "Une association"
+        , "message": "Votre message pour introduire la collecte de dons"
+      }
+    , "ph": {
+          "org": "Choisir une association"
+      }
+    , "cta": {
+          "start": "Activer la collecte"
+        , "end": "Terminer"
+      }
+    , "templates": {
+          "family": [
+              "L’ensemble de la famille souhaite rendre hommage à {{capitalize firstname}} en organisant une collecte de dons."
+            , "Pour ceux qui le désirent, nous organisons une collecte de dons en mémoire de {{capitalize firstname}}."
+            , "Nous organisons une collecte de dons en mémoire de {{capitalize firstname}}. La somme récoltée permettra à sa famille de financer, au moins en partie, ses obsèques. Un grand merci pour votre générosité."
+          ]
+        , "org": [
+              "Toute sa vie {{capitalize firstname}} a servi les autres au sein de l’association {{org}}.\n\nNous souhaitons poursuivre ce combat en sa mémoire et organisons une collecte de dons pour soutenir cette association qui lui tenait tellement à coeur. Nous pensons que c’est ce que {{capitalize firstname}} aurait souhaité. Un grand merci pour votre générosité."
+            , "Comme vous le savez, {{capitalize firstname}} a été emporté par la maladie après des années de combat. En mémoire de {{capitalize firstname}} et de toutes les autres victimes de cette maladie, nous avons décidé de soutenir l’association {{org}} afin de financer la recherche et de sauver des milliers de vies futures. Un grand merci de soutenir cette cause qui nous tient particulièrement à coeur."
+            , "{{capitalize firstname}} a toujours eu à coeur d'aider les autres et s'est natuellement engagé au sein de l’association {{org}} qui le touchait tout particulièrement. En son hommage, soutenons cette association. Un grand merci pour votre générosité."
+          ]
+      }
   },
 
 
@@ -133,6 +314,22 @@
     ]
   },
 
+  "card-ft-book": {
+      "title": "Commander le livre"
+    , "text": "Tous les messages sur un jolie livre d'hommages"
+  },
+
+  "card-ft-flower": {
+      "title": "Embellir la cérémony"
+    , "text": "Faites livrer des fleurs sur le lieu de votre choix"
+  },
+
+  "card-ft-donation": {
+      "title": "Faire un don"
+    , "text": "Participer à une collecte au profit d'une cause qui vous est chère."
+  },
+
+
 
   "card-stats": {
     "label": {
@@ -141,7 +338,36 @@
       , "donations": "dons"
       , "collected": "collectés"
     }
-  }
+  },
+
+  "organisations": [
+      "Action contre la Faim"
+    , "AIDES"
+    , "AFM-Téléthon"
+    , "Association des paralysés de France"
+    , "Autisme France"
+    , "Amnesty International"
+    , "Croix Rouge"
+    , "Emmaüs"
+    , "Fondation Abbé Pierre"
+    , "Fondation pour la recherche médicale"
+    , "Fonds pour les Soins Palliatifs" 
+    , "France Alzheimer"
+    , "Handicap International"
+    , "Les petits frères des Pauvres"
+    , "Les Restos du Coeur"
+    , "Ligue contre le cancer"
+    , "Mécénat chirurgie cardiaque enfants du monde"
+    , "Médecins du Monde"
+    , "Médecins sans frontières"
+    , "Secours catholique"
+    , "Secours populaire"
+    , "Secours islamique"
+    , "Sidaction"
+    , "Sourire à la vie"
+    , "Unicef"
+    , "Vaincre la mucoviscidose"
+  ]
 
 
 
