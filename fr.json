@@ -163,7 +163,7 @@
         , "item": "Bouquet"
       }
     , "ph": {
-          "message": "Laisser un message"
+          "message": "Laissez un message"
       }
 
     , "label-interflora": "Interflora vous garantit une livraison 15 minutes avant le début des obsèques."
@@ -185,14 +185,14 @@
         , "custom": "Autre"
       }
     , "ph": {
-          "message": "Laisser un message"
+          "message": "Laissez un message"
       }
   },
 
   "edit-donation": {
       "steps": [
         {
-            "title": "Collecter des dons"
+            "title": "Collectez des dons"
           , "subtitle": ""
         },{
             "title": "Informations"
@@ -274,7 +274,7 @@
 
   "edit-intro": {
     "label": {
-        "intro": "Écrire un message afin de faire part à votre entourage du décès de votre proche."
+        "intro": "Écrivez un message afin de faire part à votre entourage du décès de votre proche."
       , "templates": "Besoin d'inspiration ?"
     },
     "templates": [
@@ -325,8 +325,8 @@
   },
 
   "card-ft-donation": {
-      "title": "Faire un don"
-    , "text": "Participer à une collecte au profit d'une cause qui vous est chère."
+      "title": "Faites un don"
+    , "text": "Participez à une collecte au profit d'une cause qui vous est chère."
   },
 
 
