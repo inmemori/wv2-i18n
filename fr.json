@@ -51,10 +51,10 @@
   },
 
   "app-nav": {
-      "info": "Acceuil"
+      "info": "Accueil"
     , "memories": "Hommages"
     , "share": "Partager"
-    , "settings": "Réglages"
+    , "settings": "Gestion"
   },
 
 
@@ -127,7 +127,7 @@
       "steps": [
         {
             "title": "Présentation du livre"
-          , "subtitle": "Tous les bouquets sont de taille moyenne et livrés avec une bulle d'eau afin de pouvoir être présentés sur le lieu de cérémonie de votre choix."
+          , "subtitle": "Le livre InMemori rassemble l’ensemble des messages et photos partagés par vos proches. Sa mise en page est réalisée par les équipes d'InMemori."
         },{
             "title": "Mon panier"
           , "subtitle": ""
@@ -172,7 +172,7 @@
         , "item": "Bouquet"
       }
     , "ph": {
-          "message": "Laisser un message"
+          "message": "Laissez un message"
       }
 
     , "label-interflora": "Interflora vous garantit une livraison 15 minutes avant le début des obsèques."
@@ -194,7 +194,7 @@
         , "custom": "Autre"
       }
     , "ph": {
-          "message": "Laisser un message"
+          "message": "Laissez un message"
       }
   },
 
@@ -215,7 +215,7 @@
   "ft-donation-settings": {
       "steps": [
         {
-            "title": "Collecter des dons"
+            "title": "Collectez des dons"
           , "subtitle": ""
         },{
             "title": "Organisateur"
@@ -327,7 +327,7 @@
 
   "edit-intro": {
     "label": {
-        "intro": "Écrire un message afin de faire part à votre entourage du décès de votre proche."
+        "intro": "Écrivez un message afin de faire part à votre entourage du décès de votre proche."
       , "templates": "Besoin d'inspiration ?"
     },
     "templates": [
@@ -373,13 +373,13 @@
   },
 
   "card-ft-flower": {
-      "title": "Embellir la cérémony"
+      "title": "Embellir la cérémonie"
     , "text": "Faites livrer des fleurs sur le lieu de votre choix"
     , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fall_thyk.svg"
   },
 
   "card-ft-donation": {
-      "title": "Faire un don"
+      "title": "Faites un don"
     , "text": "Participer à une collecte au profit d'une cause qui vous est chère."
     , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
   },
