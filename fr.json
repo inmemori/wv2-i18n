@@ -30,6 +30,15 @@
     , "dob": "Date de naissance"
     , "dod": "Date de décès"
     , "ssn": "N° de sécurité sociale"
+    , "routing": "N° Routing"
+    , "iban": "N° Iban"
+    , "choose": "Choisir"
+    , "choose-file": "Choisir un fichier"
+    , "uploading": "Téléchargement"
+  },
+
+  "svgs": {
+    "thanks": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/a_whole_year_vnfm.svg"
   },
 
   "err": {
@@ -37,7 +46,7 @@
   },
 
   "dates": {
-      "long": "ddd D MMMM YYYY à HH[h]mm"
+      "long": "ddd D MMM YYYY à HH[h]mm"
     , "short": "dddd D MMMM YYYY"
   },
 
@@ -68,7 +77,6 @@
       "receipt": "Votre paiement de {{tx.amount_f}} a bien été enregistré !\nRéférence : {{tx.ch_id}}"
   },
 
-  
 
 
   "places": {
@@ -90,7 +98,7 @@
 
     "labels": {
         "event": "Événement"
-      , "custom-type": "Événement de votre choix"
+      , "custom-type": "Événement personalisé"
       , "privacy": "Aura lieu dans l'intimité familiale"
       , "date": "Date"
       , "placeholder-date": "jj/mm/aaaa"
@@ -105,6 +113,7 @@
       , "time": "hh:mm"
       , "name": "Crématorium du Père Lachaise"
       , "address": "71 Rue des Rondeaux, 75020 Paris"
+      , "custom-type": "Saisissez un text ..."
     },
 
     "cta": {
@@ -114,7 +123,7 @@
 
   },
 
-  "book": {
+  "ft-book": {
       "steps": [
         {
             "title": "Présentation du livre"
@@ -139,7 +148,7 @@
       }
   },
 
-  "flower": {
+  "ft-flower": {
       "steps": [
         {
             "title": "Choisissez votre bouquet"
@@ -170,7 +179,7 @@
     , "shipping-info": "Informations de livraison :\n{{shipping.name}}\n{{shipping.date_f}}"
   },
 
-  "donation": {
+  "ft-donation": {
       "steps": [
         {
             "title": "Nouvelle donation"
@@ -189,13 +198,27 @@
       }
   },
 
-  "edit-donation": {
+  "ft-donation-manage": {
+      "labels": {
+          "title": "Gestion de la collecte de dons"
+        , "close": "Clôturer la collecte"
+        , "status-family": "Une collecte est en cours pour aider au financement des obsèques.\nÀ ce jour le montant des dons s'élève à :"
+        , "status-org": "Une collecte est en cours au bénéfice de {{org}}.\nÀ ce jour le montant des dons s'élève à :"
+        , "identity": "Documents d'identités"
+        , "upload-info": "Passport ou CNI (recto et/ou verso)"
+      }
+    , "cta": {
+          "close": "Clôturer"
+      }
+  },
+
+  "ft-donation-settings": {
       "steps": [
         {
             "title": "Collecter des dons"
           , "subtitle": ""
         },{
-            "title": "Informations"
+            "title": "Organisateur"
           , "subtitle": ""
         },{
             "title": "Bénéficiaire"
@@ -224,7 +247,7 @@
         }
       ]
     , "labels": {
-          "tip1": "Pour collecter de l'argent sur internet, la législation exige de l'organisateur qu'il renseigne les informations suivantes :"
+          "tip1": "Pour collecter de l'argent sur internet, la législation exige que l'organisateur soit identifié et renseigne les informations suivantes :"
         , "beneficiary": "Qui est le Bénéficiaire des fonds ?"
         , "family": "La famille"
         , "org": "Une association"
@@ -251,6 +274,36 @@
       }
   },
 
+
+
+
+
+  "welcome": {
+      "steps": [
+        {
+            "title": "Informations du défunt"
+          , "subtitle": ""
+          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/profile_6l1l.svg"
+        },{
+            "title": "Coordonnées de la famille"
+          , "subtitle": ""
+          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
+        },{
+            "title": "Bienvenue"
+          , "subtitle": ""
+          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/confirmation_2uy0.svg"
+        }
+      ]
+    , "labels": {
+          "name": "Nom du défunt"
+        , "terms": "En cliquant sur \"Créer la page\" vous acceptez nos CGU et vous consentez au traitement de vos données personnelles."
+        , "success": "L'espace en hommage à\n{{fullname}} a bien été créé."
+      }
+    , "cta": {
+          "create": "Créer la page"
+        , "go": "Accèder à la page"
+      }
+  },
 
 
 
@@ -299,7 +352,6 @@
     "cta": {
         "share": "Partager"
       , "photo": "Joindre une photo"
-      , "uploading": "Téléchargement"
     },
     "titles": [
         "Que souhaitez-vous partager ?"
@@ -317,26 +369,100 @@
   "card-ft-book": {
       "title": "Commander le livre"
     , "text": "Tous les messages sur un jolie livre d'hommages"
+    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
   },
 
   "card-ft-flower": {
       "title": "Embellir la cérémony"
     , "text": "Faites livrer des fleurs sur le lieu de votre choix"
+    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fall_thyk.svg"
   },
 
   "card-ft-donation": {
       "title": "Faire un don"
     , "text": "Participer à une collecte au profit d'une cause qui vous est chère."
+    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
   },
 
 
+  "share": {
+
+    "labels": {
+        "email-from": "De la part de :"
+      , "email-to": "Envoyé à :"
+      , "email-message": "Message"
+      , "sms-from": "Vote numéro de mobile"
+      , "sms-intro": "Partagez l'espace depuis votre mobile. Nous vous envoyons le lien par SMS, vous pouvez ensuite le repartager avec vos contacts."
+    },
+
+    "ph": {
+        "email-from": "Ex: Famille Daricourt"
+      , "email-to": "Ex: john.doe@gmail.com"
+      , "sms-from": "Crématorium du Père Lachaise"
+    },
+
+    "cta": {
+        "email": "Envoyer"
+      , "sms": "M'envoyer le SMS"
+    }
+
+  },
+
+  "tab-settings": {
+      "cta": {
+          "admins":         { "text": "Gestionnaires de l'espace", "icon": "fas fa-user-cog" }
+        , "donation":       { "text": "Gérer la collecte de dons", "icon": "fas fa-hand-holding-heart" }
+        , "donation-start": { "text": "Activer la collecte de dons", "icon": "fas fa-hand-holding-heart" }
+        , "flowers":        { "text": "Activer la commande de fleurs", "icon": "fas fa-seedling" }
+        , "notifs":         { "text": "Préférences de notifications", "icon": "fas fa-bell" }
+        , "more":           { "text": "Plus", "icon": "fas fa-ellipsis-v" }
+        , "auth":           { "text": "Vous etes connecté avec l'adresse {{email}}" }
+        , "logout":         { "text": "Se Déconnecter" }
+        , "delete":         { "text": "Supprimer la page en hommage à {{capitalize firstname}}" }
+      }
+  },
+
+  "manage-notifs": {
+      "title": "Préférences de notifications"
+  },
+
+  "manage-admins": {
+      "steps": [
+        {
+            "title": "Gestionnaires de l'espace"
+          , "subtitle": ""
+          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/profile_6l1l.svg"
+        },{
+            "title": "Ajouter un gestionnaire"
+          , "subtitle": ""
+          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
+        }
+      ]
+    , "labels": {
+          "status-pending": "Invitation envoyée"
+        , "status-active": "Gestionnaire"
+        , "status-revoked": "Accèss révoqué"
+        , "email-from": "De la part de :"
+        , "email-to": "Email du gestionnaire:"
+        , "email-message": "Message"
+      }
+    , "ph": {
+        "email-to": "Ex: john.doe@gmail.com"
+      }
+    , "cta": {
+          "invite": "Ajouter un gestionnaire"
+        , "send-invite": "Envoyer"
+      }
+    , "message": "Bonjour,\n\nJe t'ai ajouté comme administrateur de l'espace InMemori en hommage à {{firstname}} pour que tu m'aides à le personnaliser et à le gérer. \n\nConstance d'InMemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com."
+  },
+
 
   "card-stats": {
-    "label": {
+    "labels": {
         "views": "Visites"
       , "memories": "Messages"
-      , "donations": "dons"
-      , "collected": "collectés"
+      , "donations": "Dons"
+      , "collected": "Collectés"
     }
   },
 
