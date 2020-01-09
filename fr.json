@@ -172,7 +172,7 @@
         , "item": "Bouquet"
       }
     , "ph": {
-          "message": "Laissez un message"
+          "message": "Votre message (il sera joint au bouquet)"
       }
 
     , "label-interflora": "Interflora vous garantit une livraison 15 minutes avant le début des obsèques."
