@@ -374,13 +374,13 @@
 
   "card-ft-flower": {
       "title": "Embellir la cérémonie"
-    , "text": "Faites livrer des fleurs sur le lieu de votre choix"
+    , "text": "Faire livrer des fleurs sur les lieux des obsèques"
     , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fall_thyk.svg"
   },
 
   "card-ft-donation": {
-      "title": "Faites un don"
-    , "text": "Participer à une collecte au profit d'une cause qui vous est chère."
+      "title": "Faire un don"
+    , "text": "Participer à une collecte au profit de : LA CAUSE CHOISIE."
     , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
   },
 
