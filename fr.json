@@ -152,13 +152,13 @@
       "steps": [
         {
             "title": "Choisissez votre bouquet"
-          , "subtitle": "Tous les bouquets sont de taille moyenne et livrés avec une bulle d'eau afin de pouvoir être présentés sur le lieu de cérémonie de votre choix."
+          , "subtitle": "Tous les bouquets sont de taille moyenne et fournis avec une bulle d'eau afin de pouvoir être livrés sur le lieu des obsèques de votre choix."
         },{
-            "title": "Votre sélection"
+            "title": "Apperçu de votre sélection"
           , "subtitle": ""
         },{
             "title": "Livraison"
-          , "subtitle": ""
+          , "subtitle": "Choisissez le lieu de la livraison"
         },{
             "title": "Validez la commande"
           , "subtitle": ""
