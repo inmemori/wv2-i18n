@@ -313,7 +313,7 @@
       , "lastname": "Nom"
       , "dob": "Date de naissance"
       , "dod": "Date de décès"
-      , "photo": "Photo"
+      , "photo": "Personnalisez l'espace en hommage à {{{Firstname}}}"
     },
     "ph": {
         "firstname": "Prénom de votre proche"
