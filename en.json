@@ -142,7 +142,7 @@
   "ft-book": {
       "steps": [
         {
-            "title": "Présentation du livre"
+            "title": "Présentation du livre InMemori"
           , "subtitle": "Le livre InMemori rassemble l’ensemble des messages et photos partagés par vos proches. Sa mise en page est réalisée par les équipes d'InMemori."
         },{
             "title": "Mon panier"
@@ -151,7 +151,7 @@
             "title": "Livraison"
           , "subtitle": ""
         },{
-            "title": "Validez la commande"
+            "title": "Finalisez la commande"
           , "subtitle": ""
         },{
             "title": "Commande terminée"
@@ -168,15 +168,15 @@
       "steps": [
         {
             "title": "Choisissez votre bouquet"
-          , "subtitle": "Tous les bouquets sont de taille moyenne et livrés avec une bulle d'eau afin de pouvoir être présentés sur le lieu de cérémonie de votre choix."
+          , "subtitle": "Tous les bouquets sont de taille moyenne et fournis avec une bulle d'eau afin de pouvoir être livrés sur le lieu des obsèques de votre choix."
         },{
-            "title": "Votre sélection"
+            "title": "Aperçu de votre sélection"
           , "subtitle": ""
         },{
             "title": "Livraison"
-          , "subtitle": ""
+          , "subtitle": "Choisissez le lieu de la livraison : "
         },{
-            "title": "Validez la commande"
+            "title": "Finalisez la commande"
           , "subtitle": ""
         },{
             "title": "Merci de votre soutien !"
@@ -184,11 +184,11 @@
         }
       ]
     , "labels": {
-          "message": "Adressez quelques mots à la famille"
+          "message": "Ajoutez un message à votre bouquet :"
         , "item": "Bouquet"
       }
     , "ph": {
-          "message": "Laissez un message"
+          "message": "Votre message (il sera joint au bouquet)"
       }
 
     , "label-interflora": "Interflora vous garantit une livraison 15 minutes avant le début des obsèques."
@@ -198,8 +198,8 @@
   "ft-donation": {
       "steps": [
         {
-            "title": "Nouvelle donation"
-          , "subtitle": "InMemori retient une commission de 4% sur le montant des dons afin de financer les frais bancaires."
+            "title": "Faire un don"
+          , "subtitle": "InMemori retiendra une commission de 4% sur le montant de votre don afin de financer les frais bancaires."
         },{
             "title": "Merci de votre soutien !"
           , "subtitle": ""
@@ -210,7 +210,7 @@
         , "custom": "Autre"
       }
     , "ph": {
-          "message": "Laissez un message"
+          "message": "Votre message"
       }
   },
 
@@ -329,7 +329,7 @@
       , "lastname": "Nom"
       , "dob": "Date de naissance"
       , "dod": "Date de décès"
-      , "photo": "Photo"
+      , "photo": "Personnalisez l'espace en hommage à {{{Firstname}}}"
     },
     "ph": {
         "firstname": "Prénom de votre proche"
@@ -383,20 +383,20 @@
   },
 
   "card-ft-book": {
-      "title": "Commander le livre"
-    , "text": "Tous les messages sur un jolie livre d'hommages"
+      "title": "Commander le livre InMemori"
+    , "text": "Garder une trace de tous les messages partagés sur InMemori"
     , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
   },
 
   "card-ft-flower": {
       "title": "Embellir la cérémonie"
-    , "text": "Faites livrer des fleurs sur le lieu de votre choix"
+    , "text": "Faire livrer des fleurs sur les lieux des obsèques"
     , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fall_thyk.svg"
   },
 
   "card-ft-donation": {
-      "title": "Faites un don"
-    , "text": "Participer à une collecte au profit d'une cause qui vous est chère."
+      "title": "Faire un don"
+    , "text": "Participer à une collecte au profit de : LA CAUSE CHOISIE."
     , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
   },
 
