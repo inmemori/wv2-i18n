@@ -396,7 +396,7 @@
 
   "card-ft-donation": {
       "title": "Faire un don"
-    , "text": "Participer à une collecte au profit de : LA CAUSE CHOISIE."
+    , "text": "Participer à une collecte au profit de {{org}}."
     , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
   },
 
