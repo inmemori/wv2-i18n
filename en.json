@@ -8,6 +8,7 @@
     , "save": "Enregistrer"
     , "edit": "Modifier"
     , "cancel": "Annuler"
+    , "delete": "Supprimer"
     , "next": "Suivant"
     , "prev": "Précèdent"
     , "share": "Partager"
@@ -364,6 +365,8 @@
     "ph": {
         "name": "Vos prénom et nom"
       , "email": "Votre email"
+      , "message": "Votre message"
+      , "message-opt": "Votre message (facultatif)"
     },
     "cta": {
         "share": "Partager"

@@ -8,6 +8,7 @@
     , "save": "Enregistrer"
     , "edit": "Modifier"
     , "cancel": "Annuler"
+    , "delete": "Supprimer"
     , "next": "Suivant"
     , "prev": "Précèdent"
     , "share": "Partager"
@@ -364,19 +365,21 @@
     "ph": {
         "name": "Vos prénom et nom"
       , "email": "Votre email"
+      , "message": "Votre message"
+      , "message-opt": "Votre message (facultatif)"
     },
     "cta": {
         "share": "Partager"
       , "photo": "Joindre une photo"
     },
     "titles": [
-        "Que souhaitez-vous partager ?"
-      , "Condoléances"
+        "Édition du message"
+      , "Message"
       , "Souvenir"
       , "Photos"
     ],
     "menu": [
-        { "title": "Condoléances", "text": "Exprimez vos condoléances à la famille de {{firstname}}." }
+        { "title": "Message", "text": "Exprimez vos condoléances à la famille de {{firstname}}." }
       , { "title": "Souvenir", "text": "Partagez un moment vécu avec {{firstname}}." }
       , { "title": "Photos", "text": "L'espace est tellement plus beau avec des photos." }
     ]
