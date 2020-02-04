@@ -61,8 +61,8 @@
   },
 
   "dates": {
-    "long": "ddd D MMM YYYY à HH[h]mm",
-    "short": "dddd D MMMM YYYY"
+    "long": "LLL",
+    "short": "LL"
   },
 
   "app-nav": {
@@ -116,7 +116,7 @@
       "custom-type": "Événement personalisé",
       "privacy": "Aura lieu dans l'intimité familiale",
       "date": "Date",
-      "placeholder-date": "jj/mm/aaaa",
+      "placeholder-date": "mm/jj/aaaa",
       "time": "Heure",
       "name": "Nom du lieu",
       "address": "Adresse",
@@ -124,7 +124,7 @@
     },
 
     "ph": {
-      "date": "jj/mm/aaaa",
+      "date": "mm/jj/aaaa",
       "time": "hh:mm",
       "name": "Crématorium du Père Lachaise",
       "address": "71 Rue des Rondeaux, 75020 Paris",
