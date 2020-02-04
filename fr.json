@@ -306,12 +306,13 @@
 
 
 	"edit-profile": {
+		"title": "Informations du défunt",
 		"label": {
 			"firstname": "Prénom",
 			"lastname": "Nom",
 			"dob": "Date de naissance",
 			"dod": "Date de décès",
-			"photo": "Personnalisez l'espace en hommage à {{{Firstname}}}"
+			"photo": "Photo principale"
 		},
 		"ph": {
 			"firstname": "Prénom de votre proche",
@@ -324,12 +325,15 @@
 
 
 	"edit-intro": {
+		"title": "Text d'accueil",
 		"label": {
 			"intro": "Écrivez un message afin de faire part à votre entourage du décès de votre proche.",
 			"templates": "Besoin d'inspiration ?"
 		},
 		"templates": [
-			"Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}} survenu le {{lowercase dod}} dernier à l’âge de {{age}} ans (à l'âge de si au-dessus de 60 ans).\nCet espace InMemori est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie que vous avez partagé avec {{firstname}}.\nLes informations sur ses obsèques sont renseignées ci-dessous./nMerci pour votre précieux soutien.", "Chère famille, chers amis,\n\nnous avons la grande tristesse de vous faire part du décès de {{firstname}} survenu le {{lowercase dod}} dernier, à l’âge de {{age}} ans. Cet espace est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie que vous avez partagé avec {{firstname}}.\n\nAvec toute notre affection.", "L’ensemble de la famille et tous les proches ont la douleur de vous part du décès de {{fullname}}, survenu le {{lowercase dod}}.", "Cet espace est destiné à la famille et à tous ceux qui ont connu et aimé {{fullname}} décédé le {{lowercase dod}} dernier.\n{{firstname}} restera à jamais dans nos coeurs.\nN’hésitez pas à laisser sur cet espace un message, un souvenir ou une photo.\nTrès sincèrement."
+				"Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie que vous avez partagé avec {{firstname}}.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien."
+			, "L’ensemble de la famille et tous les proches ont la douleur de vous part du décès de {{fullname}}{{#if dod}}, survenu le {{dod}}{{/if}}."
+			, "Cet espace est destiné à la famille et à tous ceux qui ont connu et aimé {{fullname}}{{#if dod}}, décédé le {{dod}} dernier{{/if}}. {{firstname}} restera à jamais dans nos coeurs.\n\nN’hésitez pas à laisser sur cet espace un message, un souvenir ou une photo. Très sincèrement."
 		]
 	},
 
@@ -343,7 +347,9 @@
 		},
 		"ph": {
 			"name": "Vos prénom et nom",
-			"email": "Votre email"
+			"email": "Votre email",
+			"message": "Votre message",
+			"message-opt": "Joindre un message (facultatif)"
 		},
 		"cta": {
 			"share": "Partager",
@@ -488,6 +494,71 @@
 
 	"organisations": [
 		"Action contre la Faim", "AIDES", "AFM-Téléthon", "Association des paralysés de France", "Autisme France", "Amnesty International", "Croix Rouge", "Emmaüs", "Fondation Abbé Pierre", "Fondation pour la recherche médicale", "Fonds pour les Soins Palliatifs", "France Alzheimer", "Handicap International", "Les petits frères des Pauvres", "Les Restos du Coeur", "Ligue contre le cancer", "Mécénat chirurgie cardiaque enfants du monde", "Médecins du Monde", "Médecins sans frontières", "Secours catholique", "Secours populaire", "Secours islamique", "Sidaction", "Sourire à la vie", "Unicef", "Vaincre la mucoviscidose"
-	]
+	],
+
+	"banners": {
+			"s-manager|check-places": {
+				  "icon": "fas fa-info-circle"
+	      , "text": "Pour commencer, relisez les étapes de la cérémonie"
+	      , "cta": "Je valide"
+	      , "ctb": "Éditer"
+			}
+		, "s-manager|check-intro": {
+				  "icon": "fas fa-align-left"
+	      , "text": "Relisez le mot d'accueil"
+	      , "cta": "Je valide"
+	      , "ctb": "Éditer"
+			}
+		, "s-manager|has-photo": {
+					"icon": "fa fa-camera"
+     		, "text": "Choisissez une photo"
+     		, "cta": "Choisir une photo"
+     		, "ctb": "Plus tard" 
+			}
+		, "s-manager|has-invited": {
+					"icon": "fa fa-paper-plane"
+				, "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} sur cet espace."
+				, "cta": "Inviter"
+				, "ctb": "Plus tard"
+			}
+		, "s-google|check-places": {
+				  "icon": "fas fa-info-circle"
+	      , "text": "Avez-vous besoin d'ajouter un moment aux obsèques (réception)?"
+	      , "cta": "Je valide"
+	      , "ctb": "Éditer"
+			}
+		, "s-google|check-intro": {
+				  "icon": "fas fa-align-left"
+	      , "text": "Validez le texte d'accueil"
+	      , "cta": "Je valide"
+	      , "ctb": "Éditer"
+			}
+		, "s-google|has-photo": {
+					"icon": "fa fa-camera"
+     		, "text": "Choisissez une photo"
+     		, "cta": "Choisir une photo"
+     		, "ctb": "Plus tard" 
+			}
+		, "s-google|has-invited": {
+					"icon": "fa fa-paper-plane"
+				, "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} sur cet espace."
+				, "cta": "Inviter"
+				, "ctb": "Plus tard"
+			}
+		, "s-user|has-published": {
+					"icon": "fas fa-feather-alt"
+				, "text": "Si vous le souhaitez, vous pouvez publier un mot ou une photo"
+				, "cta": "Publier"
+				, "ctb": "Plus tard"
+			}
+		, "s-user|has-invited": {
+					"icon": "fa fa-paper-plane"
+				, "text": "Vous pouvez aider les proches de {{capitalize firstname}} à se recueillir. Invitez-les à rejoindre cet espace."
+				, "cta": "Inviter"
+				, "ctb": "Plus tard"
+			}
+
+
+	}
   
 }
