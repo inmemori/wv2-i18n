@@ -499,19 +499,19 @@
 	"banners": {
 			"s-manager|check-places": {
 				  "icon": "fas fa-info-circle"
-	      , "text": "Pour commencer, relisez les étapes de la cérémonie"
+	      , "text": "Pour commencer, validez les différentes étapes de la cérémonie"
 	      , "cta": "Je valide"
 	      , "ctb": "Éditer"
 			}
 		, "s-manager|check-intro": {
 				  "icon": "fas fa-align-left"
-	      , "text": "Relisez le mot d'accueil"
+	      , "text": "Validez le mot d'accueil de la page"
 	      , "cta": "Je valide"
 	      , "ctb": "Éditer"
 			}
 		, "s-manager|has-photo": {
 					"icon": "fa fa-camera"
-     		, "text": "Choisissez une photo"
+     		, "text": "Si vous le souhaitez, vous pouvez également choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
      		, "cta": "Choisir une photo"
      		, "ctb": "Plus tard" 
 			}
@@ -529,13 +529,13 @@
 			}
 		, "s-google|check-intro": {
 				  "icon": "fas fa-align-left"
-	      , "text": "Validez le texte d'accueil"
+	      , "text": "Nous vous invitons également à valider le texte d'accueil de l'espace."
 	      , "cta": "Je valide"
 	      , "ctb": "Éditer"
 			}
 		, "s-google|has-photo": {
 					"icon": "fa fa-camera"
-     		, "text": "Choisissez une photo"
+     		, "text": "Si vous le souhaitez, vous pouvez également choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
      		, "cta": "Choisir une photo"
      		, "ctb": "Plus tard" 
 			}
