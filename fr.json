@@ -47,15 +47,15 @@
 		"err": "Identifiants invalides !",
 		"actions": {
 			"start": {
-				"title": "Cet espace est privé",
-				"subtitle": "Veuillez vous identifier"
+				"title": "Connexion",
+				"subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site."
 			},
 			"signup": {
-				"title": "Qui êtes vous ?"
+				"title": "La famille souhaiterait connaitre l'identité des personnes consultant l'espace, merci d'indiquer votre nom"
 			},
 			"swap": {
-				"title": "Email envoyé !",
-				"subtitle": "Pour vous connecter cliquez sur le lien qui viens d'etre envoyé à {{identifier}}"
+				"title": "Email de vérification envoyé !",
+				"subtitle": "Pour vous connecter cliquez sur le lien qui vient d'etre envoyé par email à {{identifier}}"
 			}
 		}
 	},
@@ -112,8 +112,8 @@
 		},
 
 		"labels": {
-			"event": "Événement",
-			"custom-type": "Événement personalisé",
+			"event": "Moment",
+			"custom-type": "Autre",
 			"privacy": "Aura lieu dans l'intimité familiale",
 			"date": "Date",
 			"placeholder-date": "jj/mm/aaaa",
@@ -126,9 +126,9 @@
 		"ph": {
 			"date": "jj/mm/aaaa",
 			"time": "hh:mm",
-			"name": "Crématorium du Père Lachaise",
+			"name": "Cimetière du Père Lachaise",
 			"address": "71 Rue des Rondeaux, 75020 Paris",
-			"custom-type": "Saisissez un text ..."
+			"custom-type": "Nommez ce moment"
 		},
 
 		"cta": {
@@ -187,7 +187,7 @@
 		}
 
 		,
-		"label-interflora": "Interflora vous garantit une livraison 15 minutes avant le début des obsèques.",
+		"label-interflora": "Notre fleuriste vous garantit une livraison 15 minutes avant le début des obsèques.",
 		"shipping-info": "Informations de livraison :\n{{shipping.name}}\n{{shipping.date_f}}"
 	},
 
@@ -215,7 +215,7 @@
 			"status-family": "Une collecte est en cours pour aider au financement des obsèques.\nÀ ce jour le montant des dons s'élève à :",
 			"status-org": "Une collecte est en cours au bénéfice de {{org}}.\nÀ ce jour le montant des dons s'élève à :",
 			"identity": "Documents d'identités",
-			"upload-info": "Passport ou CNI (recto et/ou verso)"
+			"upload-info": "Passeport ou CNI (recto et/ou verso)"
 		},
 		"cta": {
 			"close": "Clôturer"
@@ -400,9 +400,9 @@
 		},
 
 		"ph": {
-			"email-from": "Ex: Famille Daricourt",
-			"email-to": "Ex: john.doe@gmail.com",
-			"sms-from": "Crématorium du Père Lachaise"
+			"email-from": "Ex: Pierre Daricourt",
+			"email-to": "Ex: pierre.darricourt@gmail.com",
+			"sms-from": "Ex: Pierre Daricourt"
 		},
 
 		"cta": {
