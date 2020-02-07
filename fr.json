@@ -48,14 +48,14 @@
 		"actions": {
 			"start": {
 				"title": "Connexion",
-				"subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site."
+				"subtitle": "/n/nCet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site./n/n"
 			},
 			"signup": {
 				"title": "La famille souhaiterait connaitre l'identité des personnes consultant l'espace, merci d'indiquer votre nom"
 			},
 			"swap": {
-				"title": "Email de vérification envoyé !",
-				"subtitle": "Pour vous connecter cliquez sur le lien qui vient d'etre envoyé par email à {{identifier}}"
+				"title": "Merci !",
+				"subtitle": "Email de vérification vient d'être envoyé à {{identifier}}. Pour vous connecter cliquez sur le lien présent dans cet email. "
 			}
 		}
 	},
