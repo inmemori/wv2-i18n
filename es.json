@@ -391,23 +391,31 @@
 
   "share": {
 
+    "message": {
+      "email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.\n\nNous vous partageons son espace InMemori, privé, sur internet afin de lui rendre hommage. En vous rendant sur l'espace vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de ne pas oublier des personnes qui l'ont aimé(e), n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
+      "sms": "message sms {{{link}}}",
+      "wa": "message whatsapp {{{link}}}"
+    },
+
     "labels": {
       "email-from": "De la part de :",
-      "email-to": "Envoyé à :",
-      "email-message": "Message",
+      "email-to": "Envoyer à {{#if total}}{{total}} personne(s) {{/if}}:",
+      "email-message": "Message :",
       "sms-from": "Vote numéro de mobile",
       "sms-intro": "Partagez l'espace depuis votre mobile. Nous vous envoyons le lien par SMS, vous pouvez ensuite le repartager avec vos contacts."
     },
 
     "ph": {
-      "email-from": "Ex: Famille Daricourt",
-      "email-to": "Ex: john.doe@gmail.com",
-      "sms-from": "Crématorium du Père Lachaise"
+      "email-from-name": "Votre Nom",
+      "email-from-email": "Votre Email",
+      "email-to": "Ex: alice@gmail.com, bob@gmail.com, ..."
     },
 
     "cta": {
       "email": "Envoyer",
-      "sms": "M'envoyer le SMS"
+      "sms": "M'envoyer le SMS",
+      "wa": "Ouvrir Whatsapp",
+      "list": "Liste des invités"
     }
 
   },

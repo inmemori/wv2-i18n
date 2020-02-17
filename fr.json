@@ -391,23 +391,31 @@
 
 	"share": {
 
+		"message": {
+    	"email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.\n\nNous vous partageons son espace InMemori, privé, sur internet afin de lui rendre hommage. En vous rendant sur l'espace vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de ne pas oublier des personnes qui l'ont aimé(e), n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
+			"sms": "message sms {{{link}}}",
+			"wa": "message whatsapp {{{link}}}"
+		},
+
 		"labels": {
 			"email-from": "De la part de :",
-			"email-to": "Envoyé à :",
-			"email-message": "Message",
+			"email-to": "Envoyer à {{#if total}}{{total}} personne(s) {{/if}}:",
+			"email-message": "Message :",
 			"sms-from": "Vote numéro de mobile",
 			"sms-intro": "Partagez l'espace depuis votre mobile. Nous vous envoyons le lien par SMS, vous pouvez ensuite le repartager avec vos contacts."
 		},
 
 		"ph": {
-			"email-from": "Ex: Famille Daricourt",
-			"email-to": "Ex: john.doe@gmail.com",
-			"sms-from": "Crématorium du Père Lachaise"
+			"email-from-name": "Votre Nom",
+			"email-from-email": "Votre Email",
+			"email-to": "Ex: alice@gmail.com, bob@gmail.com, ..."
 		},
 
 		"cta": {
 			"email": "Envoyer",
-			"sms": "M'envoyer le SMS"
+			"sms": "M'envoyer le SMS",
+			"wa": "Ouvrir Whatsapp",
+			"list": "Liste des invités"
 		}
 
 	},
@@ -465,9 +473,6 @@
 			"icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
 		}],
 		"labels": {
-			"status-pending": "Invitation envoyée",
-			"status-active": "Gestionnaire",
-			"status-revoked": "Accèss révoqué",
 			"email-from": "De la part de :",
 			"email-to": "Email du gestionnaire:",
 			"email-message": "Message"
@@ -482,6 +487,16 @@
 		"message": "Bonjour,\n\nJe t'ai ajouté comme administrateur de l'espace InMemori en hommage à {{firstname}} pour que tu m'aides à le personnaliser et à le gérer. \n\nConstance d'InMemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com."
 	},
 
+	"list-invites": {
+		"title": "Liste des Invités",
+		"status": {
+			"pending": "Invitation envoyée",
+			"pending-manager": "Invitation envoyée",
+			"active": "Invité",
+			"active-manager": "Gestionnaire",
+			"revoked": "Accèss révoqué"
+		}
+	},
 
 	"card-stats": {
 		"labels": {
