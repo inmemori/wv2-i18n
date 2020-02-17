@@ -47,15 +47,15 @@
 		"err": "Identifiants invalides !",
 		"actions": {
 			"start": {
-				"title": "Cet espace est privé",
-				"subtitle": "Veuillez vous identifier"
+				"title": "Connexion",
+				"subtitle": "/n/nCet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site./n/n"
 			},
 			"signup": {
-				"title": "Qui êtes vous ?"
+				"title": "La famille souhaiterait connaitre l'identité des personnes consultant l'espace, merci d'indiquer votre nom"
 			},
 			"swap": {
-				"title": "Email envoyé !",
-				"subtitle": "Pour vous connecter cliquez sur le lien qui viens d'etre envoyé à {{identifier}}"
+				"title": "Merci !",
+				"subtitle": "Email de vérification vient d'être envoyé à {{identifier}}. Pour vous connecter cliquez sur le lien présent dans cet email. "
 			}
 		}
 	},
@@ -112,8 +112,8 @@
 		},
 
 		"labels": {
-			"event": "Événement",
-			"custom-type": "Événement personalisé",
+			"event": "Moment",
+			"custom-type": "Autre",
 			"privacy": "Aura lieu dans l'intimité familiale",
 			"date": "Date",
 			"placeholder-date": "jj/mm/aaaa",
@@ -126,14 +126,14 @@
 		"ph": {
 			"date": "jj/mm/aaaa",
 			"time": "hh:mm",
-			"name": "Crématorium du Père Lachaise",
+			"name": "Cimetière du Père Lachaise",
 			"address": "71 Rue des Rondeaux, 75020 Paris",
-			"custom-type": "Saisissez un text ..."
+			"custom-type": "Nommez ce moment"
 		},
 
 		"cta": {
 			"delete": "Supprimer",
-			"add": "Ajouter une étape"
+			"add": "Ajouter un autre moment"
 		}
 
 	},
@@ -187,7 +187,7 @@
 		}
 
 		,
-		"label-interflora": "Interflora vous garantit une livraison 15 minutes avant le début des obsèques.",
+		"label-interflora": "Notre fleuriste vous garantit une livraison 15 minutes avant le début des obsèques.",
 		"shipping-info": "Informations de livraison :\n{{shipping.name}}\n{{shipping.date_f}}"
 	},
 
@@ -215,7 +215,7 @@
 			"status-family": "Une collecte est en cours pour aider au financement des obsèques.\nÀ ce jour le montant des dons s'élève à :",
 			"status-org": "Une collecte est en cours au bénéfice de {{org}}.\nÀ ce jour le montant des dons s'élève à :",
 			"identity": "Documents d'identités",
-			"upload-info": "Passport ou CNI (recto et/ou verso)"
+			"upload-info": "Passeport ou CNI (recto et/ou verso)"
 		},
 		"cta": {
 			"close": "Clôturer"
@@ -266,10 +266,10 @@
 		},
 		"templates": {
 			"family": [
-				"L’ensemble de la famille souhaite rendre hommage à {{capitalize firstname}} en organisant une collecte de dons.", "Pour ceux qui le désirent, nous organisons une collecte de dons en mémoire de {{capitalize firstname}}.", "Nous organisons une collecte de dons en mémoire de {{capitalize firstname}}. La somme récoltée permettra à sa famille de financer, au moins en partie, ses obsèques. Un grand merci pour votre générosité."
+				"Pour ceux qui le désirent, nous organisons une collecte de dons en mémoire de {{capitalize firstname}}."
 			],
 			"org": [
-				"Toute sa vie {{capitalize firstname}} a servi les autres au sein de l’association {{org}}.\n\nNous souhaitons poursuivre ce combat en sa mémoire et organisons une collecte de dons pour soutenir cette association qui lui tenait tellement à coeur. Nous pensons que c’est ce que {{capitalize firstname}} aurait souhaité. Un grand merci pour votre générosité.", "Comme vous le savez, {{capitalize firstname}} a été emporté par la maladie après des années de combat. En mémoire de {{capitalize firstname}} et de toutes les autres victimes de cette maladie, nous avons décidé de soutenir l’association {{org}} afin de financer la recherche et de sauver des milliers de vies futures. Un grand merci de soutenir cette cause qui nous tient particulièrement à coeur.", "{{capitalize firstname}} a toujours eu à coeur d'aider les autres et s'est natuellement engagé au sein de l’association {{org}} qui le touchait tout particulièrement. En son hommage, soutenons cette association. Un grand merci pour votre générosité."
+				"Nous savons que l'association {{org}} était très importante aux yeux de {{capitalize fisrtname}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
 			]
 		}
 	},
@@ -327,13 +327,13 @@
 	"edit-intro": {
 		"title": "Text d'accueil",
 		"label": {
-			"intro": "Écrivez un message afin de faire part à votre entourage du décès de votre proche.",
+			"intro": "Écrivez un message afin de faire part à votre entourage du décès de {{capitalize firstname}}.",
 			"templates": "Besoin d'inspiration ?"
 		},
 		"templates": [
-				"Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie que vous avez partagé avec {{firstname}}.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien."
-			, "L’ensemble de la famille et tous les proches ont la douleur de vous part du décès de {{fullname}}{{#if dod}}, survenu le {{dod}}{{/if}}."
-			, "Cet espace est destiné à la famille et à tous ceux qui ont connu et aimé {{fullname}}{{#if dod}}, décédé le {{dod}} dernier{{/if}}. {{firstname}} restera à jamais dans nos coeurs.\n\nN’hésitez pas à laisser sur cet espace un message, un souvenir ou une photo. Très sincèrement."
+				"Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie que vous avez partagé avec {{firstname}}.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien."	
+			, ""
+			, ""
 		]
 	},
 
@@ -514,19 +514,19 @@
 	"banners": {
 			"s-manager|check-places": {
 				  "icon": "fas fa-info-circle"
-	      , "text": "Pour commencer, relisez les étapes de la cérémonie"
+	      , "text": "Pour commencer, validez les différentes étapes de la cérémonie"
 	      , "cta": "Je valide"
 	      , "ctb": "Éditer"
 			}
 		, "s-manager|check-intro": {
 				  "icon": "fas fa-align-left"
-	      , "text": "Relisez le mot d'accueil"
+	      , "text": "Validez le mot d'accueil de la page"
 	      , "cta": "Je valide"
 	      , "ctb": "Éditer"
 			}
 		, "s-manager|has-photo": {
 					"icon": "fa fa-camera"
-     		, "text": "Choisissez une photo"
+     		, "text": "Si vous le souhaitez, vous pouvez également choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
      		, "cta": "Choisir une photo"
      		, "ctb": "Plus tard" 
 			}
@@ -544,13 +544,13 @@
 			}
 		, "s-google|check-intro": {
 				  "icon": "fas fa-align-left"
-	      , "text": "Validez le texte d'accueil"
+	      , "text": "Nous vous invitons également à valider le texte d'accueil de l'espace."
 	      , "cta": "Je valide"
 	      , "ctb": "Éditer"
 			}
 		, "s-google|has-photo": {
 					"icon": "fa fa-camera"
-     		, "text": "Choisissez une photo"
+     		, "text": "Si vous le souhaitez, vous pouvez également choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
      		, "cta": "Choisir une photo"
      		, "ctb": "Plus tard" 
 			}
