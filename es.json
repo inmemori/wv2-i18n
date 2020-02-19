@@ -490,6 +490,16 @@
     "message": "Bonjour,\n\nJe t'ai ajouté comme administrateur de l'espace InMemori en hommage à {{firstname}} pour que tu m'aides à le personnaliser et à le gérer. \n\nConstance d'InMemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com."
   },
 
+  "list-invites": {
+    "title": "Liste des Invités",
+    "status": {
+      "pending": "Invitation envoyée",
+      "pending-manager": "Invitation envoyée",
+      "active": "Invité",
+      "active-manager": "Gestionnaire",
+      "revoked": "Accèss révoqué"
+    }
+  },
 
   "card-stats": {
     "labels": {
