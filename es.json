@@ -42,20 +42,25 @@
     "thanks": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/a_whole_year_vnfm.svg"
   },
 
-
   "login": {
     "err": "Identifiants invalides !",
     "actions": {
-      "start": {
-        "title": "Cet espace est privé",
-        "subtitle": "Veuillez vous identifier"
-      },
-      "signup": {
-        "title": "Qui êtes vous ?"
-      },
-      "swap": {
-        "title": "Email envoyé !",
-        "subtitle": "Pour vous connecter cliquez sur le lien qui viens d'etre envoyé à {{identifier}}"
+      "start": { "title": "", "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." },
+      "signup": { "title": "", "subtitle": "La famille souhaiterait connaitre l'identité des personnes consultant l'espace, merci d'indiquer votre nom" },
+      "swap": { "title": "Connectez vous !", "subtitle": "Cliquez sur le lien de connexion qui vient d'être envoyé par mail sur {{identifier}}" },
+      "custom": {
+        "infos": {
+          "start": { "title": "Cet espace est privé", "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+        },
+        "memories": {
+          "start": { "title": "Cet espace est privé", "subtitle": "Les messages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+        },
+        "share": {
+          "start": { "title": "Cet espace est privé", "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+        },
+        "settings": {
+          "start": { "title": "Paramètres de la page", "subtitle": "Les paramètres sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+        }
       }
     }
   },
@@ -91,8 +96,6 @@
   "tx": {
     "receipt": "Votre paiement de {{tx.amount_f}} a bien été enregistré !\nRéférence : {{tx.ch_id}}"
   },
-
-
 
   "places": {
 
@@ -337,9 +340,6 @@
     ]
   },
 
-
-
-
   "new-memory": {
     "label": {
       "email": "Email pour que la famille puisse vous répondre.",
@@ -387,7 +387,6 @@
     "text": "Participer à une collecte au profit de {{org}}.",
     "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
   },
-
 
   "share": {
 

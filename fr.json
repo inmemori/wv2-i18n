@@ -42,20 +42,25 @@
 		"thanks": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/a_whole_year_vnfm.svg"
 	},
 
-
 	"login": {
 		"err": "Identifiants invalides !",
 		"actions": {
-			"start": {
-				"title": "Connexion",
-				"subtitle": "/n/nCet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site./n/n"
-			},
-			"signup": {
-				"title": "La famille souhaiterait connaitre l'identité des personnes consultant l'espace, merci d'indiquer votre nom"
-			},
-			"swap": {
-				"title": "Merci !",
-				"subtitle": "Email de vérification vient d'être envoyé à {{identifier}}. Pour vous connecter cliquez sur le lien présent dans cet email. "
+			"start": { "title": "", "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." },
+			"signup": { "title": "", "subtitle": "La famille souhaiterait connaitre l'identité des personnes consultant l'espace, merci d'indiquer votre nom" },
+			"swap": { "title": "Connectez vous !", "subtitle": "Cliquez sur le lien de connexion qui vient d'être envoyé par mail sur {{identifier}}" },
+			"custom": {
+				"infos": {
+					"start": { "title": "Cet espace est privé", "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+				},
+				"memories": {
+					"start": { "title": "Cet espace est privé", "subtitle": "Les messages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+				},
+				"share": {
+					"start": { "title": "Cet espace est privé", "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+				},
+				"settings": {
+					"start": { "title": "Paramètres de la page", "subtitle": "Les paramètres sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+				}
 			}
 		}
 	},
@@ -322,10 +327,8 @@
 		}
 	},
 
-
-
 	"edit-intro": {
-		"title": "Text d'accueil",
+		"title": "Texte d'accueil",
 		"label": {
 			"intro": "Écrivez un message afin de faire part à votre entourage du décès de {{capitalize firstname}}.",
 			"templates": "Besoin d'inspiration ?"
@@ -336,9 +339,6 @@
 			, ""
 		]
 	},
-
-
-
 
 	"new-memory": {
 		"label": {
