@@ -35,7 +35,29 @@
     "choose": "Choisir",
     "choose-file": "Choisir un fichier",
     "uploading": "Téléchargement",
-    "login": "S'identifier"
+    "login": "S'identifier",
+    "delete": "Supprimer",
+    "yes": "Oui",
+    "no": "Non"
+  },
+
+  "popups": {
+    "delete-memory": {
+      "message": "Êtes vous sûr de cette acrtion ?",
+      "btns": ["Oui", "Non"]
+    }
+  },
+
+  "thank": {
+    "title": "Remerciements",
+    "labels": {
+      "chat-him": "{{name}}",
+      "chat-you": "Vous",
+      "message": "Répondre à {{name}} :"
+    },
+    "cta": {
+      "thank": "Remercier"
+    }
   },
 
   "svgs": {
