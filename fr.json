@@ -197,7 +197,7 @@
 			"subtitle": ""
 		}, {
 			"title": "Livraison",
-			"subtitle": "Choisissez le lieu de la livraison : "
+			"subtitle": ""
 		}, {
 			"title": "Finalisez la commande",
 			"subtitle": ""
@@ -206,6 +206,7 @@
 			"subtitle": ""
 		}],
 		"labels": {
+			"shipping": "Choisissez le lieu de livraison :",
 			"message": "Ajoutez un message à votre bouquet :",
 			"item": "Bouquet"
 		},
@@ -240,7 +241,8 @@
 			"title": "Gestion de la collecte de dons",
 			"close": "Clôturer la collecte",
 			"status-family": "Une collecte est en cours pour aider au financement des obsèques.\nÀ ce jour le montant des dons s'élève à :",
-			"status-org": "Une collecte est en cours au bénéfice de {{org}}.\nÀ ce jour le montant des dons s'élève à :",
+			"status-org": "Une collecte est en cours au bénéfice de {{donation.org.name}}.\nÀ ce jour le montant des dons s'élève à :",
+			"status-end": "La collecte est clôturée.\nÀ ce jour le montant des dons s'élève à :",
 			"identity": "Documents d'identités",
 			"upload-info": "Passeport ou CNI (recto et/ou verso)"
 		},
@@ -410,10 +412,15 @@
 
 	"card-ft-donation": {
 		"title": "Faire un don",
-		"text": "Participer à une collecte au profit de {{org}}.",
+		"text": "{{stats.donations.total_f}} par {{stats.donations.count}} donateur(s) au profit de {{donation.org.name}}.",
 		"icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
 	},
 
+	"card-ft-donation-unset": {
+		"title": "Activez une collecte de fonds",
+		"text": "En trois clics, au profit d'une cause qui était chère à {{firstname}}.",
+		"icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
+	},
 
 	"share": {
 
@@ -444,6 +451,10 @@
 			"list": "Liste des invités"
 		}
 
+	},
+
+	"tab-infos": {
+		"promo": "Les obsèques sont organisées par {{{name}}}.{{#if phone}} {{phone}}{{/if}}"
 	},
 
 	"tab-settings": {
@@ -598,7 +609,6 @@
 				, "cta": "Inviter"
 				, "ctb": "Plus tard"
 			}
-
 
 	}
   
