@@ -581,13 +581,13 @@
 			}
 		, "s-google|check-intro": {
 				  "icon": "fas fa-align-left"
-	      , "text": "Nous vous invitons également à valider le texte d'accueil de l'espace."
+	      , "text": "Pour commencer, validez le mot d'accueil de la page."
 	      , "cta": "Je valide"
 	      , "ctb": "Éditer"
 			}
 		, "s-google|has-photo": {
 					"icon": "fa fa-camera"
-     		, "text": "Si vous le souhaitez, vous pouvez également choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
+     		, "text": "Si vous le souhaitez, vous pouvez choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
      		, "cta": "Choisir une photo"
      		, "ctb": "Plus tard" 
 			}
@@ -599,7 +599,7 @@
 			}
 		, "s-user|has-published": {
 					"icon": "fas fa-feather-alt"
-				, "text": "Si vous le souhaitez, vous pouvez publier un mot ou une photo"
+				, "text": "Si vous le souhaitez, vous pouvez publier un mot ou une photo."
 				, "cta": "Publier"
 				, "ctb": "Plus tard"
 			}
