@@ -99,7 +99,11 @@
 		"settings": "Gestion"
 	},
 
-
+	"card-help": {
+		"title": "Besoin d'aide",
+		"subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aidez de le diffuser auprès de votre entourage",
+		"cta": "Inviter un Gestionnaire"
+	},
 
 	"cart": {
 		"labels": {
