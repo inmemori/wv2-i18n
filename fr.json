@@ -268,7 +268,7 @@
 		}],
 		"tips": [{
 			"title": "Vous activez la\ncollecte de fonds",
-			"subtitle": "au profit d'une cause ou pour pour financer ses obséques",
+			"subtitle": "au profit d'une cause ou pour pour financer ses obsèques",
 			"icon": "fas fa-toggle-on"
 		}, {
 			"title": "Votre entourage\ndonne",
@@ -302,7 +302,7 @@
 				"Pour ceux qui le désirent, nous organisons une collecte de dons en mémoire de {{capitalize firstname}}."
 			],
 			"org": [
-				"Nous savons que l'association {{org}} était très importante aux yeux de {{capitalize fisrtname}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
+				"Nous savons que l'association {{org}} était très importante aux yeux de {{capitalize firstname}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
 			]
 		}
 	},
@@ -585,13 +585,13 @@
 			}
 		, "s-google|check-intro": {
 				  "icon": "fas fa-align-left"
-	      , "text": "Nous vous invitons également à valider le texte d'accueil de l'espace."
+	      , "text": "Pour commencer, validez le mot d'accueil de la page."
 	      , "cta": "Je valide"
 	      , "ctb": "Éditer"
 			}
 		, "s-google|has-photo": {
 					"icon": "fa fa-camera"
-     		, "text": "Si vous le souhaitez, vous pouvez également choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
+     		, "text": "Si vous le souhaitez, vous pouvez choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
      		, "cta": "Choisir une photo"
      		, "ctb": "Plus tard" 
 			}
@@ -603,7 +603,7 @@
 			}
 		, "s-user|has-published": {
 					"icon": "fas fa-feather-alt"
-				, "text": "Si vous le souhaitez, vous pouvez publier un mot ou une photo"
+				, "text": "Si vous le souhaitez, vous pouvez publier un mot ou une photo."
 				, "cta": "Publier"
 				, "ctb": "Plus tard"
 			}
