@@ -72,13 +72,13 @@
 			"swap": { "title": "Connectez vous !", "subtitle": "Cliquez sur le lien de connexion qui vient d'être envoyé par mail sur {{identifier}}" },
 			"custom": {
 				"infos": {
-					"start": { "title": "Cet espace est privé", "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+					"start": { "title": "Vous n'êtes pas connecté", "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
 				},
 				"memories": {
-					"start": { "title": "Cet espace est privé", "subtitle": "Les messages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+					"start": { "title": "Vous n'êtes pas connecté", "subtitle": "Les messages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
 				},
 				"share": {
-					"start": { "title": "Cet espace est privé", "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+					"start": { "title": "Vous n'êtes pas connecté", "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
 				},
 				"settings": {
 					"start": { "title": "Paramètres de la page", "subtitle": "Les paramètres sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
