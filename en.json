@@ -477,11 +477,11 @@
         "icon": "fas fa-bell"
       },
       "more": {
-        "text": "Plus",
+        "text": "More",
         "icon": "fas fa-ellipsis-v"
       },
       "auth": {
-        "text": "Connect as{{as}}"
+        "text": "Connect as {{as}}"
       },
       "logout": {
         "text": "Logout"
