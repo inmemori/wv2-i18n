@@ -78,7 +78,7 @@
           "start": { "title": "This space is private", "subtitle": "The messages are private. Please log in to access the site." }
         },
         "share": {
-          "start": { "title": "This space is private", "subtitle": "Les partages sont privés. Please log in to access the site." }
+          "start": { "title": "This space is private", "subtitle": "The messages are private. Please log in to access the site." }
         },
         "settings": {
           "start": { "title": "Page settings", "subtitle": "The settings are private. Please log in to access the site." }
@@ -100,9 +100,9 @@
   },
 
   "card-help": {
-    "title": "Besoin d'aide",
-    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aidez de le diffuser auprès de votre entourage",
-    "cta": "Inviter un Gestionnaire"
+    "title": "Need help",
+    "subtitle": "Ask a close one to become an administrator by your side to help you share it to those around you",
+    "cta": "Invite an administrator"
   },
 
   "cart": {
@@ -157,8 +157,8 @@
     "ph": {
       "date": "mm/dd/yyyy",
       "time": "hh:mm",
-      "name": "Crématorium du Père Lachaise",
-      "address": "71 Rue des Rondeaux, 75020 Paris",
+      "name": "El Legado Funeral Home",
+      "address": "8212 Birchwood St. Pleasanton, CA 94566",
       "custom-type": "Enter text..."
     },
 
@@ -172,7 +172,7 @@
   "ft-book": {
     "steps": [{
       "title": "InMemori book presentation",
-      "subtitle": "The InMemori book brings together all the messages and photos shared by your loved ones. Its layout is designed out by the InMemori team."
+      "subtitle": "The InMemori book brings together all the messages and photos shared by your loved ones. Its layout is designed by the InMemori team."
     }, {
       "title": "Cart",
       "subtitle": ""
@@ -219,7 +219,7 @@
     }
 
     ,
-    "label-interflora": "Interflora vous garantit une livraison 15 minutes avant le début des obsèques.",
+    "label-interflora": "",
     "shipping-info": "Shipping information:\n{{shipping.name}}\n{{shipping.date_f}}"
   },
 
@@ -545,7 +545,7 @@
   },
 
   "organisations": [
-    "Action contre la Faim", "AIDES", "AFM-Téléthon", "Association des paralysés de France", "Autisme France", "Amnesty International", "Croix Rouge", "Emmaüs", "Fondation Abbé Pierre", "Fondation pour la recherche médicale", "Fonds pour les Soins Palliatifs", "France Alzheimer", "Handicap International", "Les petits frères des Pauvres", "Les Restos du Coeur", "Ligue contre le cancer", "Mécénat chirurgie cardiaque enfants du monde", "Médecins du Monde", "Médecins sans frontières", "Secours catholique", "Secours populaire", "Secours islamique", "Sidaction", "Sourire à la vie", "Unicef", "Vaincre la mucoviscidose"
+    ""
   ],
 
   "banners": {
@@ -599,7 +599,7 @@
       }
     , "s-user|has-published": {
           "icon": "fas fa-feather-alt"
-        , "text": "If you wish, you can post a word or a photo"
+        , "text": "If you wish, you can share a word or a photo"
         , "cta": "Post"
         , "ctb": "Later"
       }
