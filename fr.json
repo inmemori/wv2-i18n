@@ -41,6 +41,43 @@
 		"no": "Non"
 	},
 
+	"showcase": {
+		"user": [
+		  { 
+		      "title": "Communiquez simplement le déroulé des obsèques"
+		    , "text": "1 clic suffit pour informer toutes les personnes concernées."
+		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+		  }
+		  , { 
+		      "title": "Offrez un espace de communication consacré"
+		    , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
+		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+		  }
+		],
+		"manager": [
+		  { 
+		      "title": "Communiquez simplement le déroulé des obsèques"
+		    , "text": "1 clic suffit pour informer toutes les personnes concernées."
+		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+		  }
+		  , { 
+		      "title": "Offrez un espace de communication consacré"
+		    , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
+		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+		  }
+		  , { 
+		      "title": "Gérez cet espace en toute liberté"
+		    , "text": "Vous avez la main sur tout, et nous sommes là pour vous aider"
+		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+		  }
+		  , { 
+		      "title": "Gardez chez vous la trace des messages reçus."
+		    , "text": "En imprimant le livre qui compile tous les messages publiés ici. En imprimant le livre qui compile tous les messages publiés ici."
+		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+		  }
+		]
+	},
+
 	"popups": {
 		"delete-memory": {
 			"message": "Êtes vous sûr de cette acrtion ?",
@@ -445,7 +482,8 @@
 		"ph": {
 			"email-from-name": "Votre Nom",
 			"email-from-email": "Votre Email",
-			"email-to": "Ex: alice@gmail.com, bob@gmail.com, ..."
+			"email-to": "Ex: alice@gmail.com, bob@gmail.com, ...",
+			"email-select": "Ajouter \"{{value}}\" à la liste"
 		},
 
 		"cta": {
@@ -503,7 +541,7 @@
 		"title": "Préférences de notifications"
 	},
 
-	"manage-admins": {
+	"managers": {
 		"steps": [{
 			"title": "Gestionnaires de l'espace",
 			"subtitle": "",
@@ -513,14 +551,6 @@
 			"subtitle": "",
 			"icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
 		}],
-		"labels": {
-			"email-from": "De la part de :",
-			"email-to": "Email du gestionnaire:",
-			"email-message": "Message"
-		},
-		"ph": {
-			"email-to": "Ex: john.doe@gmail.com"
-		},
 		"cta": {
 			"invite": "Ajouter un gestionnaire",
 			"send-invite": "Envoyer"
