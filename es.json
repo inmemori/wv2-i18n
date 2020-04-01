@@ -1,44 +1,44 @@
 {
   "common": {
-    "author": "Auteur",
-    "family": "Famille",
-    "identifier": "Identifiant",
-    "password": "Mot de passe",
-    "save": "Enregistrer",
-    "edit": "Modifier",
-    "cancel": "Annuler",
-    "next": "Suivant",
-    "prev": "Précèdent",
-    "share": "Partager",
-    "pay": "Payer",
-    "end": "Terminer",
-    "suggest": "Suggestion",
-    "showmore": "Voir plus",
-    "name": "Nom",
-    "firstname": "Prénom",
-    "lastname": "Nom",
-    "fullname": "Nom complet",
+    "author": "Autor",
+    "family": "familia",
+    "identifier": "Identificador",
+    "password": "Contraseña",
+    "save": "Guardar",
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "next": "Siguiente",
+    "prev": "Anterior",
+    "share": "Compartir",
+    "pay": "Pago",
+    "end": "Terminar",
+    "suggest": "Sugerencia",
+    "showmore": "Ver mas",
+    "name": "Nombre",
+    "firstname": "Nombre",
+    "lastname": "Apellido",
+    "fullname": "Nombre Completo",
     "email": "Email",
-    "phone": "Téléphone",
-    "address": "Adresse",
-    "address-info": "Informations complémentaires (digicode, étage...)",
-    "city": "Ville",
-    "zipcode": "Code postal",
-    "country": "Pays",
+    "phone": "Teléfono",
+    "address": "Dirección",
+    "address-info": "Información adicional (código postal, piso, etc...)",
+    "city": "Ciudad",
+    "zipcode": "Código Postal",
+    "country": "País",
     "vat": "Numéro de TVA",
-    "shipping": "Livraison",
-    "dob": "Date de naissance",
-    "dod": "Date de décès",
-    "ssn": "N° de sécurité sociale",
+    "shipping": "Envío",
+    "dob": "Fecha de nacimiento",
+    "dod": "Fecha de defunción",
+    "ssn": "N° de seguro social",
     "routing": "N° Routing",
     "iban": "N° Iban",
-    "choose": "Choisir",
-    "choose-file": "Choisir un fichier",
-    "uploading": "Téléchargement",
-    "login": "S'identifier",
-    "delete": "Supprimer",
-    "yes": "Oui",
-    "no": "Non"
+    "choose": "Elegir",
+    "choose-file": "Elegir archivo",
+    "uploading": "Cargando",
+    "login": "Iniciar Sesión",
+    "delete": "Borrar",
+    "yes": "Si",
+    "no": "No"
   },
 
   "showcase": {
@@ -80,20 +80,20 @@
 
   "popups": {
     "delete-memory": {
-      "message": "Êtes vous sûr de cette acrtion ?",
-      "btns": ["Oui", "Non"]
+      "message": "Estás seguro de esta acción",
+      "btns": ["Si", "No"]
     }
   },
 
   "thank": {
-    "title": "Remerciements",
+    "title": "Agradecimientos",
     "labels": {
       "chat-him": "{{name}}",
-      "chat-you": "Vous",
-      "message": "Répondre à {{name}} :"
+      "chat-you": "Usted",
+      "message": "Responder a {{name}} :"
     },
     "cta": {
-      "thank": "Remercier"
+      "thank": "Gracias"
     }
   },
 
@@ -131,33 +131,33 @@
 
   "app-nav": {
     "info": "Accueil",
-    "memories": "Hommages",
-    "share": "Partager",
-    "settings": "Gestion"
+    "memories": "Homenajes",
+    "share": "Compartir",
+    "settings": "Configuración"
   },
 
   "card-help": {
-    "title": "Besoin d'aide",
-    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aidez de le diffuser auprès de votre entourage",
-    "cta": "Inviter un Gestionnaire"
+    "title": "Necesitas ayuda?",
+    "subtitle": "Pídale a un ser querido que se convierta en un administrador de la página y de esta forma le ayude a distribuirlo entre los que le rodean",
+    "cta": "Invitar a un administrador"
   },
 
   "cart": {
     "labels": {
-      "item": "Produit",
-      "qty": "Quantité",
-      "price": "Prix",
-      "shipping": "Frais de livraison",
+      "item": "Articulo",
+      "qty": "Cantidad",
+      "price": "Precio",
+      "shipping": "Gastos de envío",
       "total": "Total"
     }
   },
 
   "invoice": {
-    "with": "Utiliser une autre adresse pour la facturation"
+    "with": "Utilizar otra dirección para facturar"
   },
 
   "tx": {
-    "receipt": "Votre paiement de {{tx.amount_f}} a bien été enregistré !\nRéférence : {{tx.ch_id}}"
+    "receipt": "Su pago por {{tx.amount_f}} ha sido registrado !\nRéférence : {{tx.ch_id}}"
   },
 
 
@@ -165,34 +165,34 @@
   "places": {
 
     "dummy": {
-      "name": "Adresse à préciser",
+      "name": "Dirección a especificar",
       "address": "France"
     },
 
     "types": {
-      "ceremony": "Cérémonie",
-      "contemplation": "Recueillement",
-      "inhumation": "Inhumation",
-      "interment": "Enterrement",
-      "cremation": "Crémation",
-      "gathering": "Collation",
-      "reception": "Réception"
+      "ceremony": "Ceremonia",
+      "contemplation": "Velación",
+      "inhumation": "Inhumación",
+      "interment": "Entierro",
+      "cremation": "Cremación",
+      "gathering": "Reunión",
+      "reception": "Recepción"
     },
 
     "labels": {
-      "event": "Moment",
-      "custom-type": "Autre",
-      "privacy": "Aura lieu dans l'intimité familiale",
-      "date": "Date",
-      "placeholder-date": "jj/mm/aaaa",
-      "time": "Heure",
-      "name": "Nom du lieu",
-      "address": "Adresse",
-      "info": "Information complémentaire"
+      "event": "Evento",
+      "custom-type": "Personalizar Evento",
+      "privacy": "Se llevará a cabo en la intimidad familiar",
+      "date": "Fecha",
+      "placeholder-date": "dd/mm/aaaa",
+      "time": "Hora",
+      "name": "Nombre del Lugar",
+      "address": "Dirección",
+      "info": "Información adicional"
     },
 
     "ph": {
-      "date": "jj/mm/aaaa",
+      "date": "dd/mm/aaaa",
       "time": "hh:mm",
       "name": "Cimetière du Père Lachaise",
       "address": "71 Rue des Rondeaux, 75020 Paris",
@@ -200,59 +200,59 @@
     },
 
     "cta": {
-      "delete": "Supprimer",
-      "add": "Ajouter une cérémonie"
+      "delete": "Borrar",
+      "add": "Aregar una etapa"
     }
 
   },
 
   "ft-book": {
     "steps": [{
-      "title": "Présentation du livre InMemori",
-      "subtitle": "Le livre InMemori rassemble l’ensemble des messages et photos partagés par vos proches. Sa mise en page est réalisée par les équipes d'InMemori."
+      "title": "Presentación del libro InMemori",
+      "subtitle": "El libro InMemori reune todos los mensajes y fotografías compartidos por sus seres queridos. Su diseño es elaborado por el equipo de InMemori."
     }, {
-      "title": "Mon panier",
+      "title": "Mi carrito",
       "subtitle": ""
     }, {
-      "title": "Livraison",
+      "title": "Entrega",
       "subtitle": ""
     }, {
-      "title": "Finalisez la commande",
+      "title": "Finaliza el pedido",
       "subtitle": ""
     }, {
-      "title": "Commande terminée",
+      "title": "Pedido completado",
       "subtitle": ""
     }],
     "labels": {
       "message": "",
-      "item": "Livre"
+      "item": "Libro"
     }
   },
 
   "ft-flower": {
     "steps": [{
-      "title": "Choisissez votre bouquet",
+      "title": "Elige tu ramo",
       "subtitle": "Tous les bouquets sont de taille moyenne et fournis avec une bulle d'eau afin de pouvoir être livrés sur le lieu des obsèques de votre choix."
     }, {
-      "title": "Aperçu de votre sélection",
+      "title": "Resumen de su elección",
       "subtitle": ""
     }, {
-      "title": "Livraison",
+      "title": "La entrega",
       "subtitle": ""
     }, {
-      "title": "Finalisez la commande",
+      "title": "Finaliza el pedido",
       "subtitle": ""
     }, {
-      "title": "Merci de votre soutien !",
+      "title": "Gracias por su apoyo !",
       "subtitle": ""
     }],
     "labels": {
-      "shipping": "Choisissez le lieu de livraison :",
-      "message": "Ajoutez un message à votre bouquet :",
-      "item": "Bouquet"
+      "shipping": "Elige el lugar de entrega :",
+      "message": "Agrega un mensaje a tu ramo :",
+      "item": "Ramo"
     },
     "ph": {
-      "message": "Votre message (il sera joint au bouquet)"
+      "message": "Su mensaje (se adjuntará al ramo)"
     }
 
     ,

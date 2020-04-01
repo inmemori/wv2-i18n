@@ -115,7 +115,7 @@
           "start": { "title": "This space is private", "subtitle": "The messages are private. Please log in to access the site." }
         },
         "share": {
-          "start": { "title": "This space is private", "subtitle": "Les partages sont privés. Please log in to access the site." }
+          "start": { "title": "This space is private", "subtitle": "The messages are private. Please log in to access the site." }
         },
         "settings": {
           "start": { "title": "Page settings", "subtitle": "The settings are private. Please log in to access the site." }
@@ -137,9 +137,9 @@
   },
 
   "card-help": {
-    "title": "Besoin d'aide",
-    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aidez de le diffuser auprès de votre entourage",
-    "cta": "Inviter un Gestionnaire"
+    "title": "Need help",
+    "subtitle": "Ask a friend or family member to become an administrator with you to help you share the space with your close ones",
+    "cta": "Invite an administrator"
   },
 
   "cart": {
@@ -194,14 +194,14 @@
     "ph": {
       "date": "mm/dd/yyyy",
       "time": "hh:mm",
-      "name": "Crématorium du Père Lachaise",
-      "address": "71 Rue des Rondeaux, 75020 Paris",
+      "name": "El Legado Funeral Home",
+      "address": "8212 Birchwood St. Pleasanton, CA 94566",
       "custom-type": "Enter text..."
     },
 
     "cta": {
       "delete": "Delete",
-      "add": "Add a stage"
+      "add": "Add event"
     }
 
   },
@@ -209,7 +209,7 @@
   "ft-book": {
     "steps": [{
       "title": "InMemori book presentation",
-      "subtitle": "The InMemori book brings together all the messages and photos shared by your loved ones. Its layout is designed out by the InMemori team."
+      "subtitle": "The InMemori book brings together all the messages and photos shared by your loved ones. Its layout is designed by the InMemori team."
     }, {
       "title": "Cart",
       "subtitle": ""
@@ -256,7 +256,7 @@
     }
 
     ,
-    "label-interflora": "Interflora vous garantit une livraison 15 minutes avant le début des obsèques.",
+    "label-interflora": "",
     "shipping-info": "Shipping information:\n{{shipping.name}}\n{{shipping.date_f}}"
   },
 
@@ -364,7 +364,7 @@
     "labels": {
       "name": "Name of the deceased",
       "terms": "By clicking on \"Create page\" you accept our terms and conditions and you consent to the processing of your personal data.",
-      "success": "The space in honor of\n{{fullname}}has been created."
+      "success": "The page in honor of \n{{fullname}} has been created."
     },
     "cta": {
       "create": "Create page",
@@ -515,11 +515,11 @@
         "icon": "fas fa-bell"
       },
       "more": {
-        "text": "Plus",
+        "text": "More",
         "icon": "fas fa-ellipsis-v"
       },
       "auth": {
-        "text": "Connect as{{as}}"
+        "text": "Connect as {{as}}"
       },
       "logout": {
         "text": "Logout"
@@ -572,7 +572,7 @@
   },
 
   "organisations": [
-    "Action contre la Faim", "AIDES", "AFM-Téléthon", "Association des paralysés de France", "Autisme France", "Amnesty International", "Croix Rouge", "Emmaüs", "Fondation Abbé Pierre", "Fondation pour la recherche médicale", "Fonds pour les Soins Palliatifs", "France Alzheimer", "Handicap International", "Les petits frères des Pauvres", "Les Restos du Coeur", "Ligue contre le cancer", "Mécénat chirurgie cardiaque enfants du monde", "Médecins du Monde", "Médecins sans frontières", "Secours catholique", "Secours populaire", "Secours islamique", "Sidaction", "Sourire à la vie", "Unicef", "Vaincre la mucoviscidose"
+    ""
   ],
 
   "banners": {
@@ -626,7 +626,7 @@
       }
     , "s-user|has-published": {
           "icon": "fas fa-feather-alt"
-        , "text": "If you wish, you can post a word or a photo"
+        , "text": "If you wish, you can share a word or a photo"
         , "cta": "Post"
         , "ctb": "Later"
       }
