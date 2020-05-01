@@ -9,6 +9,7 @@
 		"cancel": "Annuler",
 		"next": "Suivant",
 		"prev": "Précèdent",
+		"back": "Retour",
 		"share": "Partager",
 		"pay": "Payer",
 		"end": "Terminer",
@@ -349,34 +350,52 @@
 
 
 	"welcome": {
-		"steps": [{
-			"title": "Informations du défunt",
-			"subtitle": "",
-			"icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/profile_6l1l.svg"
-		}, {
-			"title": "Coordonnées de la famille",
-			"subtitle": "",
-			"icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
-		}, {
-			"title": "Cérémonies",
-			"subtitle": "",
-			"icon": ""
-		}, {
-			"title": "Bienvenue",
-			"subtitle": "",
-			"icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/confirmation_2uy0.svg"
-		}],
-		"labels": {
-			"name": "Nom du défunt",
-			"terms": "En cliquant sur \"Créer la page\" vous acceptez nos CGU et vous consentez au traitement de vos données personnelles.",
-			"success": "L'espace en hommage à\n{{fullname}} a bien été créé."
-		},
-		"cta": {
-			"create": "Créer la page",
-			"go": "Accèder à la page"
-		}
+		"steps": [
+        {
+            "key": "defunct"
+          , "title": "Informations du défunt"
+          , "subtitle": "Veuillez renseigner ici les informations relatives au défunt."
+					, "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/profile_6l1l.svg"
+        },{
+            "key": "contacts"
+          , "title": "Coordonnées de la famille"
+          , "subtitle": ""
+					, "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
+        },{
+            "key": "places"
+          , "title": "Déroulé des obsèques"
+          , "subtitle": ""
+        },{
+            "key": "success"
+          , "title": "L'espace a bien été créé !"
+          , "subtitle": "Le lien a été envoyé par email à la famille. \nL'équipe InMemori prendra contact avec eux dans les 24h pour prendre le relais"
+					, "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/confirmation_2uy0.svg"
+        }
+      ]
+    , "labels": {
+          "name": "Nom du défunt"
+        , "terms": "En cliquant sur \"Créer la page\" vous acceptez nos CGU et vous consentez au traitement de vos données personnelles."
+        , "success": "Merci ! L'espace en hommage à\n{{fullname}} a bien été créé."
+      }
+    , "cta": {
+          "create": "Créer l'espace"
+        , "go": "Voir l'espace"
+      }
+    , "errs": {
+          "contacts": "Contacts invalides ou manquants"
+      }
 	},
 
+	"contacts": {
+    "ph": {
+        "name": "Prénom et Nom"
+      , "phone": "N° de mobile"
+      , "email": "Email"
+    },
+    "cta": {
+        "add": "Ajouter un contact"
+    }
+  },
 
 
 	"edit-profile": {

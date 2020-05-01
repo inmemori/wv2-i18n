@@ -9,6 +9,7 @@
     "cancel": "Cancelar",
     "next": "Siguiente",
     "prev": "Anterior",
+    "back": "Anterior",
     "share": "Compartir",
     "pay": "Pago",
     "end": "Terminar",
@@ -344,40 +345,42 @@
     }
   },
 
-
-
-
-
   "welcome": {
-    "steps": [{
-      "title": "Informations du défunt",
-      "subtitle": "",
-      "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/profile_6l1l.svg"
-    }, {
-      "title": "Coordonnées de la famille",
-      "subtitle": "",
-      "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
-    }, {
-      "title": "Cérémonies",
-      "subtitle": "",
-      "icon": ""
-    }, {
-      "title": "Bienvenue",
-      "subtitle": "",
-      "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/confirmation_2uy0.svg"
-    }],
-    "labels": {
-      "name": "Nom du défunt",
-      "terms": "En cliquant sur \"Créer la page\" vous acceptez nos CGU et vous consentez au traitement de vos données personnelles.",
-      "success": "L'espace en hommage à\n{{fullname}} a bien été créé."
-    },
-    "cta": {
-      "create": "Créer la page",
-      "go": "Accèder à la page"
-    }
+    "steps": [
+        {
+            "key": "defunct"
+          , "title": "Information relating to the deceased"
+          , "subtitle": ""
+          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/profile_6l1l.svg"
+        },{
+            "key": "contacts"
+          , "title": "Family contact information"
+          , "subtitle": ""
+          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
+        },{
+            "key": "places"
+          , "title": "Ceremonies"
+          , "subtitle": ""
+        },{
+            "key": "success"
+          , "title": "The page has been created"
+          , "subtitle": ""
+          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/confirmation_2uy0.svg"
+        }
+      ]
+    , "labels": {
+        "name": "Name of the deceased",
+        "terms": "By clicking on \"Create page\" you accept our terms and conditions and you consent to the processing of your personal data.",
+        "success": "The page in honor of \n{{fullname}} has been created."
+      }
+    , "cta": {
+        "create": "Create page",
+        "go": "Access the page"
+      }
+    , "errs": {
+          "contacts": "Invalid contacts"
+      }
   },
-
-
 
   "edit-profile": {
     "title": "Informations du défunt",
