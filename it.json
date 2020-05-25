@@ -175,10 +175,7 @@
 
   "places": {
 
-    "dummy": {
-      "name": "Address to be specified",
-      "address": "USA"
-    },
+    "h1": "Les rendez-vous",
 
     "types": {
       "ceremony": "Ceremony",
@@ -442,32 +439,36 @@
   },
 
   "new-memory": {
-    "label": {
-      "email": "Email so the family can respond to your message.",
-      "consent": "By clicking on « Share », you consent to the processing of your personal data necessary for the proper functioning of the service."
-    },
     "ph": {
-      "name": "Your name and last name",
-      "email": "Your email",
-      "message": "Your message",
-      "message-opt": "Attach a message(optional)"
+      "name": "Vos prénom et nom",
+      "email": "Votre email",
+      "message": "Votre message",
+      "message-opt": "Joindre un message (facultatif)"
     },
     "cta": {
-      "share": "Share",
-      "photo": "Add picture"
+      "share": "Partager",
+      "photo": "Joindre une photo"
     },
-    "titles": [
-      "What would you like to share?", "Condolences", "Memories", "Photos"
-    ],
     "menu": [{
-      "title": "Condolences",
-      "text": "Express your feelings of support with {{firstname}}'s family."
+      "title": "Merci pour vos mots !",
+      "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
+      "cta": "Voir tous les hommages"
     }, {
-      "title": "Memories",
-      "text": "Share a moment lived with {{firstname}}."
+      "title": "Condoléances",
+      "subtitle": "Partagez votre soutien aux proches de {{firstname}}.",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
+      "cta": "Ecrire vos condoléances"
+    }, {
+      "title": "Souvenir",
+      "subtitle": "Partagez un joli souvenir vécu avec {{firstname}}.",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
+      "cta": "Ajouter vos souvenirs"
     }, {
       "title": "Photos",
-      "text": "The space becomes prettier with pictures."
+      "subtitle": "Partagez un moment de vie vécu avec {{firstname}}.",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
+      "cta": "Ajouter vos photos"
     }]
   },
 

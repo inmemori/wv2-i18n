@@ -175,10 +175,7 @@
 
   "places": {
 
-    "dummy": {
-      "name": "Dirección a especificar",
-      "address": "France"
-    },
+    "h1": "Les rendez-vous",
 
     "types": {
       "ceremony": "Ceremonia",
@@ -443,10 +440,6 @@
   },
 
   "new-memory": {
-    "label": {
-      "email": "Email pour que la famille puisse vous répondre.",
-      "consent": "En cliquant sur « Partager », vous consentez au traitement de vos données personnelles nécessaire au bon fonctionnement du service."
-    },
     "ph": {
       "name": "Vos prénom et nom",
       "email": "Votre email",
@@ -457,18 +450,26 @@
       "share": "Partager",
       "photo": "Joindre une photo"
     },
-    "titles": [
-      "Que souhaitez-vous partager ?", "Condoléances", "Souvenir", "Photos"
-    ],
     "menu": [{
+      "title": "Merci pour vos mots !",
+      "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
+      "cta": "Voir tous les hommages"
+    }, {
       "title": "Condoléances",
-      "text": "Exprimez vos condoléances à la famille de {{firstname}}."
+      "subtitle": "Partagez votre soutien aux proches de {{firstname}}.",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
+      "cta": "Ecrire vos condoléances"
     }, {
       "title": "Souvenir",
-      "text": "Partagez un moment vécu avec {{firstname}}."
+      "subtitle": "Partagez un joli souvenir vécu avec {{firstname}}.",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
+      "cta": "Ajouter vos souvenirs"
     }, {
       "title": "Photos",
-      "text": "L'espace est tellement plus beau avec des photos."
+      "subtitle": "Partagez un moment de vie vécu avec {{firstname}}.",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
+      "cta": "Ajouter vos photos"
     }]
   },
 

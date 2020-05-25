@@ -191,10 +191,7 @@
 
   "places": {
 
-    "dummy": {
-      "name": "Adresse à préciser",
-      "address": "France"
-    },
+    "h1": "Les rendez-vous",
 
     "types": {
       "ceremony": "Cérémonie",
@@ -465,10 +462,6 @@
   },
 
   "new-memory": {
-    "label": {
-      "email": "Email pour que la famille puisse vous répondre.",
-      "consent": "En cliquant sur « Partager », vous consentez au traitement de vos données personnelles nécessaire au bon fonctionnement du service."
-    },
     "ph": {
       "name": "Vos prénom et nom",
       "email": "Votre email",
@@ -491,12 +484,12 @@
       "cta": "Ecrire vos condoléances"
     }, {
       "title": "Souvenir",
-      "subtitle": "Partagez un joli souvenir vécu avec  {{firstname}}.",
+      "subtitle": "Partagez un joli souvenir vécu avec {{firstname}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
       "cta": "Ajouter vos souvenirs"
     }, {
       "title": "Photos",
-      "subtitle": "Partagez un moment de vie vécu avec  {{firstname}}.",
+      "subtitle": "Partagez un moment de vie vécu avec {{firstname}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
       "cta": "Ajouter vos photos"
     }]
