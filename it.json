@@ -44,34 +44,34 @@
 
   "showcase": {
     "user": [
-      { 
+      {
           "title": "Communiquez simplement le déroulé des obsèques"
         , "text": "1 clic suffit pour informer toutes les personnes concernées."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
-      , { 
+      , {
           "title": "Offrez un espace de communication consacré"
         , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
     ],
     "manager": [
-      { 
+      {
           "title": "Communiquez simplement le déroulé des obsèques"
         , "text": "1 clic suffit pour informer toutes les personnes concernées."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
-      , { 
+      , {
           "title": "Offrez un espace de communication consacré"
         , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
-      , { 
+      , {
           "title": "Gérez cet espace en toute liberté"
         , "text": "Vous avez la main sur tout, et nous sommes là pour vous aider"
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
-      , { 
+      , {
           "title": "Gardez chez vous la trace des messages reçus."
         , "text": "En imprimant le livre qui compile tous les messages publiés ici. En imprimant le livre qui compile tous les messages publiés ici."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
@@ -96,10 +96,6 @@
     "cta": {
       "thank": "Send"
     }
-  },
-
-  "svgs": {
-    "thanks": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/a_whole_year_vnfm.svg"
   },
 
   "login": {
@@ -130,17 +126,31 @@
     "short": "LL"
   },
 
-  "app-nav": {
-    "info": "Info",
-    "memories": "Memories",
-    "share": "Share",
-    "settings": "Settings"
+  "appnav": {
+    "info": "Accueil",
+    "memories": "Hommages",
+    "share": "Partager",
+    "settings": "Gestion",
+    "help": "Aide",
+    "help-long": "Besois d'aide ?",
+    "contact": "Appelez nous au",
+    "phone": "01 43 54 23 55"
   },
 
-  "card-help": {
-    "title": "Besoin d'aide",
-    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aidez de le diffuser auprès de votre entourage",
-    "cta": "Inviter un Gestionnaire"
+  "sidebar": {
+    "actions": [
+      {
+        "title": "Ecrire un hommage",
+        "flow": "new-memory",
+        "flowProps": { "currentStep": 1 },
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
+      },
+      {
+        "title": "Partagez cet espace",
+        "flow": "tab-share",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
+      }
+    ]
   },
 
   "cart": {
@@ -345,40 +355,60 @@
   },
 
   "welcome": {
+    "stepsIndexes": {
+      "defunct":  0,
+      "contacts": 1,
+      "places":   2,
+      "success":  3
+    },
     "steps": [
         {
             "key": "defunct"
-          , "title": "Information relating to the deceased"
-          , "subtitle": ""
-          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/profile_6l1l.svg"
+          , "label": "Votre proche disparu"
+          , "title": "Informations du défunt"
+          , "subtitle": "Veuillez renseigner ici les informations relatives au défunt."
         },{
             "key": "contacts"
-          , "title": "Family contact information"
-          , "subtitle": ""
-          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
+          , "label": "Vos coordonnées"
+          , "title": "Vos coordonnées"
+          , "subtitle": "Aujourd'hui ou demain, notre équipe vous contactera pour répondre à vos questions."
         },{
             "key": "places"
-          , "title": "Ceremonies"
-          , "subtitle": ""
+          , "label": "Déroulé des obsèques"
+          , "title": "Ajouter un/des évènements "
+          , "subtitle": "Vous pouvez commencer à renseigner le déroulé des obsèques qui figurera sur l’espace de votre proche disparu."
         },{
             "key": "success"
-          , "title": "The page has been created"
-          , "subtitle": ""
-          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/confirmation_2uy0.svg"
+          , "label": ""
+          , "title": "Bienvenue !"
+          , "subtitle": "Votre espace en hommage à {{fullname}} a bien été créé."
+          , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
         }
       ]
     , "labels": {
-        "name": "Name of the deceased",
-        "terms": "By clicking on \"Create page\" you accept our terms and conditions and you consent to the processing of your personal data.",
-        "success": "The page in honor of \n{{fullname}} has been created."
+          "name": "Nom du défunt"
+        , "terms1": "En cliquant sur valider, vous consentez à nos "
+        , "terms2": "Conditions Générales d’Utilisation"
+        , "success": "Merci ! L'espace en hommage à\n{{fullname}} a bien été créé."
       }
     , "cta": {
-        "create": "Create page",
-        "go": "Access the page"
+          "create": "Créer l'espace"
+        , "go": "Découvrir l’espace"
       }
     , "errs": {
-          "contacts": "Invalid contacts"
+          "contacts": "Contacts invalides ou manquants"
       }
+  },
+
+  "contacts": {
+    "ph": {
+        "name": "Prénom et Nom"
+      , "phone": "N° de mobile"
+      , "email": "Email"
+    },
+    "cta": {
+        "add": "Ajouter un contact"
+    }
   },
 
   "edit-profile": {
@@ -441,28 +471,38 @@
     }]
   },
 
+  "card-ft-group": {
+    "h1": "Les Présents"
+  },
+
   "card-ft-book": {
-    "title": "Order the InMemori book",
-    "text": "Keep a physical trace of all the messages shared on InMemori",
-    "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+    "title": "Le livre",
+    "text": "Garder une trace de tous les messages partagés sur InMemori",
+    "cta": "Commander le livre",
+    "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
   },
 
   "card-ft-flower": {
-    "title": "Send flowers",
-    "text": "Send flowers to the funeral place",
-    "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fall_thyk.svg"
+    "title": "Fleurs",
+    "text": "Faire livrer des fleurs sur les lieux de l’obsèque",
+    "cta": "Embellir la cérémonie",
+    "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Ce%CC%81re%CC%81monie.svg"
   },
 
   "card-ft-donation": {
-    "title": "Make a donation",
-    "text": "{{stats.donations.total_f}} by {{stats.donations.count}} donor(s) to support the {{donation.org.name}}.",
-    "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
+    "h1": "Faire un don",
+    "title": "Faire un don",
+    "text": "{{stats.donations.total_f}} par {{stats.donations.count}} donateur(s) au profit de {{donation.org.name}}.",
+    "cta": "Faire un don",
+    "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "card-ft-donation-unset": {
-    "title": "Activate a fundraising",
-    "text": "Support a cause that was dear to {{firstname}} in three clicks.",
-    "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
+    "h1": "Faire un don",
+    "title": "Activez une collecte de fonds",
+    "text": "En trois clics, au profit d'une cause qui était chère à {{firstname}}.",
+    "cta": "Activer",
+    "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "share": {
@@ -601,7 +641,7 @@
           "icon": "fa fa-camera"
         , "text": "Choose a picture"
         , "cta": "Select picture"
-        , "ctb": "Later" 
+        , "ctb": "Later"
       }
     , "s-manager|has-invited": {
           "icon": "fa fa-paper-plane"
@@ -625,7 +665,7 @@
           "icon": "fa fa-camera"
         , "text": "Choose a picture"
         , "cta": "Select picture"
-        , "ctb": "Later" 
+        , "ctb": "Later"
       }
     , "s-google|has-invited": {
           "icon": "fa fa-paper-plane"
@@ -646,5 +686,5 @@
         , "ctb": "Later"
       }
   }
-  
+
 }

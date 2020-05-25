@@ -44,34 +44,34 @@
 
   "showcase": {
     "user": [
-      { 
+      {
           "title": "Communiquez simplement le déroulé des obsèques"
         , "text": "1 clic suffit pour informer toutes les personnes concernées."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
-      , { 
+      , {
           "title": "Offrez un espace de communication consacré"
         , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
     ],
     "manager": [
-      { 
+      {
           "title": "Communiquez simplement le déroulé des obsèques"
         , "text": "1 clic suffit pour informer toutes les personnes concernées."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
-      , { 
+      , {
           "title": "Offrez un espace de communication consacré"
         , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
-      , { 
+      , {
           "title": "Gérez cet espace en toute liberté"
         , "text": "Vous avez la main sur tout, et nous sommes là pour vous aider"
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
-      , { 
+      , {
           "title": "Gardez chez vous la trace des messages reçus."
         , "text": "En imprimant le livre qui compile tous les messages publiés ici. En imprimant le livre qui compile tous les messages publiés ici."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
@@ -96,10 +96,6 @@
     "cta": {
       "thank": "Gracias"
     }
-  },
-
-  "svgs": {
-    "thanks": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/a_whole_year_vnfm.svg"
   },
 
   "login": {
@@ -130,17 +126,31 @@
     "short": "dddd D MMMM YYYY"
   },
 
-  "app-nav": {
+  "appnav": {
     "info": "Accueil",
-    "memories": "Homenajes",
-    "share": "Compartir",
-    "settings": "Configuración"
+    "memories": "Hommages",
+    "share": "Partager",
+    "settings": "Gestion",
+    "help": "Aide",
+    "help-long": "Besois d'aide ?",
+    "contact": "Appelez nous au",
+    "phone": "01 43 54 23 55"
   },
 
-  "card-help": {
-    "title": "Necesitas ayuda?",
-    "subtitle": "Pídale a un ser querido que se convierta en un administrador de la página y de esta forma le ayude a distribuirlo entre los que le rodean",
-    "cta": "Invitar a un administrador"
+  "sidebar": {
+    "actions": [
+      {
+        "title": "Ecrire un hommage",
+        "flow": "new-memory",
+        "flowProps": { "currentStep": 1 },
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
+      },
+      {
+        "title": "Partagez cet espace",
+        "flow": "tab-share",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
+      }
+    ]
   },
 
   "cart": {
@@ -346,40 +356,60 @@
   },
 
   "welcome": {
+    "stepsIndexes": {
+      "defunct":  0,
+      "contacts": 1,
+      "places":   2,
+      "success":  3
+    },
     "steps": [
         {
             "key": "defunct"
-          , "title": "Information relating to the deceased"
-          , "subtitle": ""
-          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/profile_6l1l.svg"
+          , "label": "Votre proche disparu"
+          , "title": "Informations du défunt"
+          , "subtitle": "Veuillez renseigner ici les informations relatives au défunt."
         },{
             "key": "contacts"
-          , "title": "Family contact information"
-          , "subtitle": ""
-          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
+          , "label": "Vos coordonnées"
+          , "title": "Vos coordonnées"
+          , "subtitle": "Aujourd'hui ou demain, notre équipe vous contactera pour répondre à vos questions."
         },{
             "key": "places"
-          , "title": "Ceremonies"
-          , "subtitle": ""
+          , "label": "Déroulé des obsèques"
+          , "title": "Ajouter un/des évènements "
+          , "subtitle": "Vous pouvez commencer à renseigner le déroulé des obsèques qui figurera sur l’espace de votre proche disparu."
         },{
             "key": "success"
-          , "title": "The page has been created"
-          , "subtitle": ""
-          , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/confirmation_2uy0.svg"
+          , "label": ""
+          , "title": "Bienvenue !"
+          , "subtitle": "Votre espace en hommage à {{fullname}} a bien été créé."
+          , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
         }
       ]
     , "labels": {
-        "name": "Name of the deceased",
-        "terms": "By clicking on \"Create page\" you accept our terms and conditions and you consent to the processing of your personal data.",
-        "success": "The page in honor of \n{{fullname}} has been created."
+          "name": "Nom du défunt"
+        , "terms1": "En cliquant sur valider, vous consentez à nos "
+        , "terms2": "Conditions Générales d’Utilisation"
+        , "success": "Merci ! L'espace en hommage à\n{{fullname}} a bien été créé."
       }
     , "cta": {
-        "create": "Create page",
-        "go": "Access the page"
+          "create": "Créer l'espace"
+        , "go": "Découvrir l’espace"
       }
     , "errs": {
-          "contacts": "Invalid contacts"
+          "contacts": "Contacts invalides ou manquants"
       }
+  },
+
+  "contacts": {
+    "ph": {
+        "name": "Prénom et Nom"
+      , "phone": "N° de mobile"
+      , "email": "Email"
+    },
+    "cta": {
+        "add": "Ajouter un contact"
+    }
   },
 
   "edit-profile": {
@@ -406,7 +436,7 @@
       "templates": "Besoin d'inspiration ?"
     },
     "templates": [
-        "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie que vous avez partagé avec {{firstname}}.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien." 
+        "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie que vous avez partagé avec {{firstname}}.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien."
       , ""
       , ""
     ]
@@ -442,28 +472,38 @@
     }]
   },
 
+  "card-ft-group": {
+    "h1": "Les Présents"
+  },
+
   "card-ft-book": {
-    "title": "Commander le livre InMemori",
+    "title": "Le livre",
     "text": "Garder une trace de tous les messages partagés sur InMemori",
-    "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+    "cta": "Commander le livre",
+    "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
   },
 
   "card-ft-flower": {
-    "title": "Embellir la cérémonie",
-    "text": "Faire livrer des fleurs sur les lieux des obsèques",
-    "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fall_thyk.svg"
+    "title": "Fleurs",
+    "text": "Faire livrer des fleurs sur les lieux de l’obsèque",
+    "cta": "Embellir la cérémonie",
+    "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Ce%CC%81re%CC%81monie.svg"
   },
 
   "card-ft-donation": {
+    "h1": "Faire un don",
     "title": "Faire un don",
     "text": "{{stats.donations.total_f}} par {{stats.donations.count}} donateur(s) au profit de {{donation.org.name}}.",
-    "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
+    "cta": "Faire un don",
+    "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "card-ft-donation-unset": {
+    "h1": "Faire un don",
     "title": "Activez une collecte de fonds",
     "text": "En trois clics, au profit d'une cause qui était chère à {{firstname}}.",
-    "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
+    "cta": "Activer",
+    "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "share": {
@@ -602,7 +642,7 @@
           "icon": "fa fa-camera"
         , "text": "Si vous le souhaitez, vous pouvez également choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
         , "cta": "Choisir une photo"
-        , "ctb": "Plus tard" 
+        , "ctb": "Plus tard"
       }
     , "s-manager|has-invited": {
           "icon": "fa fa-paper-plane"
@@ -626,7 +666,7 @@
           "icon": "fa fa-camera"
         , "text": "Si vous le souhaitez, vous pouvez choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
         , "cta": "Choisir une photo"
-        , "ctb": "Plus tard" 
+        , "ctb": "Plus tard"
       }
     , "s-google|has-invited": {
           "icon": "fa fa-paper-plane"
@@ -648,5 +688,5 @@
       }
 
   }
-  
+
 }

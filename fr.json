@@ -44,34 +44,34 @@
 
 	"showcase": {
 		"user": [
-		  { 
+		  {
 		      "title": "Communiquez simplement le déroulé des obsèques"
 		    , "text": "1 clic suffit pour informer toutes les personnes concernées."
 		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
 		  }
-		  , { 
+		  , {
 		      "title": "Offrez un espace de communication consacré"
 		    , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
 		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
 		  }
 		],
 		"manager": [
-		  { 
+		  {
 		      "title": "Communiquez simplement le déroulé des obsèques"
 		    , "text": "1 clic suffit pour informer toutes les personnes concernées."
 		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
 		  }
-		  , { 
+		  , {
 		      "title": "Offrez un espace de communication consacré"
 		    , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
 		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
 		  }
-		  , { 
+		  , {
 		      "title": "Gérez cet espace en toute liberté"
 		    , "text": "Vous avez la main sur tout, et nous sommes là pour vous aider"
 		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
 		  }
-		  , { 
+		  , {
 		      "title": "Gardez chez vous la trace des messages reçus."
 		    , "text": "En imprimant le livre qui compile tous les messages publiés ici. En imprimant le livre qui compile tous les messages publiés ici."
 		    , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
@@ -98,28 +98,34 @@
 		}
 	},
 
-	"svgs": {
-		"thanks": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/a_whole_year_vnfm.svg"
-	},
-
 	"login": {
 		"err": "Identifiants invalides !",
 		"actions": {
-			"start": { "title": "", "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." },
-			"signup": { "title": "", "subtitle": "La famille souhaiterait connaitre l'identité des personnes consultant l'espace, merci d'indiquer votre nom" },
-			"swap": { "title": "Connectez vous !", "subtitle": "Cliquez sur le lien de connexion qui vient d'être envoyé par mail sur {{identifier}}" },
+			"start": {
+					"title": "Vous n'êtes pas connecté"
+				, "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site."
+			},
+			"signup": {
+					"title": "Votre profile"
+				, "subtitle": "Veuillez renseigner les informations"
+			},
+			"swap": {
+					"title": "Merci !"
+				, "subtitle": "Nous venons de vous envoyer par email un lien pour vous reconnecter à l’espace."
+				, "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
+			},
 			"custom": {
 				"infos": {
-					"start": { "title": "Vous n'êtes pas connecté", "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+					"start": { "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
 				},
 				"memories": {
-					"start": { "title": "Vous n'êtes pas connecté", "subtitle": "Les messages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+					"start": { "subtitle": "Les messages sont privés. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site." }
 				},
 				"share": {
-					"start": { "title": "Vous n'êtes pas connecté", "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+					"start": { "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
 				},
 				"settings": {
-					"start": { "title": "Paramètres de la page", "subtitle": "Les paramètres sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+					"start": { "subtitle": "La gestion de la page est limitée à certains proches. Si vous êtes gestionnaire de cet espace et souhaitez vous connecter, renseigner votre adresse email ci-dessous pour vous connecter." }
 				}
 			}
 		}
@@ -130,11 +136,31 @@
 		"short": "dddd D MMMM YYYY"
 	},
 
-	"app-nav": {
+	"appnav": {
 		"info": "Accueil",
 		"memories": "Hommages",
 		"share": "Partager",
-		"settings": "Gestion"
+		"settings": "Gestion",
+		"help": "Aide",
+		"help-long": "Besois d'aide ?",
+		"contact": "Appelez nous au",
+		"phone": "01 43 54 23 55"
+	},
+
+	"sidebar": {
+		"actions": [
+			{
+				"title": "Ecrire un hommage",
+				"flow": "new-memory",
+				"flowProps": { "currentStep": 1 },
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
+			},
+			{
+				"title": "Partagez cet espace",
+				"flow": "tab-share",
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
+			}
+		]
 	},
 
 	"card-help": {
@@ -201,7 +227,7 @@
 		},
 
 		"cta": {
-			"delete": "Supprimer",
+			"delete": "Supprimer l’évènement",
 			"add": "Ajouter une cérémonie"
 		}
 
@@ -345,41 +371,46 @@
 		}
 	},
 
-
-
-
-
 	"welcome": {
+		"stepsIndexes": {
+			"defunct":  0,
+			"contacts": 1,
+			"places":   2,
+			"success":  3
+		},
 		"steps": [
         {
             "key": "defunct"
+          , "label": "Votre proche disparu"
           , "title": "Informations du défunt"
           , "subtitle": "Veuillez renseigner ici les informations relatives au défunt."
-					, "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/profile_6l1l.svg"
         },{
             "key": "contacts"
-          , "title": "Coordonnées de la famille"
-          , "subtitle": ""
-					, "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
+          , "label": "Vos coordonnées"
+          , "title": "Vos coordonnées"
+          , "subtitle": "Aujourd'hui ou demain, notre équipe vous contactera pour répondre à vos questions."
         },{
             "key": "places"
-          , "title": "Déroulé des obsèques"
-          , "subtitle": ""
+          , "label": "Déroulé des obsèques"
+          , "title": "Ajouter un/des évènements "
+          , "subtitle": "Vous pouvez commencer à renseigner le déroulé des obsèques qui figurera sur l’espace de votre proche disparu."
         },{
             "key": "success"
-          , "title": "L'espace a bien été créé !"
-          , "subtitle": "Le lien a été envoyé par email à la famille. \nL'équipe InMemori prendra contact avec eux dans les 24h pour prendre le relais"
-					, "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/confirmation_2uy0.svg"
+          , "label": ""
+          , "title": "Bienvenue !"
+          , "subtitle": "Votre espace en hommage à {{fullname}} a bien été créé."
+					, "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
         }
       ]
     , "labels": {
           "name": "Nom du défunt"
-        , "terms": "En cliquant sur \"Créer la page\" vous acceptez nos CGU et vous consentez au traitement de vos données personnelles."
+        , "terms1": "En cliquant sur valider, vous consentez à nos "
+        , "terms2": "Conditions Générales d’Utilisation"
         , "success": "Merci ! L'espace en hommage à\n{{fullname}} a bien été créé."
       }
     , "cta": {
           "create": "Créer l'espace"
-        , "go": "Voir l'espace"
+        , "go": "Découvrir l’espace"
       }
     , "errs": {
           "contacts": "Contacts invalides ou manquants"
@@ -397,9 +428,9 @@
     }
   },
 
-
 	"edit-profile": {
-		"title": "Informations du défunt",
+		"title": "A propos du défunt",
+		"subtitle": "Vous pouvez ajouter plus d’informations ou choisir une autre photo du défunt qui sera visible par tous les visiteurs invités.",
 		"label": {
 			"firstname": "Prénom",
 			"lastname": "Nom",
@@ -408,24 +439,29 @@
 			"photo": "Photo principale"
 		},
 		"ph": {
-			"firstname": "Prénom de votre proche",
-			"lastname": "Nom de votre proche",
-			"dob": "jj/mm/aaaa",
-			"dod": "jj/mm/aaaa"
+			"firstname": "Prénom",
+			"lastname": "Nom",
+			"dob": "Date de Naissance",
+			"dod": "Date de décès"
 		}
 	},
 
 	"edit-intro": {
-		"title": "Texte d'accueil",
+		"title": "Editer le texte d’accueil",
+		"subtitle": "Le texte ci-dessous vous permet de faire-part de la disparition de votre proche aux invités ayant accès à cet espace.",
 		"label": {
-			"intro": "Écrivez un message afin de faire part à votre entourage du décès de {{capitalize firstname}}.",
 			"templates": "Besoin d'inspiration ?"
 		},
 		"templates": [
-				"Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie que vous avez partagé avec {{firstname}}.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien."	
+				"Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie que vous avez partagé avec {{firstname}}.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien."
 			, ""
 			, ""
 		]
+	},
+
+	"edit-places": {
+		"title": "Ajouter un/des évènements ",
+		"subtitle": "Renseignez ici le déroulé des obsèques en ajoutant les différentes étapes."
 	},
 
 	"new-memory": {
@@ -443,43 +479,61 @@
 			"share": "Partager",
 			"photo": "Joindre une photo"
 		},
-		"titles": [
-			"Que souhaitez-vous partager ?", "Condoléances", "Souvenir", "Photos"
-		],
 		"menu": [{
+			"title": "Merci pour vos mots !",
+			"subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
+			"cta": "Voir tous les hommages"
+		}, {
 			"title": "Condoléances",
-			"text": "Exprimez vos condoléances à la famille de {{firstname}}."
+			"subtitle": "Partagez votre soutien aux proches de {{firstname}}.",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
+			"cta": "Ecrire vos condoléances"
 		}, {
 			"title": "Souvenir",
-			"text": "Partagez un moment vécu avec {{firstname}}."
+			"subtitle": "Partagez un joli souvenir vécu avec  {{firstname}}.",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
+			"cta": "Ajouter vos souvenirs"
 		}, {
 			"title": "Photos",
-			"text": "L'espace est tellement plus beau avec des photos."
+			"subtitle": "Partagez un moment de vie vécu avec  {{firstname}}.",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
+			"cta": "Ajouter vos photos"
 		}]
 	},
 
+	"card-ft-group": {
+		"h1": "Les Présents"
+	},
+
 	"card-ft-book": {
-		"title": "Commander le livre InMemori",
+		"title": "Le livre",
 		"text": "Garder une trace de tous les messages partagés sur InMemori",
-		"icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+		"cta": "Commander le livre",
+		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
 	},
 
 	"card-ft-flower": {
-		"title": "Embellir la cérémonie",
-		"text": "Faire livrer des fleurs sur les lieux des obsèques",
-		"icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fall_thyk.svg"
+		"title": "Fleurs",
+		"text": "Faire livrer des fleurs sur les lieux de l’obsèque",
+		"cta": "Embellir la cérémonie",
+		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Ce%CC%81re%CC%81monie.svg"
 	},
 
 	"card-ft-donation": {
+		"h1": "Faire un don",
 		"title": "Faire un don",
 		"text": "{{stats.donations.total_f}} par {{stats.donations.count}} donateur(s) au profit de {{donation.org.name}}.",
-		"icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
+		"cta": "Faire un don",
+		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
 	},
 
 	"card-ft-donation-unset": {
+		"h1": "Faire un don",
 		"title": "Activez une collecte de fonds",
 		"text": "En trois clics, au profit d'une cause qui était chère à {{firstname}}.",
-		"icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/popular_7nrh.svg"
+		"cta": "Activer",
+		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
 	},
 
 	"share": {
@@ -519,6 +573,8 @@
 	},
 
 	"tab-settings": {
+		"title": "Gestion de l’espace",
+		"subtitle": "Connecté(e) en tant que {{profile.email}}",
 		"cta": {
 			"admins": {
 				"text": "Gestionnaires de l'espace",
@@ -618,7 +674,7 @@
 					"icon": "fa fa-camera"
      		, "text": "Si vous le souhaitez, vous pouvez également choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
      		, "cta": "Choisir une photo"
-     		, "ctb": "Plus tard" 
+     		, "ctb": "Plus tard"
 			}
 		, "s-manager|has-invited": {
 					"icon": "fa fa-paper-plane"
@@ -642,7 +698,7 @@
 					"icon": "fa fa-camera"
      		, "text": "Si vous le souhaitez, vous pouvez choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
      		, "cta": "Choisir une photo"
-     		, "ctb": "Plus tard" 
+     		, "ctb": "Plus tard"
 			}
 		, "s-google|has-invited": {
 					"icon": "fa fa-paper-plane"
@@ -664,5 +720,5 @@
 			}
 
 	}
-  
+
 }
