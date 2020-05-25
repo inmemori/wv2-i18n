@@ -387,7 +387,7 @@
         },{
             "key": "contacts"
           , "label": "Vos coordonnées"
-          , "title": "Vos coordonnées"
+          , "title": "Vos infos"
           , "subtitle": "Aujourd'hui ou demain, notre équipe vous contactera pour répondre à vos questions."
         },{
             "key": "places"
