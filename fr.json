@@ -5,10 +5,10 @@
     "identifier": "Identifiant",
     "password": "Mot de passe",
     "save": "Enregistrer",
-    "edit": "Modifier",
+    "edit": "Editer",
     "cancel": "Annuler",
     "next": "Suivant",
-    "prev": "Précèdent",
+    "prev": "Précédent",
     "back": "Retour",
     "share": "Partager",
     "pay": "Payer",
@@ -142,9 +142,9 @@
     "share": "Partager",
     "settings": "Gestion",
     "help": "Aide",
-    "help-long": "Besois d'aide ?",
+    "help-long": "Besoin d'aide ?",
     "contact": "Appelez nous au",
-    "phone": "01 43 54 23 55"
+    "phone": "06 37 60 26 04"
   },
 
   "sidebar": {
@@ -165,8 +165,8 @@
 
   "card-help": {
     "title": "Besoin d'aide",
-    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aidez de le diffuser auprès de votre entourage",
-    "cta": "Inviter un Gestionnaire"
+    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage",
+    "cta": "Inviter un gestionnaire"
   },
 
   "cart": {
