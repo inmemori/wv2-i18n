@@ -427,7 +427,7 @@
 
   "edit-profile": {
     "title": "A propos du défunt",
-    "subtitle": "Vous pouvez ajouter plus d’informations ou choisir une autre photo du défunt qui sera visible par tous les visiteurs invités.",
+    "subtitle": "Ajoutez une photo de votre proche et modifiez, si besoin, ses informations.",
     "label": {
       "firstname": "Prénom",
       "lastname": "Nom",
