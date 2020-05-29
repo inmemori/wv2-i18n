@@ -81,7 +81,7 @@
 
   "popups": {
     "delete-memory": {
-      "message": "Êtes vous sûr de cette acrtion ?",
+      "message": "Désirez-vous vraiment supprimer cet élément définitivement ?",
       "btns": ["Oui", "Non"]
     }
   },
