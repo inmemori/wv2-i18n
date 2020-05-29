@@ -466,7 +466,7 @@
       "name": "Vos prénom et nom",
       "email": "Votre email",
       "message": "Saisissez votre message",
-      "message-opt": "Joindre un message (facultatif)"
+      "message-opt": "Légende photo(facultatif)"
     },
     "cta": {
       "share": "Partager",
