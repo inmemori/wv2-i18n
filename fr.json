@@ -267,7 +267,8 @@
       "title": "Finalisez la commande",
       "subtitle": ""
     }, {
-      "title": "Merci de votre soutien !",
+      "title": "Merci de votre 
+      !",
       "subtitle": ""
     }],
     "labels": {
@@ -333,8 +334,7 @@
       "icon": "fas fa-toggle-on"
     }, {
       "title": "Votre entourage\ndonne",
-      "subtitle": "et manifeste son soutien 
-      en contribuant à une cause porteuse de sens*",
+      "subtitle": "et manifeste son soutien en contribuant à une cause porteuse de sens*",
       "icon": "fas fa-hand-holding-heart"
     }, {
       "title": "Vous cloturez la\ncollecte de dons",
