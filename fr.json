@@ -346,7 +346,7 @@
     }],
     "labels": {
       "tip1": "Pour collecter de l'argent sur internet, la législation exige que l'organisateur soit identifié et renseigne les informations suivantes :",
-      "beneficiary": "Qui est le Bénéficiaire des fonds ?",
+      "beneficiary": "Qui sera le bénéficiaire de cette collecte ?",
       "family": "La famille",
       "org": "Une association",
       "message": "Votre message pour introduire la collecte de dons"
