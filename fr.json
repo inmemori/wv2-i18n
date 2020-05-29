@@ -328,20 +328,20 @@
       "subtitle": ""
     }],
     "tips": [{
-      "title": "Vous activez la\ncollecte de fonds",
-      "subtitle": "au profit d'une cause ou pour pour financer ses obsèques",
+      "title": "Activez votre\ncollecte de dons",
+      "subtitle": "au profit d'une cause ou pour pour financer les obsèques",
       "icon": "fas fa-toggle-on"
     }, {
-      "title": "Votre entourage\ndonne",
-      "subtitle": "et manifeste son soutien en contribuant à une cause porteuse de sens*",
+      "title": "Vos proches n/font un don",
+      "subtitle": "et montrent leur soutien en contribuant à une cause pleine de sens*",
       "icon": "fas fa-hand-holding-heart"
     }, {
-      "title": "Vous cloturez la\ncollecte de dons",
-      "subtitle": "et recevez les fonds sur votre compte bancaire (-4% de frais de gestion)",
+      "title": "Cloturez votre\ncollecte",
+      "subtitle": "et recevez les fonds par virement sur votre compte bancaire",
       "icon": "fas fa-hourglass-end"
     }, {
-      "title": "Vous financez la\ncause souhaitée",
-      "subtitle": "et distribués un reçu fiscal aux donateurs qui le souhaitent",
+      "title": "Virez les fonds à la\ncause choisie",
+      "subtitle": "et distribuez un reçu fiscal à ceux qui le souhaitent",
       "icon": "fas fa-donate"
     }],
     "labels": {
