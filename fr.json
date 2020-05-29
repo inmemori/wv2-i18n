@@ -541,8 +541,8 @@
       "email-from": "De la part de ",
       "email-to": "A destination de {{#if total}}{{total}} personne(s) {{/if}}:",
       "email-message": "Message :",
-      "sms-from": "Vote numéro de mobile",
-      "sms-intro": "Partagez l'espace depuis votre mobile. Nous vous envoyons le lien par SMS, vous pouvez ensuite le repartager avec vos contacts."
+      "sms-from": "Votre numéro",
+      "sms-intro": "Vous recevez par sms le lien de l'espace de {{firstname}}, à transmettre à vos proches."
     },
 
     "ph": {
