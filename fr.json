@@ -600,7 +600,7 @@
         "text": "Se Déconnecter"
       },
       "delete": {
-        "text": "Supprimer la page en hommage à {{capitalize firstname}}"
+        "text": "Supprimer cet espace"
       }
     }
   },
