@@ -103,7 +103,7 @@
     "actions": {
       "start": {
           "title": "Vous n'êtes pas connecté"
-        , "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site."
+        , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site."
       },
       "signup": {
           "title": "Votre profile"
@@ -116,7 +116,7 @@
       },
       "custom": {
         "infos": {
-          "start": { "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site." }
         },
         "memories": {
           "start": { "subtitle": "Les messages sont privés. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site." }
