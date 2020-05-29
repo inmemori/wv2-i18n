@@ -379,8 +379,8 @@
         {
             "key": "defunct"
           , "label": "Votre proche disparu"
-          , "title": "Informations du défunt"
-          , "subtitle": "Veuillez renseigner ici les informations relatives au défunt."
+          , "title": "Informations relatives à votre proche"
+          , "subtitle": "Vous êtes en train de créer un nouvel espace en hommage à votre proche disparu. Veuillez renseigner ses informations."
         },{
             "key": "contacts"
           , "label": "Vos coordonnées"
