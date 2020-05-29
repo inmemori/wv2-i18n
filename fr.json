@@ -445,7 +445,7 @@
 
   "edit-intro": {
     "title": "Editer le texte d’accueil",
-    "subtitle": "Le texte ci-dessous vous permet de faire-part de la disparition de votre proche aux invités ayant accès à cet espace.",
+    "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
     "label": {
       "templates": "Besoin d'inspiration ?"
     },
