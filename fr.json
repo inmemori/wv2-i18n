@@ -189,7 +189,8 @@
 
 
 
-  "places": {
+  "
+  ": {
 
     "h1": "Les rendez-vous",
 
@@ -225,7 +226,7 @@
 
     "cta": {
       "delete": "Supprimer l’évènement",
-      "add": "Ajouter une cérémonie"
+      "add": "Ajouter un évènement"
     }
 
   },
