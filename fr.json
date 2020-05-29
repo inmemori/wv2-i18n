@@ -333,10 +333,11 @@
       "icon": "fas fa-toggle-on"
     }, {
       "title": "Votre entourage\ndonne",
-      "subtitle": "et manifeste son soutien en contribuant à une cause porteuse de sens*",
+      "subtitle": "et manifeste son soutien 
+      en contribuant à une cause porteuse de sens*",
       "icon": "fas fa-hand-holding-heart"
     }, {
-      "title": "Vous cloturez la\ncagnotte",
+      "title": "Vous cloturez la\ncollecte de dons",
       "subtitle": "et recevez les fonds sur votre compte bancaire (-4% de frais de gestion)",
       "icon": "fas fa-hourglass-end"
     }, {
@@ -496,7 +497,7 @@
   },
 
   "card-ft-group": {
-    "h1": "Les Présents"
+    "h1": "Rendre hommage"
   },
 
   "card-ft-book": {
@@ -509,7 +510,7 @@
   "card-ft-flower": {
     "title": "Fleurs",
     "text": "Faire livrer des fleurs sur les lieux de l’obsèque",
-    "cta": "Embellir la cérémonie",
+    "cta": "Faire livrer des fleurs",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Ce%CC%81re%CC%81monie.svg"
   },
 
