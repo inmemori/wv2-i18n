@@ -639,7 +639,7 @@
 
   "card-stats": {
     "labels": {
-      "views": "Visites",
+      "views": "Consultations",
       "memories": "Messages",
       "donations": "Dons",
       "collected": "Collectés"
