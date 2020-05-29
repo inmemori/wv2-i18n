@@ -465,7 +465,7 @@
     "ph": {
       "name": "Vos prénom et nom",
       "email": "Votre email",
-      "message": "Votre message",
+      "message": "Saisissez votre message",
       "message-opt": "Joindre un message (facultatif)"
     },
     "cta": {
