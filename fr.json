@@ -570,7 +570,7 @@
     "subtitle": "Connecté(e) en tant que {{profile.email}}",
     "cta": {
       "admins": {
-        "text": "Gestionnaires de l'espace",
+        "text": "Liste des gestionnaires de l'espace",
         "icon": "fas fa-user-cog"
       },
       "donation": {
