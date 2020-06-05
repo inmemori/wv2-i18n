@@ -597,7 +597,7 @@
 
     "labels": {
       "email-from": "De la part de",
-      "email-to": "Envoyer à {{#if total}}{{total}} personne(s) {{/if}}",
+      "email-to": "A destination de {{#if total}}{{total}} personne(s) {{/if}}",
       "email-message": "Message",
       "sms-from": "Vote numéro de mobile"
     },
