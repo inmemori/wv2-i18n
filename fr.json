@@ -627,7 +627,7 @@
     "options": {
       "managers": {
         "title": "Liste des gestonnaires de l’espace",
-        "cta": "Voir la liste",
+        "cta": "Voir tous les gestionnaires",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
       "donation": {
