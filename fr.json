@@ -357,7 +357,7 @@
       "icon": ""
     }],
     "labels": {
-      "beneficiary": "Qui est le Bénéficiaire des fonds ?",
+      "beneficiary": "Qui sera le Bénéficiaire de cette collecte ?",
       "family": "La famille",
       "org": "Une association",
       "message": "Message concernant la collecte",
