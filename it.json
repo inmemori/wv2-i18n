@@ -285,68 +285,103 @@
     }
   },
 
-  "ft-donation-manage": {
-    "labels": {
-      "title": "Manage the fundraising",
-      "close": "Close fundraising",
-      "status-family": "A fundraising is taking place to help finance the funeral. \nToday the amount collected is:",
-      "status-org": "A fundraising is taking place to help the {{org}}.\nToday the amount collected is:",
-      "identity": "ID",
-      "upload-info": "Passport or driver's license (front and/or back)"
-    },
-    "cta": {
-      "close": "Close"
-    }
-  },
-
   "ft-donation-settings": {
-    "steps": [{
-      "title": "Collect the donations",
-      "subtitle": ""
-    }, {
-      "title": "Organizer",
-      "subtitle": ""
-    }, {
-      "title": "Beneficiary",
-      "subtitle": ""
-    }],
+    "stepsIndexes": {
+      "intro": 0,
+      "config": 1,
+      "bank": 2,
+      "active": 3,
+      "closed": 4
+    },
+    "steps": [
+      {
+          "key": "intro"
+        , "label": "Collecte de dons"
+        , "title": "Collecte de dons"
+        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause précise ou de contribuer aux obsèques"
+        , "cta": "Activer la collecte"
+      },{
+          "key": "config"
+        , "label": "Informations"
+        , "title": "Informations"
+        , "subtitle": "Qui sera le bénéficiaire de cette collecte ?"
+        , "cta": "Suivant"
+      },{
+          "key": "bank"
+        , "label": "Compte bancaire"
+        , "title": "Compte bancaire"
+        , "subtitle": "Pour collecter de l'argent sur Internet, la loi exige que l'organisateur soit identifié et fournisse les informations suivantes."
+        , "cta": "Activer la collecte"
+      },{
+          "key": "active"
+        , "label": ""
+        , "title": "Gestion de la collecte de dons"
+        , "subtitle": "Une collecte est en cours au bénéfice de Ligue contre le cancer. À ce jour le montant des dons s'élève à :"
+        , "cta": "Enregistrer"
+      },{
+          "key": "closed"
+        , "label": ""
+        , "title": "Collecte clôturée"
+        , "subtitle": "Votre collecte de dons a été clôturée.\nUn email de confirmation vient de vous être envoyé."
+      }
+    ],
     "tips": [{
-      "title": "Activate the\nfundraising",
-      "subtitle": "to benefit a cause or to finance the funeral",
-      "icon": "fas fa-toggle-on"
+      "title": "Activez votre collecte de dons",
+      "subtitle": "au profit d'une cause ou pour financer les obsèques.",
+      "icon": ""
     }, {
-      "title": "Your close ones\ndonate",
-      "subtitle": "and show their support by contributing to a meaningful cause*",
-      "icon": "fas fa-hand-holding-heart"
+      "title": "Vos proches font un don",
+      "subtitle": "et montrent leur soutien en contribuant à une cause pleine de sens.",
+      "icon": ""
     }, {
-      "title": "Close the \nfundraising",
-      "subtitle": "and receive the funds in your bank account (-4% management fee)",
-      "icon": "fas fa-hourglass-end"
+      "title": "Cloturez votre collecte",
+      "subtitle": "et recevez l’argent par virement sur votre compte bancaire.",
+      "icon": ""
     }, {
-      "title": "Send the funds\nto the desired cause",
-      "subtitle": "and distribute a tax receipt to the donors who want one",
-      "icon": "fas fa-donate"
+      "title": "Virez les fonds à la cause choisie",
+      "subtitle": "et  distribuez un reçu fiscal à ceux qui le souhaitent.",
+      "icon": ""
     }],
     "labels": {
-      "tip1": "To collect money on the internet, the law requires the organizer to be identified and provide the following information",
-      "beneficiary": "Who is the Beneficiary of the funds?",
-      "family": "The family",
-      "org": "An association",
-      "message": "Your message to introduce the fundraising"
+      "beneficiary": "Qui est le Bénéficiaire des fonds ?",
+      "family": "La famille",
+      "org": "Une association",
+      "message": "Message concernant la collecte",
+      "identity": "Votre identité",
+      "bank": "Votre compte bancaire",
+      "kyc": "Vos justificatifs",
+      "close": "Clôturer la collecte"
     },
     "ph": {
-      "org": "Choose an association"
+      "org": "Choisir une association",
+      "iban": "N°Iban. ex: FR69 3000 2000 0800 1000 0001",
+      "routing": "N°Routing"
+    },
+    "notes": {
+      "message": "Ce message est visible par vos proches et vous permet d’en dire plus au sujet de la cause soutenue.",
+      "iban": "Le compte sur lequel les fonds vous seront versés",
+      "documents": "Merci de bien vouloir ajouter vos documents d’identités. (Passeports ou CNI, Recto verso)",
+      "close": "Les fonds récoltés sont virés automatiquement sur votre compte bancaire 1 fois par semaine, les lundis, tant que la collecte n'est pas cloturée.",
+      "closed": "Le montant total de la collecte ({{stats.donations.total_f}}) sera viré sur le compte bancaire {{donation.iban}} d’ici 48 heures."
+    },
+    "warning": {
+      "documents": "Veillez à bien faire correspondre l’adresse renseignée ci-dessus avec celle figurant sur votre pièce  d’identité, ou vous pourriez être amenés à fournir un autre justificatif de domicile.",
+      "files": "Seuls les images au format .PNG ou .JPEG/.JPG d'une taille inférieure à 5Mo sont acceptées.",
+      "close": "Veuillez transmettre votre justificatif d’identité pour pouvoir clôturer cette collecte de dons."
     },
     "cta": {
-      "start": "Activate the fundraising",
-      "end": "End"
+      "start": "Activer la collecte",
+      "end": "Terminer",
+      "doc-recto": "Choisir le document (recto)",
+      "doc-verso": "Choisir le document (verso)",
+      "close": "Clôturer la collecte de dons"
     },
     "templates": {
       "family": [
-        "The whole family wishes to pay tribute to {{capitalize firstname}} by organizing a fundraising. "," For those who wish to contribute, we are organizing a fundraising in memory of {{capitalize firstname}}. ", "We are organizing a fundraising in memory of {{capitalize firstname}}. The amount raised will help our family finance the funeral. Many thanks for your generosity."
+        "Pour ceux qui le désirent, nous organisons une collecte de dons en mémoire de {{capitalize firstname}}."
       ],
       "org": [
-        "{{capitalize firstname}} served others in the association {{org}}. \n\nWe wish to continue this fight in his/her memory and organize a fundraising to support this association which was so dear to him/her. We believe this is what {{capitalize firstname}} would have liked. Thank you so much for your generosity. "," As you know, {{capitalize firstname}} has lost the battle to his/her illness after years of fighting. In memory of {{capitalize firstname}} and all the other victims of this disease, we have decided to support the {{org}} association to fund research and save thousands of future lives. Thank you for supporting this cause which is particularly close to our hearts. "," {{Capitalize firstname}} has always been committed to helping others and was involved in the association {{org}} which particularly touched him/her. Let's support this association in his/her honor. Many thanks for your generosity. "
+        "Nous savons que l'association {{org}} était très importante aux yeux de {{capitalize firstname}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
       ]
     }
   },
@@ -492,17 +527,18 @@
 
   "card-ft-donation": {
     "h1": "Faire un don",
-    "title": "Faire un don",
-    "text": "{{stats.donations.total_f}} par {{stats.donations.count}} donateur(s) au profit de {{donation.org.name}}.",
+    "title-family": "Collecte de dons au profit de la famille",
+    "title-org": "Collecte de dons au profit de “{{donation.org.name}}”",
+    "text-stats": "{{stats.donations.total_f}} récolté par {{stats.donations.count}} donateur(s).",
     "cta": "Faire un don",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "card-ft-donation-unset": {
     "h1": "Faire un don",
-    "title": "Activez une collecte de fonds",
-    "text": "En trois clics, au profit d'une cause qui était chère à {{firstname}}.",
-    "cta": "Activer",
+    "title": "Donnez l’opportunité à vos proches de contribuer à une cause chère au défunt",
+    "text": "L’ouverture d’une collecte de dons, permettra à vos proches de soutenir une cause précise ou de contribuer à l’organisation des obsèques",
+    "cta": "Activer la collecte",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
@@ -584,31 +620,34 @@
     "title": "Notification preferences"
   },
 
-  "managers": {
-    "steps": [{
-      "title": "Space Managers",
-      "subtitle": "",
-      "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/profile_6l1l.svg"
-    }, {
-      "title": "Add a manager",
-      "subtitle": "",
-      "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mention_6k5d.svg"
-    }],
-    "cta": {
-      "invite": "Add a manager",
-      "send-invite": "Send"
-    },
-    "message": "Hello,\n\nI added you as administrator of the InMemori space in tribute to {{firstname}} so that you can help me personalize and manage it. \n\nGeraldine from InMemori is at our disposal for any questions and can be reached at (617) 858 4572 or by email at contact@inmemori.com."
+  "managers-add": {
+    "title": "Add more managers",
+    "subtitle": "Renseignez l'adresse email des personnes que vous souhaitez inviter en tant que gestionnaire(s).",
+    "message": "Hello,\n\nI added you as administrator of the InMemori space in tribute to {{firstname}} so that you can help me personalize and manage it. \n\nGeraldine from InMemori is at our disposal for any questions and can be reached at (617) 858 4572 or by email at contact@inmemori.com.",
+    "cta": { "add": "Ajouter" }
   },
 
-  "list-invites": {
-    "title": "Guest list",
+  "managers-list": {
+    "title": "Managers",
+    "subtitle": "Les gestionnaires sont les administreurs de cet espace. Cliquez sur \"Ajouter un gestionnaire\" pour inviter une personne par mail.",
+    "cta": { "add": "Ajouter un gestionnaire" }
+  },
+
+  "invitation-list": {
+    "title": "Liste des invités",
+    "subtitle": "{{count}} personnes "
+  },
+
+  "invitations": {
     "status": {
       "pending": "Invitation sent",
       "pending-manager": "Invitation sent",
-      "active": "Guest",
-      "active-manager": "Administrator",
-      "revoked": "Access denied"
+      "active": "Invitation accepted",
+      "active-manager": "Manager",
+      "revoked": "Accèss revoked"
+    },
+    "ph": {
+      "search": "Search..."
     }
   },
 
