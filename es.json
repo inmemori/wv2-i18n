@@ -81,49 +81,59 @@
 
   "popups": {
     "delete-memory": {
-      "message": "Estás seguro de esta acción",
-      "btns": ["Si", "No"]
+      "message": "Are you sure you want to delete this message?",
+      "btns": ["Yes", "No"]
     }
   },
 
   "thank": {
-    "title": "Agradecimientos",
+    "title": "Give thanks",
     "labels": {
       "chat-him": "{{name}}",
-      "chat-you": "Usted",
-      "message": "Responder a {{name}} :"
+      "chat-you": "You",
+      "message": "Thank {{name}} :"
     },
     "cta": {
-      "thank": "Gracias"
+      "thank": "Send"
     }
   },
 
   "login": {
-    "err": "Identifiants invalides !",
+    "err": "Invalid credentials",
     "actions": {
-      "start": { "title": "", "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." },
-      "signup": { "title": "", "subtitle": "La famille souhaiterait connaitre l'identité des personnes consultant l'espace, merci d'indiquer votre nom" },
-      "swap": { "title": "Connectez vous !", "subtitle": "Cliquez sur le lien de connexion qui vient d'être envoyé par mail sur {{identifier}}" },
+      "start": {
+          "title": "Vous n'êtes pas connecté"
+        , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site."
+      },
+      "signup": {
+          "title": "Votre profile"
+        , "subtitle": "Veuillez renseigner les informations"
+      },
+      "swap": {
+          "title": "Merci !"
+        , "subtitle": "Nous venons de vous envoyer par email un lien pour vous reconnecter à l’espace."
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
+      },
       "custom": {
         "infos": {
-          "start": { "title": "Cet espace est privé", "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "This space is private. Please log in to access the site." }
         },
         "memories": {
-          "start": { "title": "Cet espace est privé", "subtitle": "Les messages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "The messages are private. Please log in to access the site." }
         },
         "share": {
-          "start": { "title": "Cet espace est privé", "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "The messages are private. Please log in to access the site." }
         },
         "settings": {
-          "start": { "title": "Paramètres de la page", "subtitle": "Les paramètres sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "The settings are private. Please log in to access the site." }
         }
       }
     }
   },
 
   "dates": {
-    "long": "ddd D MMM YYYY à HH[h]mm",
-    "short": "dddd D MMMM YYYY"
+    "long": "LLL",
+    "short": "LL"
   },
 
   "appnav": {
@@ -153,25 +163,29 @@
     ]
   },
 
+  "card-help": {
+    "title": "Besoin d'aide",
+    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage",
+    "cta": "Inviter un gestionnaire"
+  },
+
   "cart": {
     "labels": {
-      "item": "Articulo",
-      "qty": "Cantidad",
-      "price": "Precio",
-      "shipping": "Gastos de envío",
+      "item": "Item",
+      "qty": "Quantity",
+      "price": "Price",
+      "shipping": "Shipping",
       "total": "Total"
     }
   },
 
   "invoice": {
-    "with": "Utilizar otra dirección para facturar"
+    "with": "Use a different address for billing "
   },
 
   "tx": {
-    "receipt": "Su pago por {{tx.amount_f}} ha sido registrado !\nRéférence : {{tx.ch_id}}"
+    "receipt": "Your payment of {{tx.amount_f}} has been received\nReference : {{tx.ch_id}}"
   },
-
-
 
   "places": {
 
@@ -216,72 +230,72 @@
 
   "ft-book": {
     "steps": [{
-      "title": "Presentación del libro InMemori",
-      "subtitle": "El libro InMemori reune todos los mensajes y fotografías compartidos por sus seres queridos. Su diseño es elaborado por el equipo de InMemori."
+      "title": "InMemori book presentation",
+      "subtitle": "The InMemori book brings together all the messages and photos shared by your loved ones. Its layout is designed by the InMemori team."
     }, {
-      "title": "Mi carrito",
+      "title": "Cart",
       "subtitle": ""
     }, {
-      "title": "Entrega",
+      "title": "Shipping",
       "subtitle": ""
     }, {
-      "title": "Finaliza el pedido",
+      "title": "Place order",
       "subtitle": ""
     }, {
-      "title": "Pedido completado",
+      "title": "Order registered",
       "subtitle": ""
     }],
     "labels": {
       "message": "",
-      "item": "Libro"
+      "item": "Book"
     }
   },
 
   "ft-flower": {
     "steps": [{
-      "title": "Elige tu ramo",
-      "subtitle": "Tous les bouquets sont de taille moyenne et fournis avec une bulle d'eau afin de pouvoir être livrés sur le lieu des obsèques de votre choix."
+      "title": "Choose your bouquet",
+      "subtitle": "All bouquets are medium in size and supplied with a water bubble so that they can be delivered to the place of the funeral of your choice."
     }, {
-      "title": "Resumen de su elección",
+      "title": "Overview of your selection",
       "subtitle": ""
     }, {
-      "title": "La entrega",
+      "title": "Shipping",
       "subtitle": ""
     }, {
-      "title": "Finaliza el pedido",
+      "title": "Finalize the order",
       "subtitle": ""
     }, {
-      "title": "Gracias por su apoyo !",
+      "title": "Thank you for your support!",
       "subtitle": ""
     }],
     "labels": {
-      "shipping": "Elige el lugar de entrega :",
-      "message": "Agrega un mensaje a tu ramo :",
-      "item": "Ramo"
+      "shipping": "Choose the place of delivery:",
+      "message": "Add a message to your bouquet:",
+      "item": "Bouquet"
     },
     "ph": {
-      "message": "Su mensaje (se adjuntará al ramo)"
+      "message": "Your message (will be attached to the bouquet)"
     }
 
     ,
-    "label-interflora": "Notre fleuriste vous garantit une livraison 15 minutes avant le début des obsèques.",
-    "shipping-info": "Informations de livraison :\n{{shipping.name}}\n{{shipping.date_f}}"
+    "label-interflora": "",
+    "shipping-info": "Shipping information:\n{{shipping.name}}\n{{shipping.date_f}}"
   },
 
   "ft-donation": {
     "steps": [{
-      "title": "Faire un don",
-      "subtitle": "InMemori retiendra une commission de 4% sur le montant de votre don afin de financer les frais bancaires."
+      "title": "Make a domation",
+      "subtitle": "InMemori will retain a 4% commission on the amount of your donation to cover bank charges."
     }, {
-      "title": "Merci de votre soutien !",
+      "title": "Thank you for your support!",
       "subtitle": ""
     }],
     "labels": {
-      "amount": "Montant du don",
-      "custom": "Autre"
+      "amount": "Donation amount",
+      "custom": "Other"
     },
     "ph": {
-      "message": "Votre message"
+      "message": "Your message"
     }
   },
 
@@ -444,33 +458,39 @@
   },
 
   "edit-profile": {
-    "title": "Informations du défunt",
+    "title": "Information relating to your loved one",
+    "subtitle": "Ajoutez une photo de votre proche et modifiez, si besoin, ses informations.",
     "label": {
-      "firstname": "Prénom",
-      "lastname": "Nom",
-      "dob": "Date de naissance",
-      "dod": "Date de décès",
-      "photo": "Photo principale"
+      "firstname": "Name",
+      "lastname": "Last name",
+      "dob": "Date of birth",
+      "dod": "Date of death",
+      "photo": "Profile picture"
     },
     "ph": {
-      "firstname": "Prénom de votre proche",
-      "lastname": "Nom de votre proche",
-      "dob": "jj/mm/aaaa",
-      "dod": "jj/mm/aaaa"
+      "firstname": "Name of your loved one",
+      "lastname": "Last name of your loved one",
+      "dob": "mm/dd/yyyy",
+      "dod": "mm/dd/yyyy"
     }
   },
 
   "edit-intro": {
-    "title": "Texte d'accueil",
+    "title": "Notice of passing",
+    "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
     "label": {
-      "intro": "Écrivez un message afin de faire part à votre entourage du décès de {{capitalize firstname}}.",
-      "templates": "Besoin d'inspiration ?"
+      "templates": "Need inspiration?"
     },
     "templates": [
-        "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie que vous avez partagé avec {{firstname}}.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien."
+        "Dear family, dear friends,\nWe are very sad to announce the death of {{{firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years {{/ if}}. \n\nThis InMemori page is intended to collect your testimonies: a message, a memory or a photo, illustrating a moment you shared with {{firstname}}.\n\nThe information about the funeral is shown below. Thank you for your support."
       , ""
       , ""
     ]
+  },
+
+  "edit-places": {
+    "title": "Ajouter un/des évènements ",
+    "subtitle": "Renseignez ici le déroulé des obsèques en ajoutant les différentes étapes."
   },
 
   "new-memory": {
@@ -481,47 +501,47 @@
       "message-opt": "Joindre un message (facultatif)"
     },
     "cta": {
-      "share": "Partager",
-      "photo": "Joindre une photo"
+      "share": "Share",
+      "photo": "Add a picture"
     },
     "menu": [{
-      "title": "Merci pour vos mots !",
+      "title": "Thanks for your words !",
       "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Voir tous les hommages"
     }, {
-      "title": "Condoléances",
-      "subtitle": "Partagez votre soutien aux proches de {{firstname}}.",
+      "title": "Condolences",
+      "subtitle": "Express your feelings of support with {{firstname}}'s family.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Ecrire vos condoléances"
     }, {
-      "title": "Souvenir",
-      "subtitle": "Partagez un joli souvenir vécu avec {{firstname}}.",
+      "title": "Memories",
+      "subtitle": "Share a moment lived with {{firstname}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
       "cta": "Ajouter vos souvenirs"
     }, {
       "title": "Photos",
-      "subtitle": "Partagez un moment de vie vécu avec {{firstname}}.",
+      "subtitle": "The space becomes prettier with pictures.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
       "cta": "Ajouter vos photos"
     }]
   },
 
   "card-ft-group": {
-    "h1": "Les Présents"
+    "h1": "The gifts"
   },
 
   "card-ft-book": {
-    "title": "Le livre",
-    "text": "Garder une trace de tous les messages partagés sur InMemori",
-    "cta": "Commander le livre",
+    "title": "The book",
+    "text": "Keep a physical trace of all the messages shared on InMemori",
+    "cta": "Order the book",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
   },
 
   "card-ft-flower": {
-    "title": "Fleurs",
-    "text": "Faire livrer des fleurs sur les lieux de l’obsèque",
-    "cta": "Embellir la cérémonie",
+    "title": "Flowers",
+    "text": "Send flowers to the funeral place",
+    "cta": "Buy flowers",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Ce%CC%81re%CC%81monie.svg"
   },
 
@@ -542,82 +562,106 @@
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
-  "share": {
+  "tab-share": {
+
+    "title": "Partager",
+    "subtitle": "Aidez la famille à prévenir tous ceux qui ont connu {{firstname}}",
+    "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
+
+    "menu": {
+      "email": {
+        "title": "Email",
+        "subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{firstname}}.",
+        "cta": "Envoyer un email",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
+      },
+      "sms": {
+        "title": "SMS",
+        "subtitle": "Vous recevez par SMS le lien de l’espace de {{firstname}}, à transmettre à vos proches.",
+        "cta": "M’envoyer le lien par sms",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
+      },
+      "wa": {
+        "title": "Whatsapp",
+        "subtitle": "Partagez le lien via l'application Whatsapp.",
+        "cta": "Partager sur Whatsapp",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
+      }
+    },
 
     "message": {
       "email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.\n\nNous vous partageons son espace InMemori, privé, sur internet afin de lui rendre hommage. En vous rendant sur l'espace vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de ne pas oublier des personnes qui l'ont aimé(e), n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
       "sms": "message sms {{{link}}}",
-      "wa": "message whatsapp {{{link}}}"
+      "wa": "message whatsapp \n\n {{{link}}}"
     },
 
     "labels": {
-      "email-from": "De la part de :",
-      "email-to": "Envoyer à {{#if total}}{{total}} personne(s) {{/if}}:",
-      "email-message": "Message :",
-      "sms-from": "Vote numéro de mobile",
-      "sms-intro": "Partagez l'espace depuis votre mobile. Nous vous envoyons le lien par SMS, vous pouvez ensuite le repartager avec vos contacts."
+      "email-from": "From:",
+      "email-to": "Send to {{#if total}}{{total}} person(s) {{/if}}:",
+      "email-message": "Message:",
+      "sms-from": "Your phone number"
     },
 
     "ph": {
-      "email-from-name": "Votre Nom",
-      "email-from-email": "Votre Email",
+      "email-from-name": "Your name",
+      "email-from-email": "Your Email",
       "email-to": "Ex: alice@gmail.com, bob@gmail.com, ...",
-      "email-select": "Ajouter \"{{value}}\" à la liste"
+      "email-select": "Add \"{{value}}\" to the list"
     },
 
     "cta": {
-      "email": "Envoyer",
-      "sms": "M'envoyer le SMS",
-      "wa": "Ouvrir Whatsapp",
-      "list": "Liste des invités"
+      "email": "Send",
+      "sms": "Send me the SMS",
+      "wa": "Open Whatsapp",
+      "list": "Guest list"
     }
-
   },
 
   "tab-infos": {
-    "promo": "Les obsèques sont organisées par {{{name}}}.{{#if phone}} {{phone}}{{/if}}"
+    "promo": "The funeral is being organized by {{{name}}}.{{#if phone}} {{phone}}{{/if}}"
   },
 
   "tab-settings": {
-    "cta": {
-      "admins": {
-        "text": "Gestionnaires de l'espace",
-        "icon": "fas fa-user-cog"
+    "title": "Manage the space",
+    "subtitle": "Connecté(e) en tant que {{profile.email}}",
+    "options": {
+      "managers": {
+        "title": "Liste des gestonnaires de l’espace",
+        "cta": "Voir la liste",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
       "donation": {
-        "text": "Gérer la collecte de dons",
-        "icon": "fas fa-hand-holding-heart"
+        "title": "Gestion de la collecte de dons",
+        "cta": "Gérer la collecte ",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "donation-start": {
-        "text": "Activer la collecte de dons",
-        "icon": "fas fa-hand-holding-heart"
-      },
-      "flowers": {
-        "text": "Activer la commande de fleurs",
-        "icon": "fas fa-seedling"
-      },
-      "notifs": {
-        "text": "Préférences de notifications",
-        "icon": "fas fa-bell"
-      },
-      "more": {
-        "text": "Plus",
-        "icon": "fas fa-ellipsis-v"
-      },
-      "auth": {
-        "text": "Connecté avec {{as}}"
+        "title": "Activer la collecte de dons",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "logout": {
-        "text": "Se Déconnecter"
+        "title": "Connecté avec {{as}}",
+        "cta": "Se Déconnecter",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
       },
       "delete": {
-        "text": "Supprimer la page en hommage à {{capitalize firstname}}"
+        "title": "{{fullname}}",
+        "cta": "Supprimer cet espace",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589971318/web-assets/picto/trash.svg"
+      },
+      "flowers": {
+        "title": "Activer la commande de fleurs",
+        "icon": ""
+      },
+      "notifs": {
+        "title": "Préférences de notifications",
+        "icon": ""
       }
     }
   },
 
   "manage-notifs": {
-    "title": "Préférences de notifications"
+    "title": "Notification preferences"
   },
 
   "managers-add": {
@@ -653,79 +697,78 @@
 
   "card-stats": {
     "labels": {
-      "views": "Visites",
-      "memories": "Messages",
-      "donations": "Dons",
-      "collected": "Collectés"
+      "views": "View(s)",
+      "memories": "Message(s)",
+      "donations": "Donation(s)",
+      "collected": "Collected"
     }
   },
 
   "organisations": [
-    "Action contre la Faim", "AIDES", "AFM-Téléthon", "Association des paralysés de France", "Autisme France", "Amnesty International", "Croix Rouge", "Emmaüs", "Fondation Abbé Pierre", "Fondation pour la recherche médicale", "Fonds pour les Soins Palliatifs", "France Alzheimer", "Handicap International", "Les petits frères des Pauvres", "Les Restos du Coeur", "Ligue contre le cancer", "Mécénat chirurgie cardiaque enfants du monde", "Médecins du Monde", "Médecins sans frontières", "Secours catholique", "Secours populaire", "Secours islamique", "Sidaction", "Sourire à la vie", "Unicef", "Vaincre la mucoviscidose"
+    ""
   ],
 
   "banners": {
       "s-manager|check-places": {
           "icon": "fas fa-info-circle"
-        , "text": "Pour commencer, validez les différentes étapes de la cérémonie"
-        , "cta": "Je valide"
-        , "ctb": "Éditer"
+        , "text": "To begin, re-read the ceremony information"
+        , "cta": "Validate"
+        , "ctb": "Edit"
       }
     , "s-manager|check-intro": {
           "icon": "fas fa-align-left"
-        , "text": "Validez le mot d'accueil de la page"
-        , "cta": "Je valide"
-        , "ctb": "Éditer"
+        , "text": "Re-read the notice of passing"
+        , "cta": "Validate"
+        , "ctb": "Edit"
       }
     , "s-manager|has-photo": {
           "icon": "fa fa-camera"
-        , "text": "Si vous le souhaitez, vous pouvez également choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
-        , "cta": "Choisir une photo"
-        , "ctb": "Plus tard"
+        , "text": "Choose a picture"
+        , "cta": "Select picture"
+        , "ctb": "Later"
       }
     , "s-manager|has-invited": {
           "icon": "fa fa-paper-plane"
-        , "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} sur cet espace."
-        , "cta": "Inviter"
-        , "ctb": "Plus tard"
+        , "text": "You can now invite {{capitalize firstname}}'s close ones to this space."
+        , "cta": "Invite"
+        , "ctb": "Later"
       }
     , "s-google|check-places": {
           "icon": "fas fa-info-circle"
-        , "text": "Avez-vous besoin d'ajouter un moment aux obsèques (réception)?"
-        , "cta": "Je valide"
-        , "ctb": "Éditer"
+        , "text": "Do you need to add an event to the funeral?"
+        , "cta": "Validate"
+        , "ctb": "Edit"
       }
     , "s-google|check-intro": {
           "icon": "fas fa-align-left"
-        , "text": "Pour commencer, validez le mot d'accueil de la page."
-        , "cta": "Je valide"
-        , "ctb": "Éditer"
+        , "text": "Validate the notice of passing"
+        , "cta": "Validate"
+        , "ctb": "Edit"
       }
     , "s-google|has-photo": {
           "icon": "fa fa-camera"
-        , "text": "Si vous le souhaitez, vous pouvez choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
-        , "cta": "Choisir une photo"
-        , "ctb": "Plus tard"
+        , "text": "Choose a picture"
+        , "cta": "Select picture"
+        , "ctb": "Later"
       }
     , "s-google|has-invited": {
           "icon": "fa fa-paper-plane"
-        , "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} sur cet espace."
-        , "cta": "Inviter"
-        , "ctb": "Plus tard"
+        , "text": "You can now invite {{capitalize firstname}}'s close ones to this space."
+        , "cta": "Invite"
+        , "ctb": "Later"
       }
     , "s-user|has-published": {
           "icon": "fas fa-feather-alt"
-        , "text": "Si vous le souhaitez, vous pouvez publier un mot ou une photo."
-        , "cta": "Publier"
-        , "ctb": "Plus tard"
+        , "text": "If you wish, you can share a word or a photo"
+        , "cta": "Post"
+        , "ctb": "Later"
       }
     , "s-user|has-invited": {
           "icon": "fa fa-paper-plane"
-        , "text": "Vous pouvez aider les proches de {{capitalize firstname}} à se recueillir. Invitez-les à rejoindre cet espace."
-        , "cta": "Inviter"
-        , "ctb": "Plus tard"
+        , "text": "You can help the close ones of {{capitalize firstname}} gather. Invite them to join this space. "
+        , "cta": "Invite"
+        , "ctb": "Later"
       }
-
   }
 
 }

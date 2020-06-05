@@ -5,10 +5,10 @@
     "identifier": "Identifiant",
     "password": "Mot de passe",
     "save": "Enregistrer",
-    "edit": "Modifier",
+    "edit": "Editer",
     "cancel": "Annuler",
     "next": "Suivant",
-    "prev": "Précèdent",
+    "prev": "Précédent",
     "back": "Retour",
     "share": "Partager",
     "pay": "Payer",
@@ -81,7 +81,7 @@
 
   "popups": {
     "delete-memory": {
-      "message": "Êtes vous sûr de cette acrtion ?",
+      "message": "Désirez-vous vraiment supprimer cet élément définitivement ?",
       "btns": ["Oui", "Non"]
     }
   },
@@ -103,7 +103,7 @@
     "actions": {
       "start": {
           "title": "Vous n'êtes pas connecté"
-        , "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site."
+        , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site."
       },
       "signup": {
           "title": "Votre profile"
@@ -116,7 +116,7 @@
       },
       "custom": {
         "infos": {
-          "start": { "subtitle": "Cet espace est privé. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site." }
         },
         "memories": {
           "start": { "subtitle": "Les messages sont privés. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site." }
@@ -142,7 +142,7 @@
     "share": "Partager",
     "settings": "Gestion",
     "help": "Aide",
-    "help-long": "Besois d'aide ?",
+    "help-long": "Besoin d'aide ?",
     "contact": "Appelez nous au",
     "phone": "01 43 54 23 55"
   },
@@ -165,8 +165,8 @@
 
   "card-help": {
     "title": "Besoin d'aide",
-    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aidez de le diffuser auprès de votre entourage",
-    "cta": "Inviter un Gestionnaire"
+    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage",
+    "cta": "Inviter un gestionnaire"
   },
 
   "cart": {
@@ -187,8 +187,6 @@
     "receipt": "Votre paiement de {{tx.amount_f}} a bien été enregistré !\nRéférence : {{tx.ch_id}}"
   },
 
-
-
   "places": {
 
     "h1": "Les rendez-vous",
@@ -199,7 +197,7 @@
       "inhumation": "Inhumation",
       "interment": "Enterrement",
       "cremation": "Crémation",
-      "gathering": "Collation",
+      "gathering": "Verre du souvenir",
       "reception": "Réception"
     },
 
@@ -225,7 +223,7 @@
 
     "cta": {
       "delete": "Supprimer l’évènement",
-      "add": "Ajouter une cérémonie"
+      "add": "Ajouter un évènement"
     }
 
   },
@@ -233,7 +231,7 @@
   "ft-book": {
     "steps": [{
       "title": "Présentation du livre InMemori",
-      "subtitle": "Le livre InMemori rassemble l’ensemble des messages et photos partagés par vos proches. Sa mise en page est réalisée par les équipes d'InMemori."
+      "subtitle": "Cet ouvrage rassemble l'ensemble des messages et photos partagés par vos proches."
     }, {
       "title": "Mon panier",
       "subtitle": ""
@@ -267,7 +265,7 @@
       "title": "Finalisez la commande",
       "subtitle": ""
     }, {
-      "title": "Merci de votre soutien !",
+      "title": "Merci de votre soutien!",
       "subtitle": ""
     }],
     "labels": {
@@ -289,7 +287,7 @@
       "title": "Faire un don",
       "subtitle": "InMemori retiendra une commission de 4% sur le montant de votre don afin de financer les frais bancaires."
     }, {
-      "title": "Merci de votre soutien !",
+      "title": "Merci de votre soutien!",
       "subtitle": ""
     }],
     "labels": {
@@ -394,7 +392,7 @@
     },
     "templates": {
       "family": [
-        "Pour ceux qui le désirent, nous organisons une collecte de dons en mémoire de {{capitalize firstname}}."
+        "Nous savons que l'association {{org}} était très importante aux yeux de {{capitalize firstname}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
       ],
       "org": [
         "Nous savons que l'association {{org}} était très importante aux yeux de {{capitalize firstname}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
@@ -413,8 +411,8 @@
         {
             "key": "defunct"
           , "label": "Votre proche disparu"
-          , "title": "Informations du défunt"
-          , "subtitle": "Veuillez renseigner ici les informations relatives au défunt."
+          , "title": "Informations relatives à votre proche"
+          , "subtitle": "Vous êtes en train de créer un nouvel espace en hommage à votre proche disparu. Veuillez renseigner ses informations."
         },{
             "key": "contacts"
           , "label": "Vos coordonnées"
@@ -461,7 +459,7 @@
 
   "edit-profile": {
     "title": "A propos du défunt",
-    "subtitle": "Vous pouvez ajouter plus d’informations ou choisir une autre photo du défunt qui sera visible par tous les visiteurs invités.",
+    "subtitle": "Ajoutez une photo de votre proche et modifiez, si besoin, ses informations.",
     "label": {
       "firstname": "Prénom",
       "lastname": "Nom",
@@ -479,12 +477,12 @@
 
   "edit-intro": {
     "title": "Editer le texte d’accueil",
-    "subtitle": "Le texte ci-dessous vous permet de faire-part de la disparition de votre proche aux invités ayant accès à cet espace.",
+    "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
     "label": {
       "templates": "Besoin d'inspiration ?"
     },
     "templates": [
-        "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie que vous avez partagé avec {{firstname}}.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien."
+        "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori privé est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien."
       , ""
       , ""
     ]
@@ -499,12 +497,12 @@
     "ph": {
       "name": "Vos prénom et nom",
       "email": "Votre email",
-      "message": "Votre message",
-      "message-opt": "Joindre un message (facultatif)"
+      "message": "Saisissez votre message",
+      "message-opt": "Légende photo(facultatif)"
     },
     "cta": {
       "share": "Partager",
-      "photo": "Joindre une photo"
+      "photo": "Ajouter une photo"
     },
     "menu": [{
       "title": "Merci pour vos mots !",
@@ -530,7 +528,7 @@
   },
 
   "card-ft-group": {
-    "h1": "Les Présents"
+    "h1": "Rendre hommage"
   },
 
   "card-ft-book": {
@@ -543,7 +541,7 @@
   "card-ft-flower": {
     "title": "Fleurs",
     "text": "Faire livrer des fleurs sur les lieux de l’obsèque",
-    "cta": "Embellir la cérémonie",
+    "cta": "Faire livrer des fleurs",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Ce%CC%81re%CC%81monie.svg"
   },
 
@@ -605,10 +603,10 @@
     },
 
     "ph": {
-      "email-from-name": "Votre Nom",
+      "email-from-name": "Votre prénom et nom",
       "email-from-email": "Votre Email",
-      "email-to": "Ex: alice@gmail.com, bob@gmail.com, ...",
-      "email-select": "Ajouter \"{{value}}\" à la liste"
+      "email-to": "Exemple: alice@gmail.com, bob@gmail.com, ...",
+      "email-select": "Ajouter \"{{value}}\"."
     },
 
     "cta": {
@@ -617,7 +615,6 @@
       "wa": "Ouvrir Whatsapp",
       "list": "Liste des invités"
     }
-
   },
 
   "tab-infos": {
@@ -660,41 +657,6 @@
         "title": "Préférences de notifications",
         "icon": ""
       }
-    },
-    "cta": {
-      "admins": {
-        "text": "Gestionnaires de l'espace",
-        "icon": "fas fa-user-cog"
-      },
-      "donation": {
-        "text": "Gérer la collecte de dons",
-        "icon": "fas fa-hand-holding-heart"
-      },
-      "donation-start": {
-        "text": "Activer la collecte de dons",
-        "icon": "fas fa-hand-holding-heart"
-      },
-      "flowers": {
-        "text": "Activer la commande de fleurs",
-        "icon": "fas fa-seedling"
-      },
-      "notifs": {
-        "text": "Préférences de notifications",
-        "icon": "fas fa-bell"
-      },
-      "more": {
-        "text": "Plus",
-        "icon": "fas fa-ellipsis-v"
-      },
-      "auth": {
-        "text": "Connecté avec {{as}}"
-      },
-      "logout": {
-        "text": "Se Déconnecter"
-      },
-      "delete": {
-        "text": "Supprimer la page en hommage à {{capitalize firstname}}"
-      }
     }
   },
 
@@ -735,7 +697,7 @@
 
   "card-stats": {
     "labels": {
-      "views": "Visites",
+      "views": "Consultations",
       "memories": "Messages",
       "donations": "Dons",
       "collected": "Collectés"
@@ -807,7 +769,6 @@
         , "cta": "Inviter"
         , "ctb": "Plus tard"
       }
-
   }
 
 }

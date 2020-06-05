@@ -8,7 +8,7 @@
     "edit": "Edit",
     "cancel": "Cancel",
     "next": "Next",
-    "prev": "Back",
+    "prev": "Previous",
     "back": "Back",
     "share": "Share",
     "pay": "Pay",
@@ -99,23 +99,33 @@
   },
 
   "login": {
-    "err": "Wrong username or password",
+    "err": "Invalid credentials",
     "actions": {
-      "start": { "title": "", "subtitle": "This space is private. Please log in to access the site." },
-      "signup": { "title": "", "subtitle": "The family would like to know the identity of the people entering the space, please provide your name" },
-      "swap": { "title": "Connect!", "subtitle": "Click on the connection link that has been emailed to {{identifier}}" },
+      "start": {
+          "title": "Vous n'êtes pas connecté"
+        , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site."
+      },
+      "signup": {
+          "title": "Votre profile"
+        , "subtitle": "Veuillez renseigner les informations"
+      },
+      "swap": {
+          "title": "Merci !"
+        , "subtitle": "Nous venons de vous envoyer par email un lien pour vous reconnecter à l’espace."
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
+      },
       "custom": {
         "infos": {
-          "start": { "title": "This space is private", "subtitle": "This space is private. Please log in to access the site." }
+          "start": { "subtitle": "This space is private. Please log in to access the site." }
         },
         "memories": {
-          "start": { "title": "This space is private", "subtitle": "The messages are private. Please log in to access the site." }
+          "start": { "subtitle": "The messages are private. Please log in to access the site." }
         },
         "share": {
-          "start": { "title": "This space is private", "subtitle": "Les partages sont privés. Please log in to access the site." }
+          "start": { "subtitle": "The messages are private. Please log in to access the site." }
         },
         "settings": {
-          "start": { "title": "Page settings", "subtitle": "The settings are private. Please log in to access the site." }
+          "start": { "subtitle": "The settings are private. Please log in to access the site." }
         }
       }
     }
@@ -153,6 +163,12 @@
     ]
   },
 
+  "card-help": {
+    "title": "Besoin d'aide",
+    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage",
+    "cta": "Inviter un gestionnaire"
+  },
+
   "cart": {
     "labels": {
       "item": "Item",
@@ -170,8 +186,6 @@
   "tx": {
     "receipt": "Your payment of {{tx.amount_f}} has been received\nReference : {{tx.ch_id}}"
   },
-
-
 
   "places": {
 
@@ -202,14 +216,14 @@
     "ph": {
       "date": "mm/dd/yyyy",
       "time": "hh:mm",
-      "name": "Crématorium du Père Lachaise",
-      "address": "71 Rue des Rondeaux, 75020 Paris",
+      "name": "El Legado Funeral Home",
+      "address": "8212 Birchwood St. Pleasanton, CA 94566",
       "custom-type": "Enter text..."
     },
 
     "cta": {
       "delete": "Delete",
-      "add": "Add a stage"
+      "add": "Add event"
     }
 
   },
@@ -217,7 +231,7 @@
   "ft-book": {
     "steps": [{
       "title": "InMemori book presentation",
-      "subtitle": "The InMemori book brings together all the messages and photos shared by your loved ones. Its layout is designed out by the InMemori team."
+      "subtitle": "The InMemori book brings together all the messages and photos shared by your loved ones. Its layout is designed by the InMemori team."
     }, {
       "title": "Cart",
       "subtitle": ""
@@ -264,7 +278,7 @@
     }
 
     ,
-    "label-interflora": "Interflora vous garantit une livraison 15 minutes avant le début des obsèques.",
+    "label-interflora": "",
     "shipping-info": "Shipping information:\n{{shipping.name}}\n{{shipping.date_f}}"
   },
 
@@ -445,6 +459,7 @@
 
   "edit-profile": {
     "title": "Information relating to your loved one",
+    "subtitle": "Ajoutez une photo de votre proche et modifiez, si besoin, ses informations.",
     "label": {
       "firstname": "Name",
       "lastname": "Last name",
@@ -462,15 +477,20 @@
 
   "edit-intro": {
     "title": "Notice of passing",
+    "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
     "label": {
-      "intro": "Write a message to let your friends and family know of the passing of your loved one.",
       "templates": "Need inspiration?"
     },
     "templates": [
         "Dear family, dear friends,\nWe are very sad to announce the death of {{{firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years {{/ if}}. \n\nThis InMemori page is intended to collect your testimonies: a message, a memory or a photo, illustrating a moment you shared with {{firstname}}.\n\nThe information about the funeral is shown below. Thank you for your support."
-      , "It is with a heavy heart that we share the passing of {{fullname}} {{# if dod}}, which occurred on {{dod}} {{/ if}}."
-      , "This space is intended for the family and all those who knew and loved {{fullname}} {{# if dod}}, who died last {{dod}} {{/ if}}. {{firstname}} will remain in our hearts forever. \n\nDo not hesitate to leave a message, a memory or a photo on this space. Sincerely."
+      , ""
+      , ""
     ]
+  },
+
+  "edit-places": {
+    "title": "Ajouter un/des évènements ",
+    "subtitle": "Renseignez ici le déroulé des obsèques en ajoutant les différentes étapes."
   },
 
   "new-memory": {
@@ -481,47 +501,47 @@
       "message-opt": "Joindre un message (facultatif)"
     },
     "cta": {
-      "share": "Partager",
-      "photo": "Joindre une photo"
+      "share": "Share",
+      "photo": "Add a picture"
     },
     "menu": [{
-      "title": "Merci pour vos mots !",
+      "title": "Thanks for your words !",
       "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Voir tous les hommages"
     }, {
-      "title": "Condoléances",
-      "subtitle": "Partagez votre soutien aux proches de {{firstname}}.",
+      "title": "Condolences",
+      "subtitle": "Express your feelings of support with {{firstname}}'s family.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Ecrire vos condoléances"
     }, {
-      "title": "Souvenir",
-      "subtitle": "Partagez un joli souvenir vécu avec {{firstname}}.",
+      "title": "Memories",
+      "subtitle": "Share a moment lived with {{firstname}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
       "cta": "Ajouter vos souvenirs"
     }, {
       "title": "Photos",
-      "subtitle": "Partagez un moment de vie vécu avec {{firstname}}.",
+      "subtitle": "The space becomes prettier with pictures.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
       "cta": "Ajouter vos photos"
     }]
   },
 
   "card-ft-group": {
-    "h1": "Les Présents"
+    "h1": "The gifts"
   },
 
   "card-ft-book": {
-    "title": "Le livre",
-    "text": "Garder une trace de tous les messages partagés sur InMemori",
-    "cta": "Commander le livre",
+    "title": "The book",
+    "text": "Keep a physical trace of all the messages shared on InMemori",
+    "cta": "Order the book",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
   },
 
   "card-ft-flower": {
-    "title": "Fleurs",
-    "text": "Faire livrer des fleurs sur les lieux de l’obsèque",
-    "cta": "Embellir la cérémonie",
+    "title": "Flowers",
+    "text": "Send flowers to the funeral place",
+    "cta": "Buy flowers",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Ce%CC%81re%CC%81monie.svg"
   },
 
@@ -542,20 +562,44 @@
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
-  "share": {
+  "tab-share": {
+
+    "title": "Partager",
+    "subtitle": "Aidez la famille à prévenir tous ceux qui ont connu {{firstname}}",
+    "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
+
+    "menu": {
+      "email": {
+        "title": "Email",
+        "subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{firstname}}.",
+        "cta": "Envoyer un email",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
+      },
+      "sms": {
+        "title": "SMS",
+        "subtitle": "Vous recevez par SMS le lien de l’espace de {{firstname}}, à transmettre à vos proches.",
+        "cta": "M’envoyer le lien par sms",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
+      },
+      "wa": {
+        "title": "Whatsapp",
+        "subtitle": "Partagez le lien via l'application Whatsapp.",
+        "cta": "Partager sur Whatsapp",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
+      }
+    },
 
     "message": {
-      "email": "Hello,\n\nIt is with great sadness that we announce the death of {{fullname}}. \n\nWe share with you this private InMemori space on the internet to pay tribute to their life. By going to the space you can:\n\n- Consult the information about the funeral \n- Share a condolence, a memory, a photo \n\nWe appreciate your messages of support during these difficult times. \n\nDo not hesitate to share this space with all the people touched by {{fullname}}'s life.",
-      "sms": "sms message{{{link}}}",
-      "wa": "whatsapp message {{{link}}}"
+      "email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.\n\nNous vous partageons son espace InMemori, privé, sur internet afin de lui rendre hommage. En vous rendant sur l'espace vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de ne pas oublier des personnes qui l'ont aimé(e), n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
+      "sms": "message sms {{{link}}}",
+      "wa": "message whatsapp \n\n {{{link}}}"
     },
 
     "labels": {
       "email-from": "From:",
       "email-to": "Send to {{#if total}}{{total}} person(s) {{/if}}:",
       "email-message": "Message:",
-      "sms-from": "Your phone number",
-      "sms-intro": "Share the page from your mobile. We’ll send you the link by SMS, and you can share it with your contacts. "
+      "sms-from": "Your phone number"
     },
 
     "ph": {
@@ -571,7 +615,6 @@
       "wa": "Open Whatsapp",
       "list": "Guest list"
     }
-
   },
 
   "tab-infos": {
@@ -579,39 +622,40 @@
   },
 
   "tab-settings": {
-    "cta": {
-      "admins": {
-        "text": "Manage the space",
-        "icon": "fas fa-user-cog"
+    "title": "Manage the space",
+    "subtitle": "Connecté(e) en tant que {{profile.email}}",
+    "options": {
+      "managers": {
+        "title": "Liste des gestonnaires de l’espace",
+        "cta": "Voir la liste",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
       "donation": {
-        "text": "Manage the fundraising",
-        "icon": "fas fa-hand-holding-heart"
+        "title": "Gestion de la collecte de dons",
+        "cta": "Gérer la collecte ",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "donation-start": {
-        "text": "Activate a fundraising",
-        "icon": "fas fa-hand-holding-heart"
-      },
-      "flowers": {
-        "text": "Activate the flower delivery",
-        "icon": "fas fa-seedling"
-      },
-      "notifs": {
-        "text": "Notification preferences",
-        "icon": "fas fa-bell"
-      },
-      "more": {
-        "text": "Plus",
-        "icon": "fas fa-ellipsis-v"
-      },
-      "auth": {
-        "text": "Connect as{{as}}"
+        "title": "Activer la collecte de dons",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "logout": {
-        "text": "Logout"
+        "title": "Connecté avec {{as}}",
+        "cta": "Se Déconnecter",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
       },
       "delete": {
-        "text": "Delete the page in honor of {{capitalize firstname}}"
+        "title": "{{fullname}}",
+        "cta": "Supprimer cet espace",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589971318/web-assets/picto/trash.svg"
+      },
+      "flowers": {
+        "title": "Activer la commande de fleurs",
+        "icon": ""
+      },
+      "notifs": {
+        "title": "Préférences de notifications",
+        "icon": ""
       }
     }
   },
@@ -661,7 +705,7 @@
   },
 
   "organisations": [
-    "Action contre la Faim", "AIDES", "AFM-Téléthon", "Association des paralysés de France", "Autisme France", "Amnesty International", "Croix Rouge", "Emmaüs", "Fondation Abbé Pierre", "Fondation pour la recherche médicale", "Fonds pour les Soins Palliatifs", "France Alzheimer", "Handicap International", "Les petits frères des Pauvres", "Les Restos du Coeur", "Ligue contre le cancer", "Mécénat chirurgie cardiaque enfants du monde", "Médecins du Monde", "Médecins sans frontières", "Secours catholique", "Secours populaire", "Secours islamique", "Sidaction", "Sourire à la vie", "Unicef", "Vaincre la mucoviscidose"
+    ""
   ],
 
   "banners": {
@@ -715,7 +759,7 @@
       }
     , "s-user|has-published": {
           "icon": "fas fa-feather-alt"
-        , "text": "If you wish, you can post a word or a photo"
+        , "text": "If you wish, you can share a word or a photo"
         , "cta": "Post"
         , "ctb": "Later"
       }
