@@ -316,14 +316,14 @@
         , "cta": "Activer la collecte"
       },{
           "key": "config"
-        , "label": "Informations"
-        , "title": "Informations"
+        , "label": "Bénéficiaire"
+        , "title": "Bénéficiaire"
         , "subtitle": "Qui sera le bénéficiaire de cette collecte ?"
         , "cta": "Suivant"
       },{
           "key": "bank"
-        , "label": "Compte bancaire"
-        , "title": "Compte bancaire"
+        , "label": "Organisateur"
+        , "title": "Organisateur"
         , "subtitle": "Pour collecter de l'argent sur Internet, la loi exige que l'organisateur soit identifié et fournisse les informations suivantes."
         , "cta": "Activer la collecte"
       },{
