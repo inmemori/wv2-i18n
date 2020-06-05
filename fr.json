@@ -373,8 +373,8 @@
     },
     "notes": {
       "message": "Ce message est visible par vos proches et vous permet d’en dire plus au sujet de la cause soutenue.",
-      "iban": "Le compte sur lequel les fonds vous seront versés",
-      "documents": "Merci de bien vouloir ajouter vos documents d’identités. (Passeports ou CNI, Recto verso)",
+      "iban": "Le compte sur lequel les fonds vous seront versés.",
+      "documents": "Merci de bien vouloir ajouter vos documents d’identités (Passeports ou CNI, Recto verso).",
       "close": "Les fonds récoltés sont virés automatiquement sur votre compte bancaire 1 fois par semaine, les lundis, tant que la collecte n'est pas cloturée.",
       "closed": "Le montant total de la collecte ({{stats.donations.total_f}}) sera viré sur le compte bancaire {{donation.iban}} d’ici 48 heures."
     },
