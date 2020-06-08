@@ -711,25 +711,25 @@
   "banners": {
       "s-manager|check-places": {
           "icon": "fas fa-info-circle"
-        , "text": "Pour commencer, validez les différentes étapes de la cérémonie"
-        , "cta": "Je valide"
-        , "ctb": "Éditer"
+        , "text": "Avez-vous besoin d'ajouter / modifier un évenement ?"
+        , "cta": "Ajouter"
+        , "ctb": "Plus tard"
       }
     , "s-manager|check-intro": {
           "icon": "fas fa-align-left"
-        , "text": "Validez le mot d'accueil de la page"
-        , "cta": "Je valide"
+        , "text": "Pour commencez, validez le mot d'accueil de la page."
+        , "cta": "Valider"
         , "ctb": "Éditer"
       }
     , "s-manager|has-photo": {
           "icon": "fa fa-camera"
-        , "text": "Si vous le souhaitez, vous pouvez également choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
-        , "cta": "Choisir une photo"
+        , "text": "Souhaitez-vous ajouter une photo de {{capitalize firstname}} ?"
+        , "cta": "Ajouter"
         , "ctb": "Plus tard"
       }
     , "s-manager|has-invited": {
           "icon": "fa fa-paper-plane"
-        , "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} sur cet espace."
+        , "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} à accéder à cet espace."
         , "cta": "Inviter"
         , "ctb": "Plus tard"
       }
