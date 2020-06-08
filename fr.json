@@ -438,7 +438,7 @@
         , "success": "Merci ! L'espace en hommage à\n{{fullname}} a bien été créé."
       }
     , "cta": {
-          "create": "Créer l'espace"
+          "create": "Valider"
         , "go": "Découvrir l’espace"
       }
     , "errs": {
