@@ -110,7 +110,7 @@
         , "subtitle": "Veuillez renseigner les informations"
       },
       "swap": {
-          "title": "Merci !"
+          "title": "Gracias!"
         , "subtitle": "Nous venons de vous envoyer par email un lien pour vous reconnecter à l’espace."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },
