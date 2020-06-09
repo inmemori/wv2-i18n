@@ -19,7 +19,7 @@
     "firstname": "Prénom",
     "lastname": "Nom",
     "fullname": "Nom complet",
-    "email": "Email",
+    "email": "Exemple : alice@gmail.com, bob@gmail.com",
     "phone": "Téléphone",
     "address": "Adresse",
     "address-info": "Informations complémentaires (digicode, étage...)",
