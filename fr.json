@@ -11,7 +11,7 @@
     "prev": "Précédent",
     "back": "Retour",
     "share": "Partager",
-    "pay": "Payer",
+    "pay": "Payer {{amount}}",
     "end": "Terminer",
     "suggest": "Suggestion",
     "showmore": "Voir plus",
