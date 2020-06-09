@@ -57,23 +57,23 @@
     ],
     "manager": [
       {
-          "title": "Communiquez simplement le déroulé des obsèques"
-        , "text": "1 clic suffit pour informer toutes les personnes concernées."
+          "title": "Communiquez les détails logistiques simplement"
+        , "text": "Communiquez à vos proches les informations relatives aux obsèques en leur partageant cet espace en un clic."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Offrez un espace de communication consacré"
-        , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
+          "title": "Offrez à vos proches un espace de commémoration consacré"
+        , "text": "Vos proches pourront partager un message ou une photo et faire livrer des fleurs sur le lieux des obsèques."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Gérez cet espace en toute liberté"
-        , "text": "Vous avez la main sur tout, et nous sommes là pour vous aider"
+          "title": "Découvrez un espace intime d'hommage et de partage"
+        , "text": "Rendez hommage à {{firstname}} sur cet espace intime et sécurisé. Vous avez la main et décidez qui peut y accéder."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Gardez chez vous la trace des messages reçus."
-        , "text": "En imprimant le livre qui compile tous les messages publiés ici. En imprimant le livre qui compile tous les messages publiés ici."
+          "title": "Gardez la trace des messages reçus"
+        , "text": "En imprimant un livre qui compile tous les messages partagés sur cet espace par votre entourage."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
     ]
