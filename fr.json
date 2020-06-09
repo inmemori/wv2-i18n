@@ -284,8 +284,8 @@
 
   "ft-donation": {
     "steps": [{
-      "title": "Faire un don",
-      "subtitle": "InMemori retiendra une commission de 4% sur le montant de votre don afin de financer les frais bancaires."
+      "title": "Finaliser votre don",
+      "subtitle": "Afin de couvrir les différents frais de collecte d'argent en ligne, une commission de 4% est ajoutée au montant de votre don."
     }, {
       "title": "Merci de votre soutien!",
       "subtitle": ""
