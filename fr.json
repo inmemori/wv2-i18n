@@ -736,8 +736,8 @@
     , "s-google|check-places": {
           "icon": "fas fa-info-circle"
         , "text": "Avez-vous besoin d'ajouter / modifier un événement ?"
-        , "cta": "Valider"
-        , "ctb": "Éditer"
+        , "cta": "Ajouter"
+        , "ctb": "Plus tard"
       }
     , "s-google|check-intro": {
           "icon": "fas fa-align-left"
