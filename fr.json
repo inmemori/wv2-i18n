@@ -45,13 +45,13 @@
   "showcase": {
     "user": [
       {
-          "title": "Communiquez simplement le déroulé des obsèques"
-        , "text": "1 clic suffit pour informer toutes les personnes concernées."
+          "title": "Invitez les personnes chères à {{firstname}}"
+        , "text": "Partagez cet espace avec les proches du défunt désireux de se recueillir et lui rendre hommage."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Offrez un espace de communication consacré"
-        , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
+          "title": "Rendez hommage à votre proche disparu"
+        , "text": "Cet espace d'intimité rassemble les proche de {(firstname}} et vous permet de partager un message, un souvenir ou une photo."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
     ],
