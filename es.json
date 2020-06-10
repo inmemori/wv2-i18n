@@ -2,18 +2,18 @@
   "common": {
     "author": "Autor",
     "family": "familia",
-    "identifier": "Identificador",
+    "identifier": "Usuario",
     "password": "Contraseña",
     "save": "Guardar",
     "edit": "Editar",
     "cancel": "Cancelar",
     "next": "Siguiente",
     "prev": "Anterior",
-    "back": "Anterior",
+    "back": "Atrás",
     "share": "Compartir",
     "pay": "Pago",
-    "end": "Terminar",
-    "suggest": "Sugerencia",
+    "end": "Finalizar",
+    "suggest": "Sugerencias",
     "showmore": "Ver mas",
     "name": "Nombre",
     "firstname": "Nombre",
@@ -26,13 +26,13 @@
     "city": "Ciudad",
     "zipcode": "Código Postal",
     "country": "País",
-    "vat": "Numéro de TVA",
+    "vat": "IVA",
     "shipping": "Envío",
     "dob": "Fecha de nacimiento",
     "dod": "Fecha de defunción",
     "ssn": "N° de seguro social",
     "routing": "N° Routing",
-    "iban": "N° Iban",
+    "iban": "Codigo Swift",
     "choose": "Elegir",
     "choose-file": "Elegir archivo",
     "uploading": "Cargando",
@@ -45,35 +45,35 @@
   "showcase": {
     "user": [
       {
-          "title": "Communiquez simplement le déroulé des obsèques"
-        , "text": "1 clic suffit pour informer toutes les personnes concernées."
+          "title": "Comunicar fácilmente la información del funeral"
+        , "text": "1 click es suficiente para informar a todos los interesados."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Offrez un espace de communication consacré"
-        , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
+          "title": "Ofrezca un espacio de comunicación dedicado"
+        , "text": "Mensajes, fotografías, recuerdos, todo lo que sus seres queridos publiquen aquí permanecerá con usted."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
     ],
     "manager": [
       {
-          "title": "Communiquez simplement le déroulé des obsèques"
-        , "text": "1 clic suffit pour informer toutes les personnes concernées."
+          "title": "Comunicar fácilmente la información del funeral"
+        , "text": "1 click es suficiente para informar a todos los interesados."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Offrez un espace de communication consacré"
-        , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
+          "title": "Ofrezca un espacio de comunicación dedicado"
+        , "text": "Mensajes, fotografías, recuerdos, todo lo que sus seres queridos publiquen aquí permanecerá con usted."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Gérez cet espace en toute liberté"
-        , "text": "Vous avez la main sur tout, et nous sommes là pour vous aider"
+          "title": "Administre este espacio libremente"
+        , "text": "Usted tiene el control sobre todo, y nosotros aquí estamos para ayudarlo"
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Gardez chez vous la trace des messages reçus."
-        , "text": "En imprimant le livre qui compile tous les messages publiés ici. En imprimant le livre qui compile tous les messages publiés ici."
+          "title": "Mantenga un rastro de todos los mensajes desde casa."
+        , "text": "Al imprimir el libro que incluye todos los mensajes publicados aquí."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
     ]
@@ -81,51 +81,51 @@
 
   "popups": {
     "delete-memory": {
-      "message": "Are you sure you want to delete this message?",
-      "btns": ["Yes", "No"]
+      "message": "¿Esta usted seguro que desea eliminar este mensaje?",
+      "btns": ["Si", "No"]
     }
   },
 
   "thank": {
-    "title": "Give thanks",
+    "title": "Enviar un agradecimiento",
     "labels": {
       "chat-him": "{{name}}",
-      "chat-you": "You",
-      "message": "Thank {{name}} :"
+      "chat-you": "Usted",
+      "message": "Gracias {{name}} :"
     },
     "cta": {
-      "thank": "Send"
+      "thank": "Enviar"
     }
   },
 
   "login": {
-    "err": "Invalid credentials",
+    "err": "Datos de acceso incorrectos",
     "actions": {
       "start": {
-          "title": "Vous n'êtes pas connecté"
-        , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site."
+          "title": "Usted no esta conectado"
+        , "subtitle": "Este espacio es privado. Por favor ingrese su correo eléctronico para accesar a las diferentes secciones de este sitio."
       },
       "signup": {
-          "title": "Votre profile"
-        , "subtitle": "Veuillez renseigner les informations"
+          "title": "Su perfil"
+        , "subtitle": "Por favor ingrese su información"
       },
       "swap": {
           "title": "Gracias!"
-        , "subtitle": "Nous venons de vous envoyer par email un lien pour vous reconnecter à l’espace."
+        , "subtitle": "Hemos enviado un correo electrónico con el link para reconectar al espacio."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },
       "custom": {
         "infos": {
-          "start": { "subtitle": "This space is private. Please log in to access the site." }
+          "start": { "subtitle": "Este espacio es privado. Por favor ingrese para acceder al sitio" }
         },
         "memories": {
-          "start": { "subtitle": "The messages are private. Please log in to access the site." }
+          "start": { "subtitle": "Los mensajes son privados. Por favor ingrese para acceder al sitio." }
         },
         "share": {
-          "start": { "subtitle": "The messages are private. Please log in to access the site." }
+          "start": { "subtitle": "Los mensajes son privados. Por favor ingrese para acceder al sitio." }
         },
         "settings": {
-          "start": { "subtitle": "The settings are private. Please log in to access the site." }
+          "start": { "subtitle": "La configuración es privada. Por favor ingrese para acceder al sitio." }
         }
       }
     }
@@ -137,12 +137,12 @@
   },
 
   "appnav": {
-    "info": "Accueil",
-    "memories": "Hommages",
-    "share": "Partager",
-    "settings": "Gestion",
-    "help": "Aide",
-    "help-long": "Besois d'aide ?",
+    "info": "Inicio",
+    "memories": "Mensajes",
+    "share": "Compartir",
+    "settings": "Administración",
+    "help": "Ayuda",
+    "help-long": "¿Necesita ayuda?",
     "contact": "Appelez nous au",
     "phone": "01 43 54 23 55"
   },
