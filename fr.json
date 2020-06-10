@@ -421,7 +421,7 @@
         },{
             "key": "places"
           , "label": "Déroulé des obsèques"
-          , "title": "Ajouter un/des évènements "
+          , "title": "Ajouter un /des évènements "
           , "subtitle": "Vous pouvez commencer à renseigner le déroulé des obsèques qui figurera sur l’espace de votre proche disparu."
         },{
             "key": "success"
@@ -489,7 +489,7 @@
   },
 
   "edit-places": {
-    "title": "Ajouter un/des évènements ",
+    "title": "Ajouter un /des évènements ",
     "subtitle": "Renseignez ici le déroulé des obsèques en ajoutant les différentes étapes."
   },
 
