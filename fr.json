@@ -515,7 +515,7 @@
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Ecrire vos condoléances"
     }, {
-      "title": "Souvenir",
+      "title": "Souvenirs",
       "subtitle": "Partagez un joli souvenir vécu avec {{firstname}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
       "cta": "Ajouter vos souvenirs"
