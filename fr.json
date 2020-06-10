@@ -450,7 +450,7 @@
     "ph": {
         "name": "Prénom et Nom"
       , "phone": "N° de mobile"
-      , "email": "Email"
+      , "email": "Exemple : alice@gmail.com, bob@gmail.com"
     },
     "cta": {
         "add": "Ajouter un contact"
