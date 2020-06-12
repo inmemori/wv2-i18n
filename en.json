@@ -47,35 +47,35 @@
   "showcase": {
     "user": [
       {
-          "title": "Communiquez simplement le déroulé des obsèques"
-        , "text": "1 clic suffit pour informer toutes les personnes concernées."
+          "title": "Easily communicate the funeral's information"
+        , "text": "1 click is enough to inform everyone involved."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Offrez un espace de communication consacré"
-        , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
+          "title": "Offer a dedicated communication space"
+        , "text": "Messages, photos, memories, everything that your loved ones post here will stay with you."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
     ],
     "manager": [
       {
-          "title": "Communiquez simplement le déroulé des obsèques"
-        , "text": "1 clic suffit pour informer toutes les personnes concernées."
+          "title": "Easily communicate the funeral's information"
+        , "text": "1 click is enough to inform everyone involved."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Offrez un espace de communication consacré"
-        , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
+          "title": "Offer a dedicated communication space"
+        , "text": "MMessages, photos, memories, everything that your loved ones post here will stay with you."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Gérez cet espace en toute liberté"
-        , "text": "Vous avez la main sur tout, et nous sommes là pour vous aider"
+          "title": "Manage this space freely"
+        , "text": "You have control over everything, and we're here to help."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Gardez chez vous la trace des messages reçus."
-        , "text": "En imprimant le livre qui compile tous les messages publiés ici. En imprimant le livre qui compile tous les messages publiés ici."
+          "title": "Keep a trace of all the messages at home."
+        , "text": "By printing the book which includes all the messages published here."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
     ]
@@ -104,16 +104,16 @@
     "err": "Invalid credentials",
     "actions": {
       "start": {
-          "title": "Vous n'êtes pas connecté"
-        , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site."
+          "title": "You are not connected"
+        , "subtitle": "This space is private. Please enter your email address to access the different sections of the site."
       },
       "signup": {
-          "title": "Votre profile"
-        , "subtitle": "Veuillez renseigner les informations"
+          "title": "Your profile"
+        , "subtitle": "Please fill in the information"
       },
       "swap": {
-          "title": "Merci !"
-        , "subtitle": "Nous venons de vous envoyer par email un lien pour vous reconnecter à l’espace."
+          "title": "Thank you!"
+        , "subtitle": "We just emailed you a link to reconnect to the space."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },
       "custom": {
@@ -139,26 +139,26 @@
   },
 
   "appnav": {
-    "info": "Accueil",
-    "memories": "Hommages",
-    "share": "Partager",
-    "settings": "Gestion",
-    "help": "Aide",
-    "help-long": "Besois d'aide ?",
-    "contact": "Appelez nous au",
-    "phone": "01 43 54 23 55"
+    "info": "Home",
+    "memories": "Tributes",
+    "share": "Share",
+    "settings": "Management",
+    "help": "Help",
+    "help-long": "Need help?",
+    "contact": "Call us at",
+    "phone": "(415) 532-3923"
   },
 
   "sidebar": {
     "actions": [
       {
-        "title": "Ecrire un hommage",
+        "title": "Write a tribute",
         "flow": "new-memory",
         "flowProps": { "currentStep": 1 },
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
       },
       {
-        "title": "Partagez cet espace",
+        "title": "Share this space",
         "flow": "tab-share",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
       }
@@ -166,14 +166,14 @@
   },
 
   "card-help": {
-    "title": "Besoin d'aide",
-    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage",
-    "cta": "Inviter un gestionnaire"
+    "title": "Need help",
+    "subtitle": "Invite a close one to become a page administrator by your side to help you share it to those around you",
+    "cta": "Invite an administrator"
   },
 
   "places": {
 
-    "h1": "Les rendez-vous",
+    "h1": "The ceremonies",
 
     "types": {
       "ceremony": "Ceremony",
@@ -443,57 +443,57 @@
     },
     "steps": [
         {
-            "key": "defunct"
-          , "label": "Votre proche disparu"
-          , "title": "Informations du défunt"
-          , "subtitle": "Veuillez renseigner ici les informations relatives au défunt."
+            "key": "deceased"
+          , "label": "Your departed loved one"
+          , "title": "Information of the deceased"
+          , "subtitle": "Please enter here the information relating to the deceased."
         },{
             "key": "contacts"
-          , "label": "Vos coordonnées"
-          , "title": "Vos coordonnées"
-          , "subtitle": "Aujourd'hui ou demain, notre équipe vous contactera pour répondre à vos questions."
+          , "label": "Your contact information"
+          , "title": "Your contact information"
+          , "subtitle": "Today or tomorrow, our team will contact you to answer any questions."
         },{
             "key": "places"
-          , "label": "Déroulé des obsèques"
-          , "title": "Ajouter un/des évènements "
-          , "subtitle": "Vous pouvez commencer à renseigner le déroulé des obsèques qui figurera sur l’espace de votre proche disparu."
+          , "label": "Funeral information"
+          , "title": "Add event(s)"
+          , "subtitle": "You can start to fill in the details of the funeral which will appear on the space of your loved one."
         },{
             "key": "success"
           , "label": ""
-          , "title": "Bienvenue !"
-          , "subtitle": "Votre espace en hommage à {{fullname}} a bien été créé."
+          , "title": "Welcome!"
+          , "subtitle": "Your space in honor of {{fullname}} has been created."
           , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
         }
       ]
     , "labels": {
-          "name": "Nom du défunt"
-        , "terms1": "En cliquant sur valider, vous consentez à nos "
-        , "terms2": "Conditions Générales d’Utilisation"
-        , "success": "Merci ! L'espace en hommage à\n{{fullname}} a bien été créé."
+          "name": "Name of the deceased"
+        , "terms1": "By clicking on confirm, you agree to our"
+        , "terms2": "Terms of Service"
+        , "success": "Thank you! The space in tribute to \n {{fullname}} has been created."
       }
     , "cta": {
-          "create": "Créer l'espace"
-        , "go": "Découvrir l’espace"
+          "create": "Create space"
+        , "go": "Discover the space"
       }
     , "errs": {
-          "contacts": "Contacts invalides ou manquants"
+          "contacts": "Invalid or missing contacts"
       }
   },
 
   "contacts": {
     "ph": {
-        "name": "Prénom et Nom"
-      , "phone": "N° de mobile"
+        "name": "First and last name"
+      , "phone": "Mobile number"
       , "email": "Email"
     },
     "cta": {
-        "add": "Ajouter un contact"
+        "add": "Add a contact"
     }
   },
 
   "edit-profile": {
     "title": "Information relating to your loved one",
-    "subtitle": "Ajoutez une photo de votre proche et modifiez, si besoin, ses informations.",
+    "subtitle": "Add a photo of your loved one and modify their information if necessary.",
     "label": {
       "firstname": "Name",
       "lastname": "Last name",
@@ -511,35 +511,35 @@
 
   "edit-intro": {
     "title": "Notice of passing",
-    "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
+    "subtitle": "The text below allows you to address everyone invited to the space.",
     "label": {
       "templates": "Need inspiration?"
     },
     "templates": [
-        "Dear family, dear friends,\nWe are very sad to announce the death of {{{firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years {{/ if}}. \n\nThis InMemori page is intended to collect your testimonies: a message, a memory or a photo, illustrating a moment you shared with {{firstname}}.\n\nThe information about the funeral is shown below. Thank you for your support."
+        "Dear family, dear friends,\nWe are very sad to announce the death of {{{firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years {{/ if}}. \n\nThis InMemori page is intended to collect your testimonials: a message, a memory or a photo, illustrating a moment you shared with {{firstname}}.\n\nThe information about the funeral is shown below. Thank you for your support."
       , ""
       , ""
     ]
   },
 
   "edit-places": {
-    "title": "Ajouter un/des évènements ",
-    "subtitle": "Renseignez ici le déroulé des obsèques en ajoutant les différentes étapes."
+    "title": "Add event(s)",
+    "subtitle": "Complete the funeral here by adding the different ceremonies."
   },
 
   "new-memory": {
     "ph": {
-      "name": "Vos prénom et nom",
-      "email": "Votre email",
-      "message": "Votre message",
-      "message-opt": "Joindre un message (facultatif)"
+      "name": "Your first name and last name",
+      "email": "Your email",
+      "message": "Your message",
+      "message-opt": "Attach a message (optional)"
     },
     "cta": {
       "share": "Share",
       "photo": "Add a picture"
     },
     "menu": [{
-      "title": "Thanks for your words !",
+      "title": "Thank you for your words!",
       "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Voir tous les hommages"

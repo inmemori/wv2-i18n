@@ -11,7 +11,7 @@
     "prev": "Précédent",
     "back": "Retour",
     "share": "Partager",
-    "pay": "Payer",
+    "pay": "Payer {{amount}}",
     "end": "Terminer",
     "suggest": "Suggestion",
     "showmore": "Voir plus",
@@ -19,7 +19,7 @@
     "firstname": "Prénom",
     "lastname": "Nom",
     "fullname": "Nom complet",
-    "email": "Email",
+    "email": "Exemple : alice@gmail.com, bob@gmail.com",
     "phone": "Téléphone",
     "address": "Adresse",
     "address-info": "Informations complémentaires (digicode, étage...)",
@@ -36,7 +36,7 @@
     "choose": "Choisir",
     "choose-file": "Choisir un fichier",
     "uploading": "Téléchargement",
-    "login": "S'identifier",
+    "login": "Se connecter",
     "delete": "Supprimer",
     "yes": "Oui",
     "no": "Non",
@@ -47,35 +47,35 @@
   "showcase": {
     "user": [
       {
-          "title": "Communiquez simplement le déroulé des obsèques"
-        , "text": "1 clic suffit pour informer toutes les personnes concernées."
+          "title": "Invitez les personnes chères à {{firstname}}"
+        , "text": "Partagez cet espace avec les proches du défunt désireux de se recueillir et lui rendre hommage."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Offrez un espace de communication consacré"
-        , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
+          "title": "Rendez hommage à votre proche disparu"
+        , "text": "Cet espace d'intimité rassemble les proche de {(firstname}} et vous permet de partager un message, un souvenir ou une photo."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
     ],
     "manager": [
       {
-          "title": "Communiquez simplement le déroulé des obsèques"
-        , "text": "1 clic suffit pour informer toutes les personnes concernées."
+          "title": "Communiquez les détails logistiques simplement"
+        , "text": "Communiquez à vos proches les informations relatives aux obsèques en leur partageant cet espace en un clic."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Offrez un espace de communication consacré"
-        , "text": "Messages, photos, souvenirs, tout ce que vos proches publieront ici restera entre vous."
+          "title": "Offrez à vos proches un espace de commémoration consacré"
+        , "text": "Vos proches pourront partager un message ou une photo et faire livrer des fleurs sur le lieux des obsèques."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Gérez cet espace en toute liberté"
-        , "text": "Vous avez la main sur tout, et nous sommes là pour vous aider"
+          "title": "Découvrez un espace intime d'hommage et de partage"
+        , "text": "Rendez hommage à {{firstname}} sur cet espace intime et sécurisé. Vous avez la main et décidez qui peut y accéder."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
       , {
-          "title": "Gardez chez vous la trace des messages reçus."
-        , "text": "En imprimant le livre qui compile tous les messages publiés ici. En imprimant le livre qui compile tous les messages publiés ici."
+          "title": "Gardez la trace des messages reçus"
+        , "text": "En imprimant un livre qui compile tous les messages partagés sur cet espace par votre entourage."
         , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
       }
     ]
@@ -146,7 +146,7 @@
     "help": "Aide",
     "help-long": "Besoin d'aide ?",
     "contact": "Appelez nous au",
-    "phone": "01 43 54 23 55"
+    "phone": "06 37 60 26 04"
   },
 
   "sidebar": {
@@ -346,18 +346,18 @@
           "key": "intro"
         , "label": "Collecte de dons"
         , "title": "Collecte de dons"
-        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause précise ou de contribuer aux obsèques"
+        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause précise ou de contribuer aux obsèques."
         , "cta": "Activer la collecte"
       },{
           "key": "config"
-        , "label": "Informations"
-        , "title": "Informations"
+        , "label": "Bénéficiaire"
+        , "title": "Bénéficiaire"
         , "subtitle": "Qui sera le bénéficiaire de cette collecte ?"
         , "cta": "Suivant"
       },{
           "key": "bank"
-        , "label": "Compte bancaire"
-        , "title": "Compte bancaire"
+        , "label": "Organisateur"
+        , "title": "Organisateur"
         , "subtitle": "Pour collecter de l'argent sur Internet, la loi exige que l'organisateur soit identifié et fournisse les informations suivantes."
         , "cta": "Activer la collecte"
       },{
@@ -382,7 +382,7 @@
       "subtitle": "et montrent leur soutien en contribuant à une cause pleine de sens.",
       "icon": ""
     }, {
-      "title": "Cloturez votre collecte",
+      "title": "Clôturez votre collecte",
       "subtitle": "et recevez l’argent par virement sur votre compte bancaire.",
       "icon": ""
     }, {
@@ -391,7 +391,7 @@
       "icon": ""
     }],
     "labels": {
-      "beneficiary": "Qui est le Bénéficiaire des fonds ?",
+      "beneficiary": "Qui sera le Bénéficiaire de cette collecte ?",
       "family": "La famille",
       "org": "Une association",
       "message": "Message concernant la collecte",
@@ -407,8 +407,8 @@
     },
     "notes": {
       "message": "Ce message est visible par vos proches et vous permet d’en dire plus au sujet de la cause soutenue.",
-      "iban": "Le compte sur lequel les fonds vous seront versés",
-      "documents": "Merci de bien vouloir ajouter vos documents d’identités. (Passeports ou CNI, Recto verso)",
+      "iban": "Le compte sur lequel les fonds vous seront versés.",
+      "documents": "Merci de bien vouloir ajouter vos documents d’identités (Passeports ou CNI, Recto verso).",
       "close": "Les fonds récoltés sont virés automatiquement sur votre compte bancaire 1 fois par semaine, les lundis, tant que la collecte n'est pas cloturée.",
       "closed": "Le montant total de la collecte ({{stats.donations.total_f}}) sera viré sur le compte bancaire {{donation.iban}} d’ici 48 heures."
     },
@@ -455,7 +455,7 @@
         },{
             "key": "places"
           , "label": "Déroulé des obsèques"
-          , "title": "Ajouter un/des évènements "
+          , "title": "Ajouter un /des évènements "
           , "subtitle": "Vous pouvez commencer à renseigner le déroulé des obsèques qui figurera sur l’espace de votre proche disparu."
         },{
             "key": "success"
@@ -472,7 +472,7 @@
         , "success": "Merci ! L'espace en hommage à\n{{fullname}} a bien été créé."
       }
     , "cta": {
-          "create": "Créer l'espace"
+          "create": "Valider"
         , "go": "Découvrir l’espace"
       }
     , "errs": {
@@ -484,7 +484,7 @@
     "ph": {
         "name": "Prénom et Nom"
       , "phone": "N° de mobile"
-      , "email": "Email"
+      , "email": "Exemple : alice@gmail.com, bob@gmail.com"
     },
     "cta": {
         "add": "Ajouter un contact"
@@ -523,7 +523,7 @@
   },
 
   "edit-places": {
-    "title": "Ajouter un/des évènements ",
+    "title": "Ajouter un /des évènements ",
     "subtitle": "Renseignez ici le déroulé des obsèques en ajoutant les différentes étapes."
   },
 
@@ -549,7 +549,7 @@
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Ecrire vos condoléances"
     }, {
-      "title": "Souvenir",
+      "title": "Souvenirs",
       "subtitle": "Partagez un joli souvenir vécu avec {{firstname}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
       "cta": "Ajouter vos souvenirs"
@@ -574,7 +574,7 @@
 
   "card-ft-flower": {
     "title": "Fleurs",
-    "text": "Faire livrer des fleurs sur les lieux de l’obsèque",
+    "text": "Faire livrer des fleurs sur les lieux de l’obsèque.",
     "cta": "Faire livrer des fleurs",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Ce%CC%81re%CC%81monie.svg"
   },
@@ -589,9 +589,9 @@
   },
 
   "card-ft-donation-unset": {
-    "h1": "Faire un don",
+    "h1": "Ouvrez une collecte de dons",
     "title": "Donnez l’opportunité à vos proches de contribuer à une cause chère au défunt",
-    "text": "L’ouverture d’une collecte de dons, permettra à vos proches de soutenir une cause précise ou de contribuer à l’organisation des obsèques",
+    "text": "L’ouverture d’une collecte de dons, permettra à vos proches de soutenir une cause précise ou de contribuer à l’organisation des obsèques.",
     "cta": "Activer la collecte",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
@@ -605,7 +605,7 @@
     "menu": {
       "email": {
         "title": "Email",
-        "subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{firstname}}.",
+        "subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{firstname}} grâce au lien contenu dans l'Email.",
         "cta": "Envoyer un email",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },
@@ -631,7 +631,7 @@
 
     "labels": {
       "email-from": "De la part de",
-      "email-to": "Envoyer à {{#if total}}{{total}} personne(s) {{/if}}",
+      "email-to": "A destination de {{#if total}}{{total}} personne(s) {{/if}}",
       "email-message": "Message",
       "sms-from": "Vote numéro de mobile"
     },
@@ -661,7 +661,7 @@
     "options": {
       "managers": {
         "title": "Liste des gestonnaires de l’espace",
-        "cta": "Voir la liste",
+        "cta": "Voir tous les gestionnaires",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
       "donation": {
@@ -674,7 +674,7 @@
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "logout": {
-        "title": "Connecté avec {{as}}",
+        "title": "Connecté(e)",
         "cta": "Se Déconnecter",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
       },
@@ -702,7 +702,7 @@
     "title": "Ajouter un gestionnaire",
     "subtitle": "Renseignez l'adresse email des personnes que vous souhaitez inviter en tant que gestionnaire(s).",
     "message": "Bonjour,\n\nJe t'ai ajouté comme administrateur de l'espace InMemori en hommage à {{firstname}} pour que tu m'aides à le personnaliser et à le gérer. \n\nConstance d'InMemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com.",
-    "cta": { "add": "Ajouter" }
+    "cta": "Envoyer"
   },
 
   "managers-list": {
@@ -745,49 +745,49 @@
   "banners": {
       "s-manager|check-places": {
           "icon": "fas fa-info-circle"
-        , "text": "Pour commencer, validez les différentes étapes de la cérémonie"
-        , "cta": "Je valide"
-        , "ctb": "Éditer"
+        , "text": "Avez-vous besoin d'ajouter / modifier un événement ?"
+        , "cta": "Ajouter"
+        , "ctb": "Plus tard"
       }
     , "s-manager|check-intro": {
           "icon": "fas fa-align-left"
-        , "text": "Validez le mot d'accueil de la page"
-        , "cta": "Je valide"
+        , "text": "Pour commencez, validez le mot d'accueil de la page."
+        , "cta": "Valider"
         , "ctb": "Éditer"
       }
     , "s-manager|has-photo": {
           "icon": "fa fa-camera"
-        , "text": "Si vous le souhaitez, vous pouvez également choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
-        , "cta": "Choisir une photo"
+        , "text": "Souhaitez-vous ajouter une photo de {{capitalize firstname}} ?"
+        , "cta": "Ajouter"
         , "ctb": "Plus tard"
       }
     , "s-manager|has-invited": {
           "icon": "fa fa-paper-plane"
-        , "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} sur cet espace."
+        , "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} à accéder à cet espace."
         , "cta": "Inviter"
         , "ctb": "Plus tard"
       }
     , "s-google|check-places": {
           "icon": "fas fa-info-circle"
-        , "text": "Avez-vous besoin d'ajouter un moment aux obsèques (réception)?"
-        , "cta": "Je valide"
-        , "ctb": "Éditer"
+        , "text": "Avez-vous besoin d'ajouter / modifier un événement ?"
+        , "cta": "Ajouter"
+        , "ctb": "Plus tard"
       }
     , "s-google|check-intro": {
           "icon": "fas fa-align-left"
         , "text": "Pour commencer, validez le mot d'accueil de la page."
-        , "cta": "Je valide"
+        , "cta": "Valider"
         , "ctb": "Éditer"
       }
     , "s-google|has-photo": {
           "icon": "fa fa-camera"
-        , "text": "Si vous le souhaitez, vous pouvez choisir une belle photo de {{capitalize firstname}} pour illustrer son espace."
-        , "cta": "Choisir une photo"
+        , "text": "Souhaitez-vous ajouter une photo de {{capitalize firstname}} ?"
+        , "cta": "Ajouter"
         , "ctb": "Plus tard"
       }
     , "s-google|has-invited": {
           "icon": "fa fa-paper-plane"
-        , "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} sur cet espace."
+        , "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} à accéder à cet espace."
         , "cta": "Inviter"
         , "ctb": "Plus tard"
       }
