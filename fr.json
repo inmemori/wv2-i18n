@@ -567,7 +567,7 @@
 
   "card-ft-book": {
     "title": "Le livre",
-    "text": "Garder une trace de tous les messages partagés sur InMemori",
+    "text": "Garder une trace de tous les messages partagés sur InMemori.",
     "cta": "Commander le livre",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
   },
