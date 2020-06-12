@@ -674,7 +674,7 @@
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "logout": {
-        "title": "Connected with {{as}}",
+        "title": "Connected as {{as}}",
         "cta": "Sign out",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
       },
