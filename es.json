@@ -235,7 +235,7 @@
   "ft-book": {
     "steps": [
       {
-          "key": "Introducción"
+          "key": "intro"
         , "label": "Ordenar un libro"
         , "title": "Presentación del libro"
         , "subtitle": "Este libro reúne todos los mensajes y fotografías compartidos por sus seres queridos."
@@ -271,7 +271,7 @@
   "ft-flower": {
     "steps": [
       {
-          "key": "Introducción"
+          "key": "intro"
         , "label": "Elija su ramo de flores"
         , "title": "Su elección"
         , "subtitle": "Todos los ramos de flores son de tamaño mediano y son entregados con una burbuja de agua para poder ser envíados al lugar del funeral de su elección."
@@ -313,7 +313,7 @@
   "ft-donation": {
     "steps": [
       {
-          "key": "introducción"
+          "key": "intro"
         , "label": "Su donación"
         , "title": "Su donación"
         , "subtitle": "Porfavor seleccione el monto que desea donar a la asociacion {{org}}."
@@ -344,33 +344,33 @@
     "steps": [
       {
           "key": "intro"
-        , "label": "Collecte de dons"
-        , "title": "Collecte de dons"
-        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause précise ou de contribuer aux obsèques"
-        , "cta": "Activer la collecte"
+        , "label": "Recaudación de fondos"
+        , "title": "Recaudación de fondos"
+        , "subtitle": "Recaudar fondos le permitirá a sus seres queridos apoyar una causa específica o contribuir con el funeral"
+        , "cta": "Activar la recaudación de fondos"
       },{
           "key": "config"
-        , "label": "Informations"
-        , "title": "Informations"
-        , "subtitle": "Qui sera le bénéficiaire de cette collecte ?"
-        , "cta": "Suivant"
+        , "label": "Información"
+        , "title": "Información"
+        , "subtitle": "Quién sera el beneficiario de esta recaudación?"
+        , "cta": "Siguiente"
       },{
           "key": "bank"
-        , "label": "Compte bancaire"
-        , "title": "Compte bancaire"
-        , "subtitle": "Pour collecter de l'argent sur Internet, la loi exige que l'organisateur soit identifié et fournisse les informations suivantes."
-        , "cta": "Activer la collecte"
+        , "label": "Cuenta bancaria"
+        , "title": "Cuenta bancaria"
+        , "subtitle": "Para recolectar dinero en Internet, la ley requiere que el organizador sea identificado y provea de la siguiente información."
+        , "cta": "Activar la recaudación de fondos"
       },{
           "key": "active"
         , "label": ""
-        , "title": "Gestion de la collecte de dons"
-        , "subtitle": "Une collecte est en cours au bénéfice de Ligue contre le cancer. À ce jour le montant des dons s'élève à :"
-        , "cta": "Enregistrer"
+        , "title": "Administrar la recaudación de fondos"
+        , "subtitle": "Una recaudación de fondos esta en marca en beneficio de la Asociación contra el cancer. Hasta el momento la suma de donaciones asciende a:"
+        , "cta": "Guardar"
       },{
           "key": "closed"
         , "label": ""
-        , "title": "Collecte clôturée"
-        , "subtitle": "Votre collecte de dons a été clôturée.\nUn email de confirmation vient de vous être envoyé."
+        , "title": "La recaudación de fondos ha sido cerrada"
+        , "subtitle": "Su recaudación de fondos ha sido cerrada.\nUn email de confirmación le ha sido enviado."
       }
     ],
     "tips": [{
