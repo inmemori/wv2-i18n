@@ -145,20 +145,20 @@
     "settings": "Administración",
     "help": "Ayuda",
     "help-long": "¿Necesita ayuda?",
-    "contact": "Appelez nous au",
+    "contact": "Número de contacto",
     "phone": "01 43 54 23 55"
   },
 
   "sidebar": {
     "actions": [
       {
-        "title": "Ecrire un hommage",
+        "title": "Escribir un mensaje de homenaje",
         "flow": "new-memory",
         "flowProps": { "currentStep": 1 },
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
       },
       {
-        "title": "Partagez cet espace",
+        "title": "Compartir espacio",
         "flow": "tab-share",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
       }
@@ -166,14 +166,14 @@
   },
 
   "card-help": {
-    "title": "Besoin d'aide",
-    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage",
-    "cta": "Inviter un gestionnaire"
+    "title": "¿Necesita ayuda?",
+    "subtitle": "Invite a un ser cercano a usted a convertirse en administrador del espacio en homenaje para ayudarle a compartir con aquellos a su alrededor",
+    "cta": "Invitar a un administrador"
   },
 
   "places": {
 
-    "h1": "Les rendez-vous",
+    "h1": "Las ceremonias",
 
     "types": {
       "ceremony": "Ceremonia",
@@ -200,14 +200,14 @@
     "ph": {
       "date": "dd/mm/aaaa",
       "time": "hh:mm",
-      "name": "Cimetière du Père Lachaise",
-      "address": "71 Rue des Rondeaux, 75020 Paris",
-      "custom-type": "Nommez ce moment"
+      "name": "Funeraria El Legado",
+      "address": "Av. Insurgentes Sur 3327, 75020 Mexico",
+      "custom-type": "Ingresar texto..."
     },
 
     "cta": {
       "delete": "Borrar",
-      "add": "Aregar una etapa"
+      "add": "Aregar un evento"
     }
 
   },
