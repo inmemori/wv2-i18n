@@ -36,7 +36,7 @@
     "choose": "Choose",
     "choose-file": "Choose file",
     "uploading": "Upload",
-    "login": "Login",
+    "login": "Log in",
     "delete": "Delete",
     "yes": "Yes",
     "no": "No",
@@ -540,24 +540,24 @@
     },
     "menu": [{
       "title": "Thank you for your words!",
-      "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
+      "subtitle": "Your message will be visible to everyone who has access to this space.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
-      "cta": "Voir tous les hommages"
+      "cta": "See all the tributes"
     }, {
       "title": "Condolences",
       "subtitle": "Express your feelings of support with {{firstname}}'s family.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
-      "cta": "Ecrire vos condoléances"
+      "cta": "Write your condolences"
     }, {
       "title": "Memories",
       "subtitle": "Share a moment lived with {{firstname}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
-      "cta": "Ajouter vos souvenirs"
+      "cta": "Share your memories"
     }, {
       "title": "Photos",
       "subtitle": "The space becomes prettier with pictures.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
-      "cta": "Ajouter vos photos"
+      "cta": "Add your photos"
     }]
   },
 
@@ -580,51 +580,51 @@
   },
 
   "card-ft-donation": {
-    "h1": "Faire un don",
-    "title-family": "Collecte de dons au profit de la famille",
-    "title-org": "Collecte de dons au profit de “{{donation.org.name}}”",
-    "text-stats": "{{stats.donations.total_f}} récolté par {{stats.donations.count}} donateur(s).",
-    "cta": "Faire un don",
+    "h1": "Make a donation",
+    "title-family": "Fundraiser to assist the family",
+    "title-org": "Fundraiser for the benefit of “{{donation.org.name}}”",
+    "text-stats": "{{stats.donations.total_f}} donated by {{stats.donations.count}} donor(s).",
+    "cta": "Make a donation",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "card-ft-donation-unset": {
-    "h1": "Faire un don",
-    "title": "Donnez l’opportunité à vos proches de contribuer à une cause chère au défunt",
-    "text": "L’ouverture d’une collecte de dons, permettra à vos proches de soutenir une cause précise ou de contribuer à l’organisation des obsèques",
-    "cta": "Activer la collecte",
+    "h1": "Make a donation",
+    "title": "Give your loved ones the opportunity to contribute to a cause dear to the deceased",
+    "text": "Activating a fundraiser will allow your loved ones to support a specific cause or to help pay for the funeral",
+    "cta": "Activate the fundraiser",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "tab-share": {
 
-    "title": "Partager",
-    "subtitle": "Aidez la famille à prévenir tous ceux qui ont connu {{firstname}}",
+    "title": "Share",
+    "subtitle": "Help the family inform everyone who knew {{firstname}}",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
     "menu": {
       "email": {
         "title": "Email",
-        "subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{firstname}}.",
-        "cta": "Envoyer un email",
+        "subtitle": "Share the announcement with everyone close to the deceased. They will have access to the space of {{firstname}}.",
+        "cta": "Send an email",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },
       "sms": {
         "title": "SMS",
-        "subtitle": "Vous recevez par SMS le lien de l’espace de {{firstname}}, à transmettre à vos proches.",
-        "cta": "M’envoyer le lien par sms",
+        "subtitle": "You will receive by SMS the link of the space of {{firstname}}, to forward to your loved ones.",
+        "cta": "Send me the link by sms",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
       },
       "wa": {
         "title": "Whatsapp",
-        "subtitle": "Partagez le lien via l'application Whatsapp.",
-        "cta": "Partager sur Whatsapp",
+        "subtitle": "Share the link via the Whatsapp app.",
+        "cta": "Share on Whatsapp",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
       }
     },
 
     "message": {
-      "email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.\n\nNous vous partageons son espace InMemori, privé, sur internet afin de lui rendre hommage. En vous rendant sur l'espace vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de ne pas oublier des personnes qui l'ont aimé(e), n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
+      "email": "Hello, \n\nIt is with great sadness that we announce the death of {{fullname}}.\n\nWe share with you this private InMemori space on the internet to pay tribute to {{firstname}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{firstname}}, please share this space with them.\n\nFriendships.",
       "sms": "message sms {{{link}}}",
       "wa": "message whatsapp \n\n {{{link}}}"
     },
@@ -657,38 +657,38 @@
 
   "tab-settings": {
     "title": "Manage the space",
-    "subtitle": "Connecté(e) en tant que {{profile.email}}",
+    "subtitle": "Logged in as {{profile.email}}",
     "options": {
       "managers": {
-        "title": "Liste des gestonnaires de l’espace",
-        "cta": "Voir la liste",
+        "title": "List of space administrators",
+        "cta": "See the list",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
       "donation": {
-        "title": "Gestion de la collecte de dons",
-        "cta": "Gérer la collecte ",
+        "title": "Fundraiser management",
+        "cta": "Manage the fundraiser",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "donation-start": {
-        "title": "Activer la collecte de dons",
+        "title": "Activate the fundraiser",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "logout": {
-        "title": "Connecté avec {{as}}",
-        "cta": "Se Déconnecter",
+        "title": "Connected with {{as}}",
+        "cta": "Sign out",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
       },
       "delete": {
         "title": "{{fullname}}",
-        "cta": "Supprimer cet espace",
+        "cta": "Delete this space",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589971318/web-assets/picto/trash.svg"
       },
       "flowers": {
-        "title": "Activer la commande de fleurs",
+        "title": "Activate flower orders",
         "icon": ""
       },
       "notifs": {
-        "title": "Préférences de notifications",
+        "title": "Notification preferences",
         "icon": ""
       }
     }
