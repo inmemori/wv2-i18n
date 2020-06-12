@@ -40,8 +40,8 @@
     "delete": "Borrar",
     "yes": "Si",
     "no": "No",
-    "login": "Log in",
-    "logout": "Log out"
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión"
   },
 
   "showcase": {
@@ -214,56 +214,56 @@
 
   "order": {
     "ns": {
-      "donation": { "title": "Votre don", "subtitle": "" },
-      "flower": { "title": "Bouquet", "subtitle": "{{{item.name}}}" },
-      "book": { "title": "Livre Inmemori", "subtitle": "" }
+      "donation": { "title": "Su donación", "subtítulo": "" },
+      "flower": { "title": "Ramo de flores", "subtítulo": "{{{item.name}}}" },
+      "book": { "title": "Libro InMemori", "subtítulo": "" }
     },
     "cart": {
-      "cart": "Panier",
-      "item": "Produit",
-      "qty": "Quantité",
-      "price": "Prix",
-      "shipping": "Livraison",
+      "cart": "Canasta",
+      "item": "Producto",
+      "qty": "Cantidad",
+      "price": "Precio",
+      "shipping": "Envío",
       "total": "Total"
     },
     "invoice": {
-      "with": "Utiliser une autre adresse pour la facturation",
-      "withFiscal": "Je désire un reçu fiscal (facultatif)"
+      "with": "Utilizar otra dirección para facturación",
+      "withFiscal": "Quisiera una factura (opcional)"
     }
   },
 
   "ft-book": {
     "steps": [
       {
-          "key": "intro"
-        , "label": "Commander un livre"
-        , "title": "Présentation du livre"
-        , "subtitle": "Cet ouvrage rassemble l’ensemble des messages et photos partagés par vos proches."
-        , "cta": "Suivant"
+          "key": "Introducción"
+        , "label": "Ordenar un libro"
+        , "title": "Presentación del libro"
+        , "subtitle": "Este libro reúne todos los mensajes y fotografías compartidos por sus seres queridos."
+        , "cta": "Siguiente"
       },{
-          "key": "cart"
-        , "label": "Mon panier"
-        , "title": "Mon panier"
-        , "subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez. "
-        , "cta": "Suivant"
+          "key": "canasta"
+        , "label": "Mi canasta"
+        , "title": "Mi canasta"
+        , "subtitle": "Aquí esta su selección. Usted puede cambiar la cantidad si así lo desea. "
+        , "cta": "Siguiente"
       },{
-          "key": "shipping"
-        , "label": "Livraison"
-        , "title": "Adresse de livraison"
-        , "subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée sous 6 semaines  (en Europe uniquement)."
-        , "cta": "Suivant"
+          "key": "envío"
+        , "label": "Envio"
+        , "title": "Dirección de entrega"
+        , "subtitle": "Proporcione la información necesaria para la entrega. La entrega será realizada en aproximadamente 6 semanas."
+        , "cta": "Siguiente"
       },{
-          "key": "payment"
-        , "label": "Paiement"
-        , "title": "Finaliser la commande"
-        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
-        , "cta": "Payer {{total}}"
+          "key": "pago"
+        , "label": "Pago"
+        , "title": "Finalizar su orden"
+        , "subtitle": "Llene su información bancaria en el espacio seguro a continuación."
+        , "cta": "Pago {{total}}"
       },{
-          "key": "success"
+          "key": "Transaccion exitosa"
         , "label": ""
-        , "title": "Merci pour votre commande"
-        , "subtitle": "Votre commande a bien été effectuée et un email de confirmation vous a été envoyé."
-        , "cta": "Retour à l'acceuil"
+        , "title": "Gracias por su orden"
+        , "subtitle": "Su compra ha sido completada y se le ha enviado un email de confirmación."
+        , "cta": "Regresar al inicio"
       }
     ]
   },
@@ -271,72 +271,72 @@
   "ft-flower": {
     "steps": [
       {
-          "key": "intro"
-        , "label": "Choix du bouquet"
-        , "title": "Choisissez votre bouquet"
-        , "subtitle": "Tous les bouquets sont de taille moyenne et fournis avec une bulle d'eau afin de pouvoir être livrés sur le lieu des obsèques de votre choix."
-        , "cta": "Suivant"
+          "key": "Introducción"
+        , "label": "Elija su ramo de flores"
+        , "title": "Su elección"
+        , "subtitle": "Todos los ramos de flores son de tamaño mediano y son entregados con una burbuja de agua para poder ser envíados al lugar del funeral de su elección."
+        , "cta": "Siguiente"
       },{
-          "key": "cart"
-        , "label": "Mon panier"
-        , "title": "Mon panier"
-        , "subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez. "
-        , "cta": "Suivant"
+          "key": "Canasta"
+        , "label": "Mi canasta"
+        , "title": "Mi canasta"
+        , "subtitle": "Aquí esta su selección. Usted puede cambiar la cantidad si así lo desea. "
+        , "cta": "Siguiente"
       },{
-          "key": "shipping"
-        , "label": "Livraison"
-        , "title": "Choisissez le lieu de livraison"
-        , "subtitle": "Veuillez sélectionner le lieu de livraison de votre choix. Notre partenaire s'engage à livrer avant l'heure de la cérémonie."
-        , "cta": "Suivant"
+          "key": "envío"
+        , "label": "Envío"
+        , "title": "Escoja el lugar de entrega"
+        , "subtitle": "Por favor seleccione el lugar de entrega de su elección. Nuestro partner acuerda entregar antes del tiempo en que finalizará la ceremonia."
+        , "cta": "Siguiente"
       },{
-          "key": "payment"
-        , "label": "Paiement"
-        , "title": "Finaliser la commande"
-        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
-        , "cta": "Payer {{total}}"
+          "key": "pago"
+        , "label": "Pago"
+        , "title": "Finalizar su orden"
+        , "subtitle": "Llene su información bancaria en el espacio seguro a continuación."
+        , "cta": "Pagar {{total}}"
       },{
-          "key": "success"
+          "key": "Transacción exitosa"
         , "label": ""
-        , "title": "Merci pour votre commande"
-        , "subtitle": "Votre commande a bien été effectuée et un email de confirmation vous a été envoyé."
-        , "cta": "Retour à l'acceuil"
+        , "title": "Gracias por su orden"
+        , "subtitle": "Su compra ha sido completada y se le ha enviado un email de confirmación."
+        , "cta": "Regresar al inicio"
       }
     ],
     "labels": {
-      "message": "Ajoutez un message à votre bouquet (optionnel):"
+      "message": "Agregar un mensaje al ramo de flores (opcional):"
     },
     "ph": {
-      "message": "Saisissez votre message (il sera joint au bouquet)"
+      "message": "Ingrese su mensaje (este sera agregado a su ramo de flores)"
     }
   },
 
   "ft-donation": {
     "steps": [
       {
-          "key": "intro"
-        , "label": "Votre don"
-        , "title": "Votre don"
-        , "subtitle": "Veuillez sélectionner le montant du don que vous souhaitez faire à l’association {{org}}."
-        , "cta": "Suivant"
+          "key": "introducción"
+        , "label": "Su donación"
+        , "title": "Su donación"
+        , "subtitle": "Porfavor seleccione el monto que desea donar a la asociacion {{org}}."
+        , "cta": "Siguiente"
       },{
-          "key": "payment"
-        , "label": "Paiement"
-        , "title": "Finaliser votre don"
-        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
-        , "cta": "Payer {{total}}"
+          "key": "pago"
+        , "label": "Pago"
+        , "title": "Finalizar su donación"
+        , "subtitle": "Llene su información bancaria en el espacio seguro a continuación."
+        , "cta": "Pagar {{total}}"
       },{
-          "key": "success"
+          "key": "Transacción exitosa"
         , "label": ""
-        , "title": "Merci pour votre générosité "
-        , "subtitle": "Votre contribution a bien été prise en compte et un email de confirmation vous a été envoyé."
-        , "cta": "Retour à l'acceuil"
+        , "title": "Gracias por su generosidad "
+        , "subtitle": "Su contribución ha sido tomada en cuenta y un email de confirmación le ha sido enviado."
+        , "cta": "Regresar al inicio"
       }
     ],
     "labels": {
-      "custom": "Autre"
+      "custom": "Otro"
     },
     "ph": {
-      "custom": "Montant libre ({{currency}})"
+      "custom": "Cantidad ({{currency}})"
     }
   },
 
