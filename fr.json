@@ -39,7 +39,9 @@
     "login": "S'identifier",
     "delete": "Supprimer",
     "yes": "Oui",
-    "no": "Non"
+    "no": "Non",
+    "login": "Connexion",
+    "logout": "Déconnexion"
   },
 
   "showcase": {
@@ -169,24 +171,6 @@
     "cta": "Inviter un gestionnaire"
   },
 
-  "cart": {
-    "labels": {
-      "item": "Produit",
-      "qty": "Quantité",
-      "price": "Prix",
-      "shipping": "Frais de livraison",
-      "total": "Total"
-    }
-  },
-
-  "invoice": {
-    "with": "Utiliser une autre adresse pour la facturation"
-  },
-
-  "tx": {
-    "receipt": "Votre paiement de {{tx.amount_f}} a bien été enregistré !\nRéférence : {{tx.ch_id}}"
-  },
-
   "places": {
 
     "h1": "Les rendez-vous",
@@ -228,85 +212,135 @@
 
   },
 
-  "ft-book": {
-    "steps": [{
-      "title": "Présentation du livre InMemori",
-      "subtitle": "Cet ouvrage rassemble l'ensemble des messages et photos partagés par vos proches."
-    }, {
-      "title": "Mon panier",
-      "subtitle": ""
-    }, {
-      "title": "Livraison",
-      "subtitle": ""
-    }, {
-      "title": "Finalisez la commande",
-      "subtitle": ""
-    }, {
-      "title": "Commande terminée",
-      "subtitle": ""
-    }],
-    "labels": {
-      "message": "",
-      "item": "Livre"
+  "order": {
+    "ns": {
+      "donation": { "title": "Votre don", "subtitle": "" },
+      "flower": { "title": "Bouquet", "subtitle": "{{{item.name}}}" },
+      "book": { "title": "Livre Inmemori", "subtitle": "" }
+    },
+    "cart": {
+      "cart": "Panier",
+      "item": "Produit",
+      "qty": "Quantité",
+      "price": "Prix",
+      "shipping": "Livraison",
+      "total": "Total"
+    },
+    "invoice": {
+      "with": "Utiliser une autre adresse pour la facturation",
+      "withFiscal": "Je désire un reçu fiscal (facultatif)"
     }
+  },
+
+  "ft-book": {
+    "steps": [
+      {
+          "key": "intro"
+        , "label": "Commander un livre"
+        , "title": "Présentation du livre"
+        , "subtitle": "Cet ouvrage rassemble l’ensemble des messages et photos partagés par vos proches."
+        , "cta": "Suivant"
+      },{
+          "key": "cart"
+        , "label": "Mon panier"
+        , "title": "Mon panier"
+        , "subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez. "
+        , "cta": "Suivant"
+      },{
+          "key": "shipping"
+        , "label": "Livraison"
+        , "title": "Adresse de livraison"
+        , "subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée sous 6 semaines  (en Europe uniquement)."
+        , "cta": "Suivant"
+      },{
+          "key": "payment"
+        , "label": "Paiement"
+        , "title": "Finaliser la commande"
+        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
+        , "cta": "Payer {{total}}"
+      },{
+          "key": "success"
+        , "label": ""
+        , "title": "Merci pour votre commande"
+        , "subtitle": "Votre commande a bien été effectuée et un email de confirmation vous a été envoyé."
+        , "cta": "Retour à l'acceuil"
+      }
+    ]
   },
 
   "ft-flower": {
-    "steps": [{
-      "title": "Choisissez votre bouquet",
-      "subtitle": "Tous les bouquets sont de taille moyenne et fournis avec une bulle d'eau afin de pouvoir être livrés sur le lieu des obsèques de votre choix."
-    }, {
-      "title": "Aperçu de votre sélection",
-      "subtitle": ""
-    }, {
-      "title": "Livraison",
-      "subtitle": ""
-    }, {
-      "title": "Finalisez la commande",
-      "subtitle": ""
-    }, {
-      "title": "Merci de votre soutien!",
-      "subtitle": ""
-    }],
+    "steps": [
+      {
+          "key": "intro"
+        , "label": "Choix du bouquet"
+        , "title": "Choisissez votre bouquet"
+        , "subtitle": "Tous les bouquets sont de taille moyenne et fournis avec une bulle d'eau afin de pouvoir être livrés sur le lieu des obsèques de votre choix."
+        , "cta": "Suivant"
+      },{
+          "key": "cart"
+        , "label": "Mon panier"
+        , "title": "Mon panier"
+        , "subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez. "
+        , "cta": "Suivant"
+      },{
+          "key": "shipping"
+        , "label": "Livraison"
+        , "title": "Choisissez le lieu de livraison"
+        , "subtitle": "Veuillez sélectionner le lieu de livraison de votre choix. Notre partenaire s'engage à livrer avant l'heure de la cérémonie."
+        , "cta": "Suivant"
+      },{
+          "key": "payment"
+        , "label": "Paiement"
+        , "title": "Finaliser la commande"
+        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
+        , "cta": "Payer {{total}}"
+      },{
+          "key": "success"
+        , "label": ""
+        , "title": "Merci pour votre commande"
+        , "subtitle": "Votre commande a bien été effectuée et un email de confirmation vous a été envoyé."
+        , "cta": "Retour à l'acceuil"
+      }
+    ],
     "labels": {
-      "shipping": "Choisissez le lieu de livraison :",
-      "message": "Ajoutez un message à votre bouquet :",
-      "item": "Bouquet"
+      "message": "Ajoutez un message à votre bouquet (optionnel):"
     },
     "ph": {
-      "message": "Votre message (il sera joint au bouquet)"
+      "message": "Saisissez votre message (il sera joint au bouquet)"
     }
-
-    ,
-    "label-interflora": "Notre fleuriste vous garantit une livraison 15 minutes avant le début des obsèques.",
-    "shipping-info": "Informations de livraison :\n{{shipping.name}}\n{{shipping.date_f}}"
   },
 
   "ft-donation": {
-    "steps": [{
-      "title": "Faire un don",
-      "subtitle": "InMemori retiendra une commission de 4% sur le montant de votre don afin de financer les frais bancaires."
-    }, {
-      "title": "Merci de votre soutien!",
-      "subtitle": ""
-    }],
+    "steps": [
+      {
+          "key": "intro"
+        , "label": "Votre don"
+        , "title": "Votre don"
+        , "subtitle": "Veuillez sélectionner le montant du don que vous souhaitez faire à l’association {{org}}."
+        , "cta": "Suivant"
+      },{
+          "key": "payment"
+        , "label": "Paiement"
+        , "title": "Finaliser votre don"
+        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
+        , "cta": "Payer {{total}}"
+      },{
+          "key": "success"
+        , "label": ""
+        , "title": "Merci pour votre générosité "
+        , "subtitle": "Votre contribution a bien été prise en compte et un email de confirmation vous a été envoyé."
+        , "cta": "Retour à l'acceuil"
+      }
+    ],
     "labels": {
-      "amount": "Montant du don",
       "custom": "Autre"
     },
     "ph": {
-      "message": "Votre message"
+      "custom": "Montant libre ({{currency}})"
     }
   },
 
   "ft-donation-settings": {
-    "stepsIndexes": {
-      "intro": 0,
-      "config": 1,
-      "bank": 2,
-      "active": 3,
-      "closed": 4
-    },
     "steps": [
       {
           "key": "intro"
