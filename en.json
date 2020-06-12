@@ -699,21 +699,21 @@
   },
 
   "managers-add": {
-    "title": "Add more managers",
-    "subtitle": "Renseignez l'adresse email des personnes que vous souhaitez inviter en tant que gestionnaire(s).",
+    "title": "Add more administrators",
+    "subtitle": "Enter the email address of the people you want to invite as manager(s).",
     "message": "Hello,\n\nI added you as administrator of the InMemori space in tribute to {{firstname}} so that you can help me personalize and manage it. \n\nGeraldine from InMemori is at our disposal for any questions and can be reached at (617) 858 4572 or by email at contact@inmemori.com.",
     "cta": { "add": "Ajouter" }
   },
 
   "managers-list": {
     "title": "Managers",
-    "subtitle": "Les gestionnaires sont les administreurs de cet espace. Cliquez sur \"Ajouter un gestionnaire\" pour inviter une personne par mail.",
-    "cta": { "add": "Ajouter un gestionnaire" }
+    "subtitle": "The administrators are the managers of this space. Click on \"Add an administrator\" to invite someone by email.",
+    "cta": { "add": "Add an administrator" }
   },
 
   "invitation-list": {
-    "title": "Liste des invités",
-    "subtitle": "{{count}} personnes "
+    "title": "Guest list",
+    "subtitle": "{{count}} people "
   },
 
   "invitations": {
@@ -721,8 +721,8 @@
       "pending": "Invitation sent",
       "pending-manager": "Invitation sent",
       "active": "Invitation accepted",
-      "active-manager": "Manager",
-      "revoked": "Accèss revoked"
+      "active-manager": "Administrator",
+      "revoked": "Access revoked"
     },
     "ph": {
       "search": "Search..."
