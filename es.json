@@ -355,31 +355,31 @@
         , "subtitle": "Quién sera el beneficiario de esta recaudación?"
         , "cta": "Siguiente"
       },{
-          "key": "bank"
+          "key": "banco"
         , "label": "Cuenta bancaria"
         , "title": "Cuenta bancaria"
         , "subtitle": "Para recolectar dinero en Internet, la ley requiere que el organizador sea identificado y provea de la siguiente información."
         , "cta": "Activar la recaudación de fondos"
       },{
-          "key": "active"
+          "key": "activo"
         , "label": ""
         , "title": "Administrar la recaudación de fondos"
         , "subtitle": "Una recaudación de fondos esta en marca en beneficio de la Asociación contra el cancer. Hasta el momento la suma de donaciones asciende a:"
         , "cta": "Guardar"
       },{
-          "key": "closed"
+          "key": "cerrado"
         , "label": ""
         , "title": "La recaudación de fondos ha sido cerrada"
         , "subtitle": "Su recaudación de fondos ha sido cerrada.\nUn email de confirmación le ha sido enviado."
       }
     ],
     "tips": [{
-      "title": "Activez votre collecte de dons",
-      "subtitle": "au profit d'une cause ou pour financer les obsèques.",
+      "title": "Activar una recaudación de fondos",
+      "subtitle": "en beneficio de una causa o para financiar el funeral.",
       "icon": ""
     }, {
-      "title": "Vos proches font un don",
-      "subtitle": "et montrent leur soutien en contribuant à une cause pleine de sens.",
+      "title": "Sus seres cercanos harán una donación",
+      "subtitle": "y mostrar su apoyo contribuyendo a una causa significativa.",
       "icon": ""
     }, {
       "title": "Cloturez votre collecte",
