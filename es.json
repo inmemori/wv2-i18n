@@ -625,90 +625,90 @@
 
     "message": {
       "email": "Hola, \n\nCon una inmensa tristeza les anunciamos el fallecimiento de {{fullname}}.\n\nCompartimos con ustedes este espacio de InMemori, totalmente privado, en internet para rendir homenaje a {{firstname}}. Al ingresar al espacio podrán : \n\n- Ver la información del funeral\n- Compartir un mensaje de condolencia, un recuerdo, una fotografía\n\nApreciamos sus mensajes de apoyo en estos tiempos difíciles.\n\nCon el fin de incluir a todos los que conocieron a {{firstname}}, por favor ayudenos compartiendo este espacio con ellos.\n\nAmistades.",
-      "sms": "message sms {{{link}}}",
-      "wa": "message whatsapp \n\n {{{link}}}"
+      "sms": "mensaje sms {{{link}}}",
+      "wa": "mensaje whatsapp \n\n {{{link}}}"
     },
 
     "labels": {
-      "email-from": "From:",
-      "email-to": "Send to {{#if total}}{{total}} person(s) {{/if}}:",
-      "email-message": "Message:",
-      "sms-from": "Your phone number"
+      "email-from": "De:",
+      "email-to": "Envíar a {{#if total}}{{total}} persona(s) {{/if}}:",
+      "email-message": "Mensaje:",
+      "sms-from": "Su número telefónico"
     },
 
     "ph": {
-      "email-from-name": "Your name",
-      "email-from-email": "Your Email",
+      "email-from-name": "Su nombre",
+      "email-from-email": "Su correo electrónico",
       "email-to": "Ex: alice@gmail.com, bob@gmail.com, ...",
-      "email-select": "Add \"{{value}}\" to the list"
+      "email-select": "Agregar \"{{value}}\" a la lista"
     },
 
     "cta": {
-      "email": "Send",
-      "sms": "Send me the SMS",
-      "wa": "Open Whatsapp",
-      "list": "Guest list"
+      "email": "Envíar",
+      "sms": "Enviarme el SMS",
+      "wa": "Abrir en Whatsapp",
+      "list": "Lista de invitados"
     }
   },
 
   "tab-infos": {
-    "promo": "The funeral is being organized by {{{name}}}.{{#if phone}} {{phone}}{{/if}}"
+    "promo": "El funeral fue organizado por {{{name}}}.{{#if phone}} {{phone}}{{/if}}"
   },
 
   "tab-settings": {
-    "title": "Manage the space",
-    "subtitle": "Connecté(e) en tant que {{profile.email}}",
+    "title": "Administrar el espacio",
+    "subtitle": "Conectarse como {{profile.email}}",
     "options": {
       "managers": {
-        "title": "Liste des gestonnaires de l’espace",
-        "cta": "Voir la liste",
+        "title": "Lista de administradores del espacio",
+        "cta": "Ver la lista",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
       "donation": {
-        "title": "Gestion de la collecte de dons",
-        "cta": "Gérer la collecte ",
+        "title": "Administración de la recaudación de fondos",
+        "cta": "Administrar la recaudación de fondos ",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "donation-start": {
-        "title": "Activer la collecte de dons",
+        "title": "Activar la recaudación de fondos",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "logout": {
-        "title": "Connecté avec {{as}}",
-        "cta": "Se Déconnecter",
+        "title": "Conectado como {{as}}",
+        "cta": "Desconectarse",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
       },
       "delete": {
         "title": "{{fullname}}",
-        "cta": "Supprimer cet espace",
+        "cta": "Eliminar este espacio",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589971318/web-assets/picto/trash.svg"
       },
       "flowers": {
-        "title": "Activer la commande de fleurs",
+        "title": "Activar las ordenes de flores",
         "icon": ""
       },
       "notifs": {
-        "title": "Préférences de notifications",
+        "title": "Preferencias de notificaciones",
         "icon": ""
       }
     }
   },
 
   "manage-notifs": {
-    "title": "Notification preferences"
+    "title": "Preferencias de notificaciones"
   },
 
   "managers-add": {
-    "title": "Add more managers",
-    "subtitle": "Renseignez l'adresse email des personnes que vous souhaitez inviter en tant que gestionnaire(s).",
-    "message": "Hello,\n\nI added you as administrator of the InMemori space in tribute to {{firstname}} so that you can help me personalize and manage it. \n\nGeraldine from InMemori is at our disposal for any questions and can be reached at (617) 858 4572 or by email at contact@inmemori.com.",
+    "title": "Agregar mas administradores",
+    "subtitle": "Ingrese el correo electrónico de las personas que desea invitar como administradores.",
+    "message": "Hola,\n\nTe agregue como administrador del espacio InMemori en homenaje a {{firstname}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther de InMemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 7978 7982 o por correo electrónico en contact@inmemori.com.",
     "cta": { "add": "Ajouter" }
   },
 
   "managers-list": {
-    "title": "Managers",
-    "subtitle": "Les gestionnaires sont les administreurs de cet espace. Cliquez sur \"Ajouter un gestionnaire\" pour inviter une personne par mail.",
-    "cta": { "add": "Ajouter un gestionnaire" }
+    "title": "Administradores",
+    "subtitle": "Los administradores son los gestores de este espacio. Click en \"Agregar un administrador\" para invitar a una persona por correo electrónico.",
+    "cta": { "add": "Agregar un administrador" }
   },
 
   "invitation-list": {
