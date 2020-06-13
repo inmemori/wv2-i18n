@@ -562,63 +562,63 @@
   },
 
   "card-ft-group": {
-    "h1": "The gifts"
+    "h1": "Los obsequios"
   },
 
   "card-ft-book": {
-    "title": "The book",
-    "text": "Keep a physical trace of all the messages shared on InMemori",
-    "cta": "Order the book",
+    "title": "El libro",
+    "text": "Mantenga un recuerdo físico de todos los mensajes compartidos en InMemori",
+    "cta": "Ordenar el libro",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
   },
 
   "card-ft-flower": {
-    "title": "Flowers",
-    "text": "Send flowers to the funeral place",
-    "cta": "Buy flowers",
+    "title": "Flores",
+    "text": "Envíe flores al lugar del funeral",
+    "cta": "Comprar flores",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Ce%CC%81re%CC%81monie.svg"
   },
 
   "card-ft-donation": {
-    "h1": "Faire un don",
-    "title-family": "Collecte de dons au profit de la famille",
-    "title-org": "Collecte de dons au profit de “{{donation.org.name}}”",
-    "text-stats": "{{stats.donations.total_f}} récolté par {{stats.donations.count}} donateur(s).",
-    "cta": "Faire un don",
+    "h1": "Haga una donación",
+    "title-family": "Recaudación de fondos para apoyar a la familia",
+    "title-org": "Recaudación de fondos en beneficio de “{{donation.org.name}}”",
+    "text-stats": "{{stats.donations.total_f}} donado por {{stats.donations.count}} donante(s).",
+    "cta": "Haga una donación",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "card-ft-donation-unset": {
-    "h1": "Faire un don",
-    "title": "Donnez l’opportunité à vos proches de contribuer à une cause chère au défunt",
-    "text": "L’ouverture d’une collecte de dons, permettra à vos proches de soutenir une cause précise ou de contribuer à l’organisation des obsèques",
-    "cta": "Activer la collecte",
+    "h1": "Haga una donación",
+    "title": "Proporcione a sus seres queridos la oportunidad de contribuir a una causa querida por el difunto",
+    "text": "Al activar una recaudación de fondos, le permitirá a sus seres queridos a apoyar una causa específica o ayudar a pagar los gastos del funeral",
+    "cta": "Activar la recaudación de fondos",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "tab-share": {
 
-    "title": "Partager",
-    "subtitle": "Aidez la famille à prévenir tous ceux qui ont connu {{firstname}}",
+    "title": "Compartir",
+    "subtitle": "Ayude a la familia a informar a todos los que conocierón a {{firstname}}",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
     "menu": {
       "email": {
-        "title": "Email",
-        "subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{firstname}}.",
-        "cta": "Envoyer un email",
+        "title": "Correo electrónico",
+        "subtitle": "Comparta el aviso del difunto. Ellos tendrán acceso al espacio en homenaje a {{firstname}}.",
+        "cta": "Envíar un correo electrónico",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },
       "sms": {
         "title": "SMS",
-        "subtitle": "Vous recevez par SMS le lien de l’espace de {{firstname}}, à transmettre à vos proches.",
-        "cta": "M’envoyer le lien par sms",
+        "subtitle": "Usted recibirá por SMS el link del espacio en homenaje a {{firstname}}, para reenviarlo a sus seres queridos.",
+        "cta": "Enviarme el link por SMS",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
       },
       "wa": {
         "title": "Whatsapp",
-        "subtitle": "Partagez le lien via l'application Whatsapp.",
-        "cta": "Partager sur Whatsapp",
+        "subtitle": "Compartir el link por Whatsapp.",
+        "cta": "Compartir en Whatsapp",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
       }
     },
