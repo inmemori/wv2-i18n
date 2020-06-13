@@ -382,34 +382,34 @@
       "subtitle": "y mostrar su apoyo contribuyendo a una causa significativa.",
       "icon": ""
     }, {
-      "title": "Cloturez votre collecte",
-      "subtitle": "et recevez l’argent par virement sur votre compte bancaire.",
+      "title": "Cierre su recaudación de fondos",
+      "subtitle": "y reciba el dinero recauddo por transferencia a su cuenta bancaria.",
       "icon": ""
     }, {
-      "title": "Virez les fonds à la cause choisie",
-      "subtitle": "et  distribuez un reçu fiscal à ceux qui le souhaitent.",
+      "title": "Transfiera los fondos a la causa elegida",
+      "subtitle": "y distribuya el recibo de impuestos a aquellos a los que usted desee.",
       "icon": ""
     }],
     "labels": {
-      "beneficiary": "Qui est le Bénéficiaire des fonds ?",
-      "family": "La famille",
-      "org": "Une association",
-      "message": "Message concernant la collecte",
-      "identity": "Votre identité",
-      "bank": "Votre compte bancaire",
-      "kyc": "Vos justificatifs",
-      "close": "Clôturer la collecte"
+      "beneficiary": "¿Quién es el beneficiario de los fondos?",
+      "family": "La familia",
+      "org": "Una asosiación",
+      "message": "Mensaje sobre la recaudación de fondos",
+      "identity": "Su identidad",
+      "bank": "Su cuenta bancaria",
+      "kyc": "Sus documentos de apoyo",
+      "close": "Cerrar la recaudación de fondos"
     },
     "ph": {
-      "org": "Choisir une association",
+      "org": "Elija una asosiación",
       "iban": "N°Iban. ex: FR69 3000 2000 0800 1000 0001",
       "routing": "N°Routing"
     },
     "notes": {
-      "message": "Ce message est visible par vos proches et vous permet d’en dire plus au sujet de la cause soutenue.",
-      "iban": "Le compte sur lequel les fonds vous seront versés",
-      "documents": "Merci de bien vouloir ajouter vos documents d’identités. (Passeports ou CNI, Recto verso)",
-      "close": "Les fonds récoltés sont virés automatiquement sur votre compte bancaire 1 fois par semaine, les lundis, tant que la collecte n'est pas cloturée.",
+      "message": "Este mensaje es visible para sus seres queridos y le permitirá decir mas acerca de la causa apoyada.",
+      "iban": "La cuenta en la cual se le pagarán los fondos",
+      "documents": "Por favor agregue sus documentos de identidad. (Licencia o pasaporte, frene y reverso)",
+      "close": "Los fondos recaudados se transfieren automaticamente a su cuenta bancaria una vez a la semana, los lunes, siempre que la recaudacion de fondos no haya sido cerrada.",
       "closed": "Le montant total de la collecte ({{stats.donations.total_f}}) sera viré sur le compte bancaire {{donation.iban}} d’ici 48 heures."
     },
     "warning": {
