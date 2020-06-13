@@ -511,53 +511,53 @@
 
   "edit-intro": {
     "title": "Aviso del fallecimiento",
-    "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
+    "subtitle": "El siguiente texto le permitirá dirigirse a todos los invitados al espacio.",
     "label": {
-      "templates": "Need inspiration?"
+      "templates": "¿Necesita inspiración?"
     },
     "templates": [
-        "Dear family, dear friends,\nWe are very sad to announce the death of {{{firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years {{/ if}}. \n\nThis InMemori page is intended to collect your testimonies: a message, a memory or a photo, illustrating a moment you shared with {{firstname}}.\n\nThe information about the funeral is shown below. Thank you for your support."
+        "Querida familia, Queridos amigos,\nCon tristeza anunciamos la muerte de {{{firstname}}} {{# if dod}} la cual ocurrió el pasado {{dod}} {{/ if}} {{# if age}} a la edad de {{age}} años {{/ if}}. \n\nEsta página InMemori fue creada con la intención de recolectar sus testimonios y condolencias: un mensaje, un recuerdo o una fotografía,  ilustrando un momento compartido con {{firstname}}.\n\nLa información acerca del funeral se muestra a continuación. Gracias por su apoyo."
       , ""
       , ""
     ]
   },
 
   "edit-places": {
-    "title": "Ajouter un/des évènements ",
-    "subtitle": "Renseignez ici le déroulé des obsèques en ajoutant les différentes étapes."
+    "title": "Agregar evento(s) ",
+    "subtitle": "Complete la información del funeral al agregar las diferentes ceremonias a realizar."
   },
 
   "new-memory": {
     "ph": {
-      "name": "Vos prénom et nom",
-      "email": "Votre email",
-      "message": "Votre message",
-      "message-opt": "Joindre un message (facultatif)"
+      "name": "Nombre y apellido",
+      "email": "Su correo electrónico",
+      "message": "Su mensaje",
+      "message-opt": "Adjuntar un mensaje (opcional)"
     },
     "cta": {
-      "share": "Share",
-      "photo": "Add a picture"
+      "share": "Compartir",
+      "photo": "Agregar una fotografía"
     },
     "menu": [{
-      "title": "Thanks for your words !",
-      "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
+      "title": "Gracias por sus palabras!",
+      "subtitle": "Sus mensajes y condolencias serán visibles a todo aquél que tenga acceso a este espacio.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
-      "cta": "Voir tous les hommages"
+      "cta": "Ver todos los mensajes"
     }, {
-      "title": "Condolences",
-      "subtitle": "Express your feelings of support with {{firstname}}'s family.",
+      "title": "Condolencias",
+      "subtitle": "Exprese sus sentimientos de apoyo con la familia de {{firstname}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
-      "cta": "Ecrire vos condoléances"
+      "cta": "Escriba sus condolencias"
     }, {
-      "title": "Memories",
-      "subtitle": "Share a moment lived with {{firstname}}.",
+      "title": "Recuerdos",
+      "subtitle": "Comparta un momento vivido con {{firstname}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
-      "cta": "Ajouter vos souvenirs"
+      "cta": "Comparta sus recuerdos"
     }, {
-      "title": "Photos",
-      "subtitle": "The space becomes prettier with pictures.",
+      "title": "Fotografías",
+      "subtitle": "El espacio se vuelve mas bonito con fotografías.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
-      "cta": "Ajouter vos photos"
+      "cta": "Agregar sus fotografías"
     }]
   },
 
