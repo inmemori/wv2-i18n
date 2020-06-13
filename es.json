@@ -410,26 +410,26 @@
       "iban": "La cuenta en la cual se le pagarán los fondos",
       "documents": "Por favor agregue sus documentos de identidad. (Licencia o pasaporte, frene y reverso)",
       "close": "Los fondos recaudados se transfieren automaticamente a su cuenta bancaria una vez a la semana, los lunes, siempre que la recaudacion de fondos no haya sido cerrada.",
-      "closed": "Le montant total de la collecte ({{stats.donations.total_f}}) sera viré sur le compte bancaire {{donation.iban}} d’ici 48 heures."
+      "closed": "El monto total de la colecta ({{stats.donations.total_f}}) será transferido a su cuenta bancaria {{donation.iban}} dentro de las siguientes 48 horas."
     },
     "warning": {
-      "documents": "Veillez à bien faire correspondre l’adresse renseignée ci-dessus avec celle figurant sur votre pièce  d’identité, ou vous pourriez être amenés à fournir un autre justificatif de domicile.",
-      "files": "Seuls les images au format .PNG ou .JPEG/.JPG d'une taille inférieure à 5Mo sont acceptées.",
-      "close": "Veuillez transmettre votre justificatif d’identité pour pouvoir clôturer cette collecte de dons."
+      "documents": "Asegúrese de hacer coincidir la dirección indicada anteriormente con la dirección en su documento de identidad, o puede que tenga que proporcionar otro comprobante de domicilio.",
+      "files": "Solo las imágenes en formato .PNG ou .JPEG/.JPG de un tamaño menor a  5MB son aceptadas.",
+      "close": "Envíe su comprobante de identidad para poder cerrar esta recaudación de fondos."
     },
     "cta": {
-      "start": "Activer la collecte",
-      "end": "Terminer",
-      "doc-recto": "Choisir le document (recto)",
-      "doc-verso": "Choisir le document (verso)",
-      "close": "Clôturer la collecte de dons"
+      "start": "Activar la recaudación de fondos",
+      "end": "Terminar",
+      "doc-recto": "Elegir documento (frente)",
+      "doc-verso": "Elegir documento (reverso)",
+      "close": "Cerrar la recaudación de fondos"
     },
     "templates": {
       "family": [
-        "Pour ceux qui le désirent, nous organisons une collecte de dons en mémoire de {{capitalize firstname}}."
+        "Para todos aquellos que deseen participar, hemos organizado una recaudación de fondos en memoria de {{capitalize firstname}}."
       ],
       "org": [
-        "Nous savons que l'association {{org}} était très importante aux yeux de {{capitalize firstname}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
+        "Sabemos que la asociación {{org}} era muy importante para {{capitalize firstname}}. Es importante para nosotros apoyar su misión al organizar esta recaudación de fondos.\n\nMuchas gracias por tu participación."
       ]
     }
   },
@@ -443,74 +443,74 @@
     },
     "steps": [
         {
-            "key": "defunct"
-          , "label": "Votre proche disparu"
-          , "title": "Informations du défunt"
-          , "subtitle": "Veuillez renseigner ici les informations relatives au défunt."
+            "key": "difunto"
+          , "label": "Su ser querido fallecido"
+          , "title": "Información del difunto"
+          , "subtitle": "Por favor ingrese aquí la información relacionada con el difunto."
         },{
-            "key": "contacts"
-          , "label": "Vos coordonnées"
-          , "title": "Vos coordonnées"
-          , "subtitle": "Aujourd'hui ou demain, notre équipe vous contactera pour répondre à vos questions."
+            "key": "contactos"
+          , "label": "Su información de contacto"
+          , "title": "Su información de contacto"
+          , "subtitle": "En breve, nuestro equipo se pondrá en contacto con usted para responder sus preguntas."
         },{
-            "key": "places"
-          , "label": "Déroulé des obsèques"
-          , "title": "Ajouter un/des évènements "
-          , "subtitle": "Vous pouvez commencer à renseigner le déroulé des obsèques qui figurera sur l’espace de votre proche disparu."
+            "key": "lugares"
+          , "label": "Información del funeral"
+          , "title": "Agregar evento (s)"
+          , "subtitle": "Puede comenzar a completar los detalles del funeral que aparecerán en el espacio de su ser querido."
         },{
-            "key": "success"
+            "key": "exito"
           , "label": ""
-          , "title": "Bienvenue !"
-          , "subtitle": "Votre espace en hommage à {{fullname}} a bien été créé."
+          , "title": "Bienvenido!"
+          , "subtitle": "El espacio en honor a {{fullname}} ha sido creado."
           , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
         }
       ]
     , "labels": {
-          "name": "Nom du défunt"
-        , "terms1": "En cliquant sur valider, vous consentez à nos "
-        , "terms2": "Conditions Générales d’Utilisation"
-        , "success": "Merci ! L'espace en hommage à\n{{fullname}} a bien été créé."
+          "name": "Nombre del difunto"
+        , "terms1": "Al hacer click en confirmar, usted acepta nuestros "
+        , "terms2": "Términos y condiciones generales de uso"
+        , "success": "Gracias! El espacio en homenaje a \n{{fullname}} ha sido creado."
       }
     , "cta": {
-          "create": "Créer l'espace"
-        , "go": "Découvrir l’espace"
+          "create": "Crear espacio"
+        , "go": "Descubrir el espacio"
       }
     , "errs": {
-          "contacts": "Contacts invalides ou manquants"
+          "contacts": "Contactos no válidos o faltantes"
       }
   },
 
   "contacts": {
     "ph": {
-        "name": "Prénom et Nom"
-      , "phone": "N° de mobile"
-      , "email": "Email"
+        "name": "Nombre y Apellido"
+      , "phone": "N° de celular"
+      , "email": "Correo electrónico"
     },
     "cta": {
-        "add": "Ajouter un contact"
+        "add": "Agregar un contacto"
     }
   },
 
   "edit-profile": {
-    "title": "Information relating to your loved one",
-    "subtitle": "Ajoutez une photo de votre proche et modifiez, si besoin, ses informations.",
+    "title": "Información relacionada con su ser querido",
+    "subtitle": "Agregue una fotografía de su ser querido y modifique su información en caso de ser necesario.",
     "label": {
-      "firstname": "Name",
-      "lastname": "Last name",
-      "dob": "Date of birth",
-      "dod": "Date of death",
-      "photo": "Profile picture"
+      "firstname": "Nombre",
+      "lastname": "Apellido",
+      "dob": "Fecha de nacimiento",
+      "dod": "Fecha de defunción",
+      "photo": "Fotografía de perfil"
     },
     "ph": {
-      "firstname": "Name of your loved one",
-      "lastname": "Last name of your loved one",
-      "dob": "mm/dd/yyyy",
-      "dod": "mm/dd/yyyy"
+      "firstname": "Nombre de su ser querido",
+      "lastname": "Apellido de su ser querido",
+      "dob": "dd/mm/yyyy",
+      "dod": "dd/mm/yyyy"
     }
   },
 
   "edit-intro": {
-    "title": "Notice of passing",
+    "title": "Aviso del fallecimiento",
     "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
     "label": {
       "templates": "Need inspiration?"
