@@ -712,29 +712,29 @@
   },
 
   "invitation-list": {
-    "title": "Liste des invités",
-    "subtitle": "{{count}} personnes "
+    "title": "Lista de invitados",
+    "subtitle": "{{count}} personas "
   },
 
   "invitations": {
     "status": {
-      "pending": "Invitation sent",
-      "pending-manager": "Invitation sent",
-      "active": "Invitation accepted",
-      "active-manager": "Manager",
-      "revoked": "Accèss revoked"
+      "pending": "Invitación enviada",
+      "pending-manager": "Invitación enviada",
+      "active": "Invitación aceptada",
+      "active-manager": "Administrador",
+      "revoked": "Acceso revocado"
     },
     "ph": {
-      "search": "Search..."
+      "search": "Buscar..."
     }
   },
 
   "card-stats": {
     "labels": {
-      "views": "View(s)",
-      "memories": "Message(s)",
-      "donations": "Donation(s)",
-      "collected": "Collected"
+      "views": "Vista(s)",
+      "memories": "Mensaje(s)",
+      "donations": "Donacion(es)",
+      "collected": "Recolectado"
     }
   },
 
@@ -745,63 +745,63 @@
   "banners": {
       "s-manager|check-places": {
           "icon": "fas fa-info-circle"
-        , "text": "To begin, re-read the ceremony information"
-        , "cta": "Validate"
-        , "ctb": "Edit"
+        , "text": "Para empezar, re-lea la información de la ceremonia"
+        , "cta": "Validar"
+        , "ctb": "Editar"
       }
     , "s-manager|check-intro": {
           "icon": "fas fa-align-left"
-        , "text": "Re-read the notice of passing"
-        , "cta": "Validate"
-        , "ctb": "Edit"
+        , "text": "Re-lea el aviso del fallecimiento"
+        , "cta": "Validar"
+        , "ctb": "Editar"
       }
     , "s-manager|has-photo": {
           "icon": "fa fa-camera"
-        , "text": "Choose a picture"
-        , "cta": "Select picture"
-        , "ctb": "Later"
+        , "text": "Elija una fotografía"
+        , "cta": "Seleccione una fotografía"
+        , "ctb": "Después"
       }
     , "s-manager|has-invited": {
           "icon": "fa fa-paper-plane"
-        , "text": "You can now invite {{capitalize firstname}}'s close ones to this space."
-        , "cta": "Invite"
-        , "ctb": "Later"
+        , "text": "Ahora ya puede invitar a los seres cercanos de {{capitalize firstname}} a este espacio."
+        , "cta": "Invitar"
+        , "ctb": "Después"
       }
     , "s-google|check-places": {
           "icon": "fas fa-info-circle"
-        , "text": "Do you need to add an event to the funeral?"
-        , "cta": "Validate"
-        , "ctb": "Edit"
+        , "text": "¿Necesita agregar una ceremonia al funeral?"
+        , "cta": "Validar"
+        , "ctb": "Editar"
       }
     , "s-google|check-intro": {
           "icon": "fas fa-align-left"
-        , "text": "Validate the notice of passing"
-        , "cta": "Validate"
-        , "ctb": "Edit"
+        , "text": "Validar el aviso del fallecimiento"
+        , "cta": "Validar"
+        , "ctb": "Editar"
       }
     , "s-google|has-photo": {
           "icon": "fa fa-camera"
-        , "text": "Choose a picture"
-        , "cta": "Select picture"
-        , "ctb": "Later"
+        , "text": "Elija una fotografía"
+        , "cta": "Seleccione una fotografía"
+        , "ctb": "Después"
       }
     , "s-google|has-invited": {
           "icon": "fa fa-paper-plane"
-        , "text": "You can now invite {{capitalize firstname}}'s close ones to this space."
-        , "cta": "Invite"
-        , "ctb": "Later"
+        , "text": "Ahora ya puede invitar a los seres cercanos de {{capitalize firstname}} a este espacio."
+        , "cta": "Invitar"
+        , "ctb": "Después"
       }
     , "s-user|has-published": {
           "icon": "fas fa-feather-alt"
-        , "text": "If you wish, you can share a word or a photo"
-        , "cta": "Post"
-        , "ctb": "Later"
+        , "text": "Si lo desea, usted puede compartir unas palabras o una fotografía"
+        , "cta": "Publicar"
+        , "ctb": "Después"
       }
     , "s-user|has-invited": {
           "icon": "fa fa-paper-plane"
-        , "text": "You can help the close ones of {{capitalize firstname}} gather. Invite them to join this space. "
-        , "cta": "Invite"
-        , "ctb": "Later"
+        , "text": "Usted puede ayudar a los seres cercanos de {{capitalize firstname}} a reunirse. Invítelos a unirse a este espacio. "
+        , "cta": "Invitar"
+        , "ctb": "Después"
       }
   }
 
