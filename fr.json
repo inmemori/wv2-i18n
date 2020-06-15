@@ -254,7 +254,7 @@
         , "cta": "Suivant"
       },{
           "key": "payment"
-        , "label": "Paiement"
+        , "label": "Finaliser la commande"
         , "title": "Finaliser la commande"
         , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
         , "cta": "Payer {{total}}"
