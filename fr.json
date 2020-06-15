@@ -322,7 +322,7 @@
           "key": "payment"
         , "label": "Paiement"
         , "title": "Finaliser votre don"
-        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
+        , "subtitle": "Afin de couvrir les différents frais de collecte d'argent en ligne, une commission de 4% est ajoutée au montant de votre don."
         , "cta": "Payer {{total}}"
       },{
           "key": "success"
