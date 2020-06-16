@@ -19,7 +19,7 @@
     "firstname": "Prénom",
     "lastname": "Nom",
     "fullname": "Nom complet",
-    "email": "Exemple : alice@gmail.com, bob@gmail.com",
+    "email": "Email",
     "phone": "Téléphone",
     "address": "Adresse",
     "address-info": "Informations complémentaires (digicode, étage...)",
@@ -45,38 +45,53 @@
   },
 
   "showcase": {
+    "cta": {
+      "prev": "Retour",
+      "next": "Suivant",
+      "end": "Terminer"
+    },
     "user": [
       {
-          "title": "Invitez les personnes chères à {{firstname}}"
-        , "text": "Partagez cet espace avec les proches du défunt désireux de se recueillir et lui rendre hommage."
-        , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+          "title": "Rendez hommage à votre proche disparu"
+        , "text": "Cet espace d'intimité rassemble les proches de {{{capitalize firstname}}} et vous permet de partager un message, un souvenir ou une photo."
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
       }
       , {
-          "title": "Rendez hommage à votre proche disparu"
-        , "text": "Cet espace d'intimité rassemble les proche de {(firstname}} et vous permet de partager un message, un souvenir ou une photo."
-        , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+          "title": "Prenez connaissance du déroulé des obsèques"
+        , "text": "Vous trouverez dans cet espace les informations relatives au déroulé des obsèques."
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
+      }
+      , {
+          "title": "Faites un geste pour {{{capitalize firstname}}} et offrez du soutien"
+        , "text": "En envoyant des fleurs sur le lieux des obsèques ou en contribuant à une cause chère au défunt."
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
+      }
+      , {
+          "title": "Invitez les personnes chères à {{{capitalize firstname}}}"
+        , "text": "Partagez cet espace avec les proches du défunt désireux de se recueillir et lui rendre hommage."
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Gerer_v2.svg"
       }
     ],
     "manager": [
       {
+          "title": "Découvrez un espace intime d’hommage et de partage"
+        , "text": "Rendez hommage à {{{capitalize firstname}}} sur cet espace intime et sécurisé. Vous avez la main et décidez qui peut y accéder."
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
+      }
+      , {
           "title": "Communiquez les détails logistiques simplement"
         , "text": "Communiquez à vos proches les informations relatives aux obsèques en leur partageant cet espace en un clic."
-        , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
       }
       , {
           "title": "Offrez à vos proches un espace de commémoration consacré"
         , "text": "Vos proches pourront partager un message ou une photo et faire livrer des fleurs sur le lieux des obsèques."
-        , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
-      }
-      , {
-          "title": "Découvrez un espace intime d'hommage et de partage"
-        , "text": "Rendez hommage à {{firstname}} sur cet espace intime et sécurisé. Vous avez la main et décidez qui peut y accéder."
-        , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
       }
       , {
           "title": "Gardez la trace des messages reçus"
         , "text": "En imprimant un livre qui compile tous les messages partagés sur cet espace par votre entourage."
-        , "icon": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_hwqc.svg"
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
       }
     ]
   },
@@ -102,6 +117,7 @@
 
   "login": {
     "err": "Identifiants invalides !",
+    "err-swap": "Ce lien n'est plus valide ! Veuillez vous identifier à nouveau.",
     "actions": {
       "start": {
           "title": "Vous n'êtes pas connecté"
@@ -163,12 +179,6 @@
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
       }
     ]
-  },
-
-  "card-help": {
-    "title": "Besoin d'aide",
-    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage",
-    "cta": "Inviter un gestionnaire"
   },
 
   "places": {
@@ -426,10 +436,10 @@
     },
     "templates": {
       "family": [
-        "Nous savons que l'association {{org}} était très importante aux yeux de {{capitalize firstname}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
+        "Nous savons que l'association {{org}} était très importante aux yeux de {{{capitalize firstname}}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
       ],
       "org": [
-        "Nous savons que l'association {{org}} était très importante aux yeux de {{capitalize firstname}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
+        "Nous savons que l'association {{org}} était très importante aux yeux de {{{capitalize firstname}}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
       ]
     }
   },
@@ -516,7 +526,7 @@
       "templates": "Besoin d'inspiration ?"
     },
     "templates": [
-        "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori privé est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien."
+        "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{capitalize firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori privé est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien."
       , ""
       , ""
     ]
@@ -545,17 +555,17 @@
       "cta": "Voir tous les hommages"
     }, {
       "title": "Condoléances",
-      "subtitle": "Partagez votre soutien aux proches de {{firstname}}.",
+      "subtitle": "Partagez votre soutien aux proches de {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Ecrire vos condoléances"
     }, {
       "title": "Souvenirs",
-      "subtitle": "Partagez un joli souvenir vécu avec {{firstname}}.",
+      "subtitle": "Partagez un joli souvenir vécu avec {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
       "cta": "Ajouter vos souvenirs"
     }, {
       "title": "Photos",
-      "subtitle": "Partagez un moment de vie vécu avec {{firstname}}.",
+      "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
       "cta": "Ajouter vos photos"
     }]
@@ -599,24 +609,30 @@
   "tab-share": {
 
     "title": "Partager",
-    "subtitle": "Aidez la famille à prévenir tous ceux qui ont connu {{firstname}}",
+    "subtitle": "Aidez la famille à prévenir tous ceux qui ont connu {{{capitalize firstname}}}",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
     "menu": {
       "email": {
         "title": "Email",
-        "subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{firstname}} grâce au lien contenu dans l'Email.",
+        "subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{{capitalize firstname}}} grâce au lien contenu dans l'Email.",
         "cta": "Envoyer un email",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },
       "sms": {
         "title": "SMS",
-        "subtitle": "Vous recevez par SMS le lien de l’espace de {{firstname}}, à transmettre à vos proches.",
+        "subtitle": "Vous recevez par SMS le lien de l’espace de {{{capitalize firstname}}}, à transmettre à vos proches.",
         "cta": "M’envoyer le lien par sms",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
       },
       "wa": {
         "title": "Whatsapp",
+        "subtitle": "Partagez le lien via l'application Whatsapp.",
+        "cta": "Partager sur Whatsapp",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
+      },
+      "success": {
+        "title": "Invitation envoyé",
         "subtitle": "Partagez le lien via l'application Whatsapp.",
         "cta": "Partager sur Whatsapp",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
@@ -701,8 +717,8 @@
   "managers-add": {
     "title": "Ajouter un gestionnaire",
     "subtitle": "Renseignez l'adresse email des personnes que vous souhaitez inviter en tant que gestionnaire(s).",
-    "message": "Bonjour,\n\nJe t'ai ajouté comme administrateur de l'espace InMemori en hommage à {{firstname}} pour que tu m'aides à le personnaliser et à le gérer. \n\nConstance d'InMemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com.",
-    "cta": "Envoyer"
+    "message": "Bonjour,\n\nJe t'ai ajouté comme administrateur de l'espace InMemori en hommage à {{{capitalize firstname}}} pour que tu m'aides à le personnaliser et à le gérer. \n\nConstance d'InMemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com.",
+    "cta": { "add": "Envoyer" }
   },
 
   "managers-list": {
@@ -743,63 +759,68 @@
   ],
 
   "banners": {
-      "s-manager|check-places": {
-          "icon": "fas fa-info-circle"
+       "help-invite-manager": {
+          "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
+        , "text": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage"
+        , "cta": "Ajouter un gestionnaire"
+      }
+    , "s-manager|check-places": {
+          "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-calendar.svg"
         , "text": "Avez-vous besoin d'ajouter / modifier un événement ?"
         , "cta": "Ajouter"
         , "ctb": "Plus tard"
       }
     , "s-manager|check-intro": {
-          "icon": "fas fa-align-left"
+          "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
         , "text": "Pour commencez, validez le mot d'accueil de la page."
         , "cta": "Valider"
         , "ctb": "Éditer"
       }
     , "s-manager|has-photo": {
-          "icon": "fa fa-camera"
-        , "text": "Souhaitez-vous ajouter une photo de {{capitalize firstname}} ?"
+          "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-camera.svg"
+        , "text": "Souhaitez-vous ajouter une photo de {{{capitalize firstname}}} ?"
         , "cta": "Ajouter"
         , "ctb": "Plus tard"
       }
     , "s-manager|has-invited": {
-          "icon": "fa fa-paper-plane"
-        , "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} à accéder à cet espace."
+          "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
+        , "text": "Vous pouvez maintenant inviter les proches de {{{capitalize firstname}}} à accéder à cet espace."
         , "cta": "Inviter"
         , "ctb": "Plus tard"
       }
     , "s-google|check-places": {
-          "icon": "fas fa-info-circle"
+          "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-calendar.svg"
         , "text": "Avez-vous besoin d'ajouter / modifier un événement ?"
         , "cta": "Ajouter"
         , "ctb": "Plus tard"
       }
     , "s-google|check-intro": {
-          "icon": "fas fa-align-left"
+          "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
         , "text": "Pour commencer, validez le mot d'accueil de la page."
         , "cta": "Valider"
         , "ctb": "Éditer"
       }
     , "s-google|has-photo": {
-          "icon": "fa fa-camera"
-        , "text": "Souhaitez-vous ajouter une photo de {{capitalize firstname}} ?"
+          "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-camera.svg"
+        , "text": "Souhaitez-vous ajouter une photo de {{{capitalize firstname}}} ?"
         , "cta": "Ajouter"
         , "ctb": "Plus tard"
       }
     , "s-google|has-invited": {
-          "icon": "fa fa-paper-plane"
-        , "text": "Vous pouvez maintenant inviter les proches de {{capitalize firstname}} à accéder à cet espace."
+          "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
+        , "text": "Vous pouvez maintenant inviter les proches de {{{capitalize firstname}}} à accéder à cet espace."
         , "cta": "Inviter"
         , "ctb": "Plus tard"
       }
     , "s-user|has-published": {
-          "icon": "fas fa-feather-alt"
+          "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
         , "text": "Si vous le souhaitez, vous pouvez publier un mot ou une photo."
         , "cta": "Publier"
         , "ctb": "Plus tard"
       }
     , "s-user|has-invited": {
-          "icon": "fa fa-paper-plane"
-        , "text": "Vous pouvez aider les proches de {{capitalize firstname}} à se recueillir. Invitez-les à rejoindre cet espace."
+          "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
+        , "text": "Vous pouvez aider les proches de {{{capitalize firstname}}} à se recueillir. Invitez-les à rejoindre cet espace."
         , "cta": "Inviter"
         , "ctb": "Plus tard"
       }
