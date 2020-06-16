@@ -445,34 +445,32 @@
   },
 
   "welcome": {
-    "stepsIndexes": {
-      "defunct":  0,
-      "contacts": 1,
-      "places":   2,
-      "success":  3
-    },
     "steps": [
         {
-            "key": "difunto"
+            "key": "deceased"
           , "label": "Su ser querido fallecido"
           , "title": "Información del difunto"
           , "subtitle": "Por favor ingrese aquí la información relacionada con el difunto."
+          , "cta": "Siguiente"
         },{
-            "key": "contactos"
+            "key": "contacts"
           , "label": "Su información de contacto"
           , "title": "Su información de contacto"
           , "subtitle": "En breve, nuestro equipo se pondrá en contacto con usted para responder sus preguntas."
+          , "cta": "Siguiente"
         },{
-            "key": "lugares"
+            "key": "places"
           , "label": "Información del funeral"
           , "title": "Agregar evento (s)"
           , "subtitle": "Puede comenzar a completar los detalles del funeral que aparecerán en el espacio de su ser querido."
+          , "cta": "Siguiente"
         },{
-            "key": "exito"
+            "key": "success"
           , "label": ""
           , "title": "Bienvenido!"
           , "subtitle": "El espacio en honor a {{{fullname}}} ha sido creado."
           , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
+          , "cta": "Go to the space"
         }
       ]
     , "labels": {

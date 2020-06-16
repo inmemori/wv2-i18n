@@ -181,12 +181,6 @@
     ]
   },
 
-  "card-help": {
-    "title": "Need help",
-    "subtitle": "Invite a close one to become a page administrator by your side to help you share it to those around you",
-    "cta": "Invite an administrator"
-  },
-
   "places": {
 
     "h1": "The ceremonies",
@@ -451,34 +445,32 @@
   },
 
   "welcome": {
-    "stepsIndexes": {
-      "defunct":  0,
-      "contacts": 1,
-      "places":   2,
-      "success":  3
-    },
     "steps": [
         {
             "key": "deceased"
           , "label": "Your departed loved one"
           , "title": "Information of the deceased"
           , "subtitle": "Please enter here the information relating to the deceased."
+          , "cta": "Next"
         },{
             "key": "contacts"
           , "label": "Your contact information"
           , "title": "Your contact information"
           , "subtitle": "Today or tomorrow, our team will contact you to answer any questions."
+          , "cta": "Next"
         },{
             "key": "places"
           , "label": "Funeral information"
           , "title": "Add event(s)"
           , "subtitle": "You can start to fill in the details of the funeral which will appear on the space of your loved one."
+          , "cta": "Next"
         },{
             "key": "success"
           , "label": ""
           , "title": "Welcome!"
           , "subtitle": "Your space in honor of {{{fullname}}} has been created."
           , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
+          , "cta": "Go to the space"
         }
       ]
     , "labels": {
