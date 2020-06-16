@@ -753,68 +753,68 @@
   "banners": {
        "help-invite-manager": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
-        , "text": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage"
-        , "cta": "Ajouter un gestionnaire"
+        , "text": "Ask a loved one to become a page administrator by your side to help you share the space with those around you"
+        , "cta": "Add an administrator"
       }
     , "s-manager|check-places": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-calendar.svg"
-        , "text": "Avez-vous besoin d'ajouter / modifier un événement ?"
-        , "cta": "Ajouter"
-        , "ctb": "Plus tard"
+        , "text": "Do you need to add / modify an event?"
+        , "cta": "Add"
+        , "ctb": "Later"
       }
     , "s-manager|check-intro": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
-        , "text": "Pour commencez, validez le mot d'accueil de la page."
-        , "cta": "Valider"
-        , "ctb": "Éditer"
+        , "text": "To start, validate the welcome message of the page."
+        , "cta": "Validate"
+        , "ctb": "Edit"
       }
     , "s-manager|has-photo": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-camera.svg"
-        , "text": "Souhaitez-vous ajouter une photo de {{{capitalize firstname}}} ?"
-        , "cta": "Ajouter"
-        , "ctb": "Plus tard"
+        , "text": "Would you like to add a photo of {{{capitalize firstname}}}?"
+        , "cta": "Add"
+        , "ctb": "Later"
       }
     , "s-manager|has-invited": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
-        , "text": "Vous pouvez maintenant inviter les proches de {{{capitalize firstname}}} à accéder à cet espace."
-        , "cta": "Inviter"
-        , "ctb": "Plus tard"
+        , "text": "You can now invite {{{capitalize firstname}}}'s close ones to access this space."
+        , "cta": "Invite"
+        , "ctb": "Later"
       }
     , "s-google|check-places": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-calendar.svg"
-        , "text": "Avez-vous besoin d'ajouter / modifier un événement ?"
-        , "cta": "Ajouter"
-        , "ctb": "Plus tard"
+        , "text": "Do you need to add / modify an event?"
+        , "cta": "Add"
+        , "ctb": "Later"
       }
     , "s-google|check-intro": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
-        , "text": "Pour commencer, validez le mot d'accueil de la page."
-        , "cta": "Valider"
-        , "ctb": "Éditer"
+        , "text": "To start, validate the welcome message of the page."
+        , "cta": "Validate"
+        , "ctb": "Edit"
       }
     , "s-google|has-photo": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-camera.svg"
-        , "text": "Souhaitez-vous ajouter une photo de {{{capitalize firstname}}} ?"
-        , "cta": "Ajouter"
-        , "ctb": "Plus tard"
+        , "text": "Would you like to add a photo of {{{capitalize firstname}}}?"
+        , "cta": "Add"
+        , "ctb": "Later"
       }
     , "s-google|has-invited": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
-        , "text": "Vous pouvez maintenant inviter les proches de {{{capitalize firstname}}} à accéder à cet espace."
-        , "cta": "Inviter"
-        , "ctb": "Plus tard"
+        , "text": "You can now invite {{{capitalize firstname}}}'s close ones to access this space."
+        , "cta": "Invite"
+        , "ctb": "Later"
       }
     , "s-user|has-published": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
-        , "text": "Si vous le souhaitez, vous pouvez publier un mot ou une photo."
-        , "cta": "Publier"
-        , "ctb": "Plus tard"
+        , "text": "If you wish, you can post a word or a photo."
+        , "cta": "Publish"
+        , "ctb": "Later"
       }
     , "s-user|has-invited": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
-        , "text": "Vous pouvez aider les proches de {{{capitalize firstname}}} à se recueillir. Invitez-les à rejoindre cet espace."
-        , "cta": "Inviter"
-        , "ctb": "Plus tard"
+        , "text": "You can help the loved ones of {{{capitalize firstname}}} to collect themselves. Invite them to join this space."
+        , "cta": "Invite"
+        , "ctb": "Later"
       }
   }
 
