@@ -518,13 +518,13 @@
   },
 
   "edit-intro": {
-    "title": "Notice of passing",
-    "subtitle": "The text below allows you to address everyone invited to the space.",
+    "title": "Edit the welcome text",
+    "subtitle": "The family and close ones are saddened to share the news of the passing of {{fullname}} which occurred on {{lowercase dod}}.",
     "label": {
       "templates": "Need inspiration?"
     },
     "templates": [
-        "Dear family, dear friends,\nWe are very sad to announce the death of {{{capitalize firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years {{/ if}}. \n\nThis InMemori page is intended to collect your testimonials: a message, a memory or a photo, illustrating a moment you shared with {{{capitalize firstname}}}.\n\nThe information about the funeral is shown below. Thank you for your support."
+        "Dear family, dear friends,\nWe are very sad to announce the passing of {{{capitalize firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years {{/ if}}. \n\nThis InMemori page is intended to collect your testimonials: a message, a memory or a photo, illustrating a moment you shared with {{{capitalize firstname}}}.\n\nThe information about the funeral is shown below. Thank you for your support."
       , ""
       , ""
     ]
@@ -632,7 +632,7 @@
     },
 
     "message": {
-      "email": "Hello, \n\nIt is with great sadness that we announce the death of {{{fullname}}}.\n\nWe share with you this private InMemori space on the internet to pay tribute to {{{capitalize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{capitalize firstname}}}, please share this space with them.\n\nFriendships.",
+      "email": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private InMemori space on the internet to pay tribute to {{{capitalize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{capitalize firstname}}}, please share this space with them.\n\nFriendships.",
       "sms": "message sms {{{link}}}",
       "wa": "message whatsapp \n\n {{{link}}}"
     },
