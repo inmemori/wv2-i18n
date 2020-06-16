@@ -46,51 +46,51 @@
 
   "showcase": {
     "cta": {
-      "prev": "Retour",
-      "next": "Suivant",
-      "end": "Terminer"
+      "prev": "Back",
+      "next": "Next",
+      "end": "Finish"
     },
     "user": [
       {
-          "title": "Rendez hommage à votre proche disparu"
-        , "text": "Cet espace d'intimité rassemble les proches de {{{capitalize firstname}}} et vous permet de partager un message, un souvenir ou une photo."
+          "title": "Pay tribute to your departed loved one"
+        , "text": "This private space gathers {{{capitalize firstname}}}'s close ones and allows you to share a message, a memory or a photo."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
       }
       , {
-          "title": "Prenez connaissance du déroulé des obsèques"
-        , "text": "Vous trouverez dans cet espace les informations relatives au déroulé des obsèques."
+          "title": "Learn about the funeral's information"
+        , "text": "You will find the funeral's information in this space."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
       }
       , {
-          "title": "Faites un geste pour {{{capitalize firstname}}} et offrez du soutien"
-        , "text": "En envoyant des fleurs sur le lieux des obsèques ou en contribuant à une cause chère au défunt."
+          "title": "Make a gesture for {{{capitalize firstname}}} and offer support"
+        , "text": "You can send flowers to the funeral or contribute to a cause dear to the deceased."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
       }
       , {
-          "title": "Invitez les personnes chères à {{{capitalize firstname}}}"
-        , "text": "Partagez cet espace avec les proches du défunt désireux de se recueillir et lui rendre hommage."
+          "title": "Invite {{{capitalize firstname}}}'s close ones"
+        , "text": "Share this space with everyone who wishes to gather and pay tribute to {{{capitalize firstname}}}."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Gerer_v2.svg"
       }
     ],
     "manager": [
       {
-          "title": "Découvrez un espace intime d’hommage et de partage"
-        , "text": "Rendez hommage à {{{capitalize firstname}}} sur cet espace intime et sécurisé. Vous avez la main et décidez qui peut y accéder."
+          "title": "Discover an intimate space of tribute and sharing"
+        , "text": "Pay tribute to {{{capitalize firstname}}} in this private and secure space. You have the control and decide who can access it."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
       }
       , {
-          "title": "Communiquez les détails logistiques simplement"
-        , "text": "Communiquez à vos proches les informations relatives aux obsèques en leur partageant cet espace en un clic."
+          "title": "Easily communicate logistic details"
+        , "text": "Communicate the funeral information to your loved ones by sharing this space with one click."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
       }
       , {
-          "title": "Offrez à vos proches un espace de commémoration consacré"
-        , "text": "Vos proches pourront partager un message ou une photo et faire livrer des fleurs sur le lieux des obsèques."
+          "title": "Give your loved ones a dedicated commemoration space"
+        , "text": "Your loved ones can share a message or photo and have flowers delivered to the funeral site."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
       }
       , {
-          "title": "Gardez la trace des messages reçus"
-        , "text": "En imprimant un livre qui compile tous les messages partagés sur cet espace par votre entourage."
+          "title": "Keep trace of all the messages received"
+        , "text": "Print a book that compiles all the messages and pictures shared on this space."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
       }
     ]
@@ -117,7 +117,7 @@
 
   "login": {
     "err": "Invalid credentials",
-    "err-swap": "Ce lien n'est plus valide ! Veuillez vous identifier à nouveau.",
+    "err-swap": "This link is no longer valid! Please identify yourself again.",
     "actions": {
       "start": {
           "title": "You are not connected"
