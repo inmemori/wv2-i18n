@@ -36,7 +36,7 @@
     "choose": "Choose",
     "choose-file": "Choose file",
     "uploading": "Upload",
-    "login": "Login",
+    "login": "Log in",
     "delete": "Delete",
     "yes": "Yes",
     "no": "No",
@@ -230,21 +230,21 @@
 
   "order": {
     "ns": {
-      "donation": { "title": "Votre don", "subtitle": "" },
+      "donation": { "title": "Your donation", "subtitle": "" },
       "flower": { "title": "Bouquet", "subtitle": "{{{item.name}}}" },
-      "book": { "title": "Livre Inmemori", "subtitle": "" }
+      "book": { "title": "InMemori Book", "subtitle": "" }
     },
     "cart": {
-      "cart": "Panier",
-      "item": "Produit",
-      "qty": "Quantité",
-      "price": "Prix",
-      "shipping": "Livraison",
+      "cart": "Cart",
+      "item": "Item",
+      "qty": "Quantity",
+      "price": "Price",
+      "shipping": "Shipping",
       "total": "Total"
     },
     "invoice": {
-      "with": "Utiliser une autre adresse pour la facturation",
-      "withFiscal": "Je désire un reçu fiscal (facultatif)"
+      "with": "Use another address for billing",
+      "withFiscal": "I would like a tax receipt (optional)"
     }
   },
 
@@ -252,34 +252,34 @@
     "steps": [
       {
           "key": "intro"
-        , "label": "Commander un livre"
-        , "title": "Présentation du livre"
-        , "subtitle": "Cet ouvrage rassemble l’ensemble des messages et photos partagés par vos proches."
-        , "cta": "Suivant"
+        , "label": "Order a book"
+        , "title": "Book presentation"
+        , "subtitle": "This book brings together all the messages and photos shared by your loved ones."
+        , "cta": "Next"
       },{
           "key": "cart"
-        , "label": "Mon panier"
-        , "title": "Mon panier"
-        , "subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez. "
-        , "cta": "Suivant"
+        , "label": "My cart"
+        , "title": "My cart"
+        , "subtitle": "Here is your selection. You can change the quantity if you wish."
+        , "cta": "Next"
       },{
           "key": "shipping"
-        , "label": "Livraison"
-        , "title": "Adresse de livraison"
-        , "subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée sous 6 semaines  (en Europe uniquement)."
-        , "cta": "Suivant"
+        , "label": "Shipping"
+        , "title": "Delivery address"
+        , "subtitle": "Fill in the information necessary for delivery. Delivery will be made within 6 weeks (in Europe only)."
+        , "cta": "Next"
       },{
           "key": "payment"
-        , "label": "Paiement"
-        , "title": "Finaliser la commande"
-        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
+        , "label": "Payment"
+        , "title": "Finalize the order"
+        , "subtitle": "Fill in your banking information in the secure space below."
         , "cta": "Payer {{total}}"
       },{
           "key": "success"
         , "label": ""
-        , "title": "Merci pour votre commande"
-        , "subtitle": "Votre commande a bien été effectuée et un email de confirmation vous a été envoyé."
-        , "cta": "Retour à l'acceuil"
+        , "title": "Thank you for your order"
+        , "subtitle": "Your order has been completed and a confirmation email has been sent to you."
+        , "cta": "Back to home"
       }
     ]
   },
@@ -288,41 +288,41 @@
     "steps": [
       {
           "key": "intro"
-        , "label": "Choix du bouquet"
-        , "title": "Choisissez votre bouquet"
-        , "subtitle": "Tous les bouquets sont de taille moyenne et fournis avec une bulle d'eau afin de pouvoir être livrés sur le lieu des obsèques de votre choix."
-        , "cta": "Suivant"
+        , "label": "Choice of bouquet"
+        , "title": "Choose your bouquet"
+        , "subtitle": "All bouquets are medium in size and supplied with a bubble of water so that they can be delivered to the place of the funeral of your choice."
+        , "cta": "Next"
       },{
           "key": "cart"
-        , "label": "Mon panier"
-        , "title": "Mon panier"
-        , "subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez. "
-        , "cta": "Suivant"
+        , "label": "My cart"
+        , "title": "My cart"
+        , "subtitle": "Here is your selection. You can change the quantity if you wish."
+        , "cta": "Next"
       },{
           "key": "shipping"
-        , "label": "Livraison"
-        , "title": "Choisissez le lieu de livraison"
-        , "subtitle": "Veuillez sélectionner le lieu de livraison de votre choix. Notre partenaire s'engage à livrer avant l'heure de la cérémonie."
-        , "cta": "Suivant"
+        , "label": "Shipping"
+        , "title": "Choose the place of delivery"
+        , "subtitle": "Please select the delivery location of your choice. Our partner agrees to deliver before the time of the ceremony."
+        , "cta": "Next"
       },{
           "key": "payment"
-        , "label": "Paiement"
-        , "title": "Finaliser la commande"
-        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
-        , "cta": "Payer {{total}}"
+        , "label": "Payment"
+        , "title": "Finalize the order"
+        , "subtitle": "Enter your bank information in the secure space below."
+        , "cta": "Pay {{total}}"
       },{
           "key": "success"
         , "label": ""
-        , "title": "Merci pour votre commande"
-        , "subtitle": "Votre commande a bien été effectuée et un email de confirmation vous a été envoyé."
-        , "cta": "Retour à l'acceuil"
+        , "title": "Thank you for your order"
+        , "subtitle": "Your order has been completed and a confirmation email has been sent to you."
+        , "cta": "Back to home"
       }
     ],
     "labels": {
-      "message": "Ajoutez un message à votre bouquet (optionnel):"
+      "message": "Add a message to your bouquet (optional):"
     },
     "ph": {
-      "message": "Saisissez votre message (il sera joint au bouquet)"
+      "message": "Enter your message (it will be attached to the bouquet)"
     }
   },
 
@@ -330,29 +330,29 @@
     "steps": [
       {
           "key": "intro"
-        , "label": "Votre don"
-        , "title": "Votre don"
-        , "subtitle": "Veuillez sélectionner le montant du don que vous souhaitez faire à l’association {{org}}."
-        , "cta": "Suivant"
+        , "label": "Your donation"
+        , "title": "Your donation"
+        , "subtitle": "Please select the amount you wish to donation to the association {{org}}."
+        , "cta": "Next"
       },{
           "key": "payment"
-        , "label": "Paiement"
-        , "title": "Finaliser votre don"
-        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
-        , "cta": "Payer {{total}}"
+        , "label": "Payment"
+        , "title": "Finalize your donation"
+        , "subtitle": "Enter your bank information in the secure space below."
+        , "cta": "Pay {{total}}"
       },{
           "key": "success"
         , "label": ""
-        , "title": "Merci pour votre générosité "
-        , "subtitle": "Votre contribution a bien été prise en compte et un email de confirmation vous a été envoyé."
-        , "cta": "Retour à l'acceuil"
+        , "title": "Thank you for your generosity "
+        , "subtitle": "Your contribution has been taken into account and a confirmation email has been sent to you."
+        , "cta": "Back to home"
       }
     ],
     "labels": {
-      "custom": "Autre"
+      "custom": "Other"
     },
     "ph": {
-      "custom": "Montant libre ({{currency}})"
+      "custom": "Amount({{currency}})"
     }
   },
 
@@ -360,92 +360,92 @@
     "steps": [
       {
           "key": "intro"
-        , "label": "Fundraising"
-        , "title": "Fundraising"
-        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause précise ou de contribuer aux obsèques"
-        , "cta": "Activer la collecte"
+        , "label": "Fundraiser"
+        , "title": "Fundraiser"
+        , "subtitle": "Collecting donations allows your loved ones to support a specific cause or to contribute to the funeral"
+        , "cta": "Activate the fundraiser"
       },{
           "key": "config"
-        , "label": "Informations"
-        , "title": "Informations"
-        , "subtitle": "Qui sera le bénéficiaire de cette collecte ?"
-        , "cta": "Suivant"
+        , "label": "Information"
+        , "title": "Information"
+        , "subtitle": "Who will be the beneficiary of this collection?"
+        , "cta": "Next"
       },{
           "key": "bank"
         , "label": "Bank account"
         , "title": "Bank account"
-        , "subtitle": "Pour collecter de l'argent sur Internet, la loi exige que l'organisateur soit identifié et fournisse les informations suivantes."
-        , "cta": "Activer la collecte"
+        , "subtitle": "To collect money on the Internet, the law requires that the organizer is identified and provides the following information."
+        , "cta": "Activate the fundraiser"
       },{
           "key": "active"
         , "label": ""
-        , "title": "Manage fundraising"
-        , "subtitle": "Une collecte est en cours au bénéfice de Ligue contre le cancer. À ce jour le montant des dons s'élève à :"
-        , "cta": "Enregistrer"
+        , "title": "Manage fundraiser"
+        , "subtitle": "A collection is underway for the benefit of Alzheimer's Society. To date the amount of donations is:"
+        , "cta": "Save"
       },{
           "key": "closed"
         , "label": ""
-        , "title": "Fundraising closed"
-        , "subtitle": "Votre collecte de dons a été clôturée.\nUn email de confirmation vient de vous être envoyé."
+        , "title": "Fundraiser closed"
+        , "subtitle": "Your fundraiser has been closed. \n A confirmation email has been sent to you."
       }
     ],
     "tips": [{
-      "title": "Activez votre collecte de dons",
-      "subtitle": "au profit d'une cause ou pour financer les obsèques.",
+      "title": "Activate your fundraiser",
+      "subtitle": "for the benefit of a cause or to finance the funeral.",
       "icon": ""
     }, {
-      "title": "Vos proches font un don",
-      "subtitle": "et montrent leur soutien en contribuant à une cause pleine de sens.",
+      "title": "Your close ones make a donation",
+      "subtitle": "and show their support by contributing to a meaningful cause.",
       "icon": ""
     }, {
-      "title": "Cloturez votre collecte",
-      "subtitle": "et recevez l’argent par virement sur votre compte bancaire.",
+      "title": "Close your fundraiser",
+      "subtitle": "and receive the money by transfer to your bank account.",
       "icon": ""
     }, {
-      "title": "Virez les fonds à la cause choisie",
-      "subtitle": "et  distribuez un reçu fiscal à ceux qui le souhaitent.",
+      "title": "Transfer funds to the chosen cause",
+      "subtitle": "and distribute a tax receipt to those who wish.",
       "icon": ""
     }],
     "labels": {
-      "beneficiary": "Qui est le Bénéficiaire des fonds ?",
-      "family": "La famille",
-      "org": "Une association",
-      "message": "Message concernant la collecte",
-      "identity": "Votre identité",
-      "bank": "Votre compte bancaire",
-      "kyc": "Vos justificatifs",
-      "close": "Clôturer la collecte"
+      "beneficiary": "Who is the beneficiary of the funds?",
+      "family": "The family",
+      "org": "An association",
+      "message": "Message regarding the fundraiser",
+      "identity": "Your identity",
+      "bank": "Your bank account",
+      "kyc": "Your supporting documents",
+      "close": "Close the collection"
     },
     "ph": {
-      "org": "Choisir une association",
-      "iban": "N°Iban. ex: FR69 3000 2000 0800 1000 0001",
+      "org": "Choose an association",
+      "iban": "ABA number",
       "routing": "N°Routing"
     },
     "notes": {
-      "message": "Ce message est visible par vos proches et vous permet d’en dire plus au sujet de la cause soutenue.",
-      "iban": "Le compte sur lequel les fonds vous seront versés",
-      "documents": "Merci de bien vouloir ajouter vos documents d’identités. (Passeports ou CNI, Recto verso)",
-      "close": "Les fonds récoltés sont virés automatiquement sur votre compte bancaire 1 fois par semaine, les lundis, tant que la collecte n'est pas cloturée.",
-      "closed": "Le montant total de la collecte ({{stats.donations.total_f}}) sera viré sur le compte bancaire {{donation.iban}} d’ici 48 heures."
+      "message": "This message is visible to your loved ones and allows you to say more about the cause supported.",
+      "iban": "The account into which the funds will be paid to you",
+      "documents": "Please add your identity documents. (Driver license or passport. Front and back.)",
+      "close": "The funds collected are transferred automatically to your bank account once a week, on Mondays, as long as the collection is not closed.",
+      "closed": "The total amount of the collection ({{stats.donations.total_f}}) will be transferred to the bank account {{donation.iban}} within 48 hours."
     },
     "warning": {
-      "documents": "Veillez à bien faire correspondre l’adresse renseignée ci-dessus avec celle figurant sur votre pièce  d’identité, ou vous pourriez être amenés à fournir un autre justificatif de domicile.",
-      "files": "Seuls les images au format .PNG ou .JPEG/.JPG d'une taille inférieure à 5Mo sont acceptées.",
-      "close": "Veuillez transmettre votre justificatif d’identité pour pouvoir clôturer cette collecte de dons."
+      "documents": "Make sure to match the address given above with the address on your ID, or you may have to provide another proof of address.",
+      "files": "Only images in .PNG or .JPEG / .JPG format of size less than 5MB are accepted.",
+      "close": "Please send your proof of identity to be able to close this collection of donations."
     },
     "cta": {
-      "start": "Activer la collecte",
-      "end": "Terminer",
-      "doc-recto": "Choisir le document (recto)",
-      "doc-verso": "Choisir le document (verso)",
-      "close": "Clôturer la collecte de dons"
+      "start": "Activate the fundraiser",
+      "end": "Finish",
+      "doc-recto": "Choose document (front)",
+      "doc-verso": "Choose document (back)",
+      "close": "Close donation collection"
     },
     "templates": {
       "family": [
-        "Pour ceux qui le désirent, nous organisons une collecte de dons en mémoire de {{{capitalize firstname}}}."
+        "For those who wish to participate, we organized a collection of donations in memory of {{{capitalize firstname}}}."
       ],
       "org": [
-        "Nous savons que l'association {{org}} était très importante aux yeux de {{{capitalize firstname}}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
+        "We know that the association {{org}} was very important to {{{capitalize firstname}}}. It is important to us to support their mission by setting up a fundraiser.\n\nMany thanks for your participation."
       ]
     }
   },
@@ -556,24 +556,24 @@
     },
     "menu": [{
       "title": "Thank you for your words!",
-      "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
+      "subtitle": "Your message will be visible to everyone who has access to this space.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
-      "cta": "Voir tous les hommages"
+      "cta": "See all the tributes"
     }, {
       "title": "Condolences",
       "subtitle": "Express your feelings of support with {{{capitalize firstname}}}'s family.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
-      "cta": "Ecrire vos condoléances"
+      "cta": "Write your condolences"
     }, {
       "title": "Memories",
       "subtitle": "Share a moment lived with {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
-      "cta": "Ajouter vos souvenirs"
+      "cta": "Share your memories"
     }, {
       "title": "Photos",
       "subtitle": "The space becomes prettier with pictures.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
-      "cta": "Ajouter vos photos"
+      "cta": "Add your photos"
     }]
   },
 
@@ -596,51 +596,51 @@
   },
 
   "card-ft-donation": {
-    "h1": "Faire un don",
-    "title-family": "Collecte de dons au profit de la famille",
-    "title-org": "Collecte de dons au profit de “{{donation.org.name}}”",
-    "text-stats": "{{stats.donations.total_f}} récolté par {{stats.donations.count}} donateur(s).",
-    "cta": "Faire un don",
+    "h1": "Make a donation",
+    "title-family": "Fundraiser to assist the family",
+    "title-org": "Fundraiser for the benefit of “{{donation.org.name}}”",
+    "text-stats": "{{stats.donations.total_f}} donated by {{stats.donations.count}} donor(s).",
+    "cta": "Make a donation",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "card-ft-donation-unset": {
-    "h1": "Faire un don",
-    "title": "Donnez l’opportunité à vos proches de contribuer à une cause chère au défunt",
-    "text": "L’ouverture d’une collecte de dons, permettra à vos proches de soutenir une cause précise ou de contribuer à l’organisation des obsèques",
-    "cta": "Activer la collecte",
+    "h1": "Make a donation",
+    "title": "Give your loved ones the opportunity to contribute to a cause dear to the deceased",
+    "text": "Activating a fundraiser will allow your loved ones to support a specific cause or to help pay for the funeral",
+    "cta": "Activate the fundraiser",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "tab-share": {
 
-    "title": "Partager",
-    "subtitle": "Aidez la famille à prévenir tous ceux qui ont connu {{{capitalize firstname}}}",
+    "title": "Share",
+    "subtitle": "Help the family inform everyone who knew {{{capitalize firstname}}}",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
     "menu": {
       "email": {
         "title": "Email",
-        "subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{{capitalize firstname}}}.",
-        "cta": "Envoyer un email",
+        "subtitle": "Share the announcement with everyone close to the deceased. They will have access to the space of {{{capitalize firstname}}}.",
+        "cta": "Send an email",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },
       "sms": {
         "title": "SMS",
-        "subtitle": "Vous recevez par SMS le lien de l’espace de {{{capitalize firstname}}}, à transmettre à vos proches.",
-        "cta": "M’envoyer le lien par sms",
+        "subtitle": "You will receive by SMS the link of the space of {{{capitalize firstname}}}, to forward to your loved ones.",
+        "cta": "Send me the link by sms",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
       },
       "wa": {
         "title": "Whatsapp",
-        "subtitle": "Partagez le lien via l'application Whatsapp.",
-        "cta": "Partager sur Whatsapp",
+        "subtitle": "Share the link via the Whatsapp app.",
+        "cta": "Share on Whatsapp",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
       }
     },
 
     "message": {
-      "email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.\n\nNous vous partageons son espace InMemori, privé, sur internet afin de lui rendre hommage. En vous rendant sur l'espace vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de ne pas oublier des personnes qui l'ont aimé(e), n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
+      "email": "Hello, \n\nIt is with great sadness that we announce the death of {{fullname}}.\n\nWe share with you this private InMemori space on the internet to pay tribute to {{{capitalize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{capitalize firstname}}}, please share this space with them.\n\nFriendships.",
       "sms": "message sms {{{link}}}",
       "wa": "message whatsapp \n\n {{{link}}}"
     },
@@ -673,38 +673,38 @@
 
   "tab-settings": {
     "title": "Manage the space",
-    "subtitle": "Connecté(e) en tant que {{profile.email}}",
+    "subtitle": "Logged in as {{profile.email}}",
     "options": {
       "managers": {
-        "title": "Liste des gestonnaires de l’espace",
-        "cta": "Voir la liste",
+        "title": "List of space administrators",
+        "cta": "See the list",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
       "donation": {
-        "title": "Gestion de la collecte de dons",
-        "cta": "Gérer la collecte ",
+        "title": "Fundraiser management",
+        "cta": "Manage the fundraiser",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "donation-start": {
-        "title": "Activer la collecte de dons",
+        "title": "Activate the fundraiser",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "logout": {
-        "title": "Connecté avec {{as}}",
-        "cta": "Se Déconnecter",
+        "title": "Connected as {{as}}",
+        "cta": "Sign out",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
       },
       "delete": {
         "title": "{{fullname}}",
-        "cta": "Supprimer cet espace",
+        "cta": "Delete this space",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589971318/web-assets/picto/trash.svg"
       },
       "flowers": {
-        "title": "Activer la commande de fleurs",
+        "title": "Activate flower orders",
         "icon": ""
       },
       "notifs": {
-        "title": "Préférences de notifications",
+        "title": "Notification preferences",
         "icon": ""
       }
     }
@@ -715,21 +715,21 @@
   },
 
   "managers-add": {
-    "title": "Add more managers",
-    "subtitle": "Renseignez l'adresse email des personnes que vous souhaitez inviter en tant que gestionnaire(s).",
+    "title": "Add more administrators",
+    "subtitle": "Enter the email address of the people you want to invite as manager(s).",
     "message": "Hello,\n\nI added you as administrator of the InMemori space in tribute to {{{capitalize firstname}}} so that you can help me personalize and manage it. \n\nGeraldine from InMemori is at our disposal for any questions and can be reached at (617) 858 4572 or by email at contact@inmemori.com.",
     "cta": { "add": "Ajouter" }
   },
 
   "managers-list": {
     "title": "Managers",
-    "subtitle": "Les gestionnaires sont les administreurs de cet espace. Cliquez sur \"Ajouter un gestionnaire\" pour inviter une personne par mail.",
-    "cta": { "add": "Ajouter un gestionnaire" }
+    "subtitle": "The administrators are the managers of this space. Click on \"Add an administrator\" to invite someone by email.",
+    "cta": { "add": "Add an administrator" }
   },
 
   "invitation-list": {
-    "title": "Liste des invités",
-    "subtitle": "{{count}} personnes "
+    "title": "Guest list",
+    "subtitle": "{{count}} people "
   },
 
   "invitations": {
@@ -737,8 +737,8 @@
       "pending": "Invitation sent",
       "pending-manager": "Invitation sent",
       "active": "Invitation accepted",
-      "active-manager": "Manager",
-      "revoked": "Accèss revoked"
+      "active-manager": "Administrator",
+      "revoked": "Access revoked"
     },
     "ph": {
       "search": "Search..."

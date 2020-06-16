@@ -11,7 +11,7 @@
     "prev": "Précédent",
     "back": "Retour",
     "share": "Partager",
-    "pay": "Payer {{amount}}",
+    "pay": "Payer",
     "end": "Terminer",
     "suggest": "Suggestion",
     "showmore": "Voir plus",
@@ -264,7 +264,7 @@
         , "cta": "Suivant"
       },{
           "key": "payment"
-        , "label": "Paiement"
+        , "label": "Finaliser la commande"
         , "title": "Finaliser la commande"
         , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
         , "cta": "Payer {{total}}"
@@ -300,7 +300,7 @@
         , "cta": "Suivant"
       },{
           "key": "payment"
-        , "label": "Paiement"
+        , "label": "Finaliser la commande"
         , "title": "Finaliser la commande"
         , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
         , "cta": "Payer {{total}}"
@@ -332,7 +332,7 @@
           "key": "payment"
         , "label": "Paiement"
         , "title": "Finaliser votre don"
-        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
+        , "subtitle": "Afin de couvrir les différents frais de collecte d'argent en ligne, une commission de 4% est ajoutée au montant de votre don."
         , "cta": "Payer {{total}}"
       },{
           "key": "success"
@@ -577,7 +577,7 @@
 
   "card-ft-book": {
     "title": "Le livre",
-    "text": "Garder une trace de tous les messages partagés sur InMemori",
+    "text": "Garder une trace de tous les messages partagés sur InMemori.",
     "cta": "Commander le livre",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
   },

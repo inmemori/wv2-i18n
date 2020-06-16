@@ -40,8 +40,8 @@
     "delete": "Borrar",
     "yes": "Si",
     "no": "No",
-    "login": "Log in",
-    "logout": "Log out"
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión"
   },
 
   "showcase": {
@@ -161,35 +161,29 @@
     "settings": "Administración",
     "help": "Ayuda",
     "help-long": "¿Necesita ayuda?",
-    "contact": "Appelez nous au",
+    "contact": "Número de contacto",
     "phone": "01 43 54 23 55"
   },
 
   "sidebar": {
     "actions": [
       {
-        "title": "Ecrire un hommage",
+        "title": "Escribir un mensaje de homenaje",
         "flow": "new-memory",
         "flowProps": { "currentStep": 1 },
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
       },
       {
-        "title": "Partagez cet espace",
+        "title": "Compartir espacio",
         "flow": "tab-share",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
       }
     ]
   },
 
-  "card-help": {
-    "title": "Besoin d'aide",
-    "subtitle": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage",
-    "cta": "Inviter un gestionnaire"
-  },
-
   "places": {
 
-    "h1": "Les rendez-vous",
+    "h1": "Las ceremonias",
 
     "types": {
       "ceremony": "Ceremonia",
@@ -216,35 +210,35 @@
     "ph": {
       "date": "dd/mm/aaaa",
       "time": "hh:mm",
-      "name": "Cimetière du Père Lachaise",
-      "address": "71 Rue des Rondeaux, 75020 Paris",
-      "custom-type": "Nommez ce moment"
+      "name": "Funeraria El Legado",
+      "address": "Av. Insurgentes Sur 3327, 75020 Mexico",
+      "custom-type": "Ingresar texto..."
     },
 
     "cta": {
       "delete": "Borrar",
-      "add": "Aregar una etapa"
+      "add": "Aregar un evento"
     }
 
   },
 
   "order": {
     "ns": {
-      "donation": { "title": "Votre don", "subtitle": "" },
-      "flower": { "title": "Bouquet", "subtitle": "{{{item.name}}}" },
-      "book": { "title": "Livre Inmemori", "subtitle": "" }
+      "donation": { "title": "Su donación", "subtítulo": "" },
+      "flower": { "title": "Ramo de flores", "subtítulo": "{{{item.name}}}" },
+      "book": { "title": "Libro InMemori", "subtítulo": "" }
     },
     "cart": {
-      "cart": "Panier",
-      "item": "Produit",
-      "qty": "Quantité",
-      "price": "Prix",
-      "shipping": "Livraison",
+      "cart": "Canasta",
+      "item": "Producto",
+      "qty": "Cantidad",
+      "price": "Precio",
+      "shipping": "Envío",
       "total": "Total"
     },
     "invoice": {
-      "with": "Utiliser une autre adresse pour la facturation",
-      "withFiscal": "Je désire un reçu fiscal (facultatif)"
+      "with": "Utilizar otra dirección para facturación",
+      "withFiscal": "Quisiera una factura (opcional)"
     }
   },
 
@@ -252,34 +246,34 @@
     "steps": [
       {
           "key": "intro"
-        , "label": "Commander un livre"
-        , "title": "Présentation du livre"
-        , "subtitle": "Cet ouvrage rassemble l’ensemble des messages et photos partagés par vos proches."
-        , "cta": "Suivant"
+        , "label": "Ordenar un libro"
+        , "title": "Presentación del libro"
+        , "subtitle": "Este libro reúne todos los mensajes y fotografías compartidos por sus seres queridos."
+        , "cta": "Siguiente"
       },{
-          "key": "cart"
-        , "label": "Mon panier"
-        , "title": "Mon panier"
-        , "subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez. "
-        , "cta": "Suivant"
+          "key": "canasta"
+        , "label": "Mi canasta"
+        , "title": "Mi canasta"
+        , "subtitle": "Aquí esta su selección. Usted puede cambiar la cantidad si así lo desea. "
+        , "cta": "Siguiente"
       },{
-          "key": "shipping"
-        , "label": "Livraison"
-        , "title": "Adresse de livraison"
-        , "subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée sous 6 semaines  (en Europe uniquement)."
-        , "cta": "Suivant"
+          "key": "envío"
+        , "label": "Envio"
+        , "title": "Dirección de entrega"
+        , "subtitle": "Proporcione la información necesaria para la entrega. La entrega será realizada en aproximadamente 6 semanas."
+        , "cta": "Siguiente"
       },{
-          "key": "payment"
-        , "label": "Paiement"
-        , "title": "Finaliser la commande"
-        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
-        , "cta": "Payer {{total}}"
+          "key": "pago"
+        , "label": "Pago"
+        , "title": "Finalizar su orden"
+        , "subtitle": "Llene su información bancaria en el espacio seguro a continuación."
+        , "cta": "Pago {{total}}"
       },{
-          "key": "success"
+          "key": "Transaccion exitosa"
         , "label": ""
-        , "title": "Merci pour votre commande"
-        , "subtitle": "Votre commande a bien été effectuée et un email de confirmation vous a été envoyé."
-        , "cta": "Retour à l'acceuil"
+        , "title": "Gracias por su orden"
+        , "subtitle": "Su compra ha sido completada y se le ha enviado un email de confirmación."
+        , "cta": "Regresar al inicio"
       }
     ]
   },
@@ -288,41 +282,41 @@
     "steps": [
       {
           "key": "intro"
-        , "label": "Choix du bouquet"
-        , "title": "Choisissez votre bouquet"
-        , "subtitle": "Tous les bouquets sont de taille moyenne et fournis avec une bulle d'eau afin de pouvoir être livrés sur le lieu des obsèques de votre choix."
-        , "cta": "Suivant"
+        , "label": "Elija su ramo de flores"
+        , "title": "Su elección"
+        , "subtitle": "Todos los ramos de flores son de tamaño mediano y son entregados con una burbuja de agua para poder ser envíados al lugar del funeral de su elección."
+        , "cta": "Siguiente"
       },{
-          "key": "cart"
-        , "label": "Mon panier"
-        , "title": "Mon panier"
-        , "subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez. "
-        , "cta": "Suivant"
+          "key": "Canasta"
+        , "label": "Mi canasta"
+        , "title": "Mi canasta"
+        , "subtitle": "Aquí esta su selección. Usted puede cambiar la cantidad si así lo desea. "
+        , "cta": "Siguiente"
       },{
-          "key": "shipping"
-        , "label": "Livraison"
-        , "title": "Choisissez le lieu de livraison"
-        , "subtitle": "Veuillez sélectionner le lieu de livraison de votre choix. Notre partenaire s'engage à livrer avant l'heure de la cérémonie."
-        , "cta": "Suivant"
+          "key": "envío"
+        , "label": "Envío"
+        , "title": "Escoja el lugar de entrega"
+        , "subtitle": "Por favor seleccione el lugar de entrega de su elección. Nuestro partner acuerda entregar antes del tiempo en que finalizará la ceremonia."
+        , "cta": "Siguiente"
       },{
-          "key": "payment"
-        , "label": "Paiement"
-        , "title": "Finaliser la commande"
-        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
-        , "cta": "Payer {{total}}"
+          "key": "pago"
+        , "label": "Pago"
+        , "title": "Finalizar su orden"
+        , "subtitle": "Llene su información bancaria en el espacio seguro a continuación."
+        , "cta": "Pagar {{total}}"
       },{
-          "key": "success"
+          "key": "Transacción exitosa"
         , "label": ""
-        , "title": "Merci pour votre commande"
-        , "subtitle": "Votre commande a bien été effectuée et un email de confirmation vous a été envoyé."
-        , "cta": "Retour à l'acceuil"
+        , "title": "Gracias por su orden"
+        , "subtitle": "Su compra ha sido completada y se le ha enviado un email de confirmación."
+        , "cta": "Regresar al inicio"
       }
     ],
     "labels": {
-      "message": "Ajoutez un message à votre bouquet (optionnel):"
+      "message": "Agregar un mensaje al ramo de flores (opcional):"
     },
     "ph": {
-      "message": "Saisissez votre message (il sera joint au bouquet)"
+      "message": "Ingrese su mensaje (este sera agregado a su ramo de flores)"
     }
   },
 
@@ -330,29 +324,29 @@
     "steps": [
       {
           "key": "intro"
-        , "label": "Votre don"
-        , "title": "Votre don"
-        , "subtitle": "Veuillez sélectionner le montant du don que vous souhaitez faire à l’association {{org}}."
-        , "cta": "Suivant"
+        , "label": "Su donación"
+        , "title": "Su donación"
+        , "subtitle": "Porfavor seleccione el monto que desea donar a la asociacion {{org}}."
+        , "cta": "Siguiente"
       },{
-          "key": "payment"
-        , "label": "Paiement"
-        , "title": "Finaliser votre don"
-        , "subtitle": "Renseignez vos informations bancaires dans l’espace sécurisé ci-dessous."
-        , "cta": "Payer {{total}}"
+          "key": "pago"
+        , "label": "Pago"
+        , "title": "Finalizar su donación"
+        , "subtitle": "Llene su información bancaria en el espacio seguro a continuación."
+        , "cta": "Pagar {{total}}"
       },{
-          "key": "success"
+          "key": "Transacción exitosa"
         , "label": ""
-        , "title": "Merci pour votre générosité "
-        , "subtitle": "Votre contribution a bien été prise en compte et un email de confirmation vous a été envoyé."
-        , "cta": "Retour à l'acceuil"
+        , "title": "Gracias por su generosidad "
+        , "subtitle": "Su contribución ha sido tomada en cuenta y un email de confirmación le ha sido enviado."
+        , "cta": "Regresar al inicio"
       }
     ],
     "labels": {
-      "custom": "Autre"
+      "custom": "Otro"
     },
     "ph": {
-      "custom": "Montant libre ({{currency}})"
+      "custom": "Cantidad ({{currency}})"
     }
   },
 
@@ -360,92 +354,92 @@
     "steps": [
       {
           "key": "intro"
-        , "label": "Collecte de dons"
-        , "title": "Collecte de dons"
-        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause précise ou de contribuer aux obsèques"
-        , "cta": "Activer la collecte"
+        , "label": "Recaudación de fondos"
+        , "title": "Recaudación de fondos"
+        , "subtitle": "Recaudar fondos le permitirá a sus seres queridos apoyar una causa específica o contribuir con el funeral"
+        , "cta": "Activar la recaudación de fondos"
       },{
           "key": "config"
-        , "label": "Informations"
-        , "title": "Informations"
-        , "subtitle": "Qui sera le bénéficiaire de cette collecte ?"
-        , "cta": "Suivant"
+        , "label": "Información"
+        , "title": "Información"
+        , "subtitle": "Quién sera el beneficiario de esta recaudación?"
+        , "cta": "Siguiente"
       },{
-          "key": "bank"
-        , "label": "Compte bancaire"
-        , "title": "Compte bancaire"
-        , "subtitle": "Pour collecter de l'argent sur Internet, la loi exige que l'organisateur soit identifié et fournisse les informations suivantes."
-        , "cta": "Activer la collecte"
+          "key": "banco"
+        , "label": "Cuenta bancaria"
+        , "title": "Cuenta bancaria"
+        , "subtitle": "Para recolectar dinero en Internet, la ley requiere que el organizador sea identificado y provea de la siguiente información."
+        , "cta": "Activar la recaudación de fondos"
       },{
-          "key": "active"
+          "key": "activo"
         , "label": ""
-        , "title": "Gestion de la collecte de dons"
-        , "subtitle": "Une collecte est en cours au bénéfice de Ligue contre le cancer. À ce jour le montant des dons s'élève à :"
-        , "cta": "Enregistrer"
+        , "title": "Administrar la recaudación de fondos"
+        , "subtitle": "Una recaudación de fondos esta en marca en beneficio de la Asociación contra el cancer. Hasta el momento la suma de donaciones asciende a:"
+        , "cta": "Guardar"
       },{
-          "key": "closed"
+          "key": "cerrado"
         , "label": ""
-        , "title": "Collecte clôturée"
-        , "subtitle": "Votre collecte de dons a été clôturée.\nUn email de confirmation vient de vous être envoyé."
+        , "title": "La recaudación de fondos ha sido cerrada"
+        , "subtitle": "Su recaudación de fondos ha sido cerrada.\nUn email de confirmación le ha sido enviado."
       }
     ],
     "tips": [{
-      "title": "Activez votre collecte de dons",
-      "subtitle": "au profit d'une cause ou pour financer les obsèques.",
+      "title": "Activar una recaudación de fondos",
+      "subtitle": "en beneficio de una causa o para financiar el funeral.",
       "icon": ""
     }, {
-      "title": "Vos proches font un don",
-      "subtitle": "et montrent leur soutien en contribuant à une cause pleine de sens.",
+      "title": "Sus seres cercanos harán una donación",
+      "subtitle": "y mostrar su apoyo contribuyendo a una causa significativa.",
       "icon": ""
     }, {
-      "title": "Cloturez votre collecte",
-      "subtitle": "et recevez l’argent par virement sur votre compte bancaire.",
+      "title": "Cierre su recaudación de fondos",
+      "subtitle": "y reciba el dinero recauddo por transferencia a su cuenta bancaria.",
       "icon": ""
     }, {
-      "title": "Virez les fonds à la cause choisie",
-      "subtitle": "et  distribuez un reçu fiscal à ceux qui le souhaitent.",
+      "title": "Transfiera los fondos a la causa elegida",
+      "subtitle": "y distribuya el recibo de impuestos a aquellos a los que usted desee.",
       "icon": ""
     }],
     "labels": {
-      "beneficiary": "Qui est le Bénéficiaire des fonds ?",
-      "family": "La famille",
-      "org": "Une association",
-      "message": "Message concernant la collecte",
-      "identity": "Votre identité",
-      "bank": "Votre compte bancaire",
-      "kyc": "Vos justificatifs",
-      "close": "Clôturer la collecte"
+      "beneficiary": "¿Quién es el beneficiario de los fondos?",
+      "family": "La familia",
+      "org": "Una asosiación",
+      "message": "Mensaje sobre la recaudación de fondos",
+      "identity": "Su identidad",
+      "bank": "Su cuenta bancaria",
+      "kyc": "Sus documentos de apoyo",
+      "close": "Cerrar la recaudación de fondos"
     },
     "ph": {
-      "org": "Choisir une association",
+      "org": "Elija una asosiación",
       "iban": "N°Iban. ex: FR69 3000 2000 0800 1000 0001",
       "routing": "N°Routing"
     },
     "notes": {
-      "message": "Ce message est visible par vos proches et vous permet d’en dire plus au sujet de la cause soutenue.",
-      "iban": "Le compte sur lequel les fonds vous seront versés",
-      "documents": "Merci de bien vouloir ajouter vos documents d’identités. (Passeports ou CNI, Recto verso)",
-      "close": "Les fonds récoltés sont virés automatiquement sur votre compte bancaire 1 fois par semaine, les lundis, tant que la collecte n'est pas cloturée.",
-      "closed": "Le montant total de la collecte ({{stats.donations.total_f}}) sera viré sur le compte bancaire {{donation.iban}} d’ici 48 heures."
+      "message": "Este mensaje es visible para sus seres queridos y le permitirá decir mas acerca de la causa apoyada.",
+      "iban": "La cuenta en la cual se le pagarán los fondos",
+      "documents": "Por favor agregue sus documentos de identidad. (Licencia o pasaporte, frene y reverso)",
+      "close": "Los fondos recaudados se transfieren automaticamente a su cuenta bancaria una vez a la semana, los lunes, siempre que la recaudacion de fondos no haya sido cerrada.",
+      "closed": "El monto total de la colecta ({{stats.donations.total_f}}) será transferido a su cuenta bancaria {{donation.iban}} dentro de las siguientes 48 horas."
     },
     "warning": {
-      "documents": "Veillez à bien faire correspondre l’adresse renseignée ci-dessus avec celle figurant sur votre pièce  d’identité, ou vous pourriez être amenés à fournir un autre justificatif de domicile.",
-      "files": "Seuls les images au format .PNG ou .JPEG/.JPG d'une taille inférieure à 5Mo sont acceptées.",
-      "close": "Veuillez transmettre votre justificatif d’identité pour pouvoir clôturer cette collecte de dons."
+      "documents": "Asegúrese de hacer coincidir la dirección indicada anteriormente con la dirección en su documento de identidad, o puede que tenga que proporcionar otro comprobante de domicilio.",
+      "files": "Solo las imágenes en formato .PNG ou .JPEG/.JPG de un tamaño menor a  5MB son aceptadas.",
+      "close": "Envíe su comprobante de identidad para poder cerrar esta recaudación de fondos."
     },
     "cta": {
-      "start": "Activer la collecte",
-      "end": "Terminer",
-      "doc-recto": "Choisir le document (recto)",
-      "doc-verso": "Choisir le document (verso)",
-      "close": "Clôturer la collecte de dons"
+      "start": "Activar la recaudación de fondos",
+      "end": "Terminar",
+      "doc-recto": "Elegir documento (frente)",
+      "doc-verso": "Elegir documento (reverso)",
+      "close": "Cerrar la recaudación de fondos"
     },
     "templates": {
       "family": [
-        "Pour ceux qui le désirent, nous organisons une collecte de dons en mémoire de {{{capitalize firstname}}}."
+        "Para todos aquellos que deseen participar, hemos organizado una recaudación de fondos en memoria de {{{capitalize firstname}}}."
       ],
       "org": [
-        "Nous savons que l'association {{org}} était très importante aux yeux de {{{capitalize firstname}}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
+        "Sabemos que la asociación {{org}} era muy importante para {{{capitalize firstname}}}. Es importante para nosotros apoyar su misión al organizar esta recaudación de fondos.\n\nMuchas gracias por tu participación."
       ]
     }
   },
@@ -459,180 +453,186 @@
     },
     "steps": [
         {
-            "key": "defunct"
-          , "label": "Votre proche disparu"
-          , "title": "Informations du défunt"
-          , "subtitle": "Veuillez renseigner ici les informations relatives au défunt."
+            "key": "difunto"
+          , "label": "Su ser querido fallecido"
+          , "title": "Información del difunto"
+          , "subtitle": "Por favor ingrese aquí la información relacionada con el difunto."
         },{
-            "key": "contacts"
-          , "label": "Vos coordonnées"
-          , "title": "Vos coordonnées"
-          , "subtitle": "Aujourd'hui ou demain, notre équipe vous contactera pour répondre à vos questions."
+            "key": "contactos"
+          , "label": "Su información de contacto"
+          , "title": "Su información de contacto"
+          , "subtitle": "En breve, nuestro equipo se pondrá en contacto con usted para responder sus preguntas."
         },{
-            "key": "places"
-          , "label": "Déroulé des obsèques"
-          , "title": "Ajouter un/des évènements "
-          , "subtitle": "Vous pouvez commencer à renseigner le déroulé des obsèques qui figurera sur l’espace de votre proche disparu."
+            "key": "lugares"
+          , "label": "Información del funeral"
+          , "title": "Agregar evento (s)"
+          , "subtitle": "Puede comenzar a completar los detalles del funeral que aparecerán en el espacio de su ser querido."
         },{
-            "key": "success"
+            "key": "exito"
           , "label": ""
-          , "title": "Bienvenue !"
-          , "subtitle": "Votre espace en hommage à {{fullname}} a bien été créé."
+          , "title": "Bienvenido!"
+          , "subtitle": "El espacio en honor a {{fullname}} ha sido creado."
           , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
         }
       ]
     , "labels": {
-          "name": "Nom du défunt"
-        , "terms1": "En cliquant sur valider, vous consentez à nos "
-        , "terms2": "Conditions Générales d’Utilisation"
-        , "success": "Merci ! L'espace en hommage à\n{{fullname}} a bien été créé."
+          "name": "Nombre del difunto"
+        , "terms1": "Al hacer click en confirmar, usted acepta nuestros "
+        , "terms2": "Términos y condiciones generales de uso"
+        , "success": "Gracias! El espacio en homenaje a \n{{fullname}} ha sido creado."
       }
     , "cta": {
-          "create": "Créer l'espace"
-        , "go": "Découvrir l’espace"
+          "create": "Crear espacio"
+        , "go": "Descubrir el espacio"
       }
     , "errs": {
-          "contacts": "Contacts invalides ou manquants"
+          "contacts": "Contactos no válidos o faltantes"
       }
   },
 
   "contacts": {
     "ph": {
-        "name": "Prénom et Nom"
-      , "phone": "N° de mobile"
-      , "email": "Email"
+        "name": "Nombre y Apellido"
+      , "phone": "N° de celular"
+      , "email": "Correo electrónico"
     },
     "cta": {
-        "add": "Ajouter un contact"
+        "add": "Agregar un contacto"
     }
   },
 
   "edit-profile": {
-    "title": "Information relating to your loved one",
-    "subtitle": "Ajoutez une photo de votre proche et modifiez, si besoin, ses informations.",
+    "title": "Información relacionada con su ser querido",
+    "subtitle": "Agregue una fotografía de su ser querido y modifique su información en caso de ser necesario.",
     "label": {
-      "firstname": "Name",
-      "lastname": "Last name",
-      "dob": "Date of birth",
-      "dod": "Date of death",
-      "photo": "Profile picture"
+      "firstname": "Nombre",
+      "lastname": "Apellido",
+      "dob": "Fecha de nacimiento",
+      "dod": "Fecha de defunción",
+      "photo": "Fotografía de perfil"
     },
     "ph": {
-      "firstname": "Name of your loved one",
-      "lastname": "Last name of your loved one",
-      "dob": "mm/dd/yyyy",
-      "dod": "mm/dd/yyyy"
+      "firstname": "Nombre de su ser querido",
+      "lastname": "Apellido de su ser querido",
+      "dob": "dd/mm/yyyy",
+      "dod": "dd/mm/yyyy"
     }
   },
 
   "edit-intro": {
-    "title": "Notice of passing",
-    "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
+    "title": "Aviso del fallecimiento",
+    "subtitle": "El siguiente texto le permitirá dirigirse a todos los invitados al espacio.",
     "label": {
-      "templates": "Need inspiration?"
+      "templates": "¿Necesita inspiración?"
     },
     "templates": [
-        "Dear family, dear friends,\nWe are very sad to announce the death of {{{{capitalize firstname}}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years {{/ if}}. \n\nThis InMemori page is intended to collect your testimonies: a message, a memory or a photo, illustrating a moment you shared with {{{capitalize firstname}}}.\n\nThe information about the funeral is shown below. Thank you for your support."
-      , ""
+        "Dear family, dear friends,\nWe are very sad to announce the death of {{{capitalize firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years {{/ if}}. \n\nThis InMemori page is intended to collect your testimonies: a message, a memory or a photo, illustrating a moment you shared with {{{capitalize firstname}}}.\n\nThe information about the funeral is shown below. Thank you for your support."
+        "Querida familia, Queridos amigos,\nCon tristeza anunciamos la muerte de {{{capitalize firstname}}} {{# if dod}} la cual ocurrió el pasado {{dod}} {{/ if}} {{# if age}} a la edad de {{age}} años {{/ if}}. \n\nEsta página InMemori fue creada con la intención de recolectar sus testimonios y condolencias: un mensaje, un recuerdo o una fotografía,  ilustrando un momento compartido con {{{capitalize firstname}}}.\n\nLa información acerca del funeral se muestra a continuación. Gracias por su apoyo."
       , ""
     ]
   },
 
   "edit-places": {
-    "title": "Ajouter un/des évènements ",
-    "subtitle": "Renseignez ici le déroulé des obsèques en ajoutant les différentes étapes."
+    "title": "Agregar evento(s) ",
+    "subtitle": "Complete la información del funeral al agregar las diferentes ceremonias a realizar."
   },
 
   "new-memory": {
     "ph": {
-      "name": "Vos prénom et nom",
-      "email": "Votre email",
-      "message": "Votre message",
-      "message-opt": "Joindre un message (facultatif)"
+      "name": "Nombre y apellido",
+      "email": "Su correo electrónico",
+      "message": "Su mensaje",
+      "message-opt": "Adjuntar un mensaje (opcional)"
     },
     "cta": {
-      "share": "Share",
-      "photo": "Add a picture"
+      "share": "Compartir",
+      "photo": "Agregar una fotografía"
     },
     "menu": [{
-      "title": "Thanks for your words !",
-      "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
+      "title": "Gracias por sus palabras!",
+      "subtitle": "Sus mensajes y condolencias serán visibles a todo aquél que tenga acceso a este espacio.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
-      "cta": "Voir tous les hommages"
+      "cta": "Ver todos los mensajes"
     }, {
-      "title": "Condolences",
-      "subtitle": "Express your feelings of support with {{{capitalize firstname}}}'s family.",
+      "title": "Condolencias",
+      "subtitle": "Exprese sus sentimientos de apoyo con la familia de {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
-      "cta": "Ecrire vos condoléances"
+      "cta": "Escriba sus condolencias"
     }, {
-      "title": "Memories",
-      "subtitle": "Share a moment lived with {{{capitalize firstname}}}.",
+      "title": "Recuerdos",
+      "subtitle": "Comparta un momento vivido con {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
-      "cta": "Ajouter vos souvenirs"
+      "cta": "Comparta sus recuerdos"
     }, {
-      "title": "Photos",
-      "subtitle": "The space becomes prettier with pictures.",
+      "title": "Fotografías",
+      "subtitle": "El espacio se vuelve mas bonito con fotografías.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
-      "cta": "Ajouter vos photos"
+      "cta": "Agregar sus fotografías"
     }]
   },
 
   "card-ft-group": {
-    "h1": "The gifts"
+    "h1": "Los obsequios"
   },
 
   "card-ft-book": {
-    "title": "The book",
-    "text": "Keep a physical trace of all the messages shared on InMemori",
-    "cta": "Order the book",
+    "title": "El libro",
+    "text": "Mantenga un recuerdo físico de todos los mensajes compartidos en InMemori",
+    "cta": "Ordenar el libro",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
   },
 
   "card-ft-flower": {
-    "title": "Flowers",
-    "text": "Send flowers to the funeral place",
-    "cta": "Buy flowers",
+    "title": "Flores",
+    "text": "Envíe flores al lugar del funeral",
+    "cta": "Comprar flores",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Ce%CC%81re%CC%81monie.svg"
   },
 
   "card-ft-donation": {
-    "h1": "Faire un don",
-    "title-family": "Collecte de dons au profit de la famille",
-    "title-org": "Collecte de dons au profit de “{{donation.org.name}}”",
-    "text-stats": "{{stats.donations.total_f}} récolté par {{stats.donations.count}} donateur(s).",
-    "cta": "Faire un don",
+    "h1": "Haga una donación",
+    "title-family": "Recaudación de fondos para apoyar a la familia",
+    "title-org": "Recaudación de fondos en beneficio de “{{donation.org.name}}”",
+    "text-stats": "{{stats.donations.total_f}} donado por {{stats.donations.count}} donante(s).",
+    "cta": "Haga una donación",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "card-ft-donation-unset": {
-    "h1": "Faire un don",
-    "title": "Donnez l’opportunité à vos proches de contribuer à une cause chère au défunt",
-    "text": "L’ouverture d’une collecte de dons, permettra à vos proches de soutenir une cause précise ou de contribuer à l’organisation des obsèques",
-    "cta": "Activer la collecte",
+    "h1": "Haga una donación",
+    "title": "Proporcione a sus seres queridos la oportunidad de contribuir a una causa querida por el difunto",
+    "text": "Al activar una recaudación de fondos, le permitirá a sus seres queridos a apoyar una causa específica o ayudar a pagar los gastos del funeral",
+    "cta": "Activar la recaudación de fondos",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
 
   "tab-share": {
 
-    "title": "Partager",
-    "subtitle": "Aidez la famille à prévenir tous ceux qui ont connu {{{capitalize firstname}}}",
+    "title": "Compartir",
+    "subtitle": "Ayude a la familia a informar a todos los que conocierón a {{{capitalize firstname}}}",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
     "menu": {
       "email": {
-        "title": "Email",
-        "subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{{capitalize firstname}}}.",
-        "cta": "Envoyer un email",
+        "title": "Correo electrónico",
+        "subtitle": "Comparta el aviso del difunto. Ellos tendrán acceso al espacio en homenaje a {{{capitalize firstname}}}.",
+        "cta": "Envíar un correo electrónico",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },
       "sms": {
         "title": "SMS",
-        "subtitle": "Vous recevez par SMS le lien de l’espace de {{{capitalize firstname}}}, à transmettre à vos proches.",
-        "cta": "M’envoyer le lien par sms",
+        "subtitle": "Usted recibirá por SMS el link del espacio en homenaje a {{{capitalize firstname}}}, para reenviarlo a sus seres queridos.",
+        "cta": "Enviarme el link por SMS",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
       },
       "wa": {
         "title": "Whatsapp",
+        "subtitle": "Compartir el link por Whatsapp.",
+        "cta": "Compartir en Whatsapp",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
+      },
+      "success": {
+        "title": "Invitation envoyé",
         "subtitle": "Partagez le lien via l'application Whatsapp.",
         "cta": "Partager sur Whatsapp",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
@@ -640,117 +640,117 @@
     },
 
     "message": {
-      "email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.\n\nNous vous partageons son espace InMemori, privé, sur internet afin de lui rendre hommage. En vous rendant sur l'espace vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de ne pas oublier des personnes qui l'ont aimé(e), n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
-      "sms": "message sms {{{link}}}",
-      "wa": "message whatsapp \n\n {{{link}}}"
+      "email": "Hola, \n\nCon una inmensa tristeza les anunciamos el fallecimiento de {{fullname}}.\n\nCompartimos con ustedes este espacio de InMemori, totalmente privado, en internet para rendir homenaje a {{{capitalize firstname}}}. Al ingresar al espacio podrán : \n\n- Ver la información del funeral\n- Compartir un mensaje de condolencia, un recuerdo, una fotografía\n\nApreciamos sus mensajes de apoyo en estos tiempos difíciles.\n\nCon el fin de incluir a todos los que conocieron a {{{capitalize firstname}}}, por favor ayudenos compartiendo este espacio con ellos.\n\nAmistades.",
+      "sms": "mensaje sms {{{link}}}",
+      "wa": "mensaje whatsapp \n\n {{{link}}}"
     },
 
     "labels": {
-      "email-from": "From:",
-      "email-to": "Send to {{#if total}}{{total}} person(s) {{/if}}:",
-      "email-message": "Message:",
-      "sms-from": "Your phone number"
+      "email-from": "De:",
+      "email-to": "Envíar a {{#if total}}{{total}} persona(s) {{/if}}:",
+      "email-message": "Mensaje:",
+      "sms-from": "Su número telefónico"
     },
 
     "ph": {
-      "email-from-name": "Your name",
-      "email-from-email": "Your Email",
+      "email-from-name": "Su nombre",
+      "email-from-email": "Su correo electrónico",
       "email-to": "Ex: alice@gmail.com, bob@gmail.com, ...",
-      "email-select": "Add \"{{value}}\" to the list"
+      "email-select": "Agregar \"{{value}}\" a la lista"
     },
 
     "cta": {
-      "email": "Send",
-      "sms": "Send me the SMS",
-      "wa": "Open Whatsapp",
-      "list": "Guest list"
+      "email": "Envíar",
+      "sms": "Enviarme el SMS",
+      "wa": "Abrir en Whatsapp",
+      "list": "Lista de invitados"
     }
   },
 
   "tab-infos": {
-    "promo": "The funeral is being organized by {{{name}}}.{{#if phone}} {{phone}}{{/if}}"
+    "promo": "El funeral fue organizado por {{{name}}}.{{#if phone}} {{phone}}{{/if}}"
   },
 
   "tab-settings": {
-    "title": "Manage the space",
-    "subtitle": "Connecté(e) en tant que {{profile.email}}",
+    "title": "Administrar el espacio",
+    "subtitle": "Conectarse como {{profile.email}}",
     "options": {
       "managers": {
-        "title": "Liste des gestonnaires de l’espace",
-        "cta": "Voir la liste",
+        "title": "Lista de administradores del espacio",
+        "cta": "Ver la lista",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
       "donation": {
-        "title": "Gestion de la collecte de dons",
-        "cta": "Gérer la collecte ",
+        "title": "Administración de la recaudación de fondos",
+        "cta": "Administrar la recaudación de fondos ",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "donation-start": {
-        "title": "Activer la collecte de dons",
+        "title": "Activar la recaudación de fondos",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
       },
       "logout": {
-        "title": "Connecté avec {{as}}",
-        "cta": "Se Déconnecter",
+        "title": "Conectado como {{as}}",
+        "cta": "Desconectarse",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
       },
       "delete": {
         "title": "{{fullname}}",
-        "cta": "Supprimer cet espace",
+        "cta": "Eliminar este espacio",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589971318/web-assets/picto/trash.svg"
       },
       "flowers": {
-        "title": "Activer la commande de fleurs",
+        "title": "Activar las ordenes de flores",
         "icon": ""
       },
       "notifs": {
-        "title": "Préférences de notifications",
+        "title": "Preferencias de notificaciones",
         "icon": ""
       }
     }
   },
 
   "manage-notifs": {
-    "title": "Notification preferences"
+    "title": "Preferencias de notificaciones"
   },
 
   "managers-add": {
-    "title": "Add more managers",
-    "subtitle": "Renseignez l'adresse email des personnes que vous souhaitez inviter en tant que gestionnaire(s).",
-    "message": "Hello,\n\nI added you as administrator of the InMemori space in tribute to {{{capitalize firstname}}} so that you can help me personalize and manage it. \n\nGeraldine from InMemori is at our disposal for any questions and can be reached at (617) 858 4572 or by email at contact@inmemori.com.",
+    "title": "Agregar mas administradores",
+    "subtitle": "Ingrese el correo electrónico de las personas que desea invitar como administradores.",
+    "message": "Hola,\n\nTe agregue como administrador del espacio InMemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther de InMemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 7978 7982 o por correo electrónico en contact@inmemori.com.",
     "cta": { "add": "Ajouter" }
   },
 
   "managers-list": {
-    "title": "Managers",
-    "subtitle": "Les gestionnaires sont les administreurs de cet espace. Cliquez sur \"Ajouter un gestionnaire\" pour inviter une personne par mail.",
-    "cta": { "add": "Ajouter un gestionnaire" }
+    "title": "Administradores",
+    "subtitle": "Los administradores son los gestores de este espacio. Click en \"Agregar un administrador\" para invitar a una persona por correo electrónico.",
+    "cta": { "add": "Agregar un administrador" }
   },
 
   "invitation-list": {
-    "title": "Liste des invités",
-    "subtitle": "{{count}} personnes "
+    "title": "Lista de invitados",
+    "subtitle": "{{count}} personas "
   },
 
   "invitations": {
     "status": {
-      "pending": "Invitation sent",
-      "pending-manager": "Invitation sent",
-      "active": "Invitation accepted",
-      "active-manager": "Manager",
-      "revoked": "Accèss revoked"
+      "pending": "Invitación enviada",
+      "pending-manager": "Invitación enviada",
+      "active": "Invitación aceptada",
+      "active-manager": "Administrador",
+      "revoked": "Acceso revocado"
     },
     "ph": {
-      "search": "Search..."
+      "search": "Buscar..."
     }
   },
 
   "card-stats": {
     "labels": {
-      "views": "View(s)",
-      "memories": "Message(s)",
-      "donations": "Donation(s)",
-      "collected": "Collected"
+      "views": "Vista(s)",
+      "memories": "Mensaje(s)",
+      "donations": "Donacion(es)",
+      "collected": "Recolectado"
     }
   },
 
