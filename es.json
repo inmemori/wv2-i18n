@@ -524,7 +524,9 @@
       "templates": "¿Necesita inspiración?"
     },
     "templates": [
-        "Querida familia, Queridos amigos,\nCon tristeza anunciamos la muerte de {{{capitalize firstname}}} {{# if dod}} la cual ocurrió el pasado {{dod}} {{/ if}} {{# if age}} a la edad de {{age}} años {{/ if}}. \n\nEsta página InMemori fue creada con la intención de recolectar sus testimonios y condolencias: un mensaje, un recuerdo o una fotografía,  ilustrando un momento compartido con {{{capitalize firstname}}}.\n\nLa información acerca del funeral se muestra a continuación. Gracias por su apoyo.",
+        "Querida familia, Queridos amigos,\nCon tristeza anunciamos la muerte de {{{capitalize firstname}}} {{# if dod}} la cual ocurrió el pasado {{dod}} {{/ if}} {{# if age}} a la edad de {{age}} años {{/ if}}. \n\nEsta página InMemori fue creada con la intención de recolectar sus testimonios y condolencias: un mensaje, un recuerdo o una fotografía,  ilustrando un momento compartido con {{{capitalize firstname}}}.\n\nLa información acerca del funeral se muestra a continuación. Gracias por su apoyo."
+      , ""
+      , ""
     ]
   },
 
