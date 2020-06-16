@@ -471,7 +471,7 @@
             "key": "exito"
           , "label": ""
           , "title": "Bienvenido!"
-          , "subtitle": "El espacio en honor a {{fullname}} ha sido creado."
+          , "subtitle": "El espacio en honor a {{{fullname}}} ha sido creado."
           , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
         }
       ]
@@ -479,7 +479,7 @@
           "name": "Nombre del difunto"
         , "terms1": "Al hacer click en confirmar, usted acepta nuestros "
         , "terms2": "Términos y condiciones generales de uso"
-        , "success": "Gracias! El espacio en homenaje a \n{{fullname}} ha sido creado."
+        , "success": "Gracias! El espacio en homenaje a \n{{{fullname}}} ha sido creado."
       }
     , "cta": {
           "create": "Crear espacio"
@@ -640,7 +640,7 @@
     },
 
     "message": {
-      "email": "Hola, \n\nCon una inmensa tristeza les anunciamos el fallecimiento de {{fullname}}.\n\nCompartimos con ustedes este espacio de InMemori, totalmente privado, en internet para rendir homenaje a {{{capitalize firstname}}}. Al ingresar al espacio podrán : \n\n- Ver la información del funeral\n- Compartir un mensaje de condolencia, un recuerdo, una fotografía\n\nApreciamos sus mensajes de apoyo en estos tiempos difíciles.\n\nCon el fin de incluir a todos los que conocieron a {{{capitalize firstname}}}, por favor ayudenos compartiendo este espacio con ellos.\n\nAmistades.",
+      "email": "Hola, \n\nCon una inmensa tristeza les anunciamos el fallecimiento de {{{fullname}}}.\n\nCompartimos con ustedes este espacio de InMemori, totalmente privado, en internet para rendir homenaje a {{{capitalize firstname}}}. Al ingresar al espacio podrán : \n\n- Ver la información del funeral\n- Compartir un mensaje de condolencia, un recuerdo, una fotografía\n\nApreciamos sus mensajes de apoyo en estos tiempos difíciles.\n\nCon el fin de incluir a todos los que conocieron a {{{capitalize firstname}}}, por favor ayudenos compartiendo este espacio con ellos.\n\nAmistades.",
       "sms": "mensaje sms {{{link}}}",
       "wa": "mensaje whatsapp \n\n {{{link}}}"
     },
@@ -695,7 +695,7 @@
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
       },
       "delete": {
-        "title": "{{fullname}}",
+        "title": "{{{fullname}}}",
         "cta": "Eliminar este espacio",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589971318/web-assets/picto/trash.svg"
       },

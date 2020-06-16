@@ -471,7 +471,7 @@
             "key": "success"
           , "label": ""
           , "title": "Bienvenue !"
-          , "subtitle": "Votre espace en hommage à {{fullname}} a bien été créé."
+          , "subtitle": "Votre espace en hommage à {{{fullname}}} a bien été créé."
           , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
         }
       ]
@@ -479,7 +479,7 @@
           "name": "Nom du défunt"
         , "terms1": "En cliquant sur valider, vous consentez à nos "
         , "terms2": "Conditions Générales d’Utilisation"
-        , "success": "Merci ! L'espace en hommage à\n{{fullname}} a bien été créé."
+        , "success": "Merci ! L'espace en hommage à\n{{{fullname}}} a bien été créé."
       }
     , "cta": {
           "create": "Créer l'espace"
@@ -640,7 +640,7 @@
     },
 
     "message": {
-      "email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.\n\nNous vous partageons son espace InMemori, privé, sur internet afin de lui rendre hommage. En vous rendant sur l'espace vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de ne pas oublier des personnes qui l'ont aimé(e), n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
+      "email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{{fullname}}}.\n\nNous vous partageons son espace InMemori, privé, sur internet afin de lui rendre hommage. En vous rendant sur l'espace vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de ne pas oublier des personnes qui l'ont aimé(e), n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
       "sms": "message sms {{{link}}}",
       "wa": "message whatsapp \n\n {{{link}}}"
     },
@@ -695,7 +695,7 @@
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
       },
       "delete": {
-        "title": "{{fullname}}",
+        "title": "{{{fullname}}}",
         "cta": "Supprimer cet espace",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589971318/web-assets/picto/trash.svg"
       },
