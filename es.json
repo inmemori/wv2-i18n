@@ -46,51 +46,51 @@
 
   "showcase": {
     "cta": {
-      "prev": "Retour",
-      "next": "Suivant",
-      "end": "Terminer"
+      "prev": "Atrás",
+      "next": "Siguiente",
+      "end": "Terminar"
     },
     "user": [
       {
-          "title": "Rendez hommage à votre proche disparu"
-        , "text": "Cet espace d'intimité rassemble les proches de {{{capitalize firstname}}} et vous permet de partager un message, un souvenir ou une photo."
+          "title": "Rinda homenaje a su ser querido fallecido"
+        , "text": "Este espacio privado reúne a los seres queridos de {{{capitalize firstname}}} y les permite compartir un mensaje de condolencia, un recuerdo o una fotografía."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
       }
       , {
-          "title": "Prenez connaissance du déroulé des obsèques"
-        , "text": "Vous trouverez dans cet espace les informations relatives au déroulé des obsèques."
+          "title": "Conocer la información del funeral"
+        , "text": "Usted puede encontrar la información relacionada al funeral en este espacio."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
       }
       , {
-          "title": "Faites un geste pour {{{capitalize firstname}}} et offrez du soutien"
-        , "text": "En envoyant des fleurs sur le lieux des obsèques ou en contribuant à une cause chère au défunt."
+          "title": "Haga un gesto por {{{capitalize firstname}}} y ofrezca su apoyo"
+        , "text": "Usted puede envíar flores al lugar del funeral o contribuir con la causa querida del fallecido."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
       }
       , {
-          "title": "Invitez les personnes chères à {{{capitalize firstname}}}"
-        , "text": "Partagez cet espace avec les proches du défunt désireux de se recueillir et lui rendre hommage."
+          "title": "Invite a los seres queridos de {{{capitalize firstname}}}"
+        , "text": "Comparta este espacio con todos aquellos que deseen rendirle homenaje a {{{capitalize firstname}}}."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Gerer_v2.svg"
       }
     ],
     "manager": [
       {
-          "title": "Découvrez un espace intime d’hommage et de partage"
-        , "text": "Rendez hommage à {{{capitalize firstname}}} sur cet espace intime et sécurisé. Vous avez la main et décidez qui peut y accéder."
+          "title": "Descubra un espacio íntimo para rendir homenaje y compartir"
+        , "text": "Rinda homenaje a {{{capitalize firstname}}} en este espacio seguro y privado. Usted decide y tiene el control de quien puede accesar a él."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
       }
       , {
-          "title": "Communiquez les détails logistiques simplement"
-        , "text": "Communiquez à vos proches les informations relatives aux obsèques en leur partageant cet espace en un clic."
+          "title": "Comunique de una manera sencilla los detalles del funeral"
+        , "text": "Comunique la información del funeral a sus seres queridos al compartir este espacio con un solo click."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
       }
       , {
-          "title": "Offrez à vos proches un espace de commémoration consacré"
-        , "text": "Vos proches pourront partager un message ou une photo et faire livrer des fleurs sur le lieux des obsèques."
+          "title": "Ofrezca un espacio dedicado a conmemorar la vida de su ser querido"
+        , "text": "Sus seres cercanos pueden compartir un mensaje o una fotografía y envíar flores directo al lugar del funeral."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
       }
       , {
-          "title": "Gardez la trace des messages reçus"
-        , "text": "En imprimant un livre qui compile tous les messages partagés sur cet espace par votre entourage."
+          "title": "Guarde un rastro físico de todos los mensajes recibidos"
+        , "text": "Imprima un libro que recopile todos los mensajes y fotografías compartidos en este espacio."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
       }
     ]
@@ -117,7 +117,7 @@
 
   "login": {
     "err": "Datos de acceso incorrectos",
-    "err-swap": "Ce lien n'est plus valide ! Veuillez vous identifier à nouveau.",
+    "err-swap": "Este link ya no es válido! Por favor identifíquese de nuevo.",
     "actions": {
       "start": {
           "title": "Usted no esta conectado"
@@ -630,9 +630,9 @@
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
       },
       "success": {
-        "title": "Invitation envoyé",
-        "subtitle": "Partagez le lien via l'application Whatsapp.",
-        "cta": "Partager sur Whatsapp",
+        "title": "Invitación enviada",
+        "subtitle": "Comparta en enlace a traves de la aplicación de Whatsapp.",
+        "cta": "Compartir en Whatsapp",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
       }
     },
