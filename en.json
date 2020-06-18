@@ -613,6 +613,9 @@
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
     "menu": {
+      "intro": {
+        "title": "Partager la page"
+      },
       "email": {
         "title": "Email",
         "subtitle": "Share the announcement with everyone close to the deceased. They will have access to the space of {{{capitalize firstname}}}.",

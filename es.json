@@ -613,6 +613,9 @@
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
     "menu": {
+      "intro": {
+        "title": "Partager la page"
+      },
       "email": {
         "title": "Correo electrónico",
         "subtitle": "Comparta el aviso del difunto. Ellos tendrán acceso al espacio en homenaje a {{{capitalize firstname}}}.",
