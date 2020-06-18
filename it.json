@@ -44,6 +44,11 @@
     "logout": "Log out"
   },
 
+  "skeleton": {
+      "places": "les informations relatives aux obsèques apparaîtront ici"
+    , "memories": "C’est ici qu’apparaitront les messages en hommage à {{{capitalize firstname}}}"
+  },
+
   "showcase": {
     "cta": {
       "prev": "Retour",

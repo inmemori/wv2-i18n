@@ -44,6 +44,11 @@
     "logout": "Déconnexion"
   },
 
+  "skeleton": {
+      "places": "les informations relatives aux obsèques apparaîtront ici"
+    , "memories": "C’est ici qu’apparaitront les messages en hommage à {{{capitalize firstname}}}"
+  },
+
   "showcase": {
     "cta": {
       "prev": "Retour",
@@ -608,6 +613,9 @@
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
     "menu": {
+      "intro": {
+        "title": "Partager la page"
+      },
       "email": {
         "title": "Email",
         "subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{{capitalize firstname}}} grâce au lien contenu dans l'Email.",
