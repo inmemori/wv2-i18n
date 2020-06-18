@@ -84,7 +84,7 @@
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
       }
       , {
-          "title": "Offrez à vos proches un espace de commémoration consacré"
+          "title": "Offrez à vos proches un espace d'hommage dédié"
         , "text": "Vos proches pourront partager un message ou une photo et faire livrer des fleurs sur le lieux des obsèques."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
       }
@@ -249,7 +249,7 @@
           "key": "intro"
         , "label": "Commander un livre"
         , "title": "Présentation du livre"
-        , "subtitle": "Cet ouvrage rassemble l’ensemble des messages et photos partagés par vos proches."
+        , "subtitle": "Cet ouvrage rassemble l’ensemble des messages et photos partagés par vos proches (mis en page par nos équipes)."
         , "cta": "Suivant"
       },{
           "key": "cart"
@@ -712,7 +712,7 @@
   "managers-add": {
     "title": "Ajouter un gestionnaire",
     "subtitle": "Renseignez l'adresse email des personnes que vous souhaitez inviter en tant que gestionnaire(s).",
-    "message": "Bonjour,\n\nJe t'ai ajouté comme administrateur de l'espace InMemori en hommage à {{{capitalize firstname}}} pour que tu m'aides à le personnaliser et à le gérer. \n\nConstance d'InMemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com.",
+    "message": "Bonjour,\n\nJe t'ai ajouté comme administrateur de l'espace InMemori en hommage à {{{capitalize firstname}}} pour que tu m'aides à le personnaliser et à le gérer. \n\nL'équipe d'InMemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com.",
     "cta": { "add": "Envoyer" }
   },
 
