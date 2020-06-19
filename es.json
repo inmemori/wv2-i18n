@@ -174,8 +174,7 @@
     "actions": [
       {
         "title": "Escribir un mensaje de homenaje",
-        "flow": "new-memory",
-        "flowProps": { "currentStep": 1 },
+        "flow": "tab-memories",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
       },
       {
@@ -612,35 +611,36 @@
     "subtitle": "Ayude a la familia a informar a todos los que conocierón a {{{capitalize firstname}}}",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
-    "menu": {
-      "intro": {
+    "steps": [
+      {
+        "key": "intro",
         "title": "Partager la page"
-      },
-      "email": {
+      },{
+        "key": "email",
         "title": "Correo electrónico",
         "subtitle": "Comparta el aviso del difunto. Ellos tendrán acceso al espacio en homenaje a {{{capitalize firstname}}}.",
         "cta": "Envíar un correo electrónico",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
-      },
-      "sms": {
+      },{
+        "key": "sms",
         "title": "SMS",
         "subtitle": "Usted recibirá por SMS el link del espacio en homenaje a {{{capitalize firstname}}}, para reenviarlo a sus seres queridos.",
         "cta": "Enviarme el link por SMS",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
-      },
-      "wa": {
+      },{
+        "key": "wa",
         "title": "Whatsapp",
         "subtitle": "Compartir el link por Whatsapp.",
         "cta": "Compartir en Whatsapp",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
-      },
-      "success": {
+      },{
+        "key": "success",
         "title": "Invitación enviada",
-        "subtitle": "Comparta en enlace a traves de la aplicación de Whatsapp.",
+        "subtitle": "",
         "cta": "Compartir en Whatsapp",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
       }
-    },
+    ],
 
     "message": {
       "email": "Hola, \n\nCon una inmensa tristeza les anunciamos el fallecimiento de {{{fullname}}}.\n\nCompartimos con ustedes este espacio de InMemori, totalmente privado, en internet para rendir homenaje a {{{capitalize firstname}}}. Al ingresar al espacio podrán : \n\n- Ver la información del funeral\n- Compartir un mensaje de condolencia, un recuerdo, una fotografía\n\nApreciamos sus mensajes de apoyo en estos tiempos difíciles.\n\nCon el fin de incluir a todos los que conocieron a {{{capitalize firstname}}}, por favor ayudenos compartiendo este espacio con ellos.\n\nAmistades.",
