@@ -613,22 +613,22 @@
 
     "steps": [
       {
-        "key": "intro";
+        "key": "intro",
         "title": "Partager la page"
       },{
-        "key": "email";
+        "key": "email",
         "title": "Email",
         "subtitle": "Share the announcement with everyone close to the deceased. They will have access to the space of {{{capitalize firstname}}}.",
         "cta": "Send an email",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },{
-        "key": "sms";
+        "key": "sms",
         "title": "SMS",
         "subtitle": "You will receive by SMS the link of the space of {{{capitalize firstname}}}, to forward to your loved ones.",
         "cta": "Send me the link by sms",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
       },{
-        "key": "wa";
+        "key": "wa",
         "title": "Whatsapp",
         "subtitle": "Share the link via the Whatsapp app.",
         "cta": "Share on Whatsapp",
