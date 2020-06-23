@@ -173,7 +173,7 @@
   "sidebar": {
     "actions": [
       {
-        "title": "Ecrire un hommage",
+        "title": "Écrivez un hommage",
         "flow": "tab-memories",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
       },
