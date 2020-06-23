@@ -129,8 +129,8 @@
         , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site."
       },
       "signup": {
-          "title": "Votre profile"
-        , "subtitle": "Veuillez renseigner les informations"
+          "title": "Votre profil"
+        , "subtitle": "Veuillez svp renseigner votre nom et prénom"
       },
       "swap": {
           "title": "Merci !"
