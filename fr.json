@@ -764,7 +764,7 @@
   "banners": {
        "help-invite-manager": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
-        , "text": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage"
+        , "text": "Demander à un proche de devenir gestionnaire de l'espace avec vous pour vous aider à le diffuser auprès de votre entourage"
         , "cta": "Ajouter un gestionnaire"
       }
     , "s-manager|check-places": {
