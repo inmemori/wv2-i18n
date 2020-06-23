@@ -84,7 +84,7 @@
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
       }
       , {
-          "title": "Communiquez les détails logistiques simplement"
+          "title": "Communiquez les informations relatives aux obsèques simplement"
         , "text": "Communiquez à vos proches les informations relatives aux obsèques en leur partageant cet espace en un clic."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
       }
@@ -94,8 +94,8 @@
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
       }
       , {
-          "title": "Gardez la trace des messages reçus"
-        , "text": "En imprimant un livre qui compile tous les messages partagés sur cet espace par votre entourage."
+          "title": "Réunissez tous les hommages reçus"
+        , "text": "En imprimant un livre qui compile tous les messages et photos partagés sur cet espace par votre entourage."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
       }
     ]
@@ -576,7 +576,7 @@
 
   "card-ft-book": {
     "title": "Le livre",
-    "text": "Garder une trace de tous les messages partagés sur InMemori.",
+    "text": "Réunissez tous les hommages partagés sur InMemori.",
     "cta": "Commander le livre",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
   },
