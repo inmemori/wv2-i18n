@@ -694,7 +694,7 @@
       },
       "logout": {
         "title": "Connecté(e)",
-        "cta": "Se Déconnecter",
+        "cta": "Se déconnecter",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
       },
       "delete": {
