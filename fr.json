@@ -421,7 +421,7 @@
       "routing": "N°Routing"
     },
     "notes": {
-      "message": "Ce message est visible par vos proches et vous permet d’en dire plus au sujet de la cause soutenue.",
+      "message": "Ce message est visible par vos proches et vous permet d’en dire plus au sujet de la cause que vous organisez. Sentez-vous libre de le personnaliser",
       "iban": "Le compte sur lequel les fonds vous seront versés.",
       "documents": "Merci de bien vouloir ajouter vos documents d’identités (Passeports ou CNI, Recto verso).",
       "close": "Les fonds récoltés sont virés automatiquement sur votre compte bancaire 1 fois par semaine, les lundis, tant que la collecte n'est pas cloturée.",
