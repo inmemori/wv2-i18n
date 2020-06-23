@@ -625,13 +625,13 @@
         "key": "sms",
         "title": "SMS",
         "subtitle": "Vous recevez par SMS le lien de l’espace de {{{capitalize firstname}}}, à transmettre à vos proches.",
-        "cta": "M’envoyer le lien par sms",
+        "cta": "M’envoyer le lien par SMS",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
       },{
         "key": "wa",
-        "title": "Whatsapp",
-        "subtitle": "Partagez le lien via l'application Whatsapp.",
-        "cta": "Partager sur Whatsapp",
+        "title": "WhatsApp",
+        "subtitle": "Partagez le lien via l'application WhatsApp.",
+        "cta": "Partager sur WhatsApp",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
       },{
         "key": "success",
