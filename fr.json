@@ -423,13 +423,13 @@
     "notes": {
       "message": "Ce message est visible par vos proches et vous permet d’en dire plus au sujet de la cause que vous organisez. Sentez-vous libre de le personnaliser",
       "iban": "Le compte sur lequel les fonds vous seront versés.",
-      "documents": "Merci de bien vouloir ajouter vos documents d’identités (Passeports ou CNI, Recto verso).",
+      "documents": "Merci de bien vouloir ajouter vos documents d’identité (Passeport ou CNI, recto verso).",
       "close": "Les fonds récoltés sont virés automatiquement sur votre compte bancaire 1 fois par semaine, les lundis, tant que la collecte n'est pas cloturée.",
       "closed": "Le montant total de la collecte ({{stats.donations.total_f}}) sera viré sur le compte bancaire {{donation.iban}} d’ici 48 heures."
     },
     "warning": {
       "documents": "Veillez à bien faire correspondre l’adresse renseignée ci-dessus avec celle figurant sur votre pièce  d’identité, ou vous pourriez être amenés à fournir un autre justificatif de domicile.",
-      "files": "Seuls les images au format .PNG ou .JPEG/.JPG d'une taille inférieure à 5Mo sont acceptées.",
+      "files": "Seules les images au format .PNG ou .JPEG/.JPG d'une taille inférieure à 5Mo sont acceptées.",
       "close": "Veuillez transmettre votre justificatif d’identité pour pouvoir clôturer cette collecte de dons."
     },
     "cta": {
