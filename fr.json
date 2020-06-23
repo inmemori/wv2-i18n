@@ -406,7 +406,7 @@
       "icon": ""
     }],
     "labels": {
-      "beneficiary": "Qui sera le Bénéficiaire de cette collecte ?",
+      "beneficiary": "Qui sera le bénéficiaire de cette collecte ?",
       "family": "La famille",
       "org": "Une association",
       "message": "Message concernant la collecte",
