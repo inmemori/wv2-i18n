@@ -5,7 +5,7 @@
     "identifier": "Identifiant",
     "password": "Mot de passe",
     "save": "Enregistrer",
-    "edit": "Editer",
+    "edit": "Éditer",
     "cancel": "Annuler",
     "next": "Suivant",
     "prev": "Précédent",
@@ -523,7 +523,7 @@
   },
 
   "edit-intro": {
-    "title": "Editer le texte d’accueil",
+    "title": "Éditer le texte d’accueil",
     "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
     "templates": [
       "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{capitalize firstname}}}{{#if dod}} survenu le {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori privé est destiné à recueillir vos témoignages : un message, un souvenir ou une photo, illustrant un moment de vie.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien.",
