@@ -68,7 +68,7 @@
       }
       , {
           "title": "Faites un geste pour {{{capitalize firstname}}} et offrez du soutien"
-        , "text": "En envoyant des fleurs sur le lieux des obsèques ou en contribuant à une cause chère au défunt."
+        , "text": "En envoyant des fleurs sur le lieu des obsèques ou en contribuant à une cause chère au défunt."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
       }
       , {
