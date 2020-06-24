@@ -80,7 +80,7 @@
     "manager": [
       {
           "title": "Discover an intimate space of tribute and sharing"
-        , "text": "Pay tribute to {{{capitalize firstname}}} in this private and secure space. You have the control and decide who can access it."
+        , "text": "Pay tribute to {{{capitalize firstname}}} in this private and secure space. You are in control and decide who can access it."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
       }
       , {
