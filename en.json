@@ -635,9 +635,9 @@
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
       },{
         "key": "success",
-        "title": "L'envoi à bien était effectué",
+        "title": "The message has been sent",
         "subtitle": "",
-        "cta": "Retour",
+        "cta": "Back",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
       }
     ],
