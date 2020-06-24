@@ -125,7 +125,7 @@
     "err-swap": "Ce lien n'est plus valide ! Veuillez vous identifier à nouveau.",
     "actions": {
       "start": {
-          "title": "Vous n'êtes pas connecté"
+          "title": "Vous n'êtes pas connecté(e)"
         , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site."
       },
       "signup": {
