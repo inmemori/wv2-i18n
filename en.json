@@ -45,8 +45,8 @@
   },
 
   "skeleton": {
-      "places": "les informations relatives aux obsèques apparaîtront ici"
-    , "memories": "C’est ici qu’apparaitront les messages en hommage à {{{capitalize firstname}}}"
+      "places": "The information about the ceremonies will appear here"
+    , "memories": "The messages in tribute to {{{capitalize firstname}}} will appear here"
   },
 
   "showcase": {
