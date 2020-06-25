@@ -90,7 +90,7 @@
       }
       , {
           "title": "Offrez à vos proches un espace d'hommage dédié"
-        , "text": "Vos proches pourront partager un message ou une photo et faire livrer des fleurs sur le lieux des obsèques."
+        , "text": "Vos proches pourront partager un message ou une photo et faire livrer des fleurs sur le lieu des obsèques."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
       }
       , {
@@ -131,7 +131,7 @@
     "err-swap": "Ce lien n'est plus valide ! Veuillez vous identifier à nouveau.",
     "actions": {
       "start": {
-          "title": "Vous n'êtes pas connecté"
+          "title": "Vous n'êtes pas connecté(e)"
         , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site."
       },
       "signup": {
@@ -549,7 +549,7 @@
       "name": "Vos prénom et nom",
       "email": "Votre email",
       "message": "Saisissez votre message",
-      "message-opt": "Légende photo(facultatif)"
+      "message-opt": "Légende photo (facultatif)"
     },
     "cta": {
       "share": "Partager",
@@ -658,7 +658,7 @@
 
     "labels": {
       "email-from": "De la part de",
-      "email-to": "A destination de {{#if total}}{{total}} personne(s) {{/if}}",
+      "email-to": "À destination de {{#if total}}{{total}} personne(s) {{/if}}",
       "email-message": "Message",
       "sms-from": "Vote numéro de mobile"
     },
@@ -666,7 +666,7 @@
     "ph": {
       "email-from-name": "Votre prénom et nom",
       "email-from-email": "Votre Email",
-      "email-to": "Exemple: alice@gmail.com, bob@gmail.com, ...",
+      "email-to": "Exemple : alice@gmail.com, bob@gmail.com, ...",
       "email-select": "Ajouter \"{{value}}\"."
     },
 

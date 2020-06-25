@@ -45,8 +45,8 @@
   },
 
   "skeleton": {
-      "places": "les informations relatives aux obsèques apparaîtront ici"
-    , "memories": "C’est ici qu’apparaitront les messages en hommage à {{{capitalize firstname}}}"
+      "places": "The information about the ceremonies will appear here"
+    , "memories": "The messages in tribute to {{{capitalize firstname}}} will appear here"
   },
 
   "showcase": {
@@ -741,7 +741,7 @@
     "title": "Add more administrators",
     "subtitle": "Enter the email address of the people you want to invite as manager(s).",
     "message": "Hello,\n\nI added you as administrator of the InMemori space in tribute to {{{capitalize firstname}}} so that you can help me personalize and manage it. \n\nGeraldine from InMemori is at our disposal for any questions and can be reached at (617) 858 4572 or by email at contact@inmemori.com.",
-    "cta": { "add": "Ajouter" }
+    "cta": { "add": "Add" }
   },
 
   "managers-list": {
