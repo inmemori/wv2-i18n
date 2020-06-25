@@ -104,7 +104,13 @@
   "popups": {
     "delete-memory": {
       "message": "Are you sure you want to delete this message?",
+      "success": "Message supprimé !",
       "btns": ["Yes", "No"]
+    },
+    "delete-page": {
+      "message": "Désirez-vous vraiment supprimer cet espace définitivement ?",
+      "success": "Espace supprimé !",
+      "btns": ["Oui", "Non"]
     }
   },
 
@@ -166,8 +172,7 @@
     "settings": "Gestion",
     "help": "Aide",
     "help-long": "Besois d'aide ?",
-    "contact": "Appelez nous au",
-    "phone": "01 43 54 23 55"
+    "contact": "Appelez nous au"
   },
 
   "sidebar": {
@@ -280,7 +285,10 @@
         , "subtitle": "Votre commande a bien été effectuée et un email de confirmation vous a été envoyé."
         , "cta": "Retour à l'acceuil"
       }
-    ]
+    ],
+    "labels": {
+      "conditions": "le nombre d'hommages partagés sur l'espace doit être supérieur à 4 pour commander"
+    }
   },
 
   "ft-flower": {
@@ -710,6 +718,18 @@
         "title": "Préférences de notifications",
         "icon": ""
       }
+    }
+  },
+
+  "tab-help": {
+    "title": "Aide",
+    "contact": {
+      "title": "",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456094/web-assets/View.svg"
     }
   },
 

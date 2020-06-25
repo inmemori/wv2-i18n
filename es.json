@@ -104,7 +104,13 @@
   "popups": {
     "delete-memory": {
       "message": "¿Esta usted seguro que desea eliminar este mensaje?",
+      "success": "Message supprimé !",
       "btns": ["Si", "No"]
+    },
+    "delete-page": {
+      "message": "Désirez-vous vraiment supprimer cet espace définitivement ?",
+      "success": "Espace supprimé !",
+      "btns": ["Oui", "Non"]
     }
   },
 
@@ -166,8 +172,7 @@
     "settings": "Administración",
     "help": "Ayuda",
     "help-long": "¿Necesita ayuda?",
-    "contact": "Número de contacto",
-    "phone": "01 43 54 23 55"
+    "contact": "Número de contacto"
   },
 
   "sidebar": {
@@ -280,7 +285,10 @@
         , "subtitle": "Su compra ha sido completada y se le ha enviado un email de confirmación."
         , "cta": "Regresar al inicio"
       }
-    ]
+    ],
+    "labels": {
+      "conditions": "le nombre d'hommages partagés sur l'espace doit être supérieur à 4 pour commander"
+    }
   },
 
   "ft-flower": {
@@ -710,6 +718,18 @@
         "title": "Preferencias de notificaciones",
         "icon": ""
       }
+    }
+  },
+
+  "tab-help": {
+    "title": "Aide",
+    "contact": {
+      "title": "",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456094/web-assets/View.svg"
     }
   },
 
