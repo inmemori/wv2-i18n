@@ -608,7 +608,7 @@
   "card-ft-donation-unset": {
     "h1": "Make a donation",
     "title": "Give your loved ones the opportunity to contribute to a cause dear to the deceased",
-    "text": "Activating a fundraiser will allow your loved ones to support a specific cause or to help pay for the funeral",
+    "text": "Activating a fundraiser will allow your loved ones to support a specific cause or to help pay for the funeral.",
     "cta": "Activate the fundraiser",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
