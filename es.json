@@ -45,8 +45,8 @@
   },
 
   "skeleton": {
-      "places": "les informations relatives aux obsèques apparaîtront ici"
-    , "memories": "C’est ici qu’apparaitront les messages en hommage à {{{capitalize firstname}}}"
+      "places": "la información del funeral aparecerá aquí"
+    , "memories": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}"
   },
 
   "showcase": {
@@ -104,13 +104,13 @@
   "popups": {
     "delete-memory": {
       "message": "¿Esta usted seguro que desea eliminar este mensaje?",
-      "success": "Message supprimé !",
+      "success": "¡Mensaje eliminado!",
       "btns": ["Si", "No"]
     },
     "delete-page": {
-      "message": "Désirez-vous vraiment supprimer cet espace définitivement ?",
-      "success": "Espace supprimé !",
-      "btns": ["Oui", "Non"]
+      "message": "¿Realmente quiere eliminar permanentemente este espacio?",
+      "success": "¡Espacio eliminado!",
+      "btns": ["Si", "No"]
     }
   },
 
@@ -128,7 +128,7 @@
 
   "login": {
     "err": "Datos de acceso incorrectos",
-    "err-swap": "Este link ya no es válido! Por favor identifíquese de nuevo.",
+    "err-swap": "¡Este link ya no es válido! Por favor identifíquese de nuevo.",
     "actions": {
       "start": {
           "title": "Usted no esta conectado"
@@ -227,7 +227,7 @@
     "cta": {
       "delete": "Borrar",
       "add": "Aregar un evento",
-      "map": "Obtenir l'itinéraire"
+      "map": "Obtener las direcciones"
     }
 
   },
@@ -279,7 +279,7 @@
         , "subtitle": "Llene su información bancaria en el espacio seguro a continuación."
         , "cta": "Pago {{total}}"
       },{
-          "key": "Transaccion exitosa"
+          "key": "Transacción exitosa"
         , "label": ""
         , "title": "Gracias por su orden"
         , "subtitle": "Su compra ha sido completada y se le ha enviado un email de confirmación."
@@ -287,7 +287,7 @@
       }
     ],
     "labels": {
-      "conditions": "le nombre d'hommages partagés sur l'espace doit être supérieur à 4 pour commander"
+      "conditions": "El número de mensajes en homenaje debe ser mayor a 4 para poder ordenar"
     }
   },
 
@@ -534,7 +534,7 @@
     "title": "Aviso del fallecimiento",
     "subtitle": "El siguiente texto le permitirá dirigirse a todos los invitados al espacio.",
     "templates": [
-        "Dear family, dear friends,\nWe are very sad to announce the death of {{{capitalize firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years {{/ if}}. \n\nThis InMemori page is intended to collect your testimonies: a message, a memory or a photo, illustrating a moment you shared with {{{capitalize firstname}}}.\n\nThe information about the funeral is shown below. Thank you for your support."
+        "Querida familia, Queridos amigos,\nCon gran pesar les compartimos la noticia de la muerte de {{{capitalize firstname}}} {{# if dod}} la cual sucedió el pasado {{dod}} {{/ if}} {{# if age}} a la edad de {{age}} años {{/ if}}. \n\nEste espacio InMemori fue creado con la intención  de rendir homenaje a la vida de {{{capitalize firstname}}} al recolectar sus mensajes de condolencia, un recuerdo o una fotografía de algún momento compartido con a memory or a photo, illustrating a moment you shared with {{{capitalize firstname}}}.\n\nLa información acerca del funeral es mostrada abajo. Gracias por tu apoyo y cariño."
       , "Querida familia, Queridos amigos,\nCon tristeza anunciamos la muerte de {{{capitalize firstname}}} {{# if dod}} la cual ocurrió el pasado {{dod}} {{/ if}} {{# if age}} a la edad de {{age}} años {{/ if}}. \n\nEsta página InMemori fue creada con la intención de recolectar sus testimonios y condolencias: un mensaje, un recuerdo o una fotografía,  ilustrando un momento compartido con {{{capitalize firstname}}}.\n\nLa información acerca del funeral se muestra a continuación. Gracias por su apoyo."
     ]
   },
@@ -556,7 +556,7 @@
       "photo": "Agregar una fotografía"
     },
     "menu": [{
-      "title": "Gracias por sus palabras!",
+      "title": "¡Gracias por sus palabras!",
       "subtitle": "Sus mensajes y condolencias serán visibles a todo aquél que tenga acceso a este espacio.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Ver todos los mensajes"
@@ -622,7 +622,7 @@
     "steps": [
       {
         "key": "intro",
-        "title": "Partager la page"
+        "title": "Compartir la página"
       },{
         "key": "email",
         "title": "Correo electrónico",
@@ -633,7 +633,7 @@
         "key": "sms",
         "title": "SMS",
         "subtitle": "Usted recibirá por SMS el link del espacio en homenaje a {{{capitalize firstname}}}, para reenviarlo a sus seres queridos.",
-        "cta": "Enviarme el link por SMS",
+        "cta": "Envíar el link por SMS",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
       },{
         "key": "wa",
@@ -722,13 +722,13 @@
   },
 
   "tab-help": {
-    "title": "Aide",
+    "title": "Ayuda",
     "contact": {
       "title": "",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
     },
     "faq": {
-      "title": "Questions fréquentes",
+      "title": "Preguntas Frecuentes",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456094/web-assets/View.svg"
     }
   },
@@ -784,68 +784,68 @@
   "banners": {
        "help-invite-manager": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
-        , "text": "Demander à un proche de devenir gestionnaire de la page à vos côtés pour vous aider à le diffuser auprès de votre entourage"
-        , "cta": "Ajouter un gestionnaire"
+        , "text": "Solicite ayuda de un amigo o familiar para administrar este espacio a su lado y ayudarlo a compartirlo con quiénes lo rodean"
+        , "cta": "Agregar un administrador"
       }
     , "s-manager|check-places": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-calendar.svg"
-        , "text": "Avez-vous besoin d'ajouter / modifier un événement ?"
-        , "cta": "Ajouter"
-        , "ctb": "Plus tard"
+        , "text": "¿Necesita agregar / modificar un evento?"
+        , "cta": "Agregar"
+        , "ctb": "Más tarde"
       }
     , "s-manager|check-intro": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
-        , "text": "Pour commencez, validez le mot d'accueil de la page."
-        , "cta": "Valider"
-        , "ctb": "Éditer"
+        , "text": "Para comenzar, valide el mensaje de bienvenida a la página."
+        , "cta": "Validar"
+        , "ctb": "Editar"
       }
     , "s-manager|has-photo": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-camera.svg"
-        , "text": "Souhaitez-vous ajouter une photo de {{{capitalize firstname}}} ?"
-        , "cta": "Ajouter"
-        , "ctb": "Plus tard"
+        , "text": "¿Desea agregar una fotografía de {{{capitalize firstname}}} ?"
+        , "cta": "Agregar"
+        , "ctb": "Más tarde"
       }
     , "s-manager|has-invited": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
-        , "text": "Vous pouvez maintenant inviter les proches de {{{capitalize firstname}}} à accéder à cet espace."
-        , "cta": "Inviter"
-        , "ctb": "Plus tard"
+        , "text": "Ahora puede invitar a los familiares de {{{capitalize firstname}}} a acceder a este espacio."
+        , "cta": "Invitar"
+        , "ctb": "Más tarde"
       }
     , "s-google|check-places": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-calendar.svg"
-        , "text": "Avez-vous besoin d'ajouter / modifier un événement ?"
-        , "cta": "Ajouter"
-        , "ctb": "Plus tard"
+        , "text": "¿Necesita agregar / modificar un evento?"
+        , "cta": "Agregar"
+        , "ctb": "Más tarde"
       }
     , "s-google|check-intro": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
-        , "text": "Pour commencer, validez le mot d'accueil de la page."
-        , "cta": "Valider"
-        , "ctb": "Éditer"
+        , "text": "Para comenzar, valide el mensaje de bienvenida a la página."
+        , "cta": "Validar"
+        , "ctb": "Editar"
       }
     , "s-google|has-photo": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-camera.svg"
-        , "text": "Souhaitez-vous ajouter une photo de {{{capitalize firstname}}} ?"
+        , "text": "¿Desea agregar una fotografía de {{{capitalize firstname}}}?"
         , "cta": "Ajouter"
         , "ctb": "Plus tard"
       }
     , "s-google|has-invited": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
-        , "text": "Vous pouvez maintenant inviter les proches de {{{capitalize firstname}}} à accéder à cet espace."
+        , "text": "Ahora puede invitar a los familiares de {{{capitalize firstname}}} a acceder a este espacio."
         , "cta": "Inviter"
         , "ctb": "Plus tard"
       }
     , "s-user|has-published": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
-        , "text": "Si vous le souhaitez, vous pouvez publier un mot ou une photo."
-        , "cta": "Publier"
-        , "ctb": "Plus tard"
+        , "text": "Si lo desea, puede usted publicar un mensaje o una fotografía."
+        , "cta": "Publicar"
+        , "ctb": "Más tarde"
       }
     , "s-user|has-invited": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg"
-        , "text": "Vous pouvez aider les proches de {{{capitalize firstname}}} à se recueillir. Invitez-les à rejoindre cet espace."
-        , "cta": "Inviter"
-        , "ctb": "Plus tard"
+        , "text": "Puede usted ayudar a los familiares de {{{capitalize firstname}}} a reunirse. Invítelos a unirse a este espacio."
+        , "cta": "Invitar"
+        , "ctb": "Más tarde"
       }
   }
 
