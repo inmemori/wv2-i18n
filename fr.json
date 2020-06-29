@@ -437,7 +437,7 @@
     },
     "warning": {
       "documents": "Veillez à bien faire correspondre l’adresse renseignée ci-dessus avec celle figurant sur votre pièce  d’identité, ou vous pourriez être amenés à fournir un autre justificatif de domicile.",
-      "files": "Seules les images au format .PNG ou .JPEG/.JPG d'une taille inférieure à 5Mo sont acceptées.",
+      "files": "Pour rappel, votre pièce d'identité doit répondre aux critères suivants :\n\* L’adresse figurant sur votre pièce  d’identité doit correspondre avec celle communiquée par ailleurs lors de l'ouverture de la collecte.\n\* La copie doit être en couleurs et prise par téléphone, webcam ou scanner.\n\* La copie doit être en format JPEG ou PNG (et non en PDF).\n\* La copie doit être nette, non coupée et toutes les informations doivent être lisibles.\n\* Il ne doit pas y avoir de marques ou de défauts sur le document qui pourraient fausser la copie.\n\* Pour les cartes nationales d’identité, nous avons besoin du recto et du verso du document.\n\* Le document doit être en cours de validité.\n\* L’adresse figurant sur votre pièce  d’identité doit correspondre avec celle communiquée par ailleurs lors de l'ouverture de la collecte.\n\* Seules les images au format .PNG ou .JPEG/.JPG d'une taille inférieure à 5Mo sont acceptées.",
       "close": "Veuillez transmettre votre justificatif d’identité pour pouvoir clôturer cette collecte de dons."
     },
     "cta": {
