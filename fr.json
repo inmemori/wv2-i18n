@@ -666,7 +666,7 @@
     "ph": {
       "email-from-name": "Votre prénom et nom",
       "email-from-email": "Votre Email",
-      "email-to": "Exemple : alice@gmail.com, bob@gmail.com, ...",
+      "email-to": "Exemple : alice@gmail.com, pierre.dupont@wanadoo.fr, ...",
       "email-select": "Ajouter \"{{value}}\"."
     },
 
