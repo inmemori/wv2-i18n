@@ -574,7 +574,7 @@
       "title": "Photos",
       "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
-      "cta": "Ajouter vos photos"
+      "cta": "Déposer vos photos"
     }]
   },
 
