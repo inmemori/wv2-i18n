@@ -569,7 +569,7 @@
       "title": "Souvenirs",
       "subtitle": "Partagez un joli souvenir vécu avec {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
-      "cta": "Ajouter vos souvenirs"
+      "cta": "Déposer vos souvenirs"
     }, {
       "title": "Photos",
       "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}.",
