@@ -270,7 +270,7 @@
           "key": "shipping"
         , "label": "Livraison"
         , "title": "Adresse de livraison"
-        , "subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée sous 6 semaines  (en Europe uniquement)."
+        , "subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée sous 6 semaines (en France et Belgique uniquement)."
         , "cta": "Suivant"
       },{
           "key": "payment"
