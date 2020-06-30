@@ -73,7 +73,7 @@
       }
       , {
           "title": "Invitez les personnes chères à {{{capitalize firstname}}}"
-        , "text": "Partagez cet espace avec les proches du défunt désireux de se recueillir et lui rendre hommage."
+        , "text": "Partagez cet espace avec les proches qui souhaitent se recueillir et lui rendre hommage."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Gerer_v2.svg"
       }
     ],
@@ -136,7 +136,7 @@
       },
       "signup": {
           "title": "Votre profil"
-        , "subtitle": "Veuillez svp renseigner votre nom et prénom"
+        , "subtitle": "Veuillez s'il vous plaît renseigner vos nom et prénom"
       },
       "swap": {
           "title": "Merci !"
@@ -154,7 +154,7 @@
           "start": { "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
         },
         "settings": {
-          "start": { "subtitle": "La gestion de la page est limitée à certains proches. Si vous êtes gestionnaire de cet espace et souhaitez vous connecter, renseigner votre adresse email ci-dessous pour vous connecter." }
+          "start": { "subtitle": "La gestion de la page est limitée à certains proches. Si vous êtes gestionnaire de cet espace et souhaitez vous connecter, renseignez votre adresse email ci-dessous pour vous connecter." }
         }
       }
     }
@@ -274,7 +274,7 @@
           "key": "shipping"
         , "label": "Livraison"
         , "title": "Adresse de livraison"
-        , "subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée sous 6 semaines (en France et Belgique uniquement)."
+        , "subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée sous 6 semaines (en France métropolitaine et en Belgique uniquement)."
         , "cta": "Suivant"
       },{
           "key": "payment"
@@ -291,7 +291,7 @@
       }
     ],
     "labels": {
-      "conditions": "La commande du livre sera disponible : \n\n-15 jours après la création de votre page.\n\n-lorsque le nombre d'hommages partagés sur l'espace sera supérieur à 4."
+      "conditions": "La commande du livre sera disponible : \n\n-15 jours après la création de votre espace.\n\n-lorsque le nombre d'hommages partagés sur l'espace sera supérieur à 4."
     }
   },
 
@@ -313,7 +313,7 @@
           "key": "shipping"
         , "label": "Livraison"
         , "title": "Choisissez le lieu de livraison"
-        , "subtitle": "Veuillez sélectionner le lieu de livraison de votre choix. Notre partenaire s'engage à livrer avant l'heure de la cérémonie."
+        , "subtitle": "Veuillez sélectionner le lieu de livraison de votre choix. Notre partenaire s'engage à livrer juste avant l'heure de la cérémonie."
         , "cta": "Suivant"
       },{
           "key": "payment"
@@ -414,7 +414,7 @@
       "icon": ""
     }, {
       "title": "Virez les fonds à la cause choisie",
-      "subtitle": "et  distribuez un reçu fiscal à ceux qui le souhaitent.",
+      "subtitle": "l'association enevrra un reçu fiscal aux participatns qui le souhaitent.",
       "icon": ""
     }],
     "labels": {
@@ -436,7 +436,7 @@
       "message": "Ce message est visible par vos proches et vous permet d’en dire plus au sujet de la cause que vous organisez. Sentez-vous libre de le personnaliser",
       "iban": "Le compte sur lequel les fonds vous seront versés.",
       "documents": "Merci de bien vouloir ajouter vos documents d’identité (Passeport ou CNI, recto verso).",
-      "close": "Les fonds récoltés sont virés automatiquement sur votre compte bancaire 1 fois par semaine, les lundis, tant que la collecte n'est pas clôturée.",
+      "close": "Les fonds récoltés sont virés automatiquement sur votre compte bancaire une fois par semaine, tant que la collecte n'est pas clôturée.",
       "closed": "Le montant total de la collecte ({{stats.donations.total_f}}) sera viré sur le compte bancaire {{donation.iban}} d’ici 48 heures."
     },
     "warning": {
@@ -603,7 +603,7 @@
   "card-ft-donation": {
     "h1": "Faire un don",
     "title-family": "Collecte de dons au profit de la famille",
-    "title-org": "Collecte de dons au profit de “{{donation.org.name}}”",
+    "title-org": "Collecte de dons au profit de {{donation.org.name}}",
     "text-stats": "{{stats.donations.total_f}} récolté par {{stats.donations.count}} donateur(s).",
     "cta": "Faire un don",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
