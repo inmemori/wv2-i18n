@@ -656,8 +656,8 @@
 
     "message": {
       "email": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private InMemori space on the internet to pay tribute to {{{capitalize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{capitalize firstname}}}, please share this space with them.\n\nKindly,",
-      "sms": "message sms {{{link}}}",
-      "wa": "message whatsapp \n\n {{{link}}}"
+      "sms": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private InMemori space on the internet to pay tribute to {{{capitalize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{capitalize firstname}}}, please share this space with them.\n\nKindly,{{{link}}}",
+      "wa": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private InMemori space on the internet to pay tribute to {{{capitalize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{capitalize firstname}}}, please share this space with them.\n\nKindly,{{{link}}}",
     },
 
     "labels": {
