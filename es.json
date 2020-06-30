@@ -249,6 +249,10 @@
     "invoice": {
       "with": "Utilizar otra dirección para facturación",
       "withFiscal": "Quisiera una factura (opcional)"
+    },
+    "payment": {
+      "amount": "Payment success",
+      "ref": "Reference"
     }
   },
 

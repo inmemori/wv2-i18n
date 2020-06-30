@@ -249,6 +249,10 @@
     "invoice": {
       "with": "Utiliser une autre adresse pour la facturation",
       "withFiscal": "Je désire un reçu fiscal (facultatif)"
+    },
+    "payment": {
+      "amount": "Payment success",
+      "ref": "Reference"
     }
   },
 

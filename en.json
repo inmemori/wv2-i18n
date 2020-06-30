@@ -249,6 +249,10 @@
     "invoice": {
       "with": "Use another address for billing",
       "withFiscal": "I would like a tax receipt (optional)"
+    },
+    "payment": {
+      "amount": "Payment success",
+      "ref": "Reference"
     }
   },
 
