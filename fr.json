@@ -437,7 +437,7 @@
     },
     "warning": {
       "documents": "Veillez à bien faire correspondre l’adresse renseignée ci-dessus avec celle figurant sur votre pièce  d’identité, ou vous pourriez être amenés à fournir un autre justificatif de domicile.",
-      "files": "Votre document d’identité doit répondre aux critères suivants :/n/nL’adresse y figurant doit correspondre avec celle renseignée lors de l’ouverture de la collecte./n/nLe document doit être en cours de validité./n/nLa copie téléchargée doit être en format image (JPEG, JPG ou PNG et non en PDF)./n/nLa copie doit être nette et lisible, non coupée, sans marques ni défauts./n/nPour les cartes nationales d’identité, nous avons besoin du recto et du verso du document (vous pouvez télécharger le document en 2 fois).",
+      "files": "Votre document d’identité doit répondre aux critères suivants :/nL’adresse y figurant doit correspondre avec celle renseignée lors de l’ouverture de la collecte./nLe document doit être en cours de validité./nLa copie téléchargée doit être en format image (JPEG, JPG ou PNG et non en PDF)./nLa copie doit être nette et lisible, non coupée, sans marques ni défauts./nPour les cartes nationales d’identité, nous avons besoin du recto et du verso du document (vous pouvez télécharger le document en 2 fois).",
       "close": "Veuillez transmettre votre justificatif d’identité pour pouvoir clôturer cette collecte de dons."
     },
     "cta": {
