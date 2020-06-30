@@ -303,7 +303,7 @@
           "key": "cart"
         , "label": "Mon panier"
         , "title": "Mon panier"
-        , "subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez. "
+        , "subtitle": "Voici votre sélection. "
         , "cta": "Suivant"
       },{
           "key": "shipping"
