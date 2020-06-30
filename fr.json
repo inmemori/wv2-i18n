@@ -297,7 +297,7 @@
           "key": "intro"
         , "label": "Choix du bouquet"
         , "title": "Choisissez votre bouquet"
-        , "subtitle": "Tous les bouquets sont de taille moyenne et fournis avec une bulle d'eau afin de pouvoir être livrés sur le lieu des obsèques de votre choix."
+        , "subtitle": "Tous les bouquets pourront être livrés sur le lieu des obsèques de votre choix."
         , "cta": "Suivant"
       },{
           "key": "cart"
