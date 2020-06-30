@@ -594,8 +594,8 @@
   },
 
   "card-ft-flower": {
-    "title": "Fleurs",
-    "text": "Faire livrer des fleurs sur les lieux des obsèques.",
+    "title": "Les fleurs",
+    "text": "Faites livrer des fleurs pour embellir la cérémonie.",
     "cta": "Faire livrer des fleurs",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Ce%CC%81re%CC%81monie.svg"
   },
