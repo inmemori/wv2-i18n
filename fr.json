@@ -287,7 +287,7 @@
       }
     ],
     "labels": {
-      "conditions": "le nombre d'hommages partagés sur l'espace doit être supérieur à 4 pour commander"
+      "conditions": "La commande du livre sera disponible : \n\n-15 jours après la création de votre page.\n\n-lorsque le nombre d'hommages partagés sur l'espace sera supérieur à 4."
     }
   },
 
