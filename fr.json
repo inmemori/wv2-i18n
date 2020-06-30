@@ -588,7 +588,7 @@
 
   "card-ft-book": {
     "title": "Le livre",
-    "text": "Réunissez tous les hommages partagés sur InMemori.",
+    "text": "Gardez dans un beau livre tous les hommages partagés sur InMemori.",
     "cta": "Commander le livre",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
   },
