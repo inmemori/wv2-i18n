@@ -349,14 +349,14 @@
           "key": "payment"
         , "label": "Paiement"
         , "title": "Finaliser votre don"
-        , "subtitle": "Afin de couvrir les différents frais de collecte d'argent en ligne, une commission de 4% est prélevée au montant de votre don."
+        , "subtitle": "Afin de couvrir les différents frais de collecte d'argent en ligne, une commission de 4% est prélevée sur le montant de votre don."
         , "cta": "Payer {{total}}"
       },{
           "key": "success"
         , "label": ""
         , "title": "Merci pour votre générosité "
         , "subtitle": "Votre contribution a bien été prise en compte et un email de confirmation vous a été envoyé."
-        , "cta": "Retour à l'acceuil"
+        , "cta": "Retour à l'accueil"
       }
     ],
     "labels": {
