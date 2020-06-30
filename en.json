@@ -425,8 +425,8 @@
     },
     "ph": {
       "org": "Choose an association",
-      "iban": "ABA number",
-      "routing": "N°Routing"
+      "iban": "Account number",
+      "routing": "Routing number"
     },
     "notes": {
       "message": "This message is visible to your loved ones and allows you to say more about the cause supported.",
