@@ -669,7 +669,7 @@
     "ph": {
       "email-from-name": "Your name",
       "email-from-email": "Your Email",
-      "email-to": "Ex: alice@gmail.com, bob@gmail.com, ...",
+      "email-to": "Ex: alice@gmail.com, bob@mail.com, ...",
       "email-select": "Add \"{{value}}\" to the list"
     },
 
