@@ -351,7 +351,7 @@
         , "subtitle": "Llene su información bancaria en el espacio seguro a continuación."
         , "cta": "Pagar {{total}}"
       },{
-          "key": "succes"
+          "key": "success"
         , "label": ""
         , "title": "Gracias por su generosidad "
         , "subtitle": "Su contribución ha sido tomada en cuenta y un email de confirmación le ha sido enviado."
