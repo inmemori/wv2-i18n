@@ -225,7 +225,7 @@
 
     "cta": {
       "delete": "Supprimer l’évènement",
-      "add": "Ajouter un évènement",
+      "add": "Ajouter un événement",
       "map": "Obtenir l'itinéraire"
     }
 
@@ -235,7 +235,7 @@
     "ns": {
       "donation": { "title": "Votre don", "subtitle": "" },
       "flower": { "title": "Bouquet", "subtitle": "{{{item.name}}}" },
-      "book": { "title": "Livre Inmemori", "subtitle": "" }
+      "book": { "title": "Livre InMemori", "subtitle": "" }
     },
     "cart": {
       "cart": "Panier",
