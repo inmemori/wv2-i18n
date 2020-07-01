@@ -390,7 +390,7 @@
           "key": "active"
         , "label": ""
         , "title": "Gestion de la collecte de dons"
-        , "subtitle": "Une collecte est en cours au bénéfice de {{org}}. À ce jour le montant des dons s'élève à :"
+        , "subtitle": "Une collecte est en cours. À ce jour le montant des dons s'élève à :"
         , "cta": "Enregistrer"
       },{
           "key": "closed"

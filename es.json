@@ -390,7 +390,7 @@
           "key": "activo"
         , "label": ""
         , "title": "Administrar la recaudación de fondos"
-        , "subtitle": "Una recaudación de fondos esta en marca en beneficio de la Asociación contra el cancer. Hasta el momento la suma de donaciones asciende a:"
+        , "subtitle": "Una recaudación de fondos esta en marca. Hasta el momento la suma de donaciones asciende a:"
         , "cta": "Guardar"
       },{
           "key": "cerrado"

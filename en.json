@@ -390,7 +390,7 @@
           "key": "active"
         , "label": ""
         , "title": "Manage fundraiser"
-        , "subtitle": "A fundraiser is underway for the benefit of Alzheimer's Society. To date the amount of donations is:"
+        , "subtitle": "A fundraiser is underway. To date the total of donations is:"
         , "cta": "Save"
       },{
           "key": "closed"
