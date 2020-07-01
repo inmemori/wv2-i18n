@@ -224,7 +224,7 @@
     },
 
     "cta": {
-      "delete": "Supprimer l’évènement",
+      "delete": "Supprimer l’événement",
       "add": "Ajouter un événement",
       "map": "Obtenir l'itinéraire"
     }
@@ -477,7 +477,7 @@
         },{
             "key": "places"
           , "label": "Déroulé des obsèques"
-          , "title": "Ajouter un /des évènements "
+          , "title": "Ajouter un /des événements "
           , "subtitle": "Vous pouvez commencer à renseigner le déroulé des obsèques qui figurera sur l’espace de votre proche disparu."
           , "cta": "Suivant"
         },{
@@ -543,7 +543,7 @@
   },
 
   "edit-places": {
-    "title": "Ajouter un /des évènements ",
+    "title": "Ajouter un /des événements ",
     "subtitle": "Renseignez ici le déroulé des obsèques en ajoutant les différentes étapes."
   },
 
