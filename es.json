@@ -282,7 +282,7 @@
         , "subtitle": "Llene su información bancaria en el espacio seguro a continuación."
         , "cta": "Pago {{total}}"
       },{
-          "key": "Succes"
+          "key": "success"
         , "label": ""
         , "title": "Gracias por su orden"
         , "subtitle": "Su compra ha sido completada y se le ha enviado un email de confirmación."
@@ -321,7 +321,7 @@
         , "subtitle": "Llene su información bancaria en el espacio seguro a continuación."
         , "cta": "Pagar {{total}}"
       },{
-          "key": "succes"
+          "key": "success"
         , "label": ""
         , "title": "Gracias por su orden"
         , "subtitle": "Su compra ha sido completada y se le ha enviado un email de confirmación."
