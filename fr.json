@@ -611,7 +611,7 @@
   "card-ft-donation-unset": {
     "h1": "Ouvrez une collecte de dons",
     "title": "Donnez l’opportunité à vos proches de contribuer à une cause chère au défunt",
-    "text": "L’ouverture d’une collecte de dons permettra à vos proches de soutenir une cause chère à votre proche ou de contribuer à l’organisation des obsèques.",
+    "text": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère, de contribuer aux obsèques ou bien d'aider la famille.",
     "cta": "Activer la collecte",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
   },
