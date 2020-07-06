@@ -537,7 +537,7 @@
     "title": "Modifier le texte d’accueil",
     "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
     "templates": [
-      "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{capitalize firstname}}}{{#if dod}} survenu {{dod}} dernier{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori privé est destiné à recueillir vos hommages : un message, un souvenir ou une photo, illustrant un moment de vie.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien.",
+      "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{capitalize firstname}}}{{#if dod}} survenu {{dod}} {{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori privé est destiné à recueillir vos hommages : un message, un souvenir ou une photo, illustrant un moment de vie.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien.",
       "L’ensemble de la famille et tous les proches ont la douleur de vous part du décès de {{{fullname}}}, survenu {{lowercase dod}}."
     ]
   },
