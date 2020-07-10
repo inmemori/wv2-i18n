@@ -755,7 +755,7 @@
 
   "invitation-list": {
     "title": "Liste des invités",
-    "subtitle": "{{count}} personnes "
+    "subtitle": "{{count}} personne(s) "
   },
 
   "invitations": {
