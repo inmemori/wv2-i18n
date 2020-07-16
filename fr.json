@@ -372,7 +372,7 @@
           "key": "intro"
         , "label": "Collecte de dons"
         , "title": "Collecte de dons"
-        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère, de contribuer aux obsèques ou bien d'aider la famille."
+        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère, de contribuer aux obsèques ou bien d'aider la famille. Afin de couvrir les frais bancaires, 4% sont retenus sur le montant total des dons."
         , "cta": "Activer la collecte"
       },{
           "key": "config"
