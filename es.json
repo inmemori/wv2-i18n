@@ -687,7 +687,7 @@
 
   "tab-settings": {
     "title": "Administrar el espacio",
-    "subtitle": "Conectarse como {{profile.email}}",
+    "subtitle": "Conectarse como {{as}}",
     "options": {
       "managers": {
         "title": "Lista de administradores del espacio",

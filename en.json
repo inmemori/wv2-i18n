@@ -687,7 +687,7 @@
 
   "tab-settings": {
     "title": "Manage the space",
-    "subtitle": "Logged in as {{profile.email}}",
+    "subtitle": "Logged in as {{as}}",
     "options": {
       "managers": {
         "title": "List of space administrators",

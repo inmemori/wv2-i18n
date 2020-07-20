@@ -687,7 +687,7 @@
 
   "tab-settings": {
     "title": "Gestion de l’espace",
-    "subtitle": "Connecté(e) en tant que {{profile.email}}",
+    "subtitle": "Connecté(e) en tant que {{{as}}}",
     "options": {
       "managers": {
         "title": "Liste des gestionnaires de l’espace",
