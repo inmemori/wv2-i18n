@@ -372,7 +372,7 @@
           "key": "intro"
         , "label": "Collecte de dons"
         , "title": "Collecte de dons"
-        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère, de contribuer aux obsèques ou bien d'aider la famille."
+        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère, de contribuer aux obsèques ou bien d'aider la famille. Afin de couvrir les frais bancaires, 4% sont retenus sur le montant total des dons."
         , "cta": "Activer la collecte"
       },{
           "key": "config"
@@ -436,7 +436,7 @@
       "iban": "Le compte sur lequel les fonds vous seront versés.",
       "documents": "Merci de bien vouloir ajouter vos documents d’identité (Passeport ou CNI, recto verso).",
       "close": "Les fonds récoltés sont virés automatiquement sur votre compte bancaire une fois par semaine, tant que la collecte n'est pas clôturée.",
-      "closed": "Le montant total de la collecte ({{stats.donations.total_f}}) arrivera bien sur compte bancaire {{donation.iban}} renseigné."
+      "closed": "Le montant total de la collecte ({{stats.donations.total_less_fee_f}}) arrivera bien sur le compte bancaire {{donation.iban}} renseigné."
     },
     "warning": {
       "documents": "Veillez à bien faire correspondre l’adresse renseignée ci-dessus avec celle figurant sur votre pièce  d’identité, ou vous pourriez être amenés à fournir un autre justificatif de domicile.",
