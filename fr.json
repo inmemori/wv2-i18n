@@ -753,6 +753,12 @@
     "cta": { "add": "Ajouter un gestionnaire" }
   },
 
+  "donators": {
+    "title": "Liste des donateurs",
+    "subtitle": "{{count}} personnes",
+    "cta": { "export": "Exporter la liste" }
+  },
+
   "invitation-list": {
     "title": "Liste des invités",
     "subtitle": "{{count}} personne(s) "

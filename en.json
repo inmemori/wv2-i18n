@@ -753,6 +753,12 @@
     "cta": { "add": "Add an administrator" }
   },
 
+  "donators": {
+    "title": "Donators list",
+    "subtitle": "{{count}} people",
+    "cta": { "export": "Export list" }
+  },
+
   "invitation-list": {
     "title": "Guest list",
     "subtitle": "{{count}} people "

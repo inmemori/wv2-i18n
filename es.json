@@ -753,6 +753,12 @@
     "cta": { "add": "Agregar un administrador" }
   },
 
+  "donators": {
+    "title": "Donators list",
+    "subtitle": "{{count}} people",
+    "cta": { "export": "Export list" }
+  },
+
   "invitation-list": {
     "title": "Lista de invitados",
     "subtitle": "{{count}} personas "
