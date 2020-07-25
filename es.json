@@ -744,7 +744,7 @@
     "title": "Agregar mas administradores",
     "subtitle": "Ingrese el correo electrónico de las personas que desea invitar como administradores.",
     "message": "Hola,\n\nTe agregue como administrador del espacio InMemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther de InMemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 7978 7982 o por correo electrónico en contact@inmemori.com.",
-    "cta": { "add": "Ajouter" }
+    "cta": { "add": "Añadir" }
   },
 
   "managers-list": {
