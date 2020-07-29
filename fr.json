@@ -329,10 +329,10 @@
       }
     ],
     "labels": {
-      "message": "Ajoutez un message à votre bouquet (optionnel):"
+      "message": "Ajoutez un message à votre bouquet :"
     },
     "ph": {
-      "message": "Saisissez votre message (il sera joint au bouquet)"
+      "message": "Saisissez votre message et pensez bien à le signer (il sera joint au bouquet)"
     }
   },
 
