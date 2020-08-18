@@ -655,7 +655,7 @@
 
     "message": {
       "email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{{fullname}}}.\n\nNous vous partageons son espace privé InMemori afin de lui rendre hommage. En vous rendant sur l'espace vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de ne pas oublier des personnes qui l'ont aimé(e), n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
-      "sms": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.Nous venons de créer un espace InMemori, sur internet, afin de lui rendre hommage.Il vous suffira de renseigner votre adresse email afin d'accéder à l'espace. Voici le lien que vous pouvez copier-coller aux proches concernés. Amitiés.\n\n{{{link}}}",
+      "sms": "Bonjour, c'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.Nous venons de créer un espace InMemori, sur internet, afin de lui rendre hommage.Il suffira de renseigner votre adresse email afin d'accéder à l'espace. Voici le lien que vous pouvez copier-coller aux proches concernés : {{{link}}}",
       "wa": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.Nous venons de créer un espace InMemori, sur internet, afin de lui rendre hommage. Il vous suffira de renseigner votre adresse email afin d'accéder à l'espace. Voici le lien que vous pouvez copier-coller aux proches concernés. Amitiés.\n\n{{{link}}}"
     },
 
