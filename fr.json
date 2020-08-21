@@ -43,6 +43,14 @@
     "logout": "Déconnexion"
   },
 
+  "cookies": {
+    "text": "Nous utilisions des cookies pour vous offrir une meilleur experience de navigation et pour nous permettre de mieux comprendre comment notre site est utilisé. En poursuivant votre navigation, vous acceptez notre",
+    "link-text": "politique de cookies",
+    "link": "https://fr.inmemori.com/cookies",
+    "accept": "Accepter",
+    "cancel": "Fermer"
+  },
+
   "skeleton": {
       "places": "les informations relatives aux obsèques apparaîtront ici"
     , "memories": "C’est ici qu’apparaîtront les messages en hommage à {{{capitalize firstname}}}"
@@ -544,7 +552,10 @@
 
   "edit-places": {
     "title": "Ajouter un /des événements ",
-    "subtitle": "Renseignez ici le déroulé des obsèques en ajoutant les différentes étapes."
+    "subtitle": "Renseignez ici le déroulé des obsèques en ajoutant les différentes étapes.",
+    "ph": {
+      "info": "Informations complémentaires concernant le déroulé des obsèques"
+    }
   },
 
   "new-memory": {

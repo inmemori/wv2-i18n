@@ -43,6 +43,14 @@
     "logout": "Log out"
   },
 
+  "cookies": {
+    "text": "Nous utilisions des cookies pour vous offrir une meilleur experience de navigation et pour nous permettre de mieux comprendre comment notre site est utilisé. En poursuivant votre navigation, vous acceptez notre",
+    "link-text": "politique de cookies",
+    "link": "https://en.inmemori.com/cookies",
+    "accept": "Accepter",
+    "cancel": "Fermer"
+  },
+
   "skeleton": {
       "places": "The information about the ceremonies will appear here"
     , "memories": "The messages in tribute to {{{capitalize firstname}}} will appear here"

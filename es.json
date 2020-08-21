@@ -43,6 +43,14 @@
     "logout": "Cerrar sesión"
   },
 
+  "cookies": {
+    "text": "Nous utilisions des cookies pour vous offrir une meilleur experience de navigation et pour nous permettre de mieux comprendre comment notre site est utilisé. En poursuivant votre navigation, vous acceptez notre",
+    "link-text": "politique de cookies",
+    "link": "https://es.inmemori.com/cookies",
+    "accept": "Accepter",
+    "cancel": "Fermer"
+  },
+
   "skeleton": {
       "places": "la información del funeral aparecerá aquí"
     , "memories": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}"
