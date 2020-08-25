@@ -298,7 +298,7 @@
       }
     ],
     "labels": {
-      "conditions": "the number of tributes shared on the space must be greater than 4 to order the book"
+      "conditions": "The book orders are not available yet. You will be able to order it 2 weeks after this space was created. You will be notified by email."
     }
   },
 
