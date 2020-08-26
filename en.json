@@ -45,10 +45,10 @@
 
   "cookies": {
     "text": "We use cookies to provide a smoother experience and help us understand how our website is used. By navigating the site, you accept our",
-    "link-text": "politique de cookies",
+    "link-text": "cookie policy",
     "link": "https://en.inmemori.com/cookies-policy",
-    "accept": "Accepter",
-    "cancel": "Fermer"
+    "accept": "Accept",
+    "cancel": "Dismiss"
   },
 
   "skeleton": {
