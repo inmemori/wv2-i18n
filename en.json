@@ -350,7 +350,7 @@
           "key": "intro"
         , "label": "Your donation"
         , "title": "Your donation"
-        , "subtitle": "Please select the amount you wish to donation to the association {{org}}."
+        , "subtitle": "Please select the amount you wish to donation to the association {{{org}}}."
         , "cta": "Next"
       },{
           "key": "payment"
@@ -463,7 +463,7 @@
         "For those who wish to participate, we organized a collection of donations in memory of {{{capitalize firstname}}}."
       ],
       "org": [
-        "We know that the association {{org}} was very important to {{{capitalize firstname}}}. It is important to us to support their mission by setting up a fundraiser.\n\nMany thanks for your participation."
+        "We know that the association {{{org}}} was very important to {{{capitalize firstname}}}. It is important to us to support their mission by setting up a fundraiser.\n\nMany thanks for your participation."
       ]
     }
   },
