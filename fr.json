@@ -350,7 +350,7 @@
           "key": "intro"
         , "label": "Votre don"
         , "title": "Votre don"
-        , "subtitle": "Veuillez sélectionner le montant du don que vous souhaitez faire à l’association {{org}}."
+        , "subtitle": "Veuillez sélectionner le montant du don que vous souhaitez faire à l’association {{{org}}}."
         , "cta": "Suivant"
       },{
           "key": "payment"
@@ -463,7 +463,7 @@
         "Une collecte de dons a été ouverte en hommage à {{{capitalize firstname}}} afin de soutenir sa famille dans l'organisation des obsèques.\n\nNous vous remercions chaleureusement pour votre générosité."
       ],
       "org": [
-        "Nous savons que l'association {{org}} était très importante aux yeux de {{{capitalize firstname}}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
+        "Nous savons que l'association {{{org}}} était très importante aux yeux de {{{capitalize firstname}}}. Aussi, il nous tient à coeur de continuer son action en mettant en place une collecte de dons pour soutenir leur mission.\n\nUn grand merci pour votre participation."
       ]
     }
   },
@@ -613,7 +613,7 @@
   "card-ft-donation": {
     "h1": "Faire un don",
     "title-family": "Collecte de dons au profit de la famille",
-    "title-org": "Collecte de dons au profit de {{donation.org.name}}",
+    "title-org": "Collecte de dons au profit de {{{donation.org.name}}}",
     "text-stats": "{{stats.donations.total_f}} collecté(s) grâce à {{stats.donations.count}} donateur(s).",
     "cta": "Faire un don",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
