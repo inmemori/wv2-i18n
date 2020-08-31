@@ -350,7 +350,7 @@
           "key": "intro"
         , "label": "Su donación"
         , "title": "Su donación"
-        , "subtitle": "Porfavor seleccione el monto que desea donar a la asociacion {{org}}."
+        , "subtitle": "Porfavor seleccione el monto que desea donar a la asociacion {{{org}}}."
         , "cta": "Siguiente"
       },{
           "key": "payment"
@@ -463,7 +463,7 @@
         "Para todos aquellos que deseen participar, hemos organizado una recaudación de fondos en memoria de {{{capitalize firstname}}}."
       ],
       "org": [
-        "Sabemos que la asociación {{org}} era muy importante para {{{capitalize firstname}}}. Es importante para nosotros apoyar su misión al organizar esta recaudación de fondos.\n\nMuchas gracias por tu participación."
+        "Sabemos que la asociación {{{org}}} era muy importante para {{{capitalize firstname}}}. Es importante para nosotros apoyar su misión al organizar esta recaudación de fondos.\n\nMuchas gracias por tu participación."
       ]
     }
   },
@@ -610,7 +610,7 @@
   "card-ft-donation": {
     "h1": "Haga una donación",
     "title-family": "Recaudación de fondos para apoyar a la familia",
-    "title-org": "Recaudación de fondos en beneficio de “{{donation.org.name}}”",
+    "title-org": "Recaudación de fondos en beneficio de “{{{donation.org.name}}}”",
     "text-stats": "{{stats.donations.total_f}} donado por {{stats.donations.count}} donante(s).",
     "cta": "Haga una donación",
     "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
