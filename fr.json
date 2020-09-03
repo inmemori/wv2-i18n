@@ -118,6 +118,11 @@
       "message": "Désirez-vous vraiment supprimer cet espace définitivement ?",
       "success": "Espace supprimé !",
       "btns": ["Oui", "Non"]
+    },
+    "close-donation": {
+      "message": "Désirez-vous vraiment clôturer cette cagnotte définitivement ?",
+      "success": "Cagnotte clôturée !",
+      "btns": ["Oui", "Non"]
     }
   },
 
@@ -169,7 +174,9 @@
 
   "dates": {
     "long": "ddd D MMM YYYY à HH[h]mm",
-    "short": "dddd D MMMM YYYY"
+    "short": "dddd DD MMMM",
+    "day": "DD MMMM",
+    "time": "HH[h]mm"
   },
 
   "appnav": {

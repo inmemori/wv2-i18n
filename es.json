@@ -118,6 +118,11 @@
       "message": "¿Realmente quiere eliminar permanentemente este espacio?",
       "success": "¡Espacio eliminado!",
       "btns": ["Si", "No"]
+    },
+    "close-donation": {
+      "message": "Do you want to permanently close the fundraiser?",
+      "success": "Fundraiser closed!",
+      "btns": ["Si", "No"]
     }
   },
 
@@ -169,7 +174,9 @@
 
   "dates": {
     "long": "LLL",
-    "short": "LL"
+    "short": "dddd DD MMMM",
+    "day": "DD MMMM",
+    "time": "h:mmA"
   },
 
   "appnav": {
@@ -552,7 +559,10 @@
 
   "edit-places": {
     "title": "Agregar evento(s) ",
-    "subtitle": "Complete la información del funeral al agregar las diferentes ceremonias a realizar."
+    "subtitle": "Complete la información del funeral al agregar las diferentes ceremonias a realizar.",
+    "ph": {
+      "info": "More nformations"
+    }
   },
 
   "new-memory": {
