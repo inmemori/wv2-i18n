@@ -14,7 +14,7 @@
     "pay": "Pago",
     "end": "Finalizar",
     "suggest": "Sugerencias",
-    "showmore": "Ver mas",
+    "showmore": "Ver más",
     "name": "Nombre",
     "firstname": "Nombre",
     "lastname": "Apellido",
@@ -47,12 +47,12 @@
     "text": "Utilizamos cookies para proporcionar una mejor experiencia y para comprender cómo se utiliza nuestro sitio. Al navegar por el sitio, aceptas nuestra",
     "link-text": "politique de cookies",
     "link": "https://es.inmemori.com/cookies",
-    "accept": "Accepter",
-    "cancel": "Fermer"
+    "accept": "Aceptar",
+    "cancel": "Cancelar"
   },
 
   "skeleton": {
-      "places": "la información del funeral aparecerá aquí"
+      "places": "La información del funeral aparecerá aquí"
     , "memories": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}"
   },
 
@@ -265,8 +265,8 @@
       "withFiscal": "Quisiera una factura (opcional)"
     },
     "payment": {
-      "amount": "Payment success",
-      "ref": "Reference"
+      "amount": "Pago Exitoso",
+      "ref": "Referencia"
     }
   },
 
@@ -286,7 +286,7 @@
         , "cta": "Siguiente"
       },{
           "key": "shipping"
-        , "label": "Envio"
+        , "label": "Envío"
         , "title": "Dirección de entrega"
         , "subtitle": "Proporcione la información necesaria para la entrega. La entrega será realizada en aproximadamente 6 semanas."
         , "cta": "Siguiente"
@@ -315,7 +315,7 @@
           "key": "intro"
         , "label": "Elija su ramo de flores"
         , "title": "Su elección"
-        , "subtitle": "Todos los ramos de flores son de tamaño mediano y son entregados con una burbuja de agua para poder ser envíados al lugar del funeral de su elección."
+        , "subtitle": "Todos los ramos de flores podrán ser envíados al lugar del funeral de su elección."
         , "cta": "Siguiente"
       },{
           "key": "cart"
@@ -347,7 +347,7 @@
       "message": "Agregar un mensaje al ramo de flores (opcional):"
     },
     "ph": {
-      "message": "Ingrese su mensaje (este sera agregado a su ramo de flores)"
+      "message": "Ingrese su mensaje (este será agregado a su ramo de flores)"
     }
   },
 
@@ -501,7 +501,7 @@
           , "title": "Bienvenido!"
           , "subtitle": "El espacio en honor a {{{fullname}}} ha sido creado."
           , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
-          , "cta": "Go to the space"
+          , "cta": "Ir al espacio"
         }
       ]
     , "labels": {
