@@ -305,7 +305,7 @@
       }
     ],
     "labels": {
-      "conditions": "Book orders are not available yet. You will be able to order it 2 weeks after this space creation."
+      "conditions": "The book order will be available 15 days after the creation of your space."
     }
   },
 
