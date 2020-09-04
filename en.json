@@ -305,7 +305,7 @@
       }
     ],
     "labels": {
-      "conditions": "The book orders are not available yet. You will be able to order it 2 weeks after this space was created. You will be notified by email."
+      "conditions": "Book orders are not available yet. You will be able to order it 2 weeks after this space creation."
     }
   },
 
