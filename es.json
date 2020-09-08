@@ -35,6 +35,7 @@
     "iban": "Codigo Swift",
     "choose": "Elegir",
     "choose-file": "Elegir archivo",
+    "loading": "Loading",
     "uploading": "Cargando",
     "delete": "Borrar",
     "yes": "Si",
