@@ -306,7 +306,7 @@
       }
     ],
     "labels": {
-      "conditions": "The book orders are not available yet. You will be able to order it 2 weeks after this space was created. You will be notified by email."
+      "conditions": "The book order will be available 15 days after the creation of your space."
     }
   },
 
@@ -562,7 +562,7 @@
     "title": "Add event(s)",
     "subtitle": "Complete the funeral here by adding the different ceremonies.",
     "ph": {
-      "info": "More nformations"
+      "info": "More informations"
     }
   },
 

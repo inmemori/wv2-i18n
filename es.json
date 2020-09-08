@@ -306,7 +306,7 @@
       }
     ],
     "labels": {
-      "conditions": "El número de mensajes en homenaje debe ser mayor a 4 para poder ordenar"
+      "conditions": "El pedido del libro estará disponible 15 días después de la creación de su espacio."
     }
   },
 
