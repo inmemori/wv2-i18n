@@ -145,7 +145,7 @@
     "actions": {
       "start": {
           "title": "Vous n'êtes pas connecté(e)"
-        , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site."
+        , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques de l'espace."
       },
       "signup": {
           "title": "Votre profil"
@@ -158,13 +158,13 @@
       },
       "custom": {
         "infos": {
-          "start": { "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques de l'espace." }
         },
         "memories": {
-          "start": { "subtitle": "Les messages sont privés. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "Les messages sont privés. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques de l'espace." }
         },
         "share": {
-          "start": { "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques de l'espace." }
         },
         "settings": {
           "start": { "subtitle": "La gestion de la page est limitée à certains proches. Si vous êtes gestionnaire de cet espace et souhaitez vous connecter, renseignez votre adresse email ci-dessous pour vous connecter." }
