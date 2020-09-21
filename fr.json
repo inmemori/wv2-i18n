@@ -145,7 +145,7 @@
     "actions": {
       "start": {
           "title": "Vous n'êtes pas connecté(e)"
-        , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site."
+        , "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques de l'espace."
       },
       "signup": {
           "title": "Votre profil"
@@ -158,13 +158,13 @@
       },
       "custom": {
         "infos": {
-          "start": { "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques de l'espace." }
         },
         "memories": {
-          "start": { "subtitle": "Les messages sont privés. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "Les messages sont privés. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques de l'espace." }
         },
         "share": {
-          "start": { "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques du site." }
+          "start": { "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques de l'espace." }
         },
         "settings": {
           "start": { "subtitle": "La gestion de la page est limitée à certains proches. Si vous êtes gestionnaire de cet espace et souhaitez vous connecter, renseignez votre adresse email ci-dessous pour vous connecter." }
@@ -289,7 +289,7 @@
           "key": "shipping"
         , "label": "Livraison"
         , "title": "Adresse de livraison"
-        , "subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée sous 6 semaines (en France métropolitaine et en Belgique uniquement)."
+        , "subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée sous 8 semaines (en France métropolitaine et en Belgique uniquement)."
         , "cta": "Suivant"
       },{
           "key": "payment"
@@ -429,7 +429,7 @@
       "icon": ""
     }, {
       "title": "Virez les fonds à la cause choisie",
-      "subtitle": "l'association enevrra un reçu fiscal aux participants qui le souhaitent.",
+      "subtitle": "l'association enverra un reçu fiscal aux participants qui le souhaitent.",
       "icon": ""
     }],
     "labels": {
@@ -553,7 +553,7 @@
     "title": "Modifier le texte d’accueil",
     "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
     "templates": [
-      "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{capitalize firstname}}}{{#if dod}} survenu {{lowercase dod}} {{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori privé est destiné à recueillir vos hommages : un message, un souvenir ou une photo, illustrant un moment de vie.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien.",
+      "Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès de {{{capitalize firstname}}}{{#if dod}} survenu {{lowercase dod}}{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nCet espace InMemori privé est destiné à recueillir vos hommages : un message, un souvenir ou une photo, illustrant un moment de vie.\n\nLes informations sur ses obsèques sont renseignées ci-dessous. Merci pour votre précieux soutien.",
       "L’ensemble de la famille et tous les proches ont la douleur de vous part du décès de {{{fullname}}}, survenu {{lowercase dod}}."
     ]
   },
@@ -594,7 +594,7 @@
       "cta": "Déposer vos souvenirs"
     }, {
       "title": "Photos",
-      "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}.",
+      "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}. \n Les photos peuvent être ajoutées par groupe de 5 photos (maximum de 10 photos par hommage).",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
       "cta": "Déposer vos photos"
     }]
