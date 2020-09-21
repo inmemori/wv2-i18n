@@ -713,6 +713,11 @@
         "cta": "Ver la lista",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
+      "managers-as-agent": {
+        "title": "administradores del espacio",
+        "cta": "Agregar mas administradores",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
+      },
       "donation": {
         "title": "Administración de la recaudación de fondos",
         "cta": "Administrar la recaudación de fondos ",
