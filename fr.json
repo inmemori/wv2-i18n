@@ -549,6 +549,22 @@
     }
   },
 
+  "profile": {
+    "title": "À propos de vous",
+    "subtitle": "Ajoutez et modifiez si besoin vos informations.",
+    "label": {
+      "name": "Prénom et Nom"
+    , "phone": "N° de mobile"
+    , "email": "Email"
+    },
+    "ph": {
+      "name": "Prénom et Nom"
+    , "phone": "N° de mobile"
+    , "email": "Email"
+    }
+  },
+  
+
   "edit-intro": {
     "title": "Modifier le texte d’accueil",
     "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",

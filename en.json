@@ -549,6 +549,21 @@
     }
   },
 
+  "profile": {
+    "title": "Informations relating to you",
+    "subtitle": "Add and modify your informations.",
+    "label": {
+      "name": "First and last name"
+      , "phone": "Phone"
+      , "email": "Email"
+    },
+    "ph": {
+      "name": "First and last name"
+      , "phone": "Phone"
+      , "email": "Email"
+    }
+  },
+
   "edit-intro": {
     "title": "Edit the welcome text",
     "subtitle": "The family and close ones are saddened to share the news of the passing of {{fullname}} which occurred on {{lowercase dod}}.",
