@@ -552,6 +552,22 @@
     }
   },
 
+  "profile": {
+    "title": "À propos de vous",
+    "subtitle": "Ajoutez et modifiez si besoin vos informations.",
+    "label": {
+      "name": "Prénom et Nom"
+    , "phone": "N° de mobile"
+    , "email": "Email"
+    },
+    "ph": {
+      "name": "Prénom et Nom"
+    , "phone": "N° de mobile"
+    , "email": "Email"
+    }
+  },
+  
+
   "edit-intro": {
     "title": "Modifier le texte d’accueil",
     "subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
@@ -771,7 +787,7 @@
   "managers-add": {
     "title": "Ajouter un gestionnaire",
     "subtitle": "Renseignez l'adresse email des personnes que vous souhaitez inviter en tant que gestionnaire(s).",
-    "message": "Bonjour,\n\nJe t'ai ajouté comme gestionnaire de l'espace InMemori en hommage à {{{capitalize firstname}}} pour que tu m'aides à le personnaliser et à le gérer. \n\nL'équipe d'InMemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com.",
+    "message": "Bonjour,\n\nJe t'ai ajouté comme gestionnaire de l'espace InMemori en hommage à {{{capitalize firstname}}} pour que tu m'aides à le personnaliser et à le gérer. \n\nL'équipe d'InMemori est à notre disposition pour toute question et est joignable au 01 84 80 10 15 ou par email à l'adresse contact@inmemori.com.",
     "cta": { "add": "Envoyer" }
   },
 

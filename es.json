@@ -552,6 +552,21 @@
     }
   },
 
+  "profile": {
+    "title": "Información relacionada con usted",
+    "subtitle": "Agregue y modifique su información en caso de ser necesario.",
+    "label": {
+      "name": "Nombre y Apellido"
+      , "phone": "N° de celular"
+      , "email": "Correo electrónico"
+    },
+    "ph": {
+      "name": "Nombre y Apellido"
+      , "phone": "N° de celular"
+      , "email": "Correo electrónico"
+    }
+  },
+
   "edit-intro": {
     "title": "Aviso del fallecimiento",
     "subtitle": "El siguiente texto le permitirá dirigirse a todos los invitados al espacio.",
