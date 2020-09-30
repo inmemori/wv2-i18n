@@ -552,6 +552,10 @@
   "profile": {
     "title": "À propos de vous",
     "subtitle": "Ajoutez et modifiez si besoin vos informations.",
+    "setup": {
+      "title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
+      "subtitle": "Il a été créé pour vous par votre conseiller de l'agence {{agency.name}}."
+    },
     "label": {
       "name": "Prénom et Nom"
     , "phone": "N° de mobile"
