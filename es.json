@@ -554,7 +554,7 @@
     "subtitle": "Agregue y modifique su información en caso de ser necesario.",
     "setup": {
       "title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
-      "subtitle": "Il a été créé pour vous par votre conseiller de l'agence {{agency.name}}."
+      "subtitle": "Il a été créé pour vous par votre conseiller de l'agence {{agency}}."
     },
     "label": {
       "name": "Nombre y Apellido"
