@@ -553,7 +553,7 @@
   },
 
   "profile": {
-    "title": "Mon Profile",
+    "title": "Mon Profil",
     "subtitle": "Ajoutez et modifiez vos informations.",
     "label": {
         "name": "Prénom et Nom"
