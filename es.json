@@ -555,10 +555,6 @@
   "profile": {
     "title": "Información relacionada con usted",
     "subtitle": "Agregue y modifique su información en caso de ser necesario.",
-    "setup": {
-      "title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
-      "subtitle": "Il a été créé pour vous par votre conseiller de l'agence {{agency}}."
-    },
     "label": {
       "name": "Nombre y Apellido"
       , "phone": "N° de celular"
@@ -569,6 +565,11 @@
       , "phone": "N° de celular"
       , "email": "Correo electrónico"
     }
+  },
+
+  "profile-setup": {
+    "title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
+    "subtitle": "Il a été créé pour vous par votre conseiller de l'agence {{agency.name}}."
   },
 
   "edit-intro": {
@@ -731,6 +732,11 @@
     "title": "Administrar el espacio",
     "subtitle": "Conectarse como {{as}}",
     "options": {
+      "profile": {
+        "title": "My profile",
+        "cta": "Edit",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589806556/web-assets/picto/edit.svg"
+      },
       "managers": {
         "title": "Lista de administradores del espacio",
         "cta": "Ver la lista",

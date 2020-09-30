@@ -553,24 +553,24 @@
   },
 
   "profile": {
-    "title": "À propos de vous",
-    "subtitle": "Ajoutez et modifiez si besoin vos informations.",
-    "setup": {
-      "title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
-      "subtitle": "Il a été créé pour vous par votre conseiller de l'agence {{agency}}."
-    },
+    "title": "Mon Profile",
+    "subtitle": "Ajoutez et modifiez vos informations.",
     "label": {
-      "name": "Prénom et Nom"
-    , "phone": "N° de mobile"
-    , "email": "Email"
+        "name": "Prénom et Nom"
+      , "phone": "N° de mobile"
+      , "email": "Email"
     },
     "ph": {
-      "name": "Prénom et Nom"
-    , "phone": "N° de mobile"
-    , "email": "Email"
+        "name": "Prénom et Nom"
+      , "phone": "N° de mobile"
+      , "email": "Email"
     }
   },
-  
+
+  "profile-setup": {
+    "title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
+    "subtitle": "Il a été créé pour vous par votre conseiller de l'agence {{agency.name}}."
+  },
 
   "edit-intro": {
     "title": "Modifier le texte d’accueil",
@@ -732,6 +732,11 @@
     "title": "Gestion de l’espace",
     "subtitle": "Connecté(e) en tant que {{{as}}}",
     "options": {
+      "profile": {
+        "title": "Mon profile",
+        "cta": "Éditer",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589806556/web-assets/picto/edit.svg"
+      },
       "managers": {
         "title": "Liste des gestionnaires de l’espace",
         "cta": "Voir tous les gestionnaires",
