@@ -733,7 +733,7 @@
     "subtitle": "Connecté(e) en tant que {{{as}}}",
     "options": {
       "profile": {
-        "title": "Mon profile",
+        "title": "Mon profil",
         "cta": "Éditer",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589806556/web-assets/picto/edit.svg"
       },
