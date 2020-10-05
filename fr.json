@@ -667,7 +667,7 @@
     "steps": [
       {
         "key": "intro",
-        "title": "Partager la page"
+        "title": "Partager l'espace"
       },{
         "key": "email",
         "title": "Email",
@@ -857,7 +857,7 @@
       }
     , "s-manager|check-intro": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
-        , "text": "Pour commencez, validez le mot d'accueil de la page."
+        , "text": "Pour commencez, validez le mot d'accueil de l'espace."
         , "cta": "Valider"
         , "ctb": "Modifier"
       }
@@ -881,7 +881,7 @@
       }
     , "s-google|check-intro": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
-        , "text": "Pour commencer, validez le mot d'accueil de la page."
+        , "text": "Pour commencer, validez le mot d'accueil de l'espace."
         , "cta": "Valider"
         , "ctb": "Modifier"
       }
