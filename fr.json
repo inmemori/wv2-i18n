@@ -170,7 +170,7 @@
           "start": { "subtitle": "Les partages sont privés. Veuillez vous identifier pour accéder aux différentes rubriques de l'espace." }
         },
         "settings": {
-          "start": { "subtitle": "La gestion de la page est limitée à certains proches. Si vous êtes gestionnaire de cet espace et souhaitez vous connecter, renseignez votre adresse email ci-dessous pour vous connecter." }
+          "start": { "subtitle": "La gestion de l'espace est limitée à certains proches. Si vous êtes gestionnaire de cet espace et souhaitez vous connecter, renseignez votre adresse email ci-dessous pour vous connecter." }
         }
       }
     }
