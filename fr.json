@@ -158,7 +158,7 @@
       },
       "custom": {
         "err": {
-          "start": { "title": "Connexion expirée !", "subtitle": "Veuillez renseigner votre email ci dessous, un nouveau lien va vous être envoyé par email." }
+          "start": { "title": "Connexion expirée.", "subtitle": "Veuillez renseigner votre email ci-dessous, un nouveau lien va vous être envoyé par email." }
         },
         "infos": {
           "start": { "subtitle": "Cet espace est privé. Veuillez renseigner votre adresse email pour accéder aux différentes rubriques de l'espace." }
