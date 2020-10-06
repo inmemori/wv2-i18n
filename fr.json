@@ -734,7 +734,7 @@
     "options": {
       "profile": {
         "title": "Mon profil",
-        "cta": "Éditer",
+        "cta": "Modifier",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589806556/web-assets/picto/edit.svg"
       },
       "managers": {
