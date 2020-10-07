@@ -823,6 +823,7 @@
   },
 
   "invitations": {
+    "self": "You",
     "status": {
       "pending": "Invitación enviada",
       "pending-manager": "Invitación enviada",
