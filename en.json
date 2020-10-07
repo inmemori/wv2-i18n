@@ -158,19 +158,19 @@
       },
       "custom": {
         "err": {
-          "start": { "title": "Connexion expirée !", "subtitle": "Veuillez renseigner votre email ci dessous, un nouveau lien va vous être envoyer par email." }
+          "start": { "title": "Connection expired !", "subtitle": "Please enter your email address below, a new link will be sent by email." }
         },
         "infos": {
-          "start": { "subtitle": "This space is private. Please log in to access the site." }
+          "start": { "subtitle": "This space is private. Please enter your email address to access the site." }
         },
         "memories": {
-          "start": { "subtitle": "The messages are private. Please log in to access the site." }
+          "start": { "subtitle": "The messages are private. Please enter your email address to access the site." }
         },
         "share": {
-          "start": { "subtitle": "The messages are private. Please log in to access the site." }
+          "start": { "subtitle": "The messages are private. Please enter your email address to access the site." }
         },
         "settings": {
-          "start": { "subtitle": "The settings are private. Please log in to access the site." }
+          "start": { "subtitle": "The settings are private. Please enter your email address to access the site." }
         }
       }
     }
@@ -571,6 +571,11 @@
   "profile": {
     "title": "My Profile",
     "subtitle": "Add and modify your informations.",
+    "reinvite": "Resend invite",
+    "invitations": {
+      "title": "Edit profile",
+      "subtitle": "Add or modify informations."
+    },
     "label": {
       "name": "First and last name"
       , "phone": "Phone"

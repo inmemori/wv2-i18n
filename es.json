@@ -571,6 +571,11 @@
   "profile": {
     "title": "Información relacionada con usted",
     "subtitle": "Agregue y modifique su información en caso de ser necesario.",
+    "reinvite": "Resend invite",
+    "invitations": {
+      "title": "Edit profile",
+      "subtitle": "Add or modify informations."
+    },
     "label": {
       "name": "Nombre y Apellido"
       , "phone": "N° de celular"
