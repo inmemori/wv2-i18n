@@ -481,11 +481,11 @@
 
   "questions": {
     "origin": {
-        "wom": "un proche m'en a parlé"
-      , "media": "dans les médias (presse, radio, TV)"
-      , "search": "via les moteurs de recherches"
-      , "social": "via les réseaux sociaux"
-      , "other": "autre"
+        "wom": "Un proche m'en a parlé"
+      , "media": "Dans les médias (presse, radio, TV)"
+      , "search": "Via les moteurs de recherches"
+      , "social": "Via les réseaux sociaux"
+      , "other": "Autre"
     }
   },
 
