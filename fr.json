@@ -590,7 +590,7 @@
 
   "profile-setup": {
     "title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
-    "subtitle": "Il a été créé pour vous par votre conseiller."
+    "subtitle": "Il a été créé pour vous par {{#equals partner.tags 'insurance'}}{{partner.name}}{{else}} votre conseiller de l'agence {{agency.name}}{{/equals}}."
   },
 
   "edit-intro": {
