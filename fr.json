@@ -481,11 +481,11 @@
 
   "questions": {
     "origin": {
-        "wom": "un proche m'en a parlé"
-      , "media": "dans les médias (presse, radio, TV)"
-      , "search": "via les moteurs de recherches"
-      , "social": "via les réseaux sociaux"
-      , "other": "autre"
+        "wom": "Un proche m'en a parlé"
+      , "media": "Dans les médias (presse, radio, TV)"
+      , "search": "Via les moteurs de recherches"
+      , "social": "Via les réseaux sociaux"
+      , "other": "Autre"
     }
   },
 
@@ -586,7 +586,7 @@
 
   "profile-setup": {
     "title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
-    "subtitle": "Il a été créé pour vous par votre conseiller."
+    "subtitle": "Il a été créé pour vous par {{#equals partner.tags 'insurance'}}{{partner.name}}{{else}} votre conseiller de l'agence {{agency.name}}{{/equals}}."
   },
 
   "edit-intro": {
@@ -927,6 +927,37 @@
         , "cta": "Inviter"
         , "ctb": "Plus tard"
       }
+  },
+
+  "filepond": {
+    "idle": "Drag & Drop your files or <span class=\"filepond--label-action\"> Browse </span>",
+    "invalidField": "Field contains invalid files",
+    "fileWaitingForSize": "Waiting for size",
+    "fileSizeNotAvailable": "Size not available",
+    "fileLoading": "Loading",
+    "fileLoadError": "Error during load",
+    "fileProcessing": "Uploading",
+    "fileProcessingComplete": "Upload complete",
+    "fileProcessingAborted": "Upload cancelled",
+    "fileProcessingError": "Error during upload",
+    "fileProcessingRevertError": "Error during revert",
+    "fileRemoveError": "Error during remove",
+    "fileTypeNotAllowed": "File of invalid type",
+    "tapToCancel": "tap to cancel",
+    "tapToRetry": "tap to retry",
+    "tapToUndo": "tap to undo",
+    "buttonRemoveItem": "Remove",
+    "buttonAbortItemLoad": "Abort",
+    "buttonRetryItemLoad": "Retry",
+    "buttonAbortItemProcessing": "Cancel",
+    "buttonUndoItemProcessing": "Undo",
+    "buttonRetryItemProcessing": "Retry",
+    "buttonProcessItem": "Upload",
+    "fileValidateTypeLabelExpectedTypes": "Expects {allButLastType} or {lastType}",
+    "maxFileSizeExceeded": "File is too large",
+    "maxFileSize": "Maximum file size is {filesize}",
+    "maxTotalFileSizeExceeded": "Maximum total size exceeded",
+    "maxTotalFileSize": "Maximum total file size is {filesize}"
   }
 
 }
