@@ -572,10 +572,6 @@
     "title": "Mon Profil",
     "subtitle": "Ajoutez et modifiez vos informations.",
     "reinvite": "Renvoyer l'invitation",
-    "invitations": {
-      "title": "Éditer le profil",
-      "subtitle": "Ajoutez ou modifiez les informations."
-    },
     "label": {
         "name": "Prénom et Nom"
       , "phone": "N° de mobile"
