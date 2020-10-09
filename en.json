@@ -930,7 +930,7 @@
   },
 
   "filepond": {
-    "idle": "Drag & Drop your files or <span class=\"filepond--label-action\"> Browse </span><br/>Maximum {{maxFiles}} files",
+    "idle": "Drag & Drop your files or <span class=\"filepond--label-action\"> Browse </span><br/><span class=\"text-lighter text-italic\">Maximum {{maxFiles}} files</span>",
     "invalidField": "Field contains invalid files",
     "fileWaitingForSize": "Waiting for size",
     "fileSizeNotAvailable": "Size not available",
