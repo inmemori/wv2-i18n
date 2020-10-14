@@ -571,7 +571,6 @@
   "profile": {
     "title": "My Profile",
     "subtitle": "Add and modify your informations.",
-    "reinvite": "Resend invite",
     "label": {
       "name": "First and last name"
       , "phone": "Phone"
@@ -581,6 +580,9 @@
       "name": "First and last name"
       , "phone": "Phone"
       , "email": "Email"
+    },
+    "cta": {
+      "reinvite": "Resend invite"
     }
   },
 
