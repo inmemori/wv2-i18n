@@ -932,7 +932,7 @@
   },
 
   "filepond": {
-    "idle": "Glisser vos fichiers ou <span class=\"filepond--label-action\"> Chercher </span>",
+    "idle": "Glisser vos fichiers dans ce cadre ou <span class=\"filepond--label-action\"> Ajouter en cliquant ici </span>",
     "maxFiles": "Maximum {{maxFiles}} fichiers",
     "invalidField": "Le champ contient des fichiers invalides",
     "fileWaitingForSize": "Attente de la taille du fichier",
