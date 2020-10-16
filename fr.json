@@ -961,6 +961,17 @@
     "maxFileSize": "La taille de fichier maximum est {filesize}",
     "maxTotalFileSizeExceeded": "Taille total maximum dépassée",
     "maxTotalFileSize": "La taille total maximum est {filesize}"
+  },
+
+  "snackbar": {
+    "inviteManager": {
+      "cta": "Invitez un proche",
+      "check-intro": "Besoin d'aide pour valider le texte d'accueil ?",
+      "check-places": "Besoin d'aide pour valider les infos obsèques ?",
+      "has-photo": "Besoin d'aide pour choisir la photo de {{capitalize firstname}} ?",
+      "has-invited": "Besoin d'aide pour partager cet espace ?",
+      "has-published": "Besoin d'aide pour partager un hommage ?"
+    }
   }
 
 }
