@@ -397,7 +397,7 @@
           "key": "config"
         , "label": "Bénéficiaire"
         , "title": "Bénéficiaire"
-        , "subtitle": "Votre nom n'apparaîtra pas sur l'espace, seulement le nom de l'association ou de 'famille', selon votre choix de bénéficiaire. ?"
+        , "subtitle": "Votre nom n'apparaîtra pas sur l'espace, seulement le nom de l'association ou la mention de votre 'famille', selon votre choix de bénéficiaire. ?"
         , "cta": "Suivant"
       },{
           "key": "bank"
