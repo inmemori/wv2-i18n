@@ -816,6 +816,7 @@
     "title": "Ajouter un gestionnaire",
     "subtitle": "Renseignez l'adresse email des personnes que vous souhaitez inviter en tant que gestionnaire(s).",
     "message": "Bonjour,\n\nJe t'ai ajouté comme gestionnaire de l'espace InMemori en hommage à {{{capitalize firstname}}} pour que tu m'aides à le personnaliser et à le gérer. \n\nL'équipe d'InMemori est à notre disposition pour toute question et est joignable au 01 84 80 10 15 ou par email à l'adresse contact@inmemori.com.",
+    "snackbar": "Bonjour,\n\nJe t'ai ajouté comme gestionnaire de l'espace InMemori en hommage à {{{capitalize firstname}}} pour que tu m'aides à le personnaliser et à le gérer. \n\nL'équipe d'InMemori est à notre disposition pour toute question et est joignable au 01 84 80 10 15 ou par email à l'adresse contact@inmemori.com.",
     "cta": { "add": "Envoyer" }
   },
 
