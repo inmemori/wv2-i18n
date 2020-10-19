@@ -121,14 +121,14 @@
       "btns": ["Si", "No"]
     },
     "close-donation": {
-      "message": "Do you want to permanently close the fundraiser?",
-      "success": "Fundraiser closed!",
+      "message": "¿Desea cerrar permanentemente la recaudación de fondos?",
+      "success": "¡Recaudación de fondos cerrada!",
       "btns": ["Si", "No"]
     }
   },
 
   "thank": {
-    "title": "Enviar un agradecimiento",
+    "title": "Enviar un mensaje de agradecimiento",
     "labels": {
       "chat-him": "{{name}}",
       "chat-you": "Usted",
@@ -158,7 +158,7 @@
       },
       "custom": {
         "err": {
-          "start": { "title": "Connexion expirée !", "subtitle": "Veuillez renseigner votre email ci dessous, un nouveau lien va vous être envoyer par email." }
+          "start": { "title": "¡Conexión expirada !", "subtitle": "Por favor proporcione su cuenta de correo electronico a continuación, un nuevo enlace le será enviado por correo electrónico." }
         },
         "infos": {
           "start": { "subtitle": "Este espacio es privado. Por favor ingrese para acceder al sitio" }
@@ -511,10 +511,10 @@
           , "cta": "Siguiente"
         },{
             "key": "origin"
-          , "label": "Questions"
-          , "title": "About"
-          , "subtitle": "How did you ear about us ?"
-          , "cta": "End"
+          , "label": "Preguntas"
+          , "title": "Acerca"
+          , "subtitle": "¿Cómo se enteró de InMemori?"
+          , "cta": "Fin"
         },{
             "key": "success"
           , "label": ""
@@ -582,13 +582,13 @@
       , "email": "Correo electrónico"
     },
     "cta": {
-      "reinvite": "Resend invite"
+      "reinvite": "Reenviar invitación"
     }
   },
 
   "profile-setup": {
-    "title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
-    "subtitle": "Il a été créé pour vous par votre conseiller de l'agence {{agency.name}}."
+    "title": "Por favor ingrese su cuenta de correo electrónico para acceder al espacio en homenaje a {{{fullname}}}",
+    "subtitle": "El espacio en homenaje fue creado por su consejero familiar de la agencia {{agency.name}}."
   },
 
   "edit-intro": {
@@ -604,7 +604,7 @@
     "title": "Agregar evento(s) ",
     "subtitle": "Complete la información del funeral al agregar las diferentes ceremonias a realizar.",
     "ph": {
-      "info": "More nformations"
+      "info": "Mas información"
     }
   },
 
@@ -752,8 +752,8 @@
     "subtitle": "Conectarse como {{as}}",
     "options": {
       "profile": {
-        "title": "My profile",
-        "cta": "Edit",
+        "title": "Mi perfil",
+        "cta": "Editar",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589806556/web-assets/picto/edit.svg"
       },
       "managers": {
@@ -762,7 +762,7 @@
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
       "managers-as-agent": {
-        "title": "administradores del espacio",
+        "title": "Administradores del espacio",
         "cta": "Agregar mas administradores",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
@@ -826,9 +826,9 @@
   },
 
   "donators": {
-    "title": "Donators list",
-    "subtitle": "{{count}} people",
-    "cta": { "export": "Export list" }
+    "title": "Lista de Donadores",
+    "subtitle": "{{count}} personas",
+    "cta": { "export": "Exportar lista" }
   },
 
   "invitation-list": {
@@ -934,43 +934,43 @@
   "filepond": {
     "idle": "Drag & Drop your files or <span class=\"filepond--label-action\"> Browse </span>",
     "maxFiles": "Maximum {{maxFiles}} files",
-    "invalidField": "Field contains invalid files",
-    "fileWaitingForSize": "Waiting for size",
-    "fileSizeNotAvailable": "Size not available",
-    "fileLoading": "Loading",
-    "fileLoadError": "Error during load",
-    "fileProcessing": "Uploading",
-    "fileProcessingComplete": "Upload complete",
-    "fileProcessingAborted": "Upload cancelled",
-    "fileProcessingError": "Error during upload",
-    "fileProcessingRevertError": "Error during revert",
-    "fileRemoveError": "Error during remove",
-    "fileTypeNotAllowed": "File of invalid type",
-    "tapToCancel": "tap to cancel",
-    "tapToRetry": "tap to retry",
-    "tapToUndo": "tap to undo",
-    "buttonRemoveItem": "Remove",
-    "buttonAbortItemLoad": "Abort",
-    "buttonRetryItemLoad": "Retry",
-    "buttonAbortItemProcessing": "Cancel",
-    "buttonUndoItemProcessing": "Undo",
-    "buttonRetryItemProcessing": "Retry",
-    "buttonProcessItem": "Upload",
-    "fileValidateTypeLabelExpectedTypes": "Expects {allButLastType} or {lastType}",
-    "maxFileSizeExceeded": "File is too large",
-    "maxFileSize": "Maximum file size is {filesize}",
-    "maxTotalFileSizeExceeded": "Maximum total size exceeded",
-    "maxTotalFileSize": "Maximum total file size is {filesize}"
+    "invalidField": "El campo contiene archivos invalidos",
+    "fileWaitingForSize": "Esperando el tamaño",
+    "fileSizeNotAvailable": "Tamaño no disponible",
+    "fileLoading": "Cargando",
+    "fileLoadError": "Error durante la carga",
+    "fileProcessing": "Cargando",
+    "fileProcessingComplete": "Carga completa",
+    "fileProcessingAborted": "Carga cancelada ",
+    "fileProcessingError": "Error durante la carga",
+    "fileProcessingRevertError": "Error durante la reversión",
+    "fileRemoveError": "Error durante la eliminación",
+    "fileTypeNotAllowed": "Tipo de archivo inválido",
+    "tapToCancel": "Pulse para cancelar",
+    "tapToRetry": "Pulse para reintentar",
+    "tapToUndo": "Pulse para deshacer",
+    "buttonRemoveItem": "Remover",
+    "buttonAbortItemLoad": "Abortar",
+    "buttonRetryItemLoad": "Reintentar",
+    "buttonAbortItemProcessing": "Cancelar",
+    "buttonUndoItemProcessing": "Deshacher",
+    "buttonRetryItemProcessing": "Reintentar",
+    "buttonProcessItem": "Subir",
+    "fileValidateTypeLabelExpectedTypes": "Espera que {allButLastType} o {lastType}",
+    "maxFileSizeExceeded": "El archivo es demasiado largo",
+    "maxFileSize": "Tamaño máximo del archivo {filesize}",
+    "maxTotalFileSizeExceeded": "Tamaño total máximo excedido",
+    "maxTotalFileSize": "El tamaño máximo del arvhivo es {filesize}"
   },
 
   "snackbar": {
     "inviteManager": {
-      "cta": "Invite a relative",
-      "check-intro": "Need help for the welcome message ?",
-      "check-places": "Need help to fill places informations ?",
-      "has-photo": "Need help to add a picture for {{capitalize firstname}} ?",
-      "has-invited": "Need help to share this space ?",
-      "has-published": "Need help to publish your memory ?"
+      "cta": "Invite a un conocido",
+      "check-intro": "¿Necesita ayuda con el mensaje de bienvenida?",
+      "check-places": "¿Necesita ayuda para llenar los lugares de las ceremonias?",
+      "has-photo": "¿Necesita ayuda para subir una fotografía de {{capitalize firstname}} ?",
+      "has-invited": "¿Necesita ayuda para compartir este espacio?",
+      "has-published": "¿Necesita ayuda para publicar un recuerdo?"
     }
   }
 
