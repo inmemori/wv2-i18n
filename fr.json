@@ -397,7 +397,7 @@
           "key": "config"
         , "label": "Bénéficiaire"
         , "title": "Bénéficiaire"
-        , "subtitle": "Qui sera le bénéficiaire de cette collecte ?"
+        , "subtitle": "Votre nom n'apparaîtra pas sur l'espace, seulement le nom de l'association ou de 'famille', selon votre choix de bénéficiaire. ?"
         , "cta": "Suivant"
       },{
           "key": "bank"
