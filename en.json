@@ -761,7 +761,7 @@
         "cta": "See the list",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
       },
-      "managers-as-agent": {
+      "managers-as-broker": {
         "title": "Space administrators",
         "cta": "Add an administrator",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1591093454/web-assets/picto/add-email.svg"
