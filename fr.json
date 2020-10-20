@@ -397,7 +397,7 @@
           "key": "config"
         , "label": "Bénéficiaire"
         , "title": "Bénéficiaire"
-        , "subtitle": "Votre nom n'apparaîtra pas sur l'espace, seulement le nom de l'association ou la mention de votre 'famille', selon votre choix de bénéficiaire."
+        , "subtitle": "Votre prénom et nom n'apparaîtront pas sur le module de dons. Seul le nom de l'association sera affiché, si vous avez selectionné 'Association' comme bénéficiaire."
         , "cta": "Suivant"
       },{
           "key": "bank"
