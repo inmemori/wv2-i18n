@@ -966,7 +966,7 @@
 
   "snackbar": {
     "inviteManager": {
-      "cta": "Inviter un gestionnaire,
+      "cta": "Inviter un gestionnaire",
       "check-intro": "Besoin d'aide pour valider le texte d'accueil ?",
       "check-places": "Besoin d'aide pour valider les infos obsèques ?",
       "has-photo": "Besoin d'aide pour choisir la photo de {{capitalize firstname}} ?",
