@@ -41,7 +41,21 @@
     "yes": "Oui",
     "no": "Non",
     "login": "Connexion",
-    "logout": "Déconnexion"
+    "logout": "Déconnexion",
+    "errors": {
+      "missing": {
+        "firstname": "Veuillez renseigner un Prénom",
+        "lastname": "Veuillez renseigner un Nom",
+        "email": "Veuillez renseigner une adresse email",
+        "name": "Veuillez renseigner un nom et prénom",
+        "zone": "Veuillez renseigner un pays",
+        "emails": "Veuillez ajouter au moins une adresse email valide",
+        "phone": "Veuillez renseigner un numéro de téléphone"
+      },
+      "invalid": {
+        "email": "Veuillez renseigner une adresse email valide"
+      }
+    }
   },
 
   "cookies": {
@@ -972,6 +986,13 @@
       "has-photo": "Besoin d'aide pour choisir la photo de {{capitalize firstname}} ?",
       "has-invited": "Besoin d'aide pour partager cet espace ?",
       "has-published": "Besoin d'aide pour partager un hommage ?"
+    },
+    "default": {
+      "success": "Les modifications ont bien été prises en compte.",
+      "ok": "Ok !",
+      "error": "Les modifications n'ont pas pu être effectuées.",
+      "sent": "L'envoi a bien été effectué.",
+      "donationActivated": "Votre collecte de dons a bien été activée."
     }
   }
 

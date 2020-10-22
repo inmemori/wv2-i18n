@@ -41,7 +41,21 @@
     "yes": "Yes",
     "no": "No",
     "login": "Log in",
-    "logout": "Log out"
+    "logout": "Log out",
+    "errors": {
+      "missing": {
+        "firstname": "Missing required firstname",
+        "lastname": "Missing required lastname",
+        "email": "Missing required email address",
+        "name": "Missing required fullname",
+        "zone": "Missing required country",
+        "emails": "Missing at least one email address",
+        "phone": "Missing required phone number"
+      },
+      "invalid": {
+        "email": "Invalid email address"
+      }
+    }
   },
 
   "cookies": {
@@ -972,6 +986,13 @@
       "has-photo": "Need help to add a picture for {{capitalize firstname}} ?",
       "has-invited": "Need help to share this space ?",
       "has-published": "Need help to publish your memory ?"
+    },
+    "default": {
+      "success": "Changes saved successfully",
+      "ok": "Ok !",
+      "error": "An error occured while saving your changes",
+      "sent": "Sending was successfull",
+      "donationActivated": "Your fundraising account has been activated"
     }
   }
 }
