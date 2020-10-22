@@ -50,7 +50,8 @@
         "name": "Veuillez renseigner un nom et prénom",
         "zone": "Veuillez renseigner un pays",
         "emails": "Veuillez ajouter au moins une adresse email valide",
-        "phone": "Veuillez renseigner un numéro de téléphone"
+        "phone": "Veuillez renseigner un numéro de téléphone",
+        "payment": "Erreur lors du processus de paiement, veuillez réessayer"
       },
       "invalid": {
         "email": "Veuillez renseigner une adresse email valide"

@@ -50,7 +50,8 @@
         "name": "Missing required fullname",
         "zone": "Missing required country",
         "emails": "Missing at least one email address",
-        "phone": "Missing required phone number"
+        "phone": "Missing required phone number",
+        "payment": "Error during payment process please try again"
       },
       "invalid": {
         "email": "Invalid email address"
