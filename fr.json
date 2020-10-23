@@ -887,13 +887,13 @@
       }
     , "s-manager|check-places": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-calendar.svg"
-        , "text": "Avez-vous besoin d'ajouter / modifier un événement ?"
+        , "text": "Pour commencer, avez-vous besoin d'ajouter / modifier un événement ?"
         , "cta": "Ajouter"
         , "ctb": "Plus tard"
       }
     , "s-manager|check-intro": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
-        , "text": "Pour commencez, validez le mot d'accueil de l'espace."
+        , "text": "Souhaitez-vous modifier le mot d'accueil de l'espace."
         , "cta": "Valider"
         , "ctb": "Modifier"
       }
