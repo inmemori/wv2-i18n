@@ -254,13 +254,15 @@
       "time": "hh:mm",
       "name": "Funeraria El Legado",
       "address": "Av. Insurgentes Sur 3327, 75020 Mexico",
-      "custom-type": "Ingresar texto..."
+      "custom-type": "Ingresar texto...",
+      "info": "Mas información"
     },
 
     "cta": {
       "delete": "Borrar",
       "add": "Aregar un evento",
-      "map": "Obtener las direcciones"
+      "map": "Obtener las direcciones",
+      "addInfo": "Aregar información"
     }
 
   },

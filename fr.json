@@ -254,13 +254,15 @@
       "time": "hh:mm",
       "name": "Cimetière du Père Lachaise",
       "address": "71 Rue des Rondeaux, 75020 Paris",
-      "custom-type": "Nommez ce moment"
+      "custom-type": "Nommez ce moment",
+      "info": "Informations complémentaires concernant l’événement"
     },
 
     "cta": {
       "delete": "Supprimer l’événement",
       "add": "Ajouter un événement",
-      "map": "Obtenir l'itinéraire"
+      "map": "Obtenir l'itinéraire",
+      "addInfo": "Ajouter des informations"
     }
 
   },

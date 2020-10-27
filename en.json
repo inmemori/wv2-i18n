@@ -254,13 +254,15 @@
       "time": "hh:mm",
       "name": "El Legado Funeral Home",
       "address": "8212 Birchwood St. Pleasanton, CA 94566",
-      "custom-type": "Enter text..."
+      "custom-type": "Enter text...",
+      "info": "More informations"
     },
 
     "cta": {
       "delete": "Delete",
       "add": "Add event",
-      "map": "View map"
+      "map": "View map",
+      "addInfo": "Add informations"
     }
 
   },
