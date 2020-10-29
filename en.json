@@ -612,7 +612,7 @@
     "title": "Edit the welcome text",
     "subtitle": "The family and close ones are saddened to share the news of the passing of {{fullname}} which occurred on {{lowercase dod}}.",
     "templates": [
-        "Dear family, dear friends,\nWe are very sad to announce the passing of {{{capitalize firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years. {{/ if}} \n\n Health restrictions preventing us from meeting, we have created an InMemori space in tribute to {{{capitalize firstname}}}. This private space is intended to collect your testimonies: a message, a memory, an anecdote or a photo, illustrating a moment of life.\n\nThank you for your support.",
+        "Dear family, dear friends,\nWe are very sad to announce the passing of {{{capitalize firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years. {{/ if}} \n\nThis InMemori page is intended to collect your testimonials: a message, a memory, an anecdote or a photo, illustrating a moment of life.\n\nThe information about the funeral is shown below. Thank you for your support.",
       , "Dear family, dear friends,\nWe are very sad to announce the death of {{{capitalize firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years. {{/ if}} \n\nThis InMemori page is intended to collect your testimonials: a message, a memory or a photo, illustrating a moment you shared with {{{capitalize firstname}}}.\n\nThe information about the funeral is shown below. Thank you for your support."
     ]
   },
