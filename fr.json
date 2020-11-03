@@ -236,29 +236,28 @@
       "time": "Heure",
       "link": "Lien de la cérémonie virtuelle",
       "setup": {
-        "title": "Configurez un lien avec un des services suivants:",
+        "title": "Nous vous conseillons un des services suivants afin de créer votre lien de retransmission :",
         "channels": [{
-            "title": "Setup Zoom",
+            "title": "Jitsi",
             "advice": [
               {
-                "label": "Inscrivez-vous ici: ",
-                "link": "https://zoom.us/signup"
+                "label": "Nommez votre retransmission et obtenez le lien ici : ",
+                "link": "https://meet.jit.si"
               },
               {
-                "label": "Prévoyez votre cérémonie ici: ",
-                "link": "https://zoom.us/meeting/schedule"
+                "label": "Partagez le lien sur InMemori : "
               }
             ]
           },
           {
-            "title": "Setup Youtube",
+            "title": "Zoom",
             "advice": [
               {
-                "label": "Inscrivez-vous ici: ",
+                "label": "Inscrivez-vous ici : ",
                 "link": "https://zoom.us/signup"
               },
               {
-                "label": "Prévoyez votre cérémonie ici: ",
+                "label": "Prévoyez votre cérémonie ici et partagez le lien sur InMemori : ",
                 "link": "https://zoom.us/meeting/schedule"
               }
             ]
