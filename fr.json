@@ -199,8 +199,9 @@
   },
 
   "appnav": {
-    "info": "Accueil",
+    "info": "Infos",
     "memories": "Hommages",
+    "ceremony": "Cérémonie",
     "share": "Partage",
     "settings": "Gestion",
     "help": "Aide",
