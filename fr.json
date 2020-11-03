@@ -68,8 +68,8 @@
   },
 
   "skeleton": {
-      "places": "les informations relatives aux obsèques apparaîtront ici"
-    , "broadcast": "Broadcast informations"
+      "places": "Les informations relatives aux obsèques apparaîtront ici"
+    , "broadcast": "Les informations relatives à la retransmission de la cérémonie apparaîtront ici"
     , "memories": "C’est ici qu’apparaîtront les messages en hommage à {{{capitalize firstname}}}"
   },
 
