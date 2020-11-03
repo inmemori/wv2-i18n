@@ -69,6 +69,7 @@
 
   "skeleton": {
       "places": "les informations relatives aux obsèques apparaîtront ici"
+    , "broadcast": "Broadcast informations"
     , "memories": "C’est ici qu’apparaîtront les messages en hommage à {{{capitalize firstname}}}"
   },
 
@@ -222,6 +223,62 @@
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
       }
     ]
+  },
+
+  "broadcast": {
+    "h1": "Participer à distance",
+    "labels": {
+      "title": "Diffusion de la cérémonie",
+      "subtitle": "En direct depuis chez vous",
+      "desc": "Configurez votre lien de partage vidéo de la cérémonie:",
+      "date": "Date",
+      "placeholder-date": "jj/mm/aaaa",
+      "time": "Heure",
+      "link": "Lien de la cérémonie virtuelle",
+      "setup": {
+        "title": "Configurez un lien avec un des services suivants:",
+        "channels": [{
+            "title": "Setup Zoom",
+            "advice": [
+              {
+                "label": "Inscrivez-vous ici: ",
+                "link": "https://zoom.us/signup"
+              },
+              {
+                "label": "Prévoyez votre cérémonie ici: ",
+                "link": "https://zoom.us/meeting/schedule"
+              }
+            ]
+          },
+          {
+            "title": "Setup Youtube",
+            "advice": [
+              {
+                "label": "Inscrivez-vous ici: ",
+                "link": "https://zoom.us/signup"
+              },
+              {
+                "label": "Prévoyez votre cérémonie ici: ",
+                "link": "https://zoom.us/meeting/schedule"
+              }
+            ]
+          }
+        ]        
+      }
+    },
+
+    "ph": {
+      "date": "jj/mm/aaaa",
+      "time": "hh:mm",
+      "link": "Lien de votre cérémonie virtuelle",
+      "info": "Plus d'imformations (exemple: Code PIN, ...)"
+    },
+
+    "cta": {
+      "link": "Regarder en direct",
+      "add": "Add broadcast link",
+      "delete": "Supprimer la diffusion"
+    }
   },
 
   "places": {
@@ -409,7 +466,7 @@
           "key": "intro"
         , "label": "Collecte de dons"
         , "title": "Collecte de dons"
-        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère, de contribuer aux obsèques ou bien d'aider la famille. Afin de couvrir les frais bancaires, 4% sont retenus sur le montant total des dons."
+        , "subtitle": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère ou bien d'aider la famille. Afin de couvrir les frais bancaires, 4% sont retenus sur le montant total des dons."
         , "cta": "Activer la collecte"
       },{
           "key": "config"

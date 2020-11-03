@@ -69,6 +69,7 @@
 
   "skeleton": {
       "places": "The information about the ceremonies will appear here"
+    , "broadcast": "Broadcast informations"
     , "memories": "The messages in tribute to {{{capitalize firstname}}} will appear here"
   },
 
@@ -222,6 +223,62 @@
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
       }
     ]
+  },
+
+  "broadcast": {
+    "h1": "Participate remotely",
+    "labels": {
+      "title": "Broadcast of the ceremony",
+      "subtitle": "Live from home",
+      "desc": "Configure your ceremony video broadcast link:",
+      "date": "Date",
+      "placeholder-date": "mm/dd/yyyy",
+      "time": "Time",
+      "link": "Broadcast link",
+      "setup": {
+        "title": "Configure a link with one of the following services:",
+        "channels": [{
+            "title": "Setup Zoom",
+            "advice": [
+              {
+                "label": "Signup here: ",
+                "link": "https://zoom.us/signup"
+              },
+              {
+                "label": "Plan your ceremony here: ",
+                "link": "https://zoom.us/meeting/schedule"
+              }
+            ]
+          },
+          {
+            "title": "Setup Youtube",
+            "advice": [
+              {
+                "label": "Signup here: ",
+                "link": "https://zoom.us/signup"
+              },
+              {
+                "label": "Plan your ceremony here: ",
+                "link": "https://zoom.us/meeting/schedule"
+              }
+            ]
+          }
+        ]        
+      }
+    },
+
+    "ph": {
+      "date": "mm/dd/yyyy",
+      "time": "hh:mm",
+      "link": "Broadcast link",
+      "info": "More informations (example: PIN Code, ...)"
+    },
+
+    "cta": {
+      "link": "Watch now",
+      "add": "Add broadcast link",
+      "delete": "Remove broadcast"
+    }
   },
 
   "places": {
