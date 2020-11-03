@@ -234,7 +234,7 @@
       "date": "Date",
       "placeholder-date": "jj/mm/aaaa",
       "time": "Heure",
-      "link": "Lien de la cérémonie virtuelle",
+      "link": "Lien de la retransmission vidéo",
       "setup": {
         "title": "Nous vous conseillons un des services suivants afin de créer votre lien de retransmission :",
         "channels": [{
@@ -269,14 +269,14 @@
     "ph": {
       "date": "jj/mm/aaaa",
       "time": "hh:mm",
-      "link": "Lien de votre cérémonie virtuelle",
-      "info": "Plus d'imformations (exemple: Code PIN, ...)"
+      "link": "Lien de la retransmission vidéo",
+      "info": "Information complémentaire (exemple: Code PIN)"
     },
 
     "cta": {
       "link": "Regarder en direct",
       "add": "Ajouter un lien de retransmission vidéo",
-      "delete": "Supprimer la diffusion"
+      "delete": "Supprimer la retransmission"
     }
   },
 
