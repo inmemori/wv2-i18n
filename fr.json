@@ -223,6 +223,60 @@
     ]
   },
 
+  "broadcast": {
+    "h1": "Participer à distance",
+    "labels": {
+      "title": "Diffusion de la cérémonie",
+      "subtitle": "En direct depuis chez vous",
+      "desc": "Configurez votre lien de partage vidéo de la cérémonie:",
+      "date": "Date",
+      "placeholder-date": "jj/mm/aaaa",
+      "time": "Heure",
+      "link": "Lien de la cérémonie virtuelle",
+      "setup": {
+        "title": "Configurez un lien avec un des services suivants:",
+        "channels": [{
+            "title": "Setup Zoom",
+            "advice": [
+              {
+                "label": "Inscrivez-vous ici: ",
+                "link": "https://zoom.us/signup"
+              },
+              {
+                "label": "Prévoyez votre cérémonie ici: ",
+                "link": "https://zoom.us/meeting/schedule"
+              }
+            ]
+          },
+          {
+            "title": "Setup Youtube",
+            "advice": [
+              {
+                "label": "Inscrivez-vous ici: ",
+                "link": "https://zoom.us/signup"
+              },
+              {
+                "label": "Prévoyez votre cérémonie ici: ",
+                "link": "https://zoom.us/meeting/schedule"
+              }
+            ]
+          }
+        ]        
+      }
+    },
+
+    "ph": {
+      "date": "jj/mm/aaaa",
+      "time": "hh:mm",
+      "link": "Lien de votre cérémonie virtuelle"
+    },
+
+    "cta": {
+      "link": "Regarder en direct",
+      "delete": "Supprimer la diffusion"
+    }
+  },
+
   "places": {
 
     "h1": "Les obsèques",
