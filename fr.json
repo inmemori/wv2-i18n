@@ -643,20 +643,35 @@
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Voir tous les hommages"
     }, {
+      "type": 1,
       "title": "Condoléances",
       "subtitle": "Partagez votre soutien aux proches de {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Écrire vos condoléances"
     }, {
+      "type": 2,
       "title": "Souvenirs",
       "subtitle": "Partagez un joli souvenir vécu avec {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/Souvenirs.svg",
       "cta": "Raconter vos souvenirs"
     }, {
+      "type": 3,
       "title": "Photos",
       "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
       "cta": "Déposer vos photos"
+    }, {
+      "type": 4,
+      "title": "Prières",
+      "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}.",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
+      "cta": "Déposer vos textes"
+    }, {
+      "type": 5,
+      "title": "Texte",
+      "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}.",
+      "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
+      "cta": "Déposer vos textes"
     }]
   },
 
