@@ -69,6 +69,7 @@
 
   "skeleton": {
       "places": "les informations relatives aux obsèques apparaîtront ici"
+    , "broadcast": "Broadcast informations"
     , "memories": "C’est ici qu’apparaîtront les messages en hommage à {{{capitalize firstname}}}"
   },
 
@@ -269,11 +270,13 @@
     "ph": {
       "date": "jj/mm/aaaa",
       "time": "hh:mm",
-      "link": "Lien de votre cérémonie virtuelle"
+      "link": "Lien de votre cérémonie virtuelle",
+      "info": "Plus d'imformations (exemple: Code PIN, ...)"
     },
 
     "cta": {
       "link": "Regarder en direct",
+      "add": "Add broadcast link",
       "delete": "Supprimer la diffusion"
     }
   },

@@ -69,6 +69,7 @@
 
   "skeleton": {
       "places": "The information about the ceremonies will appear here"
+    , "broadcast": "Broadcast informations"
     , "memories": "The messages in tribute to {{{capitalize firstname}}} will appear here"
   },
 
@@ -269,11 +270,13 @@
     "ph": {
       "date": "mm/dd/yyyy",
       "time": "hh:mm",
-      "link": "Broadcast link"
+      "link": "Broadcast link",
+      "info": "More informations (example: PIN Code, ...)"
     },
 
     "cta": {
       "link": "Watch now",
+      "add": "Add broadcast link",
       "delete": "Remove broadcast"
     }
   },
