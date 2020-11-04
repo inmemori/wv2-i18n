@@ -68,8 +68,8 @@
   },
 
   "skeleton": {
-      "places": "les informations relatives aux obsèques apparaîtront ici"
-    , "broadcast": "Broadcast informations"
+      "places": "Les informations relatives aux obsèques apparaîtront ici"
+    , "broadcast": "Les informations relatives à la retransmission de la cérémonie apparaîtront ici"
     , "memories": "C’est ici qu’apparaîtront les messages en hommage à {{{capitalize firstname}}}"
   },
 
@@ -234,31 +234,30 @@
       "date": "Date",
       "placeholder-date": "jj/mm/aaaa",
       "time": "Heure",
-      "link": "Lien de la cérémonie virtuelle",
+      "link": "Lien de la retransmission vidéo",
       "setup": {
-        "title": "Configurez un lien avec un des services suivants:",
+        "title": "Nous vous conseillons un des services suivants afin de créer votre lien de retransmission :",
         "channels": [{
-            "title": "Setup Zoom",
+            "title": "Jitsi",
             "advice": [
               {
-                "label": "Inscrivez-vous ici: ",
-                "link": "https://zoom.us/signup"
+                "label": "Nommez votre retransmission et obtenez le lien ici : ",
+                "link": "https://meet.jit.si"
               },
               {
-                "label": "Prévoyez votre cérémonie ici: ",
-                "link": "https://zoom.us/meeting/schedule"
+                "label": "Partagez le lien sur InMemori"
               }
             ]
           },
           {
-            "title": "Setup Youtube",
+            "title": "Zoom",
             "advice": [
               {
-                "label": "Inscrivez-vous ici: ",
+                "label": "Inscrivez-vous ici : ",
                 "link": "https://zoom.us/signup"
               },
               {
-                "label": "Prévoyez votre cérémonie ici: ",
+                "label": "Prévoyez votre cérémonie ici puis partagez le lien sur InMemori : ",
                 "link": "https://zoom.us/meeting/schedule"
               }
             ]
@@ -270,14 +269,14 @@
     "ph": {
       "date": "jj/mm/aaaa",
       "time": "hh:mm",
-      "link": "Lien de votre cérémonie virtuelle",
-      "info": "Plus d'imformations (exemple: Code PIN, ...)"
+      "link": "Lien de la retransmission vidéo",
+      "info": "Information complémentaire (exemple: Code PIN)"
     },
 
     "cta": {
       "link": "Regarder en direct",
-      "add": "Add broadcast link",
-      "delete": "Supprimer la diffusion"
+      "add": "Ajouter un lien de retransmission vidéo",
+      "delete": "Supprimer la retransmission"
     }
   },
 
@@ -581,7 +580,7 @@
         },{
             "key": "places"
           , "label": "Déroulé des obsèques"
-          , "title": "Ajouter un /des événements "
+          , "title": "Ajouter un / des événements "
           , "subtitle": "Vous pouvez commencer à renseigner le déroulé des obsèques qui figurera sur l’espace de votre proche disparu."
           , "cta": "Suivant"
         },{
