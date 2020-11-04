@@ -269,7 +269,7 @@
       "date": "jj/mm/aaaa",
       "time": "hh:mm",
       "link": "Lien de la retransmission vidéo",
-      "info": "Information complémentaire (exemple: Code PIN)"
+      "info": "Informations complémentaires (exemple: Code PIN)"
     },
 
     "cta": {
@@ -302,7 +302,7 @@
       "time": "Heure",
       "name": "Nom du lieu",
       "address": "Adresse",
-      "info": "Information complémentaire"
+      "info": "Informations complémentaires"
     },
 
     "ph": {
