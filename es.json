@@ -202,7 +202,7 @@
   "appnav": {
     "info": "Inicio",
     "memories": "Mensajes",
-    "ceremony": "Ceremony",
+    "ceremony": "Ceremoniales",
     "share": "Compartir",
     "settings": "Administración",
     "help": "Ayuda",
@@ -226,15 +226,15 @@
   },
 
   "broadcast": {
-    "h1": "Participate remotely",
+    "h1": "Participar remotamente",
     "labels": {
-      "title": "Broadcast of the ceremony",
-      "subtitle": "Live from home",
-      "desc": "Configure your ceremony video broadcast link:",
-      "date": "Date",
+      "title": "Transmitir en linea",
+      "subtitle": "En vivo desde casá",
+      "desc": "Configurar el enlace de la ceremonia en vivo:",
+      "date": "Fecha",
       "placeholder-date": "mm/dd/yyyy",
-      "time": "Time",
-      "link": "Broadcast link",
+      "time": "Hora",
+      "link": "Enlace de tranmisión",
       "setup": {
         "title": "Configure a link with one of the following services:",
         "channels": [{
