@@ -93,23 +93,18 @@
     ],
     "manager": [
       {
-          "title": "Découvrez un espace intime d’hommage et de partage"
-        , "text": "Rendez hommage à {{{capitalize firstname}}} sur cet espace intime et sécurisé. Vous avez la main et décidez qui peut y accéder."
+          "title": "Rendez le plus beau des hommages à {{{capitalize firstname}}}"
+        , "text": "Rendez hommage à votre proche en permettant à tous ceux qui l'ont connu de raconter leurs souvenirs et de partager leurs photos."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
       }
       , {
-          "title": "Communiquez les informations relatives aux obsèques simplement"
-        , "text": "Communiquez à vos proches les informations relatives aux obsèques en leur partageant cet espace en un clic."
-        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
-      }
-      , {
-          "title": "Offrez à vos proches un espace d'hommage dédié"
-        , "text": "Vos proches pourront partager un message ou une photo et faire livrer des fleurs sur le lieu des obsèques."
+          "title": "Ajoutez une photo de votre proche"
+        , "text": "Personnalisez l'espace simplement en ajoutant une jolie photo."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
       }
       , {
-          "title": "Réunissez tous les hommages reçus"
-        , "text": "En commandant un livre qui compile tous les messages et photos partagés sur cet espace par votre entourage."
+          "title": "Partagez l'espace avec votre entourage"
+        , "text": "Invitez votre entourage sur l'espace en hommage à {{{capitalize firstname}}} en leur donnant accès par sms, email ou whatsapp."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
       }
     ]
