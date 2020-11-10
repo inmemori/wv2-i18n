@@ -82,22 +82,12 @@
     "user": [
       {
           "title": "Rendez hommage à votre proche disparu"
-        , "text": "Cet espace d'intimité rassemble les proches de {{{capitalize firstname}}} et vous permet de partager un message, un souvenir ou une photo."
+        , "text": "Cet espace vous permet de partager un message, un souvenir ou une photo en hommage à {{{capitalize firstname}}}."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
       }
       , {
-          "title": "Prenez connaissance du déroulé des obsèques"
-        , "text": "Vous trouverez dans cet espace les informations relatives au déroulé des obsèques."
-        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
-      }
-      , {
-          "title": "Faites un geste pour {{{capitalize firstname}}} et offrez du soutien"
-        , "text": "En envoyant des fleurs sur le lieu des obsèques ou en contribuant à une cause chère au défunt."
-        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
-      }
-      , {
-          "title": "Invitez les personnes chères à {{{capitalize firstname}}}"
-        , "text": "Partagez cet espace avec les proches qui souhaitent se recueillir et lui rendre hommage."
+          "title": "Invitez les personnes qui ont connu {{{capitalize firstname}}}"
+        , "text": "Partagez facilement l'espace avec vos contacts par email, sms ou Whatsapp afin de permettre à tous de se soutenir."
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Gerer_v2.svg"
       }
     ],
