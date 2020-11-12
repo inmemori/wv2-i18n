@@ -67,6 +67,11 @@
     "cancel": "Dismiss"
   },
 
+  "helpscout": {
+    "beacons": {
+    }
+  },
+
   "skeleton": {
       "places": "The information about the ceremonies will appear here"
     , "broadcast": "Broadcast informations"

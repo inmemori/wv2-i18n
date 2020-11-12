@@ -67,6 +67,11 @@
     "cancel": "Cancelar"
   },
 
+  "helpscout": {
+    "beacons": {
+    }
+  },
+
   "skeleton": {
       "places": "La información del funeral aparecerá aquí"
     , "broadcast": "Broadcast informations"

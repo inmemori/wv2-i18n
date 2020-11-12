@@ -67,6 +67,12 @@
     "cancel": "Fermer"
   },
 
+  "helpscout": {
+    "beacons": {
+      "manager": "89399fbc-7248-4078-a8f9-2c36d12103e3"
+    }
+  },
+
   "skeleton": {
       "places": "Les informations relatives aux obsèques apparaîtront ici"
     , "broadcast": "Les informations relatives à la retransmission de la cérémonie apparaîtront ici"
