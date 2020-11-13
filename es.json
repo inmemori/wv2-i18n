@@ -998,7 +998,7 @@
       }
     , "s-google|check-intro": {
           "icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg"
-        , "text": "Para comenzar, valide el mensaje de bienvenida a la página."
+        , "text": "¿Necesita editar el mensaje de bienvenida a la página?"
         , "cta": "Validar"
         , "ctb": "Editar"
       }
