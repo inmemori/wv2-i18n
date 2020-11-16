@@ -183,6 +183,13 @@
     }
   },
 
+  "countdown": {
+    "days": "j",
+    "hours": "h",
+    "minutes": "m",
+    "seconds": "s"
+  },
+
   "dates": {
     "long": "ddd D MMM YYYY à HH[h]mm",
     "short": "dddd DD MMMM",
