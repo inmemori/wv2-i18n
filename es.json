@@ -198,12 +198,13 @@
   },
 
   "countdown": {
+    "full": "{{days}}d {{hours}}h {{minutes}}m",
     "days": "d",
     "hours": "h",
     "minutes": "m",
     "seconds": "s"
   },
-  
+
   "dates": {
     "long": "LLL",
     "short": "dddd DD MMMM",

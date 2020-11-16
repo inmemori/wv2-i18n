@@ -198,6 +198,7 @@
   },
 
   "countdown": {
+    "full": "{{days}}d {{hours}}h {{minutes}}m",
     "days": "d",
     "hours": "h",
     "minutes": "m",
