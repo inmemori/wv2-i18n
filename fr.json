@@ -226,6 +226,7 @@
       "placeholder-date": "jj/mm/aaaa",
       "time": "Heure",
       "link": "Lien de la retransmission vidéo",
+      "passed": "La cérémonie est déjà passée",
       "setup": {
         "title": "Nous vous conseillons un des services suivants afin de créer votre lien de retransmission :",
         "channels": [{

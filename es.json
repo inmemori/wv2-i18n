@@ -240,6 +240,7 @@
       "placeholder-date": "mm/dd/yyyy",
       "time": "Hora",
       "link": "Enlace de tranmisión",
+      "passed": "The ceremony is already passed",
       "setup": {
         "title": "Configure a link with one of the following services:",
         "channels": [{
