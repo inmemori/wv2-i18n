@@ -112,7 +112,7 @@
       , {
           "title": "Invitez votre entourage sur l’espace"
         , "text": "Partagez l’espace en hommage à {{{capitalize firstname}}} avec votre entourage en leur donnant accès par sms, email ou WhatsApp."
-        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
       }
     ]
   },
