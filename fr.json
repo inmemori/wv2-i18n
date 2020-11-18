@@ -110,9 +110,9 @@
         , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
       }
       , {
-          "title": "Partagez l'espace avec votre entourage"
-        , "text": "Invitez votre entourage sur l'espace en hommage à {{{capitalize firstname}}} en leur donnant accès par sms, email ou whatsapp."
-        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
+          "title": "Invitez votre entourage sur l’espace"
+        , "text": "Partagez l’espace en hommage à {{{capitalize firstname}}} avec votre entourage en leur donnant accès par sms, email ou WhatsApp."
+        , "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
       }
     ]
   },
