@@ -150,6 +150,10 @@
   "login": {
     "err": "Identifiants invalides",
     "err-swap": "Ce lien n'est plus valide. Veuillez vous identifier à nouveau.",
+    "invited": {
+      "title": "Vous n'êtes pas connecté(e)"
+    , "subtitle": "{{{capitalize name}}} vous a invité(e) saisissez votre email afin d'accéder à l'espace."
+    },
     "actions": {
       "start": {
           "title": "Vous n'êtes pas connecté(e)"

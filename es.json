@@ -163,6 +163,10 @@
   "login": {
     "err": "Datos de acceso incorrectos",
     "err-swap": "¡Este link ya no es válido! Por favor identifíquese de nuevo.",
+    "invited": {
+      "title": "You are not connected"
+    , "subtitle": "{{{capitalize name}}} invited you. Please enter your email address to access the site."
+    },
     "actions": {
       "start": {
           "title": "Usted no esta conectado"
