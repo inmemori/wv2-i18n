@@ -35,8 +35,8 @@
     "iban": "Codigo Swift",
     "choose": "Elegir",
     "choose-file": "Elegir archivo",
-    "loading": "Loading",
-    "uploading": "Cargando",
+    "loading": "Cargando",
+    "uploading": "Subiendo",
     "delete": "Borrar",
     "yes": "Si",
     "no": "No",
@@ -54,7 +54,7 @@
         "payment": "Error during payment process please try again"
       },
       "invalid": {
-        "email": "Invalid email address"
+        "email": "Email no válido"
       }
     }
   },
@@ -163,16 +163,6 @@
   "login": {
     "err": "Datos de acceso incorrectos",
     "err-swap": "¡Este link ya no es válido! Por favor identifíquese de nuevo.",
-    "invited": {
-      "custom" : {
-        "title": "You are not connected"
-        , "subtitle": "{{{capitalize name}}} invited you. Please enter your email address to access the site."    
-      },
-      "default": {
-        "title": "You are not connected"
-        , "subtitle": "{{{email}}} invited you. Please enter your email address to access the site."
-      }
-    },
     "actions": {
       "start": {
           "title": "Usted no esta conectado"
@@ -258,31 +248,31 @@
       "placeholder-date": "mm/dd/yyyy",
       "time": "Hora",
       "link": "Enlace de tranmisión",
-      "passed": "The ceremony is already passed",
+      "passed": "La ceremonía ha concluido",
       "setup": {
-        "title": "Configure a link with one of the following services:",
+        "title": "Configure a link con uno de los siguientes servidores:",
         "channels": [{
-            "title": "Setup Zoom",
+            "title": "Zoom",
             "advice": [
               {
-                "label": "Signup here: ",
+                "label": "Registrate aquí: ",
                 "link": "https://zoom.us/signup"
               },
               {
-                "label": "Plan your ceremony here: ",
+                "label": "Planea tu ceremonia aquí: ",
                 "link": "https://zoom.us/meeting/schedule"
               }
             ]
           },
           {
-            "title": "Setup Youtube",
+            "title": "Prepara YouTube",
             "advice": [
               {
-                "label": "Signup here: ",
+                "label": "Regístrate aquí: ",
                 "link": "https://zoom.us/signup"
               },
               {
-                "label": "Plan your ceremony here: ",
+                "label": "Planea la ceremnoia aquí: ",
                 "link": "https://zoom.us/meeting/schedule"
               }
             ]
@@ -294,14 +284,14 @@
     "ph": {
       "date": "mm/dd/yyyy",
       "time": "hh:mm",
-      "link": "Broadcast link",
-      "info": "More informations (example: PIN Code, ...)"
+      "link": "Link de la transmisión",
+      "info": "Más información (ejemplo: Código PIN, ...)"
     },
 
     "cta": {
-      "link": "Watch now",
-      "add": "Add broadcast link",
-      "delete": "Remove broadcast"
+      "link": "Mirar ahora",
+      "add": "Añadir el link",
+      "delete": "Quitar el link"
     }
   },
 
@@ -580,10 +570,10 @@
 
   "questions": {
     "origin": {
-        "wom": "from a relative"
-      , "media": "in the media (press, radio, TV)"
-      , "search": "via search engines"
-      , "social": "via social networks"
+        "wom": "a través de un familiar"
+      , "media": "a través de un medio de comunicación (TV,Radio u otro)"
+      , "search": "a través de buscadores"
+      , "social": "a través de redes sociales"
       , "other": "other"
     }
   },
@@ -743,16 +733,16 @@
       "cta": "Agregar sus fotografías"
     }, {
       "type": 4,
-      "title": "Prières",
-      "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}.",
+      "title": "Oraciones",
+      "subtitle": "Comparte un momento de la vida con tu ser querido {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
-      "cta": "Déposer vos textes"
+      "cta": "Agrega tus textos"
     }, {
       "type": 5,
-      "title": "Texte",
-      "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}.",
+      "title": "Texto",
+      "subtitle": "Comparte un momento con {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg",
-      "cta": "Déposer vos textes"
+      "cta": "Agrega tus textos"
     }]
   },
 
@@ -850,7 +840,7 @@
     },
 
     "cta": {
-      "share": "Share the page",
+      "share": "Compartir la página",
       "email": "Envíar",
       "sms": "Enviarme el SMS",
       "wa": "Abrir en Whatsapp",
@@ -1048,7 +1038,7 @@
   },
 
   "filepond": {
-    "idle": "Drag & Drop your files or <span class=\"filepond--label-action\"> Browse </span>",
+    "idle": "Arrastre y deje los documentos or <span class=\"filepond--label-action\"> Browse </span>",
     "maxFiles": "Maximum {{maxFiles}} files",
     "remainingFiles": "Maximum {{remainingFiles}} images remaining",
     "invalidField": "El campo contiene archivos invalidos",
@@ -1067,7 +1057,7 @@
     "tapToRetry": "Pulse para reintentar",
     "tapToUndo": "Pulse para deshacer",
     "buttonRemoveItem": "Remover",
-    "buttonAbortItemLoad": "Abortar",
+    "buttonAbortItemLoad": "Cancelar",
     "buttonRetryItemLoad": "Reintentar",
     "buttonAbortItemProcessing": "Cancelar",
     "buttonUndoItemProcessing": "Deshacher",
@@ -1090,11 +1080,11 @@
       "has-published": "¿Necesita ayuda para publicar un recuerdo?"
     },
     "default": {
-      "success": "Changes saved successfully",
+      "success": "Los cambios han sido guardados con éxito",
       "ok": "Ok !",
-      "error": "An error occured while saving your changes",
-      "sent": "Sending was successfull",
-      "donationActivated": "Your fundraising account has been activated"
+      "error": "Ha habido un error al guardar los datos",
+      "sent": "Se envió exitosamente",
+      "donationActivated": "La cuenta para donaciones ha sido activada"
     }
   }
 
