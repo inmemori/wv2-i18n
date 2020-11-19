@@ -164,8 +164,14 @@
     "err": "Datos de acceso incorrectos",
     "err-swap": "¡Este link ya no es válido! Por favor identifíquese de nuevo.",
     "invited": {
-      "title": "You are not connected"
-    , "subtitle": "{{{capitalize name}}} invited you. Please enter your email address to access the site."
+      "custom" : {
+        "title": "You are not connected"
+        , "subtitle": "{{{capitalize name}}} invited you. Please enter your email address to access the site."    
+      },
+      "default": {
+        "title": "You are not connected"
+        , "subtitle": "{{{email}}} invited you. Please enter your email address to access the site."
+      }
     },
     "actions": {
       "start": {

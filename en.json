@@ -164,8 +164,14 @@
     "err": "Invalid credentials",
     "err-swap": "This link is no longer valid! Please identify yourself again.",
     "invited": {
-      "title": "You are not connected"
-    , "subtitle": "{{{capitalize name}}} invited you. Please enter your email address to access the site."
+      "custom" : {
+        "title": "You are not connected"
+        , "subtitle": "{{{capitalize name}}} invited you. Please enter your email address to access the site."
+      },
+      "default": {
+        "title": "You are not connected"
+        , "subtitle": "{{{name}}} invited you. Please enter your email address to access the site."
+      }
     },
     "actions": {
       "start": {
