@@ -706,20 +706,20 @@
     },
     "thank" : {
       "memory" : {
-        "title": "Merci pour vos mots !",
+        "title": "Merci pour vos mots.",
         "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
         "cta": "Voir tous les hommages"
       },
       "ceremony": {
-        "title": "Merci pour vos mots !",
+        "title": "Merci pour vos mots.",
         "subtitle": "Votre contribution sera visible par tous ceux qui ont accès à cet espace.",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
         "cta": "Voir tous les textes"
       }
     },
     "menu": [{
-      "title": "Merci pour vos mots !",
+      "title": "Merci pour vos mots.",
       "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
       "cta": "Voir tous les hommages"
