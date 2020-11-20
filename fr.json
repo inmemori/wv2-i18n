@@ -746,7 +746,7 @@
       "title": "Discours",
       "subtitle": "Partagez un discours lu lors de la cérémonie en hommage à {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1604506242/web-assets/Rassembler_v1.svg",
-      "cta": "Copier un témoignage"
+      "cta": "Copier un discours"
     }, {
       "type": 5,
       "title": "Textes",
