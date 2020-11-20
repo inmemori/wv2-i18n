@@ -743,8 +743,8 @@
       "cta": "Déposer vos photos"
     }, {
       "type": 4,
-      "title": "Témoignages",
-      "subtitle": "Partagez un témoignage lu lors de la cérémonie en hommage à {{{capitalize firstname}}}.",
+      "title": "Discours",
+      "subtitle": "Partagez un discours lu lors de la cérémonie en hommage à {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1604506242/web-assets/Rassembler_v1.svg",
       "cta": "Copier un témoignage"
     }, {
