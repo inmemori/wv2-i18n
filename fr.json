@@ -744,13 +744,13 @@
     }, {
       "type": 4,
       "title": "Témoignages",
-      "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}.",
+      "subtitle": "Partagez un témoignage lu lors de la cérémonie en hommage à {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1604506242/web-assets/Rassembler_v1.svg",
       "cta": "Copier un témoignage"
     }, {
       "type": 5,
       "title": "Textes",
-      "subtitle": "Partagez un moment de vie vécu avec {{{capitalize firstname}}}.",
+      "subtitle": "Partagez un texte lu lors de la cérémonie en hommage à {{{capitalize firstname}}}.",
       "icon": "https://res.cloudinary.com/inmemori/image/upload/v1604506248/web-assets/Rassemblerbis_v2.svg",
       "cta": "Déposer les textes lus"
     }]
