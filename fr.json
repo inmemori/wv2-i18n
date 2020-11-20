@@ -78,6 +78,7 @@
       "places": "Les informations relatives aux obsèques apparaîtront ici."
     , "broadcast": "Les informations relatives à la retransmission de la cérémonie apparaîtront ici."
     , "memories": "C’est ici qu’apparaîtront les messages en hommage à {{{capitalize firstname}}}."
+    , "ceremony": "C’est ici qu’apparaîtront les messages en hommage à {{{capitalize firstname}}}."
   },
 
   "showcase": {
@@ -702,6 +703,20 @@
     "cta": {
       "share": "Partager",
       "photo": "Ajouter une photo"
+    },
+    "thank" : {
+      "memory" : {
+        "title": "Merci pour vos mots !",
+        "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
+        "cta": "Voir tous les hommages"
+      },
+      "ceremony": {
+        "title": "Merci pour vos mots !",
+        "subtitle": "Vos condoléances seront visibles par tous ceux qui ont accès à cet espace.",
+        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg",
+        "cta": "Voir tous les textes"
+      }
     },
     "menu": [{
       "title": "Merci pour vos mots !",
