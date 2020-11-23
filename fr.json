@@ -241,7 +241,7 @@
     "labels": {
       "title": "Diffusion de la cérémonie",
       "subtitle": "En direct depuis chez vous",
-      "desc": "Configurez votre lien de partage vidéo de la cérémonie :",
+      "desc": "Indiquez le lien de retransmission vidéo de la cérémonie :",
       "date": "Date",
       "placeholder-date": "jj/mm/aaaa",
       "time": "Heure",
