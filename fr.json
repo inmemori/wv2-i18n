@@ -257,7 +257,7 @@
                 "link": "https://meet.jit.si"
               },
               {
-                "label": "Partagez-le lien sur InMemori"
+                "label": "Partagez le lien sur InMemori"
               }
             ]
           },
@@ -281,7 +281,7 @@
       "date": "jj/mm/aaaa",
       "time": "hh:mm",
       "link": "Lien de la retransmission vidéo",
-      "info": "Informations complémentaires (exemple: Code PIN)"
+      "info": "Informations complémentaires (exemple : code PIN)"
     },
 
     "cta": {
