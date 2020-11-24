@@ -38,8 +38,10 @@
     "loading": "Cargando",
     "uploading": "Subiendo",
     "delete": "Borrar",
+    "clear": "Clear",
     "yes": "Si",
     "no": "No",
+    "ok": "Okay",
     "login": "Iniciar sesión",
     "logout": "Cerrar sesión",
     "errors": {
@@ -210,7 +212,13 @@
     "long": "LLL",
     "short": "dddd DD MMMM",
     "day": "DD MMMM",
-    "time": "h:mmA"
+    "time": "h:mmA",
+    "picker": {
+      "format": "DD/MM/YYYY",
+      "invalid": "Invalid Date Format",
+      "max": "Date should not be after maximal date",
+      "min": "Date should not be before minimal date"
+    }
   },
 
   "appnav": {

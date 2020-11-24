@@ -40,8 +40,10 @@
     "delete": "Supprimer",
     "yes": "Oui",
     "no": "Non",
+    "ok": "Ok",
     "login": "Connexion",
     "logout": "Déconnexion",
+    "clear": "Effacer",
     "errors": {
       "missing": {
         "firstname": "Veuillez renseigner un Prénom",
@@ -207,7 +209,13 @@
     "long": "ddd D MMM YYYY à HH[h]mm",
     "short": "dddd DD MMMM",
     "day": "DD MMMM",
-    "time": "HH[h]mm"
+    "time": "HH[h]mm",
+    "picker": {
+      "format": "DD/MM/YYYY",
+      "invalid": "Invalid Date Format",
+      "max": "Date should not be after maximal date",
+      "min": "Date should not be before minimal date"
+    }
   },
 
   "appnav": {

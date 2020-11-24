@@ -34,12 +34,14 @@
     "routing": "Routing",
     "iban": "Swift code",
     "choose": "Choose",
+    "clear": "Clear",
     "choose-file": "Choose file",
     "loading": "Loading",
     "uploading": "Uploading",
     "delete": "Delete",
     "yes": "Yes",
     "no": "No",
+    "ok": "Okay",
     "login": "Log in",
     "logout": "Log out",
     "errors": {
@@ -220,7 +222,13 @@
     "long": "LLL",
     "short": "LL",
     "day": "MMMM Do",
-    "time": "h:mmA"
+    "time": "h:mmA",
+    "picker": {
+      "format": "MM/DD/YYYY",
+      "invalid": "Invalid Date Format",
+      "max": "Date should not be after maximal date",
+      "min": "Date should not be before minimal date"
+    }
   },
 
   "appnav": {
