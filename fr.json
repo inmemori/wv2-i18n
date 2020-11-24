@@ -1059,7 +1059,7 @@
   },
 
   "filepond": {
-    "idle": "Glisser votre photo dans ce cadre ou <span class=\"filepond--label-action\"> ajouter-la en cliquant ici </span>",
+    "idle": "Glissez votre photo dans ce cadre ou <span class=\"filepond--label-action\"> ajouter la en cliquant ici. </span>",
     "maxFiles": "Maximum {{maxFiles}} fichiers",
     "remainingFiles": "Maximum {{remainingFiles}} images restantes",
     "invalidField": "Le champ contient des fichiers invalides",
