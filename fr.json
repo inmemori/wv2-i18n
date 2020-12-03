@@ -1066,7 +1066,7 @@
 			"ctb": "Plus tard"
 		},
 		"s-manager|open-collect": {
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1607010403/web-assets/picto/banner-collect.svg",
 			"text": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère ou bien d'aider la famille. Souhaitez-vous créer une collecte de dons ? ",
 			"cta": "Oui",
 			"ctb": "Non"
@@ -1108,7 +1108,7 @@
 			"ctb": "Plus tard"
 		},
 		"s-google|open-collect": {
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1607010403/web-assets/picto/banner-collect.svg",
 			"text": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère ou bien d'aider la famille. Souhaitez-vous créer une collecte de dons ? ",
 			"cta": "Oui",
 			"ctb": "Non"
