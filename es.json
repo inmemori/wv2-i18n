@@ -80,7 +80,7 @@
 		"ceremony": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}"
 	},
 
-  "onboarding": {
+	"onboarding": {
 		"manager-partner": {
 			"h1": "Rendez le plus beau des hommages à Marie.",
 			"list": [{
@@ -95,8 +95,8 @@
 			"cta": {
 				"customize": "Personnaliser l'espace"
 			}
-    },
-    "manager-google": {
+		},
+		"manager-google": {
 			"h1": "Rendez le plus beau des hommages à Marie.",
 			"list": [{
 				"title": "1 million de personnes",
@@ -389,7 +389,7 @@
 				"subtítulo": "{{{item.name}}}"
 			},
 			"book": {
-				"title": "Libro InMemori",
+				"title": "Libro inmemori",
 				"subtítulo": ""
 			}
 		},
@@ -641,7 +641,7 @@
 			"key": "origin",
 			"label": "Preguntas",
 			"title": "Acerca",
-			"subtitle": "¿Cómo se enteró de InMemori?",
+			"subtitle": "¿Cómo se enteró de inmemori?",
 			"cta": "Fin"
 		}, {
 			"key": "success",
@@ -722,8 +722,8 @@
 		"title": "Aviso del fallecimiento",
 		"subtitle": "El siguiente texto le permitirá dirigirse a todos los invitados al espacio.",
 		"templates": [
-			"Querida familia, Queridos amigos,\nCon gran pesar les compartimos la noticia de la partida de {{{capitalize firstname}}} {{# if dod}} la cual sucedió el pasado {{dod}} {{/ if}} {{# if age}} a la edad de {{age}} años {{/ if}}. \n\nEste página InMemori fue creada con la intención  de rendir homenaje a la vida de {{{capitalize firstname}}} al recolectar sus mensajes de condolencia, un recuerdo o una fotografía de algún momento compartido con {{{capitalize firstname}}}.\n\nLa información acerca del funeral es mostrada abajo.\n\n Gracias por tu apoyo y cariño.",
-			"Querida familia, Queridos amigos,\nCon tristeza anunciamos la partida de {{{capitalize firstname}}} {{# if dod}} la cual ocurrió el pasado {{dod}} {{/ if}} {{# if age}} a la edad de {{age}} años {{/ if}}. \n\nEsta página InMemori fue creada con la intención de recolectar sus testimonios y condolencias: un mensaje, un recuerdo o una fotografía,  ilustrando un momento compartido con {{{capitalize firstname}}}.\n\nLa información acerca del funeral se muestra a continuación. Gracias por su apoyo."
+			"Querida familia, Queridos amigos,\nCon gran pesar les compartimos la noticia de la partida de {{{capitalize firstname}}} {{# if dod}} la cual sucedió el pasado {{dod}} {{/ if}} {{# if age}} a la edad de {{age}} años {{/ if}}. \n\nEste página inmemori fue creada con la intención  de rendir homenaje a la vida de {{{capitalize firstname}}} al recolectar sus mensajes de condolencia, un recuerdo o una fotografía de algún momento compartido con {{{capitalize firstname}}}.\n\nLa información acerca del funeral es mostrada abajo.\n\n Gracias por tu apoyo y cariño.",
+			"Querida familia, Queridos amigos,\nCon tristeza anunciamos la partida de {{{capitalize firstname}}} {{# if dod}} la cual ocurrió el pasado {{dod}} {{/ if}} {{# if age}} a la edad de {{age}} años {{/ if}}. \n\nEsta página inmemori fue creada con la intención de recolectar sus testimonios y condolencias: un mensaje, un recuerdo o una fotografía,  ilustrando un momento compartido con {{{capitalize firstname}}}.\n\nLa información acerca del funeral se muestra a continuación. Gracias por su apoyo."
 		]
 	},
 
@@ -804,7 +804,7 @@
 
 	"card-ft-book": {
 		"title": "El libro",
-		"text": "Mantenga un recuerdo físico de todos los mensajes compartidos en InMemori",
+		"text": "Mantenga un recuerdo físico de todos los mensajes compartidos en inmemori",
 		"cta": "Ordenar el libro",
 		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
 	},
@@ -880,10 +880,10 @@
 		}],
 
 		"message": {
-			"web": "Hola, con gran tristeza anunciamos el fallecimiento de {{{fullname}}}, este espacio InMemori pretende rendirle homenaje. Por favor comparte este espacio con todos los que conocieron a {{{capitalize firstname}}}.",
-			"email": "Hola, \n\nCon una inmensa tristeza les anunciamos el fallecimiento de {{{fullname}}}.\n\nCompartimos con ustedes este espacio de InMemori, totalmente privado, en internet para rendir homenaje a {{{capitalize firstname}}}. Al ingresar al espacio podrán : \n\n- Ver la información del funeral\n- Compartir un mensaje de condolencia, un recuerdo, una fotografía\n\nApreciamos sus mensajes de apoyo en estos tiempos difíciles.\n\nCon el fin de incluir a todos los que conocieron a {{{capitalize firstname}}}, por favor ayudenos compartiendo este espacio con ellos.\n\nAmistades.",
-			"sms": "Hola,  \n\nCon gran tristeza anunciamos el fallecimiento de {{{fullname}}}, este espacio InMemori pretende rendirle homenaje. Por favor comparte este espacio con todos los que conocieron a {{{capitalize firstname}}}.\n\n{{{link}}}",
-			"wa": "Hola,  \n\nEs con gran tristeza que anunciamos el fallecimiento de {{{fullname}}}. Hemos creado un espacio InMemori en internet para rendirle homenaje. Por favor comparte este espacio con todos los que conocieron a {{{capitalize firstname}}}.\n\n{{{link}}}"
+			"web": "Hola, con gran tristeza anunciamos el fallecimiento de {{{fullname}}}, este espacio inmemori pretende rendirle homenaje. Por favor comparte este espacio con todos los que conocieron a {{{capitalize firstname}}}.",
+			"email": "Hola, \n\nCon una inmensa tristeza les anunciamos el fallecimiento de {{{fullname}}}.\n\nCompartimos con ustedes este espacio de inmemori, totalmente privado, en internet para rendir homenaje a {{{capitalize firstname}}}. Al ingresar al espacio podrán : \n\n- Ver la información del funeral\n- Compartir un mensaje de condolencia, un recuerdo, una fotografía\n\nApreciamos sus mensajes de apoyo en estos tiempos difíciles.\n\nCon el fin de incluir a todos los que conocieron a {{{capitalize firstname}}}, por favor ayudenos compartiendo este espacio con ellos.\n\nAmistades.",
+			"sms": "Hola,  \n\nCon gran tristeza anunciamos el fallecimiento de {{{fullname}}}, este espacio inmemori pretende rendirle homenaje. Por favor comparte este espacio con todos los que conocieron a {{{capitalize firstname}}}.\n\n{{{link}}}",
+			"wa": "Hola,  \n\nEs con gran tristeza que anunciamos el fallecimiento de {{{fullname}}}. Hemos creado un espacio inmemori en internet para rendirle homenaje. Por favor comparte este espacio con todos los que conocieron a {{{capitalize firstname}}}.\n\n{{{link}}}"
 		},
 
 		"labels": {
@@ -981,8 +981,8 @@
 	"managers-add": {
 		"title": "Agregar mas administradores",
 		"subtitle": "Ingrese el correo electrónico de las personas que desea invitar como administradores.",
-		"message": "Hola,\n\nTe agregue como administrador del espacio InMemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther de InMemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 7978 7982 o por correo electrónico en contact@inmemori.com.",
-		"snackbar": "Hola,\n\nTe agregue como administrador del espacio InMemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther de InMemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 7978 7982 o por correo electrónico en contact@inmemori.com.",
+		"message": "Hola,\n\nTe agregue como administrador del espacio inmemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther de inmemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 7978 7982 o por correo electrónico en contact@inmemori.com.",
+		"snackbar": "Hola,\n\nTe agregue como administrador del espacio inmemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther de inmemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 7978 7982 o por correo electrónico en contact@inmemori.com.",
 		"cta": {
 			"add": "Añadir"
 		}
