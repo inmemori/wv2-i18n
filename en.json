@@ -1186,14 +1186,14 @@
 	"snackbar": {
 		"inviteManager": {
 			"cta": "Invite a relative",
-			"check-intro": "Need help for the welcome message ?",
-			"check-places": "Need help to fill places informations ?",
-			"has-photo": "Need help to add a picture for {{namize firstname}} ?",
-			"has-invited": "Need help to share this space ?",
-			"has-published": "Need help to publish your memory ?",
-			"open-collect": "Besoin d'aide pour ouvrir la collecte ?",
-			"has-thank": "Besoin d'aide pour partager un hommage ?",
-			"post-event": "Besoin d'aide pour partager un hommage ?"
+			"check-intro": "Need help for the welcome message?",
+			"check-places": "Need help to fill places informations?",
+			"has-photo": "Need help to add a picture for {{namize firstname}}?",
+			"has-invited": "Need help to share this space?",
+			"has-published": "Need help to publish your memory?",
+			"open-collect": "Need help to open a fundraiser?",
+			"has-thank": "Need help to share a tribute?",
+			"post-event": "Need help to share a tribute?"
 		},
 		"default": {
 			"success": "Changes saved successfully",
