@@ -399,7 +399,7 @@
 				"subtitle": "{{{item.name}}}"
 			},
 			"book": {
-				"title": "InMemori Book",
+				"title": "inmemori Book",
 				"subtitle": ""
 			}
 		},
@@ -732,8 +732,8 @@
 		"title": "Edit the welcome text",
 		"subtitle": "The family and close ones are saddened to share the news of the passing of {{fullname}} which occurred on {{lowercase dod}}.",
 		"templates": [
-			"Dear family, dear friends,\nWe are very sad to announce the passing of {{{namize firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years. {{/ if}} \n\nThis InMemori page is intended to collect your testimonials: a message, a memory, an anecdote or a photo, illustrating a moment of life.\n\nThe information about the funeral is shown below. Thank you for your support.",
-			"Dear family, dear friends,\nWe are very sad to announce the death of {{{namize firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years. {{/ if}} \n\nThis InMemori page is intended to collect your testimonials: a message, a memory or a photo, illustrating a moment you shared with {{{namize firstname}}}.\n\nThe information about the funeral is shown below. Thank you for your support."
+			"Dear family, dear friends,\nWe are very sad to announce the passing of {{{namize firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years. {{/ if}} \n\nThis inmemori page is intended to collect your testimonials: a message, a memory, an anecdote or a photo, illustrating a moment of life.\n\nThe information about the funeral is shown below. Thank you for your support.",
+			"Dear family, dear friends,\nWe are very sad to announce the death of {{{namize firstname}}} {{# if dod}} which occurred last {{dod}} {{/ if}} {{# if age}} at the age of {{age}} years. {{/ if}} \n\nThis inmemori page is intended to collect your testimonials: a message, a memory or a photo, illustrating a moment you shared with {{{namize firstname}}}.\n\nThe information about the funeral is shown below. Thank you for your support."
 		]
 	},
 
@@ -814,7 +814,7 @@
 
 	"card-ft-book": {
 		"title": "The book",
-		"text": "Keep a physical trace of all the messages shared on InMemori",
+		"text": "Keep a physical trace of all the messages shared on inmemori",
 		"cta": "Order the book",
 		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
 	},
@@ -890,10 +890,10 @@
 		}],
 
 		"message": {
-			"web": "Hello, with great sadness, we announce the loss of {{{fullname}}}. This InMemori space is intended to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link with those who knew {{{namize firstname}}}",
-			"email": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private InMemori space on the internet to pay tribute to {{{namize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{namize firstname}}}, please share this space with them.\n\nKindly,",
-			"sms": "Hello, \n\nWith great sadness, we announce the loss of {{{fullname}}}. This InMemori space is intended to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link with those who knew {{{namize firstname}}}\n{{{link}}}",
-			"wa": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}. We share with you this private InMemori space on the internet to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link to invite everyone who knew {{{namize firstname}}}.\n\nKindly,{{{link}}}"
+			"web": "Hello, with great sadness, we announce the loss of {{{fullname}}}. This inmemori space is intended to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link with those who knew {{{namize firstname}}}",
+			"email": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private inmemori space on the internet to pay tribute to {{{namize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{namize firstname}}}, please share this space with them.\n\nKindly,",
+			"sms": "Hello, \n\nWith great sadness, we announce the loss of {{{fullname}}}. This inmemori space is intended to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link with those who knew {{{namize firstname}}}\n{{{link}}}",
+			"wa": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}. We share with you this private inmemori space on the internet to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link to invite everyone who knew {{{namize firstname}}}.\n\nKindly,{{{link}}}"
 		},
 
 		"labels": {
@@ -991,8 +991,8 @@
 	"managers-add": {
 		"title": "Add more administrators",
 		"subtitle": "Enter the email address of the people you want to invite as manager(s).",
-		"message": "Hello,\n\nI added you as administrator of the InMemori space in tribute to {{{namize firstname}}} so that you can help me personalize and manage it. \n\nThe InMemori team is at our disposal for any questions and can be reached at (415) 532 3923 or by email at contact@inmemori.com.",
-		"snackbar": "Hello,\n\nI added you as administrator of the InMemori space in tribute to {{{namize firstname}}} so that you can help me personalize and manage it. \n\nThe InMemori team is at our disposal for any questions and can be reached at (415) 532 3923 or by email at contact@inmemori.com.",
+		"message": "Hello,\n\nI added you as administrator of the inmemori space in tribute to {{{namize firstname}}} so that you can help me personalize and manage it. \n\nThe inmemori team is at our disposal for any questions and can be reached at (415) 532 3923 or by email at contact@inmemori.com.",
+		"snackbar": "Hello,\n\nI added you as administrator of the inmemori space in tribute to {{{namize firstname}}} so that you can help me personalize and manage it. \n\nThe inmemori team is at our disposal for any questions and can be reached at (415) 532 3923 or by email at contact@inmemori.com.",
 		"cta": {
 			"add": "Add"
 		}
