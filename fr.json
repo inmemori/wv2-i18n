@@ -62,7 +62,7 @@
 	},
 
 	"cookies": {
-		"text": "Nous utilisons des cookies pour vous offrir une meilleure expérience de navigation et pour nous permettre de mieux comprendre comment notre site est utilisé. En poursuivant votre navigation, vous acceptez notre",
+		"text": "Nous utilisons des cookies pour vous offrir une meilleure expérience de navigation et pour nous permettre de mieux comprendre comment notre site est utilisé. En poursuivant votre navigation, vous acceptez notre",
 		"link-text": "politique de cookies",
 		"link": "https://fr.inmemori.com/cookies",
 		"accept": "Accepter",
@@ -300,7 +300,7 @@
 								"link": "https://meet.jit.si"
 							},
 							{
-								"label": "Partagez le lien sur InMemori"
+								"label": "Partagez le lien sur inmemori"
 							}
 						]
 					},
@@ -311,7 +311,7 @@
 								"link": "https://zoom.us/signup"
 							},
 							{
-								"label": "Partagez le lien sur InMemori "
+								"label": "Partagez le lien sur inmemori "
 							}
 						]
 					}
@@ -388,7 +388,7 @@
 				"subtitle": "{{{item.name}}}"
 			},
 			"book": {
-				"title": "Livre InMemori",
+				"title": "Livre inmemori",
 				"subtitle": ""
 			}
 		},
@@ -640,7 +640,7 @@
 			"key": "origin",
 			"label": "Questions",
 			"title": "À propos",
-			"subtitle": "Comment avez-vous connu Inmemori ?",
+			"subtitle": "Comment avez-vous connu inmemori ?",
 			"cta": "Terminer"
 		}, {
 			"key": "success",
@@ -721,7 +721,7 @@
 		"title": "Modifier le texte d’accueil",
 		"subtitle": "Le texte ci-dessous vous permet d'adresser un mot à l'attention de toutes les personnes conviées sur l'espace.",
 		"templates": [
-			"Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès {{{d_de firstname}}}{{{namize firstname}}}{{#if dod}} survenu {{lowercase dod}}{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nLes restrictions sanitaires nous empêchant de nous réunir, nous avons créé un espace InMemori en hommage à {{namize firstname}}. Cet espace privé est destiné à recueillir vos témoignages : un message, un souvenir, une anecdote ou une photo, illustrant un moment de vie.\n\n Merci pour votre précieux soutien.",
+			"Chère famille, chers amis,\nNous avons la grande tristesse de vous faire part du décès {{{d_de firstname}}}{{{namize firstname}}}{{#if dod}} survenu {{lowercase dod}}{{/if}}{{#if age}} à l’âge de {{age}} ans{{/if}}.\n\nLes restrictions sanitaires nous empêchant de nous réunir, nous avons créé un espace inmemori en hommage à {{namize firstname}}. Cet espace privé est destiné à recueillir vos témoignages : un message, un souvenir, une anecdote ou une photo, illustrant un moment de vie.\n\n Merci pour votre précieux soutien.",
 			"L’ensemble de la famille et tous les proches ont la douleur de vous part du décès de {{{fullname}}}, survenu {{lowercase dod}}."
 		]
 	},
@@ -803,7 +803,7 @@
 
 	"card-ft-book": {
 		"title": "Le livre",
-		"text": "Gardez dans un beau livre tous les hommages partagés sur InMemori.",
+		"text": "Gardez dans un beau livre tous les hommages partagés sur inmemori.",
 		"cta": "Commander le livre",
 		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
 	},
@@ -879,10 +879,10 @@
 		}],
 
 		"message": {
-			"web": "Bonjour, c'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}. Nous venons de créer un espace InMemori, sur internet, afin de lui rendre hommage. Il suffira de renseigner votre adresse email afin d'accéder à l'espace.",
-			"email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{{fullname}}}.\n\nNous vous partageons son espace privé InMemori afin de lui rendre hommage. En vous rendant sur l'espace, vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de rassembler tous ceux qui ont connu {{{namize firstname}}}, n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
-			"sms": "Bonjour, c'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}. Nous venons de créer un espace InMemori, sur internet, afin de lui rendre hommage. Voici le lien que vous pouvez copier-coller aux proches concernés : {{{link}}}. Il suffira de renseigner votre adresse email afin d'accéder à l'espace.",
-			"wa": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.Nous venons de créer un espace InMemori, sur internet, afin de lui rendre hommage. Il vous suffira de renseigner votre adresse email afin d'accéder à l'espace. Voici le lien que vous pouvez copier-coller aux proches concernés. Amitiés.\n\n{{{link}}}"
+			"web": "Bonjour, c'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}. Nous venons de créer un espace inmemori, sur internet, afin de lui rendre hommage. Il suffira de renseigner votre adresse email afin d'accéder à l'espace.",
+			"email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{{fullname}}}.\n\nNous vous partageons son espace privé inmemori afin de lui rendre hommage. En vous rendant sur l'espace, vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de rassembler tous ceux qui ont connu {{{namize firstname}}}, n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
+			"sms": "Bonjour, c'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}. Nous venons de créer un espace inmemori, sur internet, afin de lui rendre hommage. Voici le lien que vous pouvez copier-coller aux proches concernés : {{{link}}}. Il suffira de renseigner votre adresse email afin d'accéder à l'espace.",
+			"wa": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}.Nous venons de créer un espace inmemori, sur internet, afin de lui rendre hommage. Il vous suffira de renseigner votre adresse email afin d'accéder à l'espace. Voici le lien que vous pouvez copier-coller aux proches concernés. Amitiés.\n\n{{{link}}}"
 		},
 
 		"labels": {
@@ -980,8 +980,8 @@
 	"managers-add": {
 		"title": "Ajouter un gestionnaire",
 		"subtitle": "Renseignez l'adresse email des personnes que vous souhaitez inviter en tant que gestionnaire(s).",
-		"message": "Bonjour,\n\nJe t'ai ajouté comme gestionnaire de l'espace InMemori en hommage à {{{namize firstname}}} pour que tu m'aides à le personnaliser et à le gérer. \n\nL'équipe d'InMemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com.",
-		"snackbar": "Bonjour,\n\nJe t'ai ajouté comme gestionnaire de l'espace InMemori en hommage à {{{namize firstname}}} pour que tu m'aides à le personnaliser et à le gérer. \n\nL'équipe d'InMemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com.",
+		"message": "Bonjour,\n\nJe t'ai ajouté comme gestionnaire de l'espace inmemori en hommage à {{{namize firstname}}} pour que tu m'aides à le personnaliser et à le gérer. \n\nL'équipe d'inmemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com.",
+		"snackbar": "Bonjour,\n\nJe t'ai ajouté comme gestionnaire de l'espace inmemori en hommage à {{{namize firstname}}} pour que tu m'aides à le personnaliser et à le gérer. \n\nL'équipe d'inmemori est à notre disposition pour toute question et est joignable au 06 37 60 26 04 ou par email à l'adresse contact@inmemori.com.",
 		"cta": {
 			"add": "Envoyer"
 		}
