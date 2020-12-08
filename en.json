@@ -438,7 +438,7 @@
 			"key": "shipping",
 			"label": "Shipping",
 			"title": "Delivery address",
-			"subtitle": "Fill in the information necessary for delivery. Delivery will be made within 6 weeks (in Europe only).",
+			"subtitle": "Fill in the information necessary for delivery. Delivery will be made {{#bold}}within 6 weeks{{/bold}} (in Europe only).",
 			"cta": "Next"
 		}, {
 			"key": "payment",

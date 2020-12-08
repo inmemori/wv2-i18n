@@ -428,7 +428,7 @@
 			"key": "shipping",
 			"label": "Envío",
 			"title": "Dirección de entrega",
-			"subtitle": "Proporcione la información necesaria para la entrega. La entrega será realizada en aproximadamente 6 semanas.",
+			"subtitle": "Proporcione la información necesaria para la entrega. La entrega será realizada en aproximadamente {{#bold}}6 semanas{{/bold}}.",
 			"cta": "Siguiente"
 		}, {
 			"key": "payment",
