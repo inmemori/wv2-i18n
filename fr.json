@@ -428,7 +428,7 @@
 			"key": "shipping",
 			"label": "Livraison",
 			"title": "Adresse de livraison",
-			"subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée {{#bold}}sous 4 à 6 semaines{{/bold}} (en France métropolitaine et en Belgique uniquement).",
+			"subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée <b>sous 4 à 6 semaines</b> (en France métropolitaine et en Belgique uniquement).",
 			"cta": "Suivant"
 		}, {
 			"key": "payment",
