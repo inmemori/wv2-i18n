@@ -44,6 +44,7 @@
 		"ok": "Okay",
 		"login": "Iniciar sesión",
 		"logout": "Cerrar sesión",
+		"other": "Other",
 		"errors": {
 			"missing": {
 				"firstname": "Missing required firstname",
@@ -576,6 +577,7 @@
 		},
 		"ph": {
 			"org": "Elija una asosiación",
+			"custom-org": "Name of the association",
 			"iban": "N°Iban. ex: FR69 3000 2000 0800 1000 0001",
 			"routing": "N°Routing"
 		},

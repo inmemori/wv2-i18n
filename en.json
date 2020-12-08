@@ -44,6 +44,7 @@
 		"ok": "Okay",
 		"login": "Log in",
 		"logout": "Log out",
+		"other": "Other",
 		"errors": {
 			"missing": {
 				"firstname": "Missing required firstname",
@@ -586,6 +587,7 @@
 		},
 		"ph": {
 			"org": "Choose an association",
+			"custom-org": "Name of the association",
 			"iban": "Account number",
 			"routing": "Routing number"
 		},

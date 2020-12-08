@@ -44,6 +44,7 @@
 		"login": "Connexion",
 		"logout": "Déconnexion",
 		"clear": "Effacer",
+		"other": "Autre",
 		"errors": {
 			"missing": {
 				"firstname": "Veuillez renseigner un Prénom",
@@ -575,6 +576,7 @@
 		},
 		"ph": {
 			"org": "Choisir une association",
+			"custom-org": "Nom de l'association",
 			"iban": "N°Iban. ex: FR69 3000 2000 0800 1000 0001",
 			"routing": "N°Routing"
 		},
