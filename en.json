@@ -872,17 +872,11 @@
 			"cta": "Send an email",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
 		}, {
-			"key": "sms",
-			"title": "SMS",
-			"subtitle": "You will receive by SMS the link of the space of {{{namize firstname}}}, to forward to your loved ones.",
-			"cta": "Send me the link by sms",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
-		}, {
-			"key": "wa",
-			"title": "Whatsapp",
-			"subtitle": "Share the link via the Whatsapp app.",
-			"cta": "Share on Whatsapp",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
+			"key": "link",
+			"title": "Link of the space",
+			"subtitle": "Copier le lien de l’espace de {{{namize firstname}}}, pour le transmettre à vos proches.",
+			"cta": "Copy link of the space",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}, {
 			"key": "success",
 			"title": "The message has been sent",
@@ -902,7 +896,7 @@
 			"email-from": "From:",
 			"email-to": "Send to {{#if total}}{{total}} person(s) {{/if}}:",
 			"email-message": "Message:",
-			"sms-from": "Your phone number"
+			"link-from": "Link of the space"
 		},
 
 		"ph": {
@@ -917,7 +911,9 @@
 			"email": "Send",
 			"sms": "Send me the SMS",
 			"wa": "Open Whatsapp",
-			"list": "Guest list"
+			"list": "Guest list",
+			"copy": "Copy the link",
+			"copied": "link copied"
 		}
 	},
 

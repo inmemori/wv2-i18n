@@ -862,17 +862,11 @@
 			"cta": "Envíar un correo electrónico",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
 		}, {
-			"key": "sms",
-			"title": "SMS",
-			"subtitle": "Usted recibirá por SMS el link del espacio en homenaje a {{{capitalize firstname}}}, para reenviarlo a sus seres queridos.",
-			"cta": "Envíar el link por SMS",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456093/web-assets/SMS.svg"
-		}, {
-			"key": "wa",
-			"title": "Whatsapp",
-			"subtitle": "Compartir el link por Whatsapp.",
-			"cta": "Compartir en Whatsapp",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
+			"key": "link",
+			"title": "Link of the space",
+			"subtitle": "Copier le lien de l’espace de {{{namize firstname}}}, pour le transmettre à vos proches.",
+			"cta": "Copy link of the space",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}, {
 			"key": "success",
 			"title": "Invitación enviada",
@@ -892,7 +886,7 @@
 			"email-from": "De:",
 			"email-to": "Envíar a {{#if total}}{{total}} persona(s) {{/if}}:",
 			"email-message": "Mensaje:",
-			"sms-from": "Su número telefónico"
+			"link-from": "Link of the space"
 		},
 
 		"ph": {
@@ -907,7 +901,9 @@
 			"email": "Envíar",
 			"sms": "Enviarme el SMS",
 			"wa": "Abrir en Whatsapp",
-			"list": "Lista de invitados"
+			"list": "Lista de invitados",
+			"copy": "Copy the link",
+			"copied": "link copied"
 		}
 	},
 

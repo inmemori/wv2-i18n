@@ -863,7 +863,7 @@
 		}, {
 			"key": "link",
 			"title": "Lien de l'espace",
-			"subtitle": "Vous recevez par SMS le lien de l’espace de {{{namize firstname}}}, à transmettre à vos proches.",
+			"subtitle": "Copier le lien de l’espace de {{{namize firstname}}}, pour le transmettre à vos proches.",
 			"cta": "Copier le lien de l'espace",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}, {
@@ -885,7 +885,8 @@
 			"email-from": "De la part de",
 			"email-to": "À destination de {{#if total}}{{total}} personne(s) {{/if}}",
 			"email-message": "Message",
-			"sms-from": "Votre numéro de mobile"
+			"sms-from": "Votre numéro de mobile",
+			"link-from": "Lien de l'espace"
 		},
 
 		"ph": {
@@ -900,7 +901,9 @@
 			"email": "Envoyer",
 			"sms": "Envoyer",
 			"wa": "Ouvrir WhatsApp",
-			"list": "Liste des invités"
+			"list": "Liste des invités",
+			"copy": "Copier le lien de l'espace",
+			"copied": "Lien copié"
 		}
 	},
 
