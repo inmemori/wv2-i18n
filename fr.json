@@ -41,6 +41,7 @@
 		"yes": "Oui",
 		"no": "Non",
 		"ok": "Ok",
+		"or": "Ou",
 		"login": "Connexion",
 		"logout": "Déconnexion",
 		"clear": "Effacer",
@@ -897,7 +898,7 @@
 		},
 
 		"cta": {
-			"share": "Partager l'espace",
+			"share": "Partager l'espace par email",
 			"email": "Envoyer",
 			"sms": "Envoyer",
 			"wa": "Ouvrir WhatsApp",
