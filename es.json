@@ -42,6 +42,7 @@
 		"yes": "Si",
 		"no": "No",
 		"ok": "Okay",
+		"or": "O",
 		"login": "Iniciar sesión",
 		"logout": "Cerrar sesión",
 		"other": "Other",
@@ -848,7 +849,7 @@
 
 	"tab-share": {
 
-		"title": "Compartir",
+		"title": "Compartir la página",
 		"subtitle": "Ayude a la familia a informar a todos los que conocierón a {{{capitalize firstname}}}",
 		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
@@ -862,12 +863,6 @@
 			"cta": "Envíar un correo electrónico",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
 		}, {
-			"key": "link",
-			"title": "Link of the space",
-			"subtitle": "Copier le lien de l’espace de {{{namize firstname}}}, pour le transmettre à vos proches.",
-			"cta": "Copy link of the space",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
-		}, {
 			"key": "success",
 			"title": "Invitación enviada",
 			"subtitle": "",
@@ -877,9 +872,7 @@
 
 		"message": {
 			"web": "Hola, con gran tristeza anunciamos el fallecimiento de {{{fullname}}}, este espacio inmemori pretende rendirle homenaje. Por favor comparte este espacio con todos los que conocieron a {{{capitalize firstname}}}.",
-			"email": "Hola, \n\nCon una inmensa tristeza les anunciamos el fallecimiento de {{{fullname}}}.\n\nCompartimos con ustedes este espacio de inmemori, totalmente privado, en internet para rendir homenaje a {{{capitalize firstname}}}. Al ingresar al espacio podrán : \n\n- Ver la información del funeral\n- Compartir un mensaje de condolencia, un recuerdo, una fotografía\n\nApreciamos sus mensajes de apoyo en estos tiempos difíciles.\n\nCon el fin de incluir a todos los que conocieron a {{{capitalize firstname}}}, por favor ayudenos compartiendo este espacio con ellos.\n\nAmistades.",
-			"sms": "Hola,  \n\nCon gran tristeza anunciamos el fallecimiento de {{{fullname}}}, este espacio inmemori pretende rendirle homenaje. Por favor comparte este espacio con todos los que conocieron a {{{capitalize firstname}}}.\n\n{{{link}}}",
-			"wa": "Hola,  \n\nEs con gran tristeza que anunciamos el fallecimiento de {{{fullname}}}. Hemos creado un espacio inmemori en internet para rendirle homenaje. Por favor comparte este espacio con todos los que conocieron a {{{capitalize firstname}}}.\n\n{{{link}}}"
+			"email": "Hola, \n\nCon una inmensa tristeza les anunciamos el fallecimiento de {{{fullname}}}.\n\nCompartimos con ustedes este espacio de inmemori, totalmente privado, en internet para rendir homenaje a {{{capitalize firstname}}}. Al ingresar al espacio podrán : \n\n- Ver la información del funeral\n- Compartir un mensaje de condolencia, un recuerdo, una fotografía\n\nApreciamos sus mensajes de apoyo en estos tiempos difíciles.\n\nCon el fin de incluir a todos los que conocieron a {{{capitalize firstname}}}, por favor ayudenos compartiendo este espacio con ellos.\n\nAmistades."
 		},
 
 		"labels": {
@@ -897,13 +890,11 @@
 		},
 
 		"cta": {
-			"share": "Compartir la página",
+			"share": "Compartir para correo electrónico",
 			"email": "Envíar",
-			"sms": "Enviarme el SMS",
-			"wa": "Abrir en Whatsapp",
 			"list": "Lista de invitados",
 			"copy": "Copy the link",
-			"copied": "link copied"
+			"copied": "Link copied"
 		}
 	},
 

@@ -42,6 +42,7 @@
 		"yes": "Yes",
 		"no": "No",
 		"ok": "Okay",
+		"or": "Or",
 		"login": "Log in",
 		"logout": "Log out",
 		"other": "Other",
@@ -858,7 +859,7 @@
 
 	"tab-share": {
 
-		"title": "Share",
+		"title": "Share the space",
 		"subtitle": "Help the family inform everyone who knew {{{namize firstname}}}",
 		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
@@ -872,12 +873,6 @@
 			"cta": "Send an email",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
 		}, {
-			"key": "link",
-			"title": "Link of the space",
-			"subtitle": "Copier le lien de l’espace de {{{namize firstname}}}, pour le transmettre à vos proches.",
-			"cta": "Copy link of the space",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
-		}, {
 			"key": "success",
 			"title": "The message has been sent",
 			"subtitle": "",
@@ -887,9 +882,7 @@
 
 		"message": {
 			"web": "Hello, with great sadness, we announce the loss of {{{fullname}}}. This inmemori space is intended to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link with those who knew {{{namize firstname}}}",
-			"email": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private inmemori space on the internet to pay tribute to {{{namize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{namize firstname}}}, please share this space with them.\n\nKindly,",
-			"sms": "Hello, \n\nWith great sadness, we announce the loss of {{{fullname}}}. This inmemori space is intended to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link with those who knew {{{namize firstname}}}\n{{{link}}}",
-			"wa": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}. We share with you this private inmemori space on the internet to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link to invite everyone who knew {{{namize firstname}}}.\n\nKindly,{{{link}}}"
+			"email": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private inmemori space on the internet to pay tribute to {{{namize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{namize firstname}}}, please share this space with them.\n\nKindly,"
 		},
 
 		"labels": {
@@ -907,13 +900,11 @@
 		},
 
 		"cta": {
-			"share": "Share the page",
+			"share": "Share by email",
 			"email": "Send",
-			"sms": "Send me the SMS",
-			"wa": "Open Whatsapp",
 			"list": "Guest list",
 			"copy": "Copy the link",
-			"copied": "link copied"
+			"copied": "Link copied"
 		}
 	},
 
