@@ -847,17 +847,16 @@
 	},
 
 	"tab-share": {
-		"title": "Partager le lien de l'espace",
-		"subtitle": "Aidez la famille à prévenir tous ceux qui ont connu {{{namize firstname}}}",
-		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
 		"steps": [{
 			"key": "intro",
-			"title": "Partager l'espace"
+			"title": "Partager l'espace",
+			"subtitle": "Aidez la famille, à prévenir tous ceux qui ont connu {{{namize firstname}}}.",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}, {
 			"key": "email",
-			"title": "Email",
-			"subtitle": "Envoyez un faire-part à tous les proches du défunt. Ils auront ainsi accès à l’espace de {{{namize firstname}}} grâce au lien contenu dans l'Email.",
+			"title": "Invitations par email",
+			"subtitle": "Invitez des proches à rejoindre l'espace {{{d_de firstname}}}{{{namize firstname}}}. Saisissez ou copiez/collez leurs emails dans le champs ci dessous:",
 			"cta": "Envoyer un email",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
 		}, {
@@ -868,14 +867,11 @@
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}],
 
-		"message": {
-			"web": "Bonjour, c'est avec une immense tristesse que nous vous annonçons le décès de {{fullname}}. Nous venons de créer un espace inmemori, sur internet, afin de lui rendre hommage. Il suffira de renseigner votre adresse email afin d'accéder à l'espace.",
-			"email": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{{fullname}}}.\n\nNous vous partageons son espace privé inmemori afin de lui rendre hommage. En vous rendant sur l'espace, vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de rassembler tous ceux qui ont connu {{{namize firstname}}}, n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés."
-		},
+		"message": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès {{{d_de fullname}}}{{{fullname}}}.\n\nNous vous partageons son espace privé inmemori afin de lui rendre hommage. En vous rendant sur l'espace, vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de rassembler tous ceux qui ont connu {{{namize firstname}}}, n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
 
 		"labels": {
 			"email-from": "De la part de",
-			"email-to": "À destination de {{#if total}}{{total}} personne(s) {{/if}}",
+			"email-to": "Emails {{#if total}}{{total}} personne(s){{/if}}:",
 			"email-message": "Message",
 			"link-from": "Lien de l'espace"
 		},
