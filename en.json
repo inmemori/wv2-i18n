@@ -71,7 +71,10 @@
 	},
 
 	"helpscout": {
-		"beacons": {}
+		"beacons": {
+			"manager": "",
+			"user": ""
+		}
 	},
 
 	"skeleton": {
@@ -125,14 +128,6 @@
 			"text": "This private space gathers {{{namize firstname}}}'s close ones and allows you to share a message, a memory or a photo.",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
 		}, {
-			"title": "Learn about the funeral's information",
-			"text": "You will find the funeral's information in this space.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
-		}, {
-			"title": "Make a gesture for {{{namize firstname}}} and offer support",
-			"text": "You can send flowers to the funeral or contribute to a cause dear to the deceased.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
-		}, {
 			"title": "Invite {{{namize firstname}}}'s close ones",
 			"text": "Share this space with everyone who wishes to gather and pay tribute to {{{namize firstname}}}.",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Gerer_v2.svg"
@@ -149,10 +144,6 @@
 			"title": "Give your loved ones a dedicated commemoration space",
 			"text": "Your loved ones can share a message or photo and have flowers delivered to the funeral site.",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
-		}, {
-			"title": "Keep trace of all the messages received",
-			"text": "Print a book that compiles all the messages and pictures shared on this space.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
 		}]
 	},
 
@@ -189,16 +180,6 @@
 	"login": {
 		"err": "Invalid credentials",
 		"err-swap": "This link is no longer valid! Please identify yourself again.",
-		"invited": {
-			"custom": {
-				"title": "You are not connected",
-				"subtitle": "{{{capitalize name}}} invited you. Please enter your email address to access the site."
-			},
-			"default": {
-				"title": "You are not connected",
-				"subtitle": "{{{name}}} invited you. Please enter your email address to access the site."
-			}
-		},
 		"actions": {
 			"start": {
 				"title": "You are not connected",
@@ -277,17 +258,14 @@
 	},
 
 	"sidebar": {
-		"actions": [{
-				"title": "Write a tribute",
-				"flow": "tab-memories",
-				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
-			},
-			{
-				"title": "Share this space",
-				"flow": "tab-share",
-				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
-			}
-		]
+		"memory": {
+			"title": "Write a tribute",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
+		},
+		"share": {
+			"title": "Share this space",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
+		}
 	},
 
 	"broadcast": {
@@ -843,6 +821,12 @@
 		"text": "Activating a fundraiser will allow your loved ones to support a specific cause or to help pay for the funeral.",
 		"cta": "Activate the fundraiser",
 		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
+	},
+
+	"fullscreen": {
+		"start": "Enlarge view",
+		"stop": "Reduce view",
+		"scrollup": "Go back to top"
 	},
 
 	"tab-memories": {

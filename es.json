@@ -71,7 +71,10 @@
 	},
 
 	"helpscout": {
-		"beacons": {}
+		"beacons": {
+			"manager": "",
+			"user": ""
+		}
 	},
 
 	"skeleton": {
@@ -125,14 +128,6 @@
 			"text": "Este espacio privado reúne a los seres queridos de {{{capitalize firstname}}} y les permite compartir un mensaje de condolencia, un recuerdo o una fotografía.",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
 		}, {
-			"title": "Conocer la información del funeral",
-			"text": "Usted puede encontrar la información relacionada al funeral en este espacio.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
-		}, {
-			"title": "Haga un gesto por {{{capitalize firstname}}} y ofrezca su apoyo",
-			"text": "Usted puede envíar flores al lugar del funeral o contribuir con la causa querida del fallecido.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
-		}, {
 			"title": "Invite a los seres queridos de {{{capitalize firstname}}}",
 			"text": "Comparta este espacio con todos aquellos que deseen rendirle homenaje a {{{capitalize firstname}}}.",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Gerer_v2.svg"
@@ -149,10 +144,6 @@
 			"title": "Ofrezca un espacio dedicado a conmemorar la vida de su ser querido",
 			"text": "Sus seres cercanos pueden compartir un mensaje o una fotografía y envíar flores directo al lugar del funeral.",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
-		}, {
-			"title": "Guarde un rastro físico de todos los mensajes recibidos",
-			"text": "Imprima un libro que recopile todos los mensajes y fotografías compartidos en este espacio.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
 		}]
 	},
 
@@ -267,17 +258,14 @@
 	},
 
 	"sidebar": {
-		"actions": [{
-				"title": "Escribir un mensaje de homenaje",
-				"flow": "tab-memories",
-				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
-			},
-			{
-				"title": "Compartir espacio",
-				"flow": "tab-share",
-				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
-			}
-		]
+		"memory": {
+			"title": "Escribir un mensaje de homenaje",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
+		},
+		"share": {
+			"title": "Compartir espacio",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
+		}
 	},
 
 	"broadcast": {
@@ -833,6 +821,12 @@
 		"text": "Al activar una recaudación de fondos, le permitirá a sus seres queridos a apoyar una causa específica o ayudar a pagar los gastos del funeral",
 		"cta": "Activar la recaudación de fondos",
 		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
+	},
+
+	"fullscreen": {
+		"start": "Enlarge view",
+		"stop": "Reduce view",
+		"scrollup": "Go back to top"
 	},
 
 	"tab-memories": {
