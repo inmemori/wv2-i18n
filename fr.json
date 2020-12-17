@@ -181,16 +181,6 @@
 	"login": {
 		"err": "Identifiants invalides",
 		"err-swap": "Ce lien n'est plus valide. Veuillez vous identifier à nouveau.",
-		"invited": {
-			"default": {
-				"title": "Vous n'êtes pas connecté(e)",
-				"subtitle": "{{{capitalize name}}} vous a invité(e) saisissez votre email afin d'accéder à l'espace."
-			},
-			"custom": {
-				"title": "Vous n'êtes pas connecté(e)",
-				"subtitle": "{{{email}}} vous a invité(e) saisissez votre email afin d'accéder à l'espace."
-			}
-		},
 		"actions": {
 			"start": {
 				"title": "Vous n'êtes pas connecté(e)",
@@ -269,17 +259,14 @@
 	},
 
 	"sidebar": {
-		"actions": [{
-				"title": "Écrivez un hommage",
-				"flow": "tab-memories",
-				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
-			},
-			{
-				"title": "Partagez cet espace",
-				"flow": "tab-share",
-				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
-			}
-		]
+		"memory": {
+			"title": "Écrivez un hommage",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
+		},
+		"share": {
+			"title": "Partagez cet espace",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
+		}
 	},
 
 	"broadcast": {
@@ -648,7 +635,7 @@
 		}, {
 			"key": "success",
 			"label": "",
-			"title": "Bienvenue !",
+			"title": "Bienvenue",
 			"subtitle": "Votre espace en hommage à {{{fullname}}} a bien été créé.",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg",
 			"cta": "Découvrir l'espace"
@@ -833,6 +820,12 @@
 		"text": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère, de contribuer aux obsèques ou bien d'aider la famille.",
 		"cta": "Activer la collecte",
 		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
+	},
+
+	"fullscreen": {
+		"start": "Agrandir la vue",
+		"stop": "Réduire la vue",
+		"scrollup": "Revenir en haut"
 	},
 
 	"tab-memories": {
@@ -1124,7 +1117,7 @@
 	},
 
 	"filepond": {
-		"idle": "Glissez votre photo dans ce cadre ou <span class=\"filepond--label-action\"> ajouter la en cliquant ici. </span>",
+		"idle": "Glissez votre photo dans ce cadre ou <span class=\"filepond--label-action\"> ajoutez-la en cliquant ici. </span>",
 		"maxFiles": "Maximum {{maxFiles}} fichiers",
 		"remainingFiles": "Maximum {{remainingFiles}} images restantes",
 		"invalidField": "Le champ contient des fichiers invalides",
