@@ -844,12 +844,12 @@
 	"tab-share": {
 
 		"title": "Compartir la página",
-		"subtitle": "Ayude a la familia a informar a todos los que conocierón a {{{capitalize firstname}}}",
-		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
 		"steps": [{
 			"key": "intro",
-			"title": "Compartir la página"
+			"title": "Compartir la página",
+			"subtitle": "Ayude a la familia a informar a todos los que conocierón a {{{capitalize firstname}}}",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}, {
 			"key": "email",
 			"title": "Correo electrónico",

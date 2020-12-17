@@ -844,12 +844,12 @@
 	"tab-share": {
 
 		"title": "Share the space",
-		"subtitle": "Help the family inform everyone who knew {{{namize firstname}}}",
-		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
 		"steps": [{
 			"key": "intro",
-			"title": "Share the space"
+			"title": "Share the space",
+			"subtitle": "Help the family inform everyone who knew {{{namize firstname}}}",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}, {
 			"key": "email",
 			"title": "Email",
