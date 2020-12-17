@@ -844,12 +844,12 @@
 	"tab-share": {
 
 		"title": "Compartir la página",
-		"subtitle": "Ayude a la familia a informar a todos los que conocierón a {{{capitalize firstname}}}",
-		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg",
 
 		"steps": [{
 			"key": "intro",
-			"title": "Compartir la página"
+			"title": "Compartir la página",
+			"subtitle": "Ayude a la familia a informar a todos los que conocierón a {{{capitalize firstname}}}",
+			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}, {
 			"key": "email",
 			"title": "Correo electrónico",
@@ -864,10 +864,7 @@
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456095/web-assets/Whatsapp.svg"
 		}],
 
-		"message": {
-			"web": "Hola, con gran tristeza anunciamos el fallecimiento de {{{fullname}}}, este espacio inmemori pretende rendirle homenaje. Por favor comparte este espacio con todos los que conocieron a {{{capitalize firstname}}}.",
-			"email": "Hola, \n\nCon una inmensa tristeza les anunciamos el fallecimiento de {{{fullname}}}.\n\nCompartimos con ustedes este espacio de inmemori, totalmente privado, en internet para rendir homenaje a {{{capitalize firstname}}}. Al ingresar al espacio podrán : \n\n- Ver la información del funeral\n- Compartir un mensaje de condolencia, un recuerdo, una fotografía\n\nApreciamos sus mensajes de apoyo en estos tiempos difíciles.\n\nCon el fin de incluir a todos los que conocieron a {{{capitalize firstname}}}, por favor ayudenos compartiendo este espacio con ellos.\n\nAmistades."
-		},
+		"message": "Hola, \n\nCon una inmensa tristeza les anunciamos el fallecimiento de {{{fullname}}}.\n\nCompartimos con ustedes este espacio de inmemori, totalmente privado, en internet para rendir homenaje a {{{capitalize firstname}}}. Al ingresar al espacio podrán : \n\n- Ver la información del funeral\n- Compartir un mensaje de condolencia, un recuerdo, una fotografía\n\nApreciamos sus mensajes de apoyo en estos tiempos difíciles.\n\nCon el fin de incluir a todos los que conocieron a {{{capitalize firstname}}}, por favor ayudenos compartiendo este espacio con ellos.\n\nAmistades.",
 
 		"labels": {
 			"email-from": "De:",
