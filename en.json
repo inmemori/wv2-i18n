@@ -880,10 +880,8 @@
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}],
 
-		"message": {
-			"web": "Hello, with great sadness, we announce the loss of {{{fullname}}}. This inmemori space is intended to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link with those who knew {{{namize firstname}}}",
-			"email": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private inmemori space on the internet to pay tribute to {{{namize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{namize firstname}}}, please share this space with them.\n\nKindly,"
-		},
+		"message": "Hello, with great sadness, we announce the loss of {{{fullname}}}. This inmemori space is intended to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link with those who knew {{{namize firstname}}}",
+			"email": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private inmemori space on the internet to pay tribute to {{{namize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{namize firstname}}}, please share this space with them.\n\nKindly,",
 
 		"labels": {
 			"email-from": "From:",
