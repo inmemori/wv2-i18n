@@ -403,7 +403,7 @@
 		"steps": [{
 			"key": "intro",
 			"label": "Commander un livre",
-			"title": "Un nouveau Livre d'Or dès Janvier",
+			"title": "Un nouveau Livre d'Or dès janvier",
 			"subtitle": "Une nouvelle mise en page élégante mettant à l'honneur les différents hommages et photos partagés sur cet espace.",
 			"cta": "Suivant"
 		}, {
