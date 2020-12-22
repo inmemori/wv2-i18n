@@ -403,8 +403,8 @@
 		"steps": [{
 			"key": "intro",
 			"label": "Commander un livre",
-			"title": "Présentation du livre",
-			"subtitle": "Cet ouvrage rassemble l’ensemble des messages et photos partagés par vos proches (mis en page par nos équipes).",
+			"title": "Le nouveau Livre d'Or dès Janvier",
+			"subtitle": "Un nouveau format du Livre d'Or sera disponible dès janvier, avec une nouvelle mise en page mettant encore mieux à l'honneur les différents hommages et les photos",
 			"cta": "Suivant"
 		}, {
 			"key": "cart",
