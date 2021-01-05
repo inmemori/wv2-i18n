@@ -879,7 +879,7 @@
 		"cta": {
 			"share": "Partager par email",
 			"email": "Envoyer",
-			"list": "Liste des invités",
+			"list": "Votre liste d'invités",
 			"copy": "Copier le lien",
 			"copied": "Lien copié"
 		}
@@ -981,7 +981,7 @@
 	},
 
 	"invitation-list": {
-		"title": "Liste des invités",
+		"title": "Votre liste d'invités",
 		"subtitle": "{{count}} personne(s) "
 	},
 
@@ -992,7 +992,7 @@
 			"pending-manager": "Invitation envoyée",
 			"active": "Invitation acceptée",
 			"active-manager": "Gestionnaire",
-			"revoked": "Accèss révoqué"
+			"revoked": "Accès révoqué"
 		},
 		"ph": {
 			"search": "Rechercher..."
