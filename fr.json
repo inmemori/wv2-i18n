@@ -843,8 +843,8 @@
 
 		"steps": [{
 			"key": "intro",
-			"title": "Partager l'espace",
-			"subtitle": "Aidez la famille, à prévenir tous ceux qui ont connu {{{namize firstname}}}.",
+			"title": "Partager le lien de l'espace",
+			"subtitle": "Donnez accès à l'espace à toutes les personnes qui ont connu {{{namize firstname}}}.",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}, {
 			"key": "email",
