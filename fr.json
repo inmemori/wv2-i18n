@@ -1153,13 +1153,13 @@
 		"inviteManager": {
 			"cta": "Inviter un gestionnaire",
 			"check-intro": "Besoin d'aide pour valider le texte d'accueil ?",
-			"check-places": "Besoin d'aide pour valider les infos obsèques ?",
+			"check-places": "Besoin d'aide pour valider les infos des obsèques ?",
 			"has-photo": "Besoin d'aide pour choisir la photo de {{namize firstname}} ?",
-			"has-invited": "Besoin d'aide pour partager cet espace ?",
-			"has-published": "Besoin d'aide pour partager un hommage ?",
-			"open-collect": "Besoin d'aide pour ouvrir la collecte ?",
-			"has-thank": "Besoin d'aide pour partager un hommage ?",
-			"post-event": "Besoin d'aide pour partager un hommage ?"
+			"has-invited": "Besoin d'aide pour partager le lien de cet espace ?",
+			"has-published": "Besoin d'aide pour publier un hommage ?",
+			"open-collect": "Besoin d'aide pour activer la collecte de dons ?",
+			"has-thank": "Besoin d'aide pour publier un hommage ?",
+			"post-event": "Besoin d'aide pour publier un hommage ?"
 		},
 		"default": {
 			"success": "Les modifications ont bien été prises en compte.",
