@@ -377,7 +377,7 @@
 				"subtitle": "{{{item.name}}}"
 			},
 			"book": {
-				"title": "Livre inmemori",
+				"title": "A partir de 35€",
 				"subtitle": ""
 			}
 		},
@@ -403,8 +403,8 @@
 		"steps": [{
 			"key": "intro",
 			"label": "Commander un livre",
-			"title": "Présentation du livre",
-			"subtitle": "Cet ouvrage rassemble l’ensemble des messages et photos partagés par vos proches (mis en page par nos équipes).",
+			"title": "Un nouveau Livre d'Or très prochainement",
+			"subtitle": "Une nouvelle mise en page élégante mettant à l'honneur les différents hommages et photos partagés sur cet espace.",
 			"cta": "Suivant"
 		}, {
 			"key": "cart",
@@ -732,7 +732,7 @@
 			"message-opt": "Légende photo (facultatif)"
 		},
 		"cta": {
-			"share": "Partager",
+			"share": "Publier",
 			"photo": "Ajouter une photo"
 		},
 		"thank": {
@@ -843,13 +843,13 @@
 
 		"steps": [{
 			"key": "intro",
-			"title": "Partager l'espace",
-			"subtitle": "Aidez la famille, à prévenir tous ceux qui ont connu {{{namize firstname}}}.",
+			"title": "Partager le lien de l'espace",
+			"subtitle": "Donnez accès à l'espace à toutes les personnes qui ont connu {{{namize firstname}}}.",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}, {
 			"key": "email",
 			"title": "Invitations par email",
-			"subtitle": "Invitez des proches à rejoindre l'espace {{{d_de firstname}}}{{{namize firstname}}}. Saisissez ou copiez/collez leurs emails dans le champs ci dessous:",
+			"subtitle": "Invitez des proches à rejoindre l'espace {{{d_de firstname}}}{{{namize firstname}}}. Saisissez ou copiez/collez leurs emails dans le champs ci dessous :",
 			"cta": "Envoyer un email",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
 		}, {
@@ -860,7 +860,7 @@
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}],
 
-		"message": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès de {{{fullname}}}.\n\nNous vous partageons son espace privé inmemori afin de lui rendre hommage. En vous rendant sur l'espace, vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de rassembler tous ceux qui ont connu {{{namize firstname}}}, n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
+		"message": "Bonjour, \n\nC'est avec une immense tristesse que nous vous annonçons le décès {{{d_de fullname}}}{{{fullname}}}.\n\nNous vous partageons son espace privé inmemori afin de lui rendre hommage. En vous rendant sur l'espace, vous pouvez : \n\n- Consulter les informations sur les obsèques\n- Partager un message de condoléances, un souvenir, une photo\n\nNous apprécierons vos messages de soutien dans ces moments difficiles.\n\nAfin de rassembler tous ceux qui ont connu {{{namize firstname}}}, n'hésitez pas à partager cet espace à toutes les personnes concernées.\n\nAmitiés.",
 
 		"labels": {
 			"email-from": "De la part de",
@@ -879,7 +879,7 @@
 		"cta": {
 			"share": "Partager par email",
 			"email": "Envoyer",
-			"list": "Liste des invités",
+			"list": "Votre liste d'invités",
 			"copy": "Copier le lien",
 			"copied": "Lien copié"
 		}
@@ -981,7 +981,7 @@
 	},
 
 	"invitation-list": {
-		"title": "Liste des invités",
+		"title": "Votre liste d'invités",
 		"subtitle": "{{count}} personne(s) "
 	},
 
@@ -992,7 +992,7 @@
 			"pending-manager": "Invitation envoyée",
 			"active": "Invitation acceptée",
 			"active-manager": "Gestionnaire",
-			"revoked": "Accèss révoqué"
+			"revoked": "Accès révoqué"
 		},
 		"ph": {
 			"search": "Rechercher..."
@@ -1002,7 +1002,7 @@
 	"card-stats": {
 		"labels": {
 			"views": "Consultations",
-			"memories": "Messages",
+			"memories": "Hommages",
 			"donations": "Dons",
 			"collected": "Collectés"
 		}
@@ -1153,13 +1153,13 @@
 		"inviteManager": {
 			"cta": "Inviter un gestionnaire",
 			"check-intro": "Besoin d'aide pour valider le texte d'accueil ?",
-			"check-places": "Besoin d'aide pour valider les infos obsèques ?",
+			"check-places": "Besoin d'aide pour valider les infos des obsèques ?",
 			"has-photo": "Besoin d'aide pour choisir la photo de {{namize firstname}} ?",
-			"has-invited": "Besoin d'aide pour partager cet espace ?",
-			"has-published": "Besoin d'aide pour partager un hommage ?",
-			"open-collect": "Besoin d'aide pour ouvrir la collecte ?",
-			"has-thank": "Besoin d'aide pour partager un hommage ?",
-			"post-event": "Besoin d'aide pour partager un hommage ?"
+			"has-invited": "Besoin d'aide pour partager le lien de cet espace ?",
+			"has-published": "Besoin d'aide pour publier un hommage ?",
+			"open-collect": "Besoin d'aide pour activer la collecte de dons ?",
+			"has-thank": "Besoin d'aide pour publier un hommage ?",
+			"post-event": "Besoin d'aide pour publier un hommage ?"
 		},
 		"default": {
 			"success": "Les modifications ont bien été prises en compte.",
