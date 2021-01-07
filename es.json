@@ -55,7 +55,8 @@
 				"zone": "Missing required country",
 				"emails": "Missing at least one email address",
 				"phone": "Missing required phone number",
-				"payment": "Error during payment process please try again"
+				"payment": "Error during payment process please try again",
+				"address": "Missing required address"
 			},
 			"invalid": {
 				"email": "Email no válido"
@@ -389,7 +390,11 @@
 			"qty": "Cantidad",
 			"price": "Precio",
 			"shipping": "Envío",
-			"total": "Total"
+			"total": "Total",
+			"discount": "Discount"
+		},
+		"shipping": {
+			"unavailable": "Nous sommes désolés, la livraison n'est pas disponible dans ce pays."
 		},
 		"invoice": {
 			"with": "Utilizar otra dirección para facturación",
