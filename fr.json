@@ -55,7 +55,8 @@
 				"zone": "Veuillez renseigner un pays",
 				"emails": "Veuillez ajouter au moins une adresse email valide",
 				"phone": "Veuillez renseigner un numéro de téléphone",
-				"payment": "Erreur lors du processus de paiement, veuillez réessayer"
+				"payment": "Erreur lors du processus de paiement, veuillez réessayer",
+				"address": "Veuillez renseigner une adresse"
 			},
 			"invalid": {
 				"email": "Veuillez renseigner une adresse email valide"
@@ -377,7 +378,7 @@
 				"subtitle": "{{{item.name}}}"
 			},
 			"book": {
-				"title": "A partir de 35€",
+				"title": "Le Livre d'Or",
 				"subtitle": ""
 			}
 		},
@@ -387,7 +388,11 @@
 			"qty": "Quantité",
 			"price": "Prix",
 			"shipping": "Livraison",
-			"total": "Total"
+			"total": "Total",
+			"discount": "Réduction"
+		},
+		"shipping": {
+			"unavailable": "Nous sommes désolés, la livraison n'est pas disponible dans ce pays."
 		},
 		"invoice": {
 			"with": "Utiliser une autre adresse pour la facturation",
