@@ -442,7 +442,11 @@
 				"subtitle": "Voici votre selection",
 				"text": "Votre espace rencontre un grand succès.",
 				"desc": "Contactez-nous afin d'établir un devis sur-mesure de votre livre.",
-				"cta": "Contactez-nous"
+				"cta": "Contactez-nous",
+				"support": {
+					"subject": "Commande de livre",
+					"text": "Bonjour,\nJe souhaite commander un/des livre(s) et prends donc contact avec vous afin d'établir un devis. Pouvez-vous m'en dire plus ?\nMerci."
+				}
 			}
 		}
 	},
