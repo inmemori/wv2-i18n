@@ -439,7 +439,12 @@
 			"cta": "Back to home"
 		}],
 		"labels": {
-			"conditions": "The book order will be available 15 days after the creation of your space."
+			"conditions": "The book order will be available 15 days after the creation of your space.",
+			"oversize": {
+				"title": "Votre espace rencontre un grand succès.",
+				"text": "Afin d'établir un devis sur mesure de votre livre, contactez-nous au 06 37 60 26 04.\nDu Lun-Ven 9h-19h | Sam 10h-19h ou via notre chat.",
+				"cta": "Contactez-nous"
+			}
 		}
 	},
 

@@ -437,7 +437,12 @@
 			"cta": "Retour à l'accueil"
 		}],
 		"labels": {
-			"conditions": "La commande du livre sera disponible 15 jours après la création de votre espace."
+			"conditions": "La commande du livre sera disponible 15 jours après la création de votre espace.",
+			"oversize": {
+				"title": "Votre espace rencontre un grand succès.",
+				"text": "Afin d'établir un devis sur mesure de votre livre, contactez-nous au 06 37 60 26 04.\nDu Lun-Ven 9h-19h | Sam 10h-19h ou via notre chat.",
+				"cta": "Contactez-nous"
+			}
 		}
 	},
 
