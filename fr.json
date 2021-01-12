@@ -55,7 +55,8 @@
 				"zone": "Veuillez renseigner un pays",
 				"emails": "Veuillez ajouter au moins une adresse email valide",
 				"phone": "Veuillez renseigner un numéro de téléphone",
-				"payment": "Erreur lors du processus de paiement, veuillez réessayer"
+				"payment": "Erreur lors du processus de paiement, veuillez réessayer",
+				"address": "Veuillez renseigner une adresse"
 			},
 			"invalid": {
 				"email": "Veuillez renseigner une adresse email valide"
@@ -377,7 +378,7 @@
 				"subtitle": "{{{item.name}}}"
 			},
 			"book": {
-				"title": "A partir de 35€",
+				"title": "Le Livre d'Or",
 				"subtitle": ""
 			}
 		},
@@ -387,7 +388,11 @@
 			"qty": "Quantité",
 			"price": "Prix",
 			"shipping": "Livraison",
-			"total": "Total"
+			"total": "Total",
+			"discount": "Réduction"
+		},
+		"shipping": {
+			"unavailable": "Nous sommes désolés, la livraison n'est pas disponible dans ce pays."
 		},
 		"invoice": {
 			"with": "Utiliser une autre adresse pour la facturation",
@@ -403,20 +408,20 @@
 		"steps": [{
 			"key": "intro",
 			"label": "Commander un livre",
-			"title": "Un nouveau Livre d'Or très prochainement",
+			"title": "Nouveau Livre d'Or inmemori",
 			"subtitle": "Une nouvelle mise en page élégante mettant à l'honneur les différents hommages et photos partagés sur cet espace.",
 			"cta": "Suivant"
 		}, {
 			"key": "cart",
 			"label": "Mon panier",
 			"title": "Mon panier",
-			"subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez. ",
+			"subtitle": "Voici votre sélection. Profitez de prix réduits en commandant plusieurs exemplaires. ",
 			"cta": "Suivant"
 		}, {
 			"key": "shipping",
 			"label": "Livraison",
 			"title": "Adresse de livraison",
-			"subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée <b>sous 4 à 6 semaines</b> (en France métropolitaine et en Belgique uniquement).",
+			"subtitle": "Renseignez les informations nécessaires à la livraison. La livraison sera effectuée <b>sous 4 à 6 semaines</b>.",
 			"cta": "Suivant"
 		}, {
 			"key": "payment",
@@ -432,7 +437,17 @@
 			"cta": "Retour à l'accueil"
 		}],
 		"labels": {
-			"conditions": "La commande du livre sera disponible 15 jours après la création de votre espace."
+			"conditions": "La commande du livre sera disponible 15 jours après la création de votre espace.",
+			"oversize": {
+				"subtitle": "Voici votre selection. Profitez de prix réduits en commandant plusieurs exemplaires.",
+				"text": "Votre espace rencontre un grand succès",
+				"desc": "Contactez-nous afin d'établir un devis sur-mesure de votre livre.",
+				"cta": "Contactez-nous",
+				"support": {
+					"subject": "Commande de livre",
+					"text": "Bonjour,\nJe souhaite commander un/des livre(s) et prends donc contact avec vous afin d'établir un devis. Pouvez-vous m'en dire plus ?\nMerci."
+				}
+			}
 		}
 	},
 

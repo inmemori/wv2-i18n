@@ -55,7 +55,8 @@
 				"zone": "Missing required country",
 				"emails": "Missing at least one email address",
 				"phone": "Missing required phone number",
-				"payment": "Error during payment process please try again"
+				"payment": "Error during payment process please try again",
+				"address": "Missing required address"
 			},
 			"invalid": {
 				"email": "Invalid email address"
@@ -389,7 +390,11 @@
 			"qty": "Quantity",
 			"price": "Price",
 			"shipping": "Shipping",
-			"total": "Total"
+			"total": "Total",
+			"discount": "Discount"
+		},
+		"shipping": {
+			"unavailable": "Nous sommes désolés, la livraison n'est pas disponible dans ce pays."
 		},
 		"invoice": {
 			"with": "Use another address for billing",
@@ -434,7 +439,17 @@
 			"cta": "Back to home"
 		}],
 		"labels": {
-			"conditions": "The book order will be available 15 days after the creation of your space."
+			"conditions": "The book order will be available 15 days after the creation of your space.",
+			"oversize": {
+				"subtitle": "Voici votre selection",
+				"text": "Votre espace rencontre un grand succès.",
+				"desc": "Contactez-nous afin d'établir un devis sur-mesure de votre livre.",
+				"cta": "Contactez-nous",
+				"support": {
+					"subject": "Commande de livre",
+					"text": "Bonjour,\nJe souhaite commander un/des livre(s) et prends donc contact avec vous afin d'établir un devis. Pouvez-vous m'en dire plus ?\nMerci."
+				}
+			}
 		}
 	},
 
