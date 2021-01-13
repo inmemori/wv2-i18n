@@ -440,6 +440,9 @@
 		}],
 		"labels": {
 			"conditions": "The book order will be available 15 days after the creation of your space.",
+			"discount": {
+				"subtitle": "Voici votre selection. Profitez de prix réduits en commandant plusieurs exemplaires."
+			},
 			"oversize": {
 				"subtitle": "Here is your selection. Benefit from reduced prices by ordering several copies.",
 				"text": "VYour space meets great success.",

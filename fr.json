@@ -415,7 +415,7 @@
 			"key": "cart",
 			"label": "Mon panier",
 			"title": "Mon panier",
-			"subtitle": "Voici votre sélection. Profitez de prix réduits en commandant plusieurs exemplaires. ",
+			"subtitle": "Voici votre sélection.",
 			"cta": "Suivant"
 		}, {
 			"key": "shipping",
@@ -438,6 +438,9 @@
 		}],
 		"labels": {
 			"conditions": "La commande du livre sera disponible 15 jours après la création de votre espace.",
+			"discount": {
+				"subtitle": "Voici votre selection. Profitez de prix réduits en commandant plusieurs exemplaires."
+			},
 			"oversize": {
 				"subtitle": "Voici votre selection. Profitez de prix réduits en commandant plusieurs exemplaires.",
 				"text": "Votre espace rencontre un grand succès",
