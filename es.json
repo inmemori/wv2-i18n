@@ -440,6 +440,9 @@
 		}],
 		"labels": {
 			"conditions": "El pedido del libro estará disponible 15 días después de la creación de su espacio.",
+			"discount": {
+				"subtitle": "Voici votre selection. Profitez de prix réduits en commandant plusieurs exemplaires."
+			},
 			"oversize": {
 				"subtitle": "Voici votre selection",
 				"text": "Votre espace rencontre un grand succès.",
