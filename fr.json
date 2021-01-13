@@ -415,7 +415,7 @@
 			"key": "cart",
 			"label": "Mon panier",
 			"title": "Mon panier",
-			"subtitle": "Voici votre sélection.",
+			"subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez.",
 			"cta": "Suivant"
 		}, {
 			"key": "shipping",
