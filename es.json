@@ -410,14 +410,14 @@
 		"steps": [{
 			"key": "intro",
 			"label": "Ordenar un libro",
-			"title": "Presentación del libro",
-			"subtitle": "Este libro reúne todos los mensajes y fotografías compartidos por sus seres queridos.",
+			"title": "Nuevo libro inmemori",
+			"subtitle": "Un nuevo y elegante diseño que destaca los diferentes homenajes y fotos compartidos en este espacio.",
 			"cta": "Siguiente"
 		}, {
 			"key": "cart",
 			"label": "Mi canasta",
 			"title": "Mi canasta",
-			"subtitle": "Aquí esta su selección. Usted puede cambiar la cantidad si así lo desea. ",
+			"subtitle": "Aquí esta su selección. Aproveche los precios reducidos pidiendo varios ejemplares.",
 			"cta": "Siguiente"
 		}, {
 			"key": "shipping",
@@ -441,13 +441,13 @@
 		"labels": {
 			"conditions": "El pedido del libro estará disponible 15 días después de la creación de su espacio.",
 			"oversize": {
-				"subtitle": "Voici votre selection",
-				"text": "Votre espace rencontre un grand succès.",
-				"desc": "Contactez-nous afin d'établir un devis sur-mesure de votre livre.",
-				"cta": "Contactez-nous",
+				"subtitle": "Aquí esta su selección. Aproveche los precios reducidos pidiendo varios ejemplares.",
+				"text": "Su espacio es un gran éxito.",
+				"desc": "Contáctenos para un presupuesto personalizado para su libro.",
+				"cta": "Contáctenos",
 				"support": {
-					"subject": "Commande de livre",
-					"text": "Bonjour,\nJe souhaite commander un/des livre(s) et prends donc contact avec vous afin d'établir un devis. Pouvez-vous m'en dire plus ?\nMerci."
+					"subject": "Pedido de libro",
+					"text": "Hola,\n me gustaría ordenar un/algunos libro(s) y me gustaría contactarlo para un estimado. ¿Puedes decirme más?  ?\nGracias."
 				}
 			}
 		}
