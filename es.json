@@ -394,7 +394,7 @@
 			"discount": "Discount"
 		},
 		"shipping": {
-			"unavailable": "Nous sommes désolés, la livraison n'est pas disponible dans ce pays."
+			"unavailable": "Lo sentimos, la entrega no está disponible en este país."
 		},
 		"invoice": {
 			"with": "Utilizar otra dirección para facturación",
