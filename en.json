@@ -394,7 +394,7 @@
 			"discount": "Discount"
 		},
 		"shipping": {
-			"unavailable": "Nous sommes désolés, la livraison n'est pas disponible dans ce pays."
+			"unavailable": "We are sorry, delivery is not available in this country."
 		},
 		"invoice": {
 			"with": "Use another address for billing",
@@ -417,7 +417,7 @@
 			"key": "cart",
 			"label": "My cart",
 			"title": "My cart",
-			"subtitle": "Here is your selection. Benefit from reduced prices by ordering several copies.",
+			"subtitle": "Here is your selection. You can modify the quantity if you wish.",
 			"cta": "Next"
 		}, {
 			"key": "shipping",
