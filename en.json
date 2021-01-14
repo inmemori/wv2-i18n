@@ -394,7 +394,7 @@
 			"discount": "Discount"
 		},
 		"shipping": {
-			"unavailable": "Nous sommes désolés, la livraison n'est pas disponible dans ce pays."
+			"unavailable": "We are sorry, delivery is not available in this country."
 		},
 		"invoice": {
 			"with": "Use another address for billing",
@@ -417,7 +417,7 @@
 			"key": "cart",
 			"label": "My cart",
 			"title": "My cart",
-			"subtitle": "Here is your selection. Benefit from reduced prices by ordering several copies.",
+			"subtitle": "Here is your selection. You can modify the quantity if you wish.",
 			"cta": "Next"
 		}, {
 			"key": "shipping",
@@ -441,11 +441,11 @@
 		"labels": {
 			"conditions": "The book order will be available 15 days after the creation of your space.",
 			"discount": {
-				"subtitle": "Voici votre selection. Profitez de prix réduits en commandant plusieurs exemplaires."
+				"subtitle": "Here is your selection. Benefit from reduced prices by ordering several copies."
 			},
 			"oversize": {
 				"subtitle": "Here is your selection. Benefit from reduced prices by ordering several copies.",
-				"text": "VYour space meets great success.",
+				"text": "Your space has received many beautiful tributes.",
 				"desc": "Contact us in order to establish a tailor-made quote for your book.",
 				"cta": "Contact us",
 				"support": {
@@ -912,6 +912,11 @@
 		"promo": "The funeral is being organized by {{{name}}}.{{#if phone}} {{phone}}{{/if}}"
 	},
 
+	"partner": {
+		"promo-1": "The funeral is being organized by {{{name}}}.{{#if phone}} {{phone}}{{/if}}",
+		"promo-2": "Cet espace Inmemori est proposé par l'agence {{{name}}}."
+	},
+
 	"tab-settings": {
 		"title": "Manage the space",
 		"subtitle": "Logged in as {{as}}",
@@ -945,8 +950,13 @@
 				"cta": "Sign out",
 				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
 			},
+			"cgv": {
+				"title": "Documents juridiques",
+				"cta": "Consulter",
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
+			},
 			"delete": {
-				"title": "{{{fullname}}}",
+				"title": "Inmemori space",
 				"cta": "Delete this space",
 				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589971318/web-assets/picto/trash.svg"
 			},
