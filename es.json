@@ -911,6 +911,11 @@
 		"promo": "El funeral fue organizado por {{{name}}}.{{#if phone}} {{phone}}{{/if}}"
 	},
 
+	"partner": {
+		"promo-1": "El funeral fue organizado por {{{name}}}.{{#if phone}} {{phone}}{{/if}}",
+		"promo-2": "Cet espace Inmemori est proposé par l'agence {{{name}}}."
+	},
+
 	"tab-settings": {
 		"title": "Administrar el espacio",
 		"subtitle": "Conectarse como {{as}}",
@@ -944,8 +949,13 @@
 				"cta": "Desconectarse",
 				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
 			},
+			"cgv": {
+				"title": "Documents juridiques",
+				"cta": "Consulter",
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
+			},
 			"delete": {
-				"title": "{{{fullname}}}",
+				"title": "Espacio Inmemori",
 				"cta": "Eliminar este espacio",
 				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589971318/web-assets/picto/trash.svg"
 			},

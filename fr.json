@@ -907,6 +907,11 @@
 		"promo": "Les obsèques sont organisées par {{{name}}}.{{#if phone}} {{phone}}{{/if}}"
 	},
 
+	"partner": {
+		"promo-1": "Les obsèques sont organisées par {{{name}}}.{{#if phone}} {{phone}}{{/if}}",
+		"promo-2": "Cet espace Inmemori est proposé par l'agence {{{name}}}."
+	},
+
 	"tab-settings": {
 		"title": "Gestion de l’espace",
 		"subtitle": "Connecté(e) en tant que {{{as}}}",
@@ -936,12 +941,17 @@
 				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103777/web-assets/picto/wallet.svg"
 			},
 			"logout": {
-				"title": "Connecté(e)",
-				"cta": "Se déconnecter",
+				"title": "Connecté(e) en tant que {{as}}",
+				"cta": "Se déconnecter",
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
+			},
+			"cgv": {
+				"title": "Documents juridiques",
+				"cta": "Consulter",
 				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
 			},
 			"delete": {
-				"title": "{{{fullname}}}",
+				"title": "Espace inmemori",
 				"cta": "Supprimer cet espace",
 				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589971318/web-assets/picto/trash.svg"
 			},
