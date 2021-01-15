@@ -214,7 +214,7 @@
 			},
 			"signup": {
 				"title": "Votre profil",
-				"subtitle": "Veuillez s'il vous plaît renseigner vos nom et prénom"
+				"subtitle": "Veuillez s'il vous plaît renseigner vos prénom et nom"
 			},
 			"swap": {
 				"title": "Merci",
@@ -934,7 +934,7 @@
 
 	"partner": {
 		"promo-1": "Les obsèques sont organisées par {{{name}}}.{{#if phone}} {{phone}}{{/if}}",
-		"promo-2": "Cet espace Inmemori est proposé par l'agence {{{name}}}."
+		"promo-2": "Cet espace inmemori est proposé par l'agence {{{name}}}."
 	},
 
 	"tab-settings": {
