@@ -445,7 +445,7 @@
 			},
 			"oversize": {
 				"subtitle": "Aquí esta su selección. Aproveche los precios reducidos pidiendo varios ejemplares.",
-				"text": "Su espacio ha cosechado muchos buenos homenajes.",
+				"text": "Su espacio ha recibido un número excepcional de homenajes.",
 				"desc": "Contáctenos para un presupuesto personalizado para su libro.",
 				"cta": "Contáctenos",
 				"support": {
@@ -952,7 +952,12 @@
 			"cgv": {
 				"title": "Documents juridiques",
 				"cta": "Consulter",
-				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1610644905/web-assets/picto/binocular.svg"
+			},
+			"abuse": {
+				"title": "Signaler un abus",
+				"cta": "Signaler",
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1610652630/web-assets/picto/claim.svg"
 			},
 			"delete": {
 				"title": "Espacio Inmemori",

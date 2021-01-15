@@ -445,7 +445,7 @@
 			},
 			"oversize": {
 				"subtitle": "Here is your selection. Benefit from reduced prices by ordering several copies.",
-				"text": "Your space has received many beautiful tributes.",
+				"text": "Your space has received an exceptional number of tributes.",
 				"desc": "Contact us in order to establish a tailor-made quote for your book.",
 				"cta": "Contact us",
 				"support": {
@@ -953,7 +953,12 @@
 			"cgv": {
 				"title": "Documents juridiques",
 				"cta": "Consulter",
-				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1610644905/web-assets/picto/binocular.svg"
+			},
+			"abuse": {
+				"title": "Signaler un abus",
+				"cta": "Signaler",
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1610652630/web-assets/picto/claim.svg"
 			},
 			"delete": {
 				"title": "Inmemori space",

@@ -99,10 +99,10 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personnaliser l'espace"
+				"customize": "Personnaliser votre espace"
 			}
-    },
-    "manager-google": {
+    	},
+    	"manager-google": {
 			"h1": "Rendez le plus beau des hommages à Marie.",
 			"list": [{
 				"title": "1 million de personnes",
@@ -114,8 +114,33 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personnaliser l'espace"
+				"customize": "Personnaliser votre espace"
 			}
+		},
+		"user" : {
+			"h1": "Rendez le plus beau des hommages à Marie.",
+			"list": [{
+				"title": "1 million de personnes",
+				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
+				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
+			}, {
+				"title": "Gratuit",
+				"subtitle": "inmemori est offert par votre conseiller funéraire",
+				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
+			}],
+			"cta": {
+				"customize": "Accéder à l'espace"
+			}
+		},
+		"rgpd": {
+			"more": "Voir plus",
+			"small": "inmemori traite des données personnelles pour permettre à ses utilisateurs de créer et de gérer des espaces en hommage, inviter des proches...",
+			"full": "inmemori traite des données personnelles pour permettre à ses utilisateurs de créer et de gérer des espaces en hommage, inviter des proches à consulter ces espaces et faciliter l’accès à certains services. Vous pouvez accéder et obtenir copie des données vous concernant, vous opposer au traitement de ces données, les faire rectifier ou les faire effacer et introduire une réclamation auprès de la CNIL. Pour exercer ces droits ou en savoir plus, vous pouvez consulter la politique relative aux données personnelles d’inmemori ou écrire à data@inmemori.com."
+		},
+		"tos": {
+			"text": "En cliquant, vous acceptez nos CGU auxquelles est annexé un accord sur les données personnelles avec le gestionnaire.",
+			"btn": "CGU",
+			"link": "https://www.google.com"
 		}
 	},
 
@@ -189,7 +214,7 @@
 			},
 			"signup": {
 				"title": "Votre profil",
-				"subtitle": "Veuillez s'il vous plaît renseigner vos nom et prénom"
+				"subtitle": "Veuillez s'il vous plaît renseigner vos prénom et nom"
 			},
 			"swap": {
 				"title": "Merci",
@@ -443,7 +468,7 @@
 			},
 			"oversize": {
 				"subtitle": "Voici votre selection. Profitez de prix réduits en commandant plusieurs exemplaires.",
-				"text": "Votre espace a recueilli beaucoup de beaux hommages",
+				"text": "Votre espace a recueilli un nombre exceptionnel d'hommages",
 				"desc": "Contactez-nous afin d'établir un devis sur-mesure de votre livre.",
 				"cta": "Contactez-nous",
 				"support": {
@@ -849,7 +874,7 @@
 	"tab-memories": {
 		"segment": {
 			"memory": {
-				"title": "Témoignages"
+				"title": "Hommages"
 			},
 			"ceremony": {
 				"title": "Textes de la cérémonie"
@@ -909,7 +934,7 @@
 
 	"partner": {
 		"promo-1": "Les obsèques sont organisées par {{{name}}}.{{#if phone}} {{phone}}{{/if}}",
-		"promo-2": "Cet espace Inmemori est proposé par l'agence {{{name}}}."
+		"promo-2": "Cet espace inmemori est proposé par l'agence {{{name}}}."
 	},
 
 	"tab-settings": {
@@ -948,7 +973,12 @@
 			"cgv": {
 				"title": "Documents juridiques",
 				"cta": "Consulter",
-				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1610644905/web-assets/picto/binocular.svg"
+			},
+			"abuse": {
+				"title": "Signaler un abus",
+				"cta": "Signaler",
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1610652630/web-assets/picto/claim.svg"
 			},
 			"delete": {
 				"title": "Espace inmemori",
