@@ -88,7 +88,7 @@
 
 	"onboarding": {
 		"manager-partner": {
-			"h1": "Rendez le plus beau des hommages à Marie.",
+			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
@@ -101,9 +101,9 @@
 			"cta": {
 				"customize": "Personnaliser votre espace"
 			}
-    	},
+    },
     	"manager-google": {
-			"h1": "Rendez le plus beau des hommages à Marie.",
+			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
