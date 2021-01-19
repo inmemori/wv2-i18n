@@ -116,6 +116,21 @@
 			"cta": {
 				"customize": "Personalize the space"
 			}
+		},
+		"user" : {
+			"h1": "Pay the most beautiful tribute to {{namize firstname}}.",
+			"list": [{
+				"title": "1 million people",
+				"subtitle": "have already used inmemori to pay tribute to a loved one.",
+				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
+			}, {
+				"title": "Free",
+				"subtitle": "inmemori is offered by your funeral counsellor.",
+				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
+			}],
+			"cta": {
+				"customize": "Access the space"
+			}
 		}
 	},
 
@@ -224,6 +239,14 @@
 					}
 				}
 			}
+		}, 
+		"labels": {
+			"relationship": "Qui était {{firstname}} pour vous ?"
+		},
+		"relationships": {
+			"family": "Famille",
+			"friend": "Ami(e)",
+			"colleague": "Collègue"
 		}
 	},
 
