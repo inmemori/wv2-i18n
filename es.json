@@ -116,6 +116,21 @@
 			"cta": {
 				"customize": "Personalizar el espacio"
 			}
+		},
+		"user" : {
+			"h1": "Haz el más bello homenaje a {{namize firstname}}.",
+			"list": [{
+				"title": "1 millón de personas",
+				"subtitle": "han usado a inmemori para rendir homenaje a un ser querido.",
+				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
+			}, {
+				"title": "Gratis",
+				"subtitle": "inmemori es ofrecido por su consejero fúnebre.",
+				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
+			}],
+			"cta": {
+				"customize": "Access the space"
+			}
 		}
 	},
 
