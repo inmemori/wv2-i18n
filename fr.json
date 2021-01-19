@@ -249,6 +249,9 @@
 					}
 				}
 			}
+		}, 
+		"labels": {
+			"relationship": "Qui était {{firstname}} pour vous ?"
 		}
 	},
 
