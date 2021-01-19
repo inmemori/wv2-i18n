@@ -89,6 +89,7 @@
 	"onboarding": {
 		"manager-partner": {
 			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
+			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
@@ -104,6 +105,7 @@
     },
     	"manager-google": {
 			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
+			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
@@ -119,6 +121,7 @@
 		},
 		"user" : {
 			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
+			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
