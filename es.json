@@ -227,6 +227,11 @@
 		}, 
 		"labels": {
 			"relationship": "Qui était {{firstname}} pour vous ?"
+		},
+		"relationships": {
+			"family": "Famille",
+			"friend": "Ami(e)",
+			"colleague": "Collègue"
 		}
 	},
 
