@@ -121,7 +121,7 @@
 		"tos": {
 			"text": "En cliquant, vous acceptez nos CGU auxquelles est annexé un accord sur les données personnelles avec le gestionnaire.",
 			"btn": "CGU",
-			"link": "https://fr.inmemori.com/cgu"
+			"link": "https://fr.inmemori.com/terms"
 		},
 		"manager-partner": {
 			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
