@@ -965,8 +965,8 @@
 			"list": "Lista de invitados",
 			"copy": "Copy the link",
 			"copied": "Link copied",
-			"link-desc": "Link desc",
-			"email-desc": "Email desc"
+			"link-desc": "Copia y pega el siguiente enlace en un sms o en un bucle de WhatsApp, por ejemplo.",
+			"email-desc": "Dé acceso al espacio por correo electrónico haciendo clic abajo."
 		}
 	},
 
