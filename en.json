@@ -951,8 +951,8 @@
 			"email-to": "Send to {{#if total}}{{total}} person(s) {{/if}}:",
 			"email-message": "Message:",
 			"link-from": "Link of the space",
-			"link-desc": "Link desc",
-			"email-desc": "Email desc"
+			"link-desc": "Copy and paste the link below into a text message or WhatsApp loop, for example.",
+			"email-desc": "Give access to the space by email by clicking below."
 		},
 
 		"ph": {
