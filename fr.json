@@ -103,7 +103,7 @@
 			}
 		},
 		"labels": {
-			"name": "Qui êtes vous ?",
+			"name": "Bienvenue sur l'espace en hommage à {{firstname}}. Quel est votre nom ?",
 			"relationship": "Qui était {{firstname}} pour vous ?"
 		},
 		"relationships": {
