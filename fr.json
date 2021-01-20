@@ -90,7 +90,7 @@
 		"actions": {
 			"start": {
 				"title": "",
-				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} vous invite à vous connecter{{else}}Connectez-vous{{/if}} pour raconter un souvenir ou partager des photos de la vie {{{d_de page.firstname}}}{{namize page.firstname}}"
+				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} vous invite à vous connecter{{else}}Connectez-vous{{/if}} pour raconter un souvenir ou partager des photos {{{d_de page.firstname}}}{{namize page.firstname}}"
 			},
 			"signup": {
 				"title": "",
@@ -155,7 +155,7 @@
 		},
 		"user" : {
 			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
-			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
+			"subtitle": "en permettant à tous ceux qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
