@@ -11,6 +11,7 @@
 		"prev": "Précédent",
 		"back": "Retour",
 		"share": "Partager",
+		"publish": "Publier",
 		"pay": "Payer",
 		"end": "Terminer",
 		"suggest": "Suggestion",
@@ -82,15 +83,15 @@
 	"skeleton": {
 		"places": "Les informations relatives aux obsèques apparaîtront ici.",
 		"broadcast": "Les informations relatives à la retransmission de la cérémonie apparaîtront ici.",
-		"memories": "C’est ici qu’apparaîtront les messages en hommage à {{{namize firstname}}}.",
-		"ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie."
+		"memories": "C’est ici qu’apparaîtront les messages en hommage à {{{namize firstname}}}. Les messages affichés ci-dessous sont fictifs.",
+		"ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie. Les messages affichés ci-dessous sont fictifs."
 	},
 
 	"onboarding": {
 		"actions": {
 			"start": {
 				"title": "",
-				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} vous invite à vous connecter{{else}}Connectez-vous{{/if}} pour raconter un souvenir ou partager des photos de la vie {{{d_de page.firstname}}}{{namize page.firstname}}"
+				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} vous invite à vous connecter{{else}}Connectez-vous{{/if}} pour raconter un souvenir ou partager des photos {{{d_de page.firstname}}}{{namize page.firstname}}."
 			},
 			"signup": {
 				"title": "",
@@ -103,13 +104,14 @@
 			}
 		},
 		"labels": {
-			"name": "Qui êtes vous ?",
+			"name": "Bienvenue sur l'espace en hommage à {{firstname}}.\nVeuillez s'il vous plaît renseigner vos prénom et nom.",
 			"relationship": "Qui était {{firstname}} pour vous ?"
 		},
 		"relationships": {
 			"family": "Famille",
 			"friend": "Ami(e)",
-			"colleague": "Collègue"
+			"colleague": "Collègue",
+			"other" : "Autre"
 		},
 		"rgpd": {
 			"more": "Voir plus",
@@ -155,7 +157,7 @@
 		},
 		"user" : {
 			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
-			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
+			"subtitle": "en permettant à tous ceux qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
@@ -944,7 +946,9 @@
 			"email-from": "De la part de",
 			"email-to": "Emails {{#if total}}{{total}} personne(s){{/if}}:",
 			"email-message": "Message",
-			"link-from": "Lien de l'espace"
+			"link-from": "Lien de l'espace",
+			"link-desc": "Link desc",
+			"email-desc": "Email desc"
 		},
 
 		"ph": {

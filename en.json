@@ -11,6 +11,7 @@
 		"prev": "Previous",
 		"back": "Back",
 		"share": "Share",
+		"publish": "Publish",
 		"pay": "Pay",
 		"end": "End",
 		"suggest": "Suggestion",
@@ -949,7 +950,9 @@
 			"email-from": "From:",
 			"email-to": "Send to {{#if total}}{{total}} person(s) {{/if}}:",
 			"email-message": "Message:",
-			"link-from": "Link of the space"
+			"link-from": "Link of the space",
+			"link-desc": "Link desc",
+			"email-desc": "Email desc"
 		},
 
 		"ph": {

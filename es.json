@@ -11,6 +11,7 @@
 		"prev": "Anterior",
 		"back": "Atrás",
 		"share": "Compartir",
+		"publish": "Publicar",
 		"pay": "Pago",
 		"end": "Finalizar",
 		"suggest": "Sugerencias",
@@ -963,7 +964,9 @@
 			"email": "Envíar",
 			"list": "Lista de invitados",
 			"copy": "Copy the link",
-			"copied": "Link copied"
+			"copied": "Link copied",
+			"link-desc": "Link desc",
+			"email-desc": "Email desc"
 		}
 	},
 
