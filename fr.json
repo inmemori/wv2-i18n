@@ -947,8 +947,8 @@
 			"email-to": "Emails {{#if total}}{{total}} personne(s){{/if}}:",
 			"email-message": "Message",
 			"link-from": "Lien de l'espace",
-			"link-desc": "Link desc",
-			"email-desc": "Email desc"
+			"link-desc": "Copier-collez le lien ci-dessous dans un sms ou dans une boucle WhatsApp, par exemple.",
+			"email-desc": "Donnez accès à l'espace par email en cliquant ci-dessous."
 		},
 
 		"ph": {
