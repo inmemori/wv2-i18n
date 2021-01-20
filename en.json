@@ -87,34 +87,86 @@
 	},
 
   "onboarding": {
+  	"actions": {
+			"start": {
+				"title": "",
+				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} vous invite à vous connecter{{else}}Connectez-vous{{/if}} pour raconter un souvenir ou partager des photos de la vie {{{d_de page.firstname}}}{{namize page.firstname}}"
+			},
+			"signup": {
+				"title": "",
+				"subtitle": ""
+			},
+			"swap": {
+				"title": "",
+				"subtitle": "Nous venons de vous envoyer par email un lien pour vous reconnecter à l’espace.",
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
+			}
+		},
+		"labels": {
+			"name": "Qui êtes vous ?",
+			"relationship": "Qui était {{firstname}} pour vous ?"
+		},
+		"relationships": {
+			"family": "Famille",
+			"friend": "Ami(e)",
+			"colleague": "Collègue"
+		},
+		"rgpd": {
+			"more": "Voir plus",
+			"small": "inmemori traite des données personnelles pour permettre à ses utilisateurs...",
+			"full": "inmemori traite des données personnelles pour permettre à ses utilisateurs de créer et de gérer des espaces en hommage, inviter des proches à consulter ces espaces et faciliter l’accès à certains services. Vous pouvez accéder et obtenir copie des données vous concernant, vous opposer au traitement de ces données, les faire rectifier ou les faire effacer et introduire une réclamation auprès de la CNIL. Pour exercer ces droits ou en savoir plus, vous pouvez consulter la politique relative aux données personnelles d’inmemori ou écrire à data@inmemori.com."
+		},
+		"tos": {
+			"text": "En cliquant, vous acceptez nos CGU auxquelles est annexé un accord sur les données personnelles avec le gestionnaire.",
+			"btn": "CGU",
+			"link": "https://fr.inmemori.com/cgu"
+		},
 		"manager-partner": {
-			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
+			"h1": "Pay the most beautiful tribute to {{namize firstname}}.",
+			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
-				"title": "1 million de personnes",
-				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
+				"title": "1 million people",
+				"subtitle": "have already used inmemori to pay tribute to a loved one.",
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
 			}, {
-				"title": "Gratuit",
-				"subtitle": "inmemori est offert par votre conseiller funéraire",
+				"title": "Free",
+				"subtitle": "inmemori is offered by your funeral counsellor.",
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personnaliser l'espace"
+				"customize": "Personalize the space"
 			}
     },
     "manager-google": {
-			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
+			"h1": "Pay the most beautiful tribute to {{namize firstname}}.",
+			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
-				"title": "1 million de personnes",
-				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
+				"title": "1 million people",
+				"subtitle": "have already used inmemori to pay tribute to a loved one.",
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
 			}, {
-				"title": "Gratuit",
-				"subtitle": "inmemori est offert par votre conseiller funéraire",
+				"title": "Free",
+				"subtitle": "inmemori is offered by your funeral counsellor.",
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personnaliser l'espace"
+				"customize": "Personalize the space"
+			}
+		},
+		"user" : {
+			"h1": "Pay the most beautiful tribute to {{namize firstname}}.",
+			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
+			"list": [{
+				"title": "1 million people",
+				"subtitle": "have already used inmemori to pay tribute to a loved one.",
+				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Don.svg"
+			}, {
+				"title": "Free",
+				"subtitle": "inmemori is offered by your funeral counsellor.",
+				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
+			}],
+			"cta": {
+				"customize": "Access the space"
 			}
 		}
 	},
@@ -224,6 +276,14 @@
 					}
 				}
 			}
+		},
+		"labels": {
+			"relationship": "Qui était {{firstname}} pour vous ?"
+		},
+		"relationships": {
+			"family": "Famille",
+			"friend": "Ami(e)",
+			"colleague": "Collègue"
 		}
 	},
 
@@ -951,13 +1011,13 @@
 				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1591103739/web-assets/picto/logout.svg"
 			},
 			"cgv": {
-				"title": "Documents juridiques",
-				"cta": "Consulter",
+				"title": "Legal documents",
+				"cta": "Consult",
 				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1610644905/web-assets/picto/binocular.svg"
 			},
 			"abuse": {
-				"title": "Signaler un abus",
-				"cta": "Signaler",
+				"title": "Report abuse",
+				"cta": "Report",
 				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1610652630/web-assets/picto/claim.svg"
 			},
 			"delete": {
