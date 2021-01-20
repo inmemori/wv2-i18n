@@ -285,7 +285,8 @@
 		"relationships": {
 			"family": "Famille",
 			"friend": "Ami(e)",
-			"colleague": "Collègue"
+			"colleague": "Collègue",
+			"other" : "Autre"
 		}
 	},
 
