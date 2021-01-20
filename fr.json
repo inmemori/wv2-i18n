@@ -917,6 +917,9 @@
 			"ceremony": {
 				"title": "Textes de la cérémonie"
 			}
+		},
+		"splash": {
+			"cta": "Personnaliser votre espace"
 		}
 	},
 

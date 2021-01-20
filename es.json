@@ -918,6 +918,9 @@
 			"ceremony": {
 				"title": "Texts of the ceremony"
 			}
+		},
+		"splash": {
+			"cta": "Personnaliser votre espace"
 		}
 	},
 
