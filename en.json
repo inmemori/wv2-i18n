@@ -87,6 +87,40 @@
 	},
 
   "onboarding": {
+  	"actions": {
+			"start": {
+				"title": "",
+				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} vous invite à vous connecter{{else}}Connectez-vous{{/if}} pour raconter un souvenir ou partager des photos de la vie {{{d_de page.firstname}}}{{namize page.firstname}}"
+			},
+			"signup": {
+				"title": "",
+				"subtitle": ""
+			},
+			"swap": {
+				"title": "",
+				"subtitle": "Nous venons de vous envoyer par email un lien pour vous reconnecter à l’espace.",
+				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
+			}
+		},
+		"labels": {
+			"name": "Qui êtes vous ?",
+			"relationship": "Qui était {{firstname}} pour vous ?"
+		},
+		"relationships": {
+			"family": "Famille",
+			"friend": "Ami(e)",
+			"colleague": "Collègue"
+		},
+		"rgpd": {
+			"more": "Voir plus",
+			"small": "inmemori traite des données personnelles pour permettre à ses utilisateurs...",
+			"full": "inmemori traite des données personnelles pour permettre à ses utilisateurs de créer et de gérer des espaces en hommage, inviter des proches à consulter ces espaces et faciliter l’accès à certains services. Vous pouvez accéder et obtenir copie des données vous concernant, vous opposer au traitement de ces données, les faire rectifier ou les faire effacer et introduire une réclamation auprès de la CNIL. Pour exercer ces droits ou en savoir plus, vous pouvez consulter la politique relative aux données personnelles d’inmemori ou écrire à data@inmemori.com."
+		},
+		"tos": {
+			"text": "En cliquant, vous acceptez nos CGU auxquelles est annexé un accord sur les données personnelles avec le gestionnaire.",
+			"btn": "CGU",
+			"link": "https://fr.inmemori.com/cgu"
+		},
 		"manager-partner": {
 			"h1": "Pay the most beautiful tribute to {{namize firstname}}.",
 			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
@@ -242,7 +276,7 @@
 					}
 				}
 			}
-		}, 
+		},
 		"labels": {
 			"relationship": "Qui était {{firstname}} pour vous ?"
 		},
