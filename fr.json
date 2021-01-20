@@ -82,8 +82,8 @@
 	"skeleton": {
 		"places": "Les informations relatives aux obsèques apparaîtront ici.",
 		"broadcast": "Les informations relatives à la retransmission de la cérémonie apparaîtront ici.",
-		"memories": "C’est ici qu’apparaîtront les messages en hommage à {{{namize firstname}}}.",
-		"ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie."
+		"memories": "C’est ici qu’apparaîtront les messages en hommage à {{{namize firstname}}}. Les messages affichés ci-dessous sont fictifs.",
+		"ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie. Les messages affichés ci-dessous sont fictifs."
 	},
 
 	"onboarding": {
@@ -103,13 +103,14 @@
 			}
 		},
 		"labels": {
-			"name": "Bienvenue sur l'espace en hommage à {{firstname}}. Quel est votre nom ?",
+			"name": "Bienvenue sur l'espace en hommage à {{firstname}}.\nVeuillez s'il vous plaît renseigner vos prénom et nom.",
 			"relationship": "Qui était {{firstname}} pour vous ?"
 		},
 		"relationships": {
 			"family": "Famille",
 			"friend": "Ami(e)",
-			"colleague": "Collègue"
+			"colleague": "Collègue",
+			"other" : "Autre"
 		},
 		"rgpd": {
 			"more": "Voir plus",
