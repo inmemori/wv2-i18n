@@ -1212,7 +1212,7 @@
 		},
 		"s-user|has-invited": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Vous pouvez aider les proches de {{{namize firstname}}} à se recueillir. Invitez-les à rejoindre cet espace.",
+			"text": "Invitez ceux qui ont connu {{{namize firstname}}} à rejoindre cet espace.",
 			"cta": "Inviter",
 			"ctb": "Plus tard"
 		}
