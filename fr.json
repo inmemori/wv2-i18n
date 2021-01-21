@@ -112,6 +112,7 @@
 			"family": "Famille",
 			"friend": "Ami(e)",
 			"colleague": "Collègue",
+			"acquaintance": "Connaissance",
 			"other" : "Autre"
 		},
 		"rgpd": {
