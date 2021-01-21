@@ -786,8 +786,8 @@
 	},
 
 	"profile-setup": {
-		"title": "Vous souhaitez vous reconnecter à l’espace en hommage à {{{namize firstname}}}",
-		"subtitle": "Renseignez votre email pour avoir le lien d’’accès à son espace dans votre boite email également."
+		"title": "Conseil pratique",
+		"subtitle": "Renseignez votre email pour avoir le lien d’accès à l'espace en hommage à {{{namize Firstname}}} dans votre boite email également."
 	},
 
 	"edit-intro": {
