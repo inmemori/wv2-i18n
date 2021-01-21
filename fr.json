@@ -105,7 +105,7 @@
 			}
 		},
 		"labels": {
-			"name": "Veuillez renseigner s'il vous plaît les informations suivantes à destination de la famille.",
+			"name": "Veuillez renseigner les informations suivantes à destination de la famille.",
 			"relationship": "Qui était {{firstname}} pour vous ?"
 		},
 		"relationships": {
