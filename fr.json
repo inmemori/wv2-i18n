@@ -929,7 +929,7 @@
 		"steps": [{
 			"key": "intro",
 			"title": "Inviter vos proches",
-			"subtitle": "Donnez accès à l'espace à toutes les personnes qui ont connu {{{namize firstname}}}.",
+			"subtitle": "Donnez accès à l'espace à tous ceux qui ont connu {{{namize firstname}}}.",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}, {
 			"key": "email",
@@ -952,7 +952,7 @@
 			"email-to": "Emails {{#if total}}{{total}} personne(s){{/if}}:",
 			"email-message": "Message",
 			"link-from": "Lien de l'espace",
-			"link-desc": "Copiez-collez le lien ci-dessous dans un sms ou dans une boucle WhatsApp, par exemple.",
+			"link-desc": "Copiez-collez le lien ci-dessous dans un sms, sur WhatsApp...",
 			"email-desc": "Donnez accès à l'espace par email en cliquant ci-dessous."
 		},
 
@@ -964,7 +964,7 @@
 		},
 
 		"cta": {
-			"share": "Partager par email",
+			"share": "Inviter par email",
 			"email": "Envoyer",
 			"list": "Votre liste d'invités",
 			"copy": "Copier le lien",
