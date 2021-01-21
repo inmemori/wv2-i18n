@@ -19,7 +19,7 @@
 		"name": "Nom",
 		"firstname": "Prénom",
 		"lastname": "Nom",
-		"fullname": "Nom complet",
+		"fullname": "Prénom Nom",
 		"email": "Email",
 		"phone": "Numéro de mobile",
 		"address": "Adresse",
@@ -104,7 +104,7 @@
 			}
 		},
 		"labels": {
-			"name": "Bienvenue sur l'espace en hommage à {{firstname}}.\nVeuillez s'il vous plaît renseigner vos prénom et nom.",
+			"name": "Veuillez renseigner s'il vous plaît les informations suivantes à destination de la famille.",
 			"relationship": "Qui était {{firstname}} pour vous ?"
 		},
 		"relationships": {
