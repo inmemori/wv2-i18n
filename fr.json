@@ -1206,7 +1206,7 @@
 		},
 		"s-user|has-published": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg",
-			"text": "Si vous le souhaitez, vous pouvez publier un mot ou une photo.",
+			"text": "Vous pouvez participer en publiant un message ou une photo.",
 			"cta": "Publier",
 			"ctb": "Plus tard"
 		},
