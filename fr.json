@@ -105,7 +105,7 @@
 		},
 		"labels": {
 			"name": "Veuillez renseigner les informations suivantes à destination de la famille.",
-			"relationship": "Qui était {{firstname}} pour vous ?"
+			"relationship": "Qui était {{{namize firstname}}} pour vous ?"
 		},
 		"relationships": {
 			"family": "Famille",
@@ -126,8 +126,8 @@
 			"link": "https://fr.inmemori.com/terms"
 		},
 		"manager-partner": {
-			"h1": "Rendez le plus beau des hommages à {{namize firstname}}",
-			"subtitle": "en permettant à tous ceux qui ont connu {{namize firstname}} de raconter leurs souvenirs et de partager leurs photos.",
+			"h1": "Rendez le plus beau des hommages à {{{namize firstname}}}",
+			"subtitle": "en permettant à tous ceux qui ont connu {{{namize firstname}}} de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
