@@ -11,6 +11,7 @@
 		"prev": "Anterior",
 		"back": "Atrás",
 		"share": "Compartir",
+		"publish": "Publicar",
 		"pay": "Pago",
 		"end": "Finalizar",
 		"suggest": "Sugerencias",
@@ -83,6 +84,7 @@
 		"places": "La información del funeral aparecerá aquí",
 		"broadcast": "Broadcast informations",
 		"memories": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}",
+		"memory": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}",
 		"ceremony": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}"
 	},
 
@@ -98,32 +100,33 @@
 			},
 			"swap": {
 				"title": "",
-				"subtitle": "Nous venons de vous envoyer par email un lien pour vous reconnecter à l’espace.",
+				"subtitle": "Le enviamos un enlace por correo electrónico para volver a conectarlo al espacio.",
 				"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
 			}
 		},
 		"labels": {
-			"name": "Qui êtes vous ?",
-			"relationship": "Qui était {{firstname}} pour vous ?"
+			"name": "Bienvenido en el espacio de {{firstname}}. \nPor favor ingrese su nombre y apellido.",
+			"relationship": "¿Quién era {{firstname}} para Ud?"
 		},
 		"relationships": {
-			"family": "Famille",
-			"friend": "Ami(e)",
-			"colleague": "Collègue"
+			"family": "Familia",
+			"friend": "Amigo/amiga",
+			"colleague": "Colego/colega",
+			"other":"Otro"
 		},
 		"rgpd": {
-			"more": "Voir plus",
-			"small": "inmemori traite des données personnelles pour permettre à ses utilisateurs...",
-			"full": "inmemori traite des données personnelles pour permettre à ses utilisateurs de créer et de gérer des espaces en hommage, inviter des proches à consulter ces espaces et faciliter l’accès à certains services. Vous pouvez accéder et obtenir copie des données vous concernant, vous opposer au traitement de ces données, les faire rectifier ou les faire effacer et introduire une réclamation auprès de la CNIL. Pour exercer ces droits ou en savoir plus, vous pouvez consulter la politique relative aux données personnelles d’inmemori ou écrire à data@inmemori.com."
+			"more": "Leer más",
+			"small": "inmemori procesa datos personales para permitir a sus usuarios...",
+			"full": "inmemori procesa datos personales para permitir a sus usuarios crear y administrar espacios de homenaje, invitar a familiares a ver estos espacios y facilitar el acceso a ciertos servicios. Puede acceder y obtener una copia de los datos que le conciernen, oponerse al tratamiento de estos datos, hacerlos rectificar o suprimir y presentar una reclamación ante la CNIL. Para ejercer estos derechos u obtener más información, puede consultar la política de datos personales de inmemori o escribir a data@inmemori.com."
 		},
 		"tos": {
-			"text": "En cliquant, vous acceptez nos CGU auxquelles est annexé un accord sur les données personnelles avec le gestionnaire.",
+			"text": "Al hacer clic, acepta nuestros CGU a los que se adjunta un acuerdo sobre datos personales con el administrador.",
 			"btn": "CGU",
-			"link": "https://fr.inmemori.com/cgu"
+			"link": "https://es.inmemori.com/terms"
 		},
 		"manager-partner": {
 			"h1": "Haz el más bello homenaje a {{namize firstname}}.",
-			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
+			"subtitle": "permitiendo a todos los que lo conocieron contar sus recuerdos y compartir sus fotos.",
 			"list": [{
 				"title": "1 millón de personas",
 				"subtitle": "han usado a inmemori para rendir homenaje a un ser querido.",
@@ -139,7 +142,7 @@
 		},
 		"manager-google": {
 			"h1": "Haz el más bello homenaje a {{namize firstname}}.",
-			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
+			"subtitle": "permitiendo a todos los que lo conocieron contar sus recuerdos y compartir sus fotos.",
 			"list": [{
 				"title": "1 millón de personas",
 				"subtitle": "han usado a inmemori para rendir homenaje a un ser querido.",
@@ -155,7 +158,7 @@
 		},
 		"user" : {
 			"h1": "Haz el más bello homenaje a {{namize firstname}}.",
-			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
+			"subtitle": "permitiendo a todos los que lo conocieron contar sus recuerdos y compartir sus fotos.",
 			"list": [{
 				"title": "1 millón de personas",
 				"subtitle": "han usado a inmemori para rendir homenaje a un ser querido.",
@@ -278,12 +281,12 @@
 			}
 		},
 		"labels": {
-			"relationship": "Qui était {{firstname}} pour vous ?"
+			"relationship": "Quién era {{firstname}} para Ud ?"
 		},
 		"relationships": {
-			"family": "Famille",
-			"friend": "Ami(e)",
-			"colleague": "Collègue"
+			"family": "Familia",
+			"friend": "Amigo/amiga",
+			"colleague": "Colego/colega"
 		}
 	},
 
@@ -916,6 +919,9 @@
 			"ceremony": {
 				"title": "Texts of the ceremony"
 			}
+		},
+		"splash": {
+			"cta": "Personaliza el espacio"
 		}
 	},
 
@@ -963,7 +969,9 @@
 			"email": "Envíar",
 			"list": "Lista de invitados",
 			"copy": "Copy the link",
-			"copied": "Link copied"
+			"copied": "Link copied",
+			"link-desc": "Copia y pega el siguiente enlace en un sms o en un bucle de WhatsApp, por ejemplo.",
+			"email-desc": "Dé acceso al espacio por correo electrónico haciendo clic abajo."
 		}
 	},
 
