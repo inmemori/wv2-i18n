@@ -739,7 +739,7 @@
 
 	"contacts": {
 		"ph": {
-			"name": "Prénom et Nom",
+			"name": "Prénom Nom",
 			"phone": "N° de mobile",
 			"email": "Email"
 		},
@@ -761,7 +761,7 @@
 		"ph": {
 			"firstname": "Prénom",
 			"lastname": "Nom",
-			"dob": "Date de Naissance",
+			"dob": "Date de naissance",
 			"dod": "Date de décès"
 		}
 	},
