@@ -92,7 +92,7 @@
 		"actions": {
 			"start": {
 				"title": "",
-				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} vous invite à vous connecter{{else}}Connectez-vous{{/if}} pour raconter un souvenir ou déposer des photos {{{d_de page.firstname}}}{{namize page.firstname}}."
+				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} vous invite à vous connecter{{else}}Connectez-vous{{/if}} pour lire les messages en hommage à {{namize page.firstname}} ou participer."
 			},
 			"signup": {
 				"title": "",
