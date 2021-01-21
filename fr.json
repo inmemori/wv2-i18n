@@ -931,7 +931,7 @@
 			"key": "intro",
 			"title": "Inviter vos proches",
 			"subtitle": "Donnez accès à l'espace à toutes les personnes qui ont connu {{{namize firstname}}}.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
+			"icon": ""
 		}, {
 			"key": "email",
 			"title": "Invitations par email",
