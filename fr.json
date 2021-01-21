@@ -19,7 +19,7 @@
 		"name": "Nom",
 		"firstname": "Prénom",
 		"lastname": "Nom",
-		"fullname": "Nom complet",
+		"fullname": "Prénom Nom",
 		"email": "Email",
 		"phone": "Numéro de mobile",
 		"address": "Adresse",
@@ -83,15 +83,15 @@
 	"skeleton": {
 		"places": "Les informations relatives aux obsèques apparaîtront ici.",
 		"broadcast": "Les informations relatives à la retransmission de la cérémonie apparaîtront ici.",
-		"memories": "C’est ici qu’apparaîtront les messages en hommage à {{{namize firstname}}}. Les messages affichés ci-dessous sont fictifs.",
-		"ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie. Les messages affichés ci-dessous sont fictifs."
+		"memories": "Les messages affichés ci-dessous sont des exemples.",
+		"ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie."
 	},
 
 	"onboarding": {
 		"actions": {
 			"start": {
 				"title": "",
-				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} vous invite à vous connecter{{else}}Connectez-vous{{/if}} pour raconter un souvenir ou partager des photos {{{d_de page.firstname}}}{{namize page.firstname}}."
+				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} vous invite à vous connecter{{else}}Connectez-vous{{/if}} pour lire les messages en hommage à {{namize page.firstname}} ou participer."
 			},
 			"signup": {
 				"title": "",
@@ -104,19 +104,21 @@
 			}
 		},
 		"labels": {
-			"name": "Bienvenue sur l'espace en hommage à {{firstname}}.\nVeuillez s'il vous plaît renseigner vos prénom et nom.",
-			"relationship": "Qui était {{firstname}} pour vous ?"
+			"name": "Veuillez renseigner les informations suivantes à destination de la famille.",
+			"relationship": "Qui était {{{namize firstname}}} pour vous ?"
 		},
 		"relationships": {
 			"family": "Famille",
 			"friend": "Ami(e)",
 			"colleague": "Collègue",
+			"acquaintance": "Connaissance",
 			"other" : "Autre"
+
 		},
 		"rgpd": {
 			"more": "Voir plus",
-			"small": "inmemori traite des données personnelles pour permettre à ses utilisateurs...",
-			"full": "inmemori traite des données personnelles pour permettre à ses utilisateurs de créer et de gérer des espaces en hommage, inviter des proches à consulter ces espaces et faciliter l’accès à certains services. Vous pouvez accéder et obtenir copie des données vous concernant, vous opposer au traitement de ces données, les faire rectifier ou les faire effacer et introduire une réclamation auprès de la CNIL. Pour exercer ces droits ou en savoir plus, vous pouvez consulter la politique relative aux données personnelles d’inmemori ou écrire à data@inmemori.com."
+			"small": "inmemori traite des données personnelles pour permettre à ses utilisateurs... ",
+			"full": "inmemori traite des données personnelles pour permettre à ses utilisateurs de rendre hommage à leur proche disparu. Vous pouvez accéder et obtenir copie des données vous concernant, vous opposer au traitement de ces données, les faire rectifier ou les faire effacer et introduire une réclamation auprès de la CNIL. Pour exercer ces droits ou en savoir plus, vous pouvez consulter la politique relative aux données personnelles d’inmemori ou écrire à data@inmemori.com."
 		},
 		"tos": {
 			"text": "En cliquant, vous acceptez nos CGU auxquelles est annexé un accord sur les données personnelles avec le gestionnaire.",
@@ -125,7 +127,7 @@
 		},
 		"manager-partner": {
 			"h1": "Rendez le plus beau des <span class='text-surline'>hommages</span> à {{namize firstname}}.",
-			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
+			"subtitle": "en permettant à tous ceux qui ont connu {{{namize firstname}}} de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
@@ -136,12 +138,12 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personnaliser votre espace"
+				"customize": "Découvrir votre espace"
 			}
     },
     "manager-google": {
 			"h1": "Rendez le plus beau des <span class='text-surline'>hommages</span> à {{namize firstname}}.",
-			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
+			"subtitle": "en permettant à tous ceux qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
@@ -314,7 +316,7 @@
 		"info": "Infos",
 		"memories": "Hommages",
 		"ceremony": "Cérémonie",
-		"share": "Partage",
+		"share": "Invitations",
 		"settings": "Gestion",
 		"help": "Aide",
 		"help-long": "Besoin d'aide ?",
@@ -440,7 +442,7 @@
 				"subtitle": "{{{item.name}}}"
 			},
 			"book": {
-				"title": "Le Livre d'Or",
+				"title": "Livre d'or",
 				"subtitle": ""
 			}
 		},
@@ -470,14 +472,14 @@
 		"steps": [{
 			"key": "intro",
 			"label": "Commander un livre",
-			"title": "Nouveau Livre d'Or inmemori",
+			"title": "Nouveau livre d'or inmemori",
 			"subtitle": "Une nouvelle mise en page élégante mettant à l'honneur les différents hommages et photos partagés sur cet espace.",
 			"cta": "Suivant"
 		}, {
 			"key": "cart",
 			"label": "Mon panier",
 			"title": "Mon panier",
-			"subtitle": "Voici votre sélection. Vous pouvez modifier la quantité si vous le souhaitez.",
+			"subtitle": "Voici le détail de votre commande : {{pages}} pages réparties en {{tomes}} tome(s).",
 			"cta": "Suivant"
 		}, {
 			"key": "shipping",
@@ -499,12 +501,12 @@
 			"cta": "Retour à l'accueil"
 		}],
 		"labels": {
-			"conditions": "La commande du livre sera disponible 15 jours après la création de votre espace.",
+			"conditions": "La commande du livre sera disponible 15 jours après la création de l'espace afin que tous les hommages puissent être rassemblés.",
 			"discount": {
-				"subtitle": "Voici votre selection. Profitez de prix réduits en commandant plusieurs exemplaires."
+				"subtitle": "Voici le détail de votre commande : {{pages}} pages réparties en {{tomes}} tome(s). Bénéficiez d'une réduction en commandant plusieurs exemplaires."
 			},
 			"oversize": {
-				"subtitle": "Voici votre selection. Profitez de prix réduits en commandant plusieurs exemplaires.",
+				"subtitle": "Voici le détail de votre commande : {{pages}} pages. Profitez de prix réduits en commandant plusieurs exemplaires.",
 				"text": "Votre espace a recueilli un nombre exceptionnel d'hommages",
 				"desc": "Contactez-nous afin d'établir un devis sur-mesure de votre livre.",
 				"cta": "Contactez-nous",
@@ -737,7 +739,7 @@
 
 	"contacts": {
 		"ph": {
-			"name": "Prénom et Nom",
+			"name": "Prénom Nom",
 			"phone": "N° de mobile",
 			"email": "Email"
 		},
@@ -759,7 +761,7 @@
 		"ph": {
 			"firstname": "Prénom",
 			"lastname": "Nom",
-			"dob": "Date de Naissance",
+			"dob": "Date de naissance",
 			"dod": "Date de décès"
 		}
 	},
@@ -872,8 +874,8 @@
 	},
 
 	"card-ft-book": {
-		"title": "Le livre",
-		"text": "Gardez dans un beau livre tous les hommages partagés sur inmemori.",
+		"title": "Livre d'or",
+		"text": "Recevez chez vous tous les hommages partagés sur inmemori.",
 		"cta": "Commander le livre",
 		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
 	},
@@ -918,7 +920,7 @@
 			}
 		},
 		"splash": {
-			"cta": "Personnaliser votre espace"
+			"cta": "Personnaliser l'espace"
 		}
 	},
 
@@ -926,8 +928,8 @@
 
 		"steps": [{
 			"key": "intro",
-			"title": "Partager le lien de l'espace",
-			"subtitle": "Donnez accès à l'espace à toutes les personnes qui ont connu {{{namize firstname}}}.",
+			"title": "Inviter vos proches",
+			"subtitle": "Donnez accès à l'espace à tous ceux qui ont connu {{{namize firstname}}}.",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer.svg"
 		}, {
 			"key": "email",
@@ -950,7 +952,7 @@
 			"email-to": "Emails {{#if total}}{{total}} personne(s){{/if}}:",
 			"email-message": "Message",
 			"link-from": "Lien de l'espace",
-			"link-desc": "Copiez-collez le lien ci-dessous dans un sms ou dans une boucle WhatsApp, par exemple.",
+			"link-desc": "Copiez-collez le lien ci-dessous dans un sms, sur WhatsApp...",
 			"email-desc": "Donnez accès à l'espace par email en cliquant ci-dessous."
 		},
 
@@ -962,7 +964,7 @@
 		},
 
 		"cta": {
-			"share": "Partager par email",
+			"share": "Inviter par email",
 			"email": "Envoyer",
 			"list": "Votre liste d'invités",
 			"copy": "Copier le lien",
@@ -1115,12 +1117,12 @@
 	"banners": {
 		"help-invite-manager": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Demander à un proche de devenir gestionnaire de l'espace avec vous pour vous aider à le diffuser auprès de votre entourage",
+			"text": "Ajoutez un autre gestionnaire pour vous aider à gérer l'espace.",
 			"cta": "Ajouter un gestionnaire"
 		},
 		"s-manager|check-places": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-calendar.svg",
-			"text": "Pour commencer, avez-vous besoin d'ajouter / modifier un événement ?",
+			"text": "Avez-vous besoin d'ajouter / modifier un événement ?",
 			"cta": "Ajouter",
 			"ctb": "Plus tard"
 		},
@@ -1132,19 +1134,19 @@
 		},
 		"s-manager|has-photo": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-camera.svg",
-			"text": "Souhaitez-vous ajouter une photo de {{{namize firstname}}} ?",
+			"text": "Ajoutez une photo de {{{namize firstname}}} pour personnaliser son espace.",
 			"cta": "Ajouter",
 			"ctb": "Plus tard"
 		},
 		"s-manager|has-invited": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1607331546/web-assets/picto/banner-share.svg",
-			"text": "Vous pouvez maintenant inviter les proches de {{{namize firstname}}} à accéder à cet espace.",
+			"text": "Invitez ceux qui ont connu {{{namize firstname}}} à accéder à cet espace.",
 			"cta": "Inviter",
 			"ctb": "Plus tard"
 		},
 		"s-manager|open-collect": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1607331541/web-assets/picto/banner-collect.svg",
-			"text": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère ou bien d'aider la famille. Souhaitez-vous créer une collecte de dons ? ",
+			"text": "La collecte de dons permet à vos proches de soutenir une cause chère à {{{namize firstname}}}. Souhaitez-vous créer une collecte de dons ? ",
 			"cta": "Oui",
 			"ctb": "Non"
 		},
@@ -1156,7 +1158,7 @@
 		},
 		"s-manager|post-event": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1607331551/web-assets/picto/banner-thank.svg",
-			"text": "Souhaitez-vous ajouter les textes lus lors de la cérémonie afin qu'il figurent dans le Livre d'or ? ",
+			"text": "Souhaitez-vous ajouter les textes lus lors de la cérémonie afin qu'ils figurent dans le Livre d'or ? ",
 			"cta": "Ajouter",
 			"ctb": "Plus tard"
 		},
@@ -1174,13 +1176,13 @@
 		},
 		"s-google|has-photo": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-camera.svg",
-			"text": "Souhaitez-vous ajouter une photo de {{{namize firstname}}} ?",
+			"text": "Ajoutez une photo de {{{namize firstname}}} pour personnaliser son espace.",
 			"cta": "Ajouter",
 			"ctb": "Plus tard"
 		},
 		"s-google|has-invited": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1607331546/web-assets/picto/banner-share.svg",
-			"text": "Vous pouvez maintenant inviter les proches de {{{namize firstname}}} à accéder à cet espace.",
+			"text": "Invitez ceux qui ont connu {{{namize firstname}}} à accéder à cet espace.",
 			"cta": "Inviter",
 			"ctb": "Plus tard"
 		},
@@ -1192,32 +1194,32 @@
 		},
 		"s-google|has-thank": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Désirez-vous remercier votre proche suite à son message ?",
+			"text": "Souhaitez-vous remercier votre proche suite à son message ?",
 			"cta": "Remercier",
 			"ctb": "Plus tard"
 		},
 		"s-google|post-event": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1607331551/web-assets/picto/banner-thank.svg",
-			"text": "Souhaitez-vous ajouter les textes lus lors de la cérémonie afin qu'il figurent dans le Livre d'or ? ",
+			"text": "Souhaitez-vous ajouter les textes lus lors de la cérémonie afin qu'ils figurent dans le Livre d'or ? ",
 			"cta": "Ajouter",
 			"ctb": "Plus tard"
 		},
 		"s-user|has-published": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg",
-			"text": "Si vous le souhaitez, vous pouvez publier un mot ou une photo.",
+			"text": "Vous pouvez participer en publiant un message ou une photo.",
 			"cta": "Publier",
 			"ctb": "Plus tard"
 		},
 		"s-user|has-invited": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Vous pouvez aider les proches de {{{namize firstname}}} à se recueillir. Invitez-les à rejoindre cet espace.",
+			"text": "Invitez ceux qui ont connu {{{namize firstname}}} à accéder à cet espace.",
 			"cta": "Inviter",
 			"ctb": "Plus tard"
 		}
 	},
 
 	"filepond": {
-		"idle": "Glissez votre photo dans ce cadre ou <span class=\"filepond--label-action\"> ajoutez-la en cliquant ici. </span>",
+		"idle": "Glissez votre photo dans ce cadre ou <span class=\"filepond--label-action\"> ajoutez-la en cliquant ici</span>.",
 		"maxFiles": "Maximum {{maxFiles}} fichiers",
 		"remainingFiles": "Maximum {{remainingFiles}} images restantes",
 		"invalidField": "Le champ contient des fichiers invalides",

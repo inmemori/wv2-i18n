@@ -84,6 +84,7 @@
 		"places": "La información del funeral aparecerá aquí",
 		"broadcast": "Broadcast informations",
 		"memories": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}",
+		"memory": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}",
 		"ceremony": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}"
 	},
 
