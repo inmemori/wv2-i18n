@@ -116,7 +116,7 @@
 		"rgpd": {
 			"more": "Voir plus",
 			"small": "inmemori traite des données personnelles pour permettre à ses utilisateurs... ",
-			"full": "inmemori traite des données personnelles pour permettre à ses utilisateurs de créer et de gérer des espaces en hommage, inviter des proches à consulter ces espaces et faciliter l’accès à certains services. Vous pouvez accéder et obtenir copie des données vous concernant, vous opposer au traitement de ces données, les faire rectifier ou les faire effacer et introduire une réclamation auprès de la CNIL. Pour exercer ces droits ou en savoir plus, vous pouvez consulter la politique relative aux données personnelles d’inmemori ou écrire à data@inmemori.com."
+			"full": "inmemori traite des données personnelles pour permettre à ses utilisateurs de rendre hommage à leur proche disparu. Vous pouvez accéder et obtenir copie des données vous concernant, vous opposer au traitement de ces données, les faire rectifier ou les faire effacer et introduire une réclamation auprès de la CNIL. Pour exercer ces droits ou en savoir plus, vous pouvez consulter la politique relative aux données personnelles d’inmemori ou écrire à data@inmemori.com."
 		},
 		"tos": {
 			"text": "En cliquant, vous acceptez nos CGU auxquelles est annexé un accord sur les données personnelles avec le gestionnaire.",
@@ -124,8 +124,8 @@
 			"link": "https://fr.inmemori.com/terms"
 		},
 		"manager-partner": {
-			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
-			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
+			"h1": "Rendez le plus beau des hommages à {{namize firstname}}",
+			"subtitle": "en permettant à tous ceux qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
@@ -136,12 +136,12 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personnaliser votre espace"
+				"customize": "Découvrir votre espace"
 			}
     },
     "manager-google": {
-			"h1": "Rendez le plus beau des hommages à {{namize firstname}}.",
-			"subtitle": "en permettant à tous qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
+			"h1": "Rendez le plus beau des hommages à {{namize firstname}}",
+			"subtitle": "en permettant à tous ceux qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
