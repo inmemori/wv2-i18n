@@ -442,7 +442,7 @@
 				"subtitle": "{{{item.name}}}"
 			},
 			"book": {
-				"title": "Le Livre d'Or",
+				"title": "Livre d'or",
 				"subtitle": ""
 			}
 		},
@@ -472,7 +472,7 @@
 		"steps": [{
 			"key": "intro",
 			"label": "Commander un livre",
-			"title": "Nouveau Livre d'Or inmemori",
+			"title": "Nouveau livre d'or inmemori",
 			"subtitle": "Une nouvelle mise en page élégante mettant à l'honneur les différents hommages et photos partagés sur cet espace.",
 			"cta": "Suivant"
 		}, {
@@ -874,8 +874,8 @@
 	},
 
 	"card-ft-book": {
-		"title": "Le livre d'Or",
-		"text": "Gardez dans un beau livre tous les hommages partagés sur inmemori.",
+		"title": "Livre d'or",
+		"text": "Recevez chez vous tous les hommages partagés sur inmemori.",
 		"cta": "Commander le livre",
 		"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Livre.svg"
 	},
