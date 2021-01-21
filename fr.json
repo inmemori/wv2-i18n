@@ -501,7 +501,7 @@
 			"cta": "Retour à l'accueil"
 		}],
 		"labels": {
-			"conditions": "La commande du livre sera disponible 15 jours après la création de votre espace.",
+			"conditions": "La commande du livre sera disponible 15 jours après la création de l'espace afin que tous les hommages puissent être rassemblés.",
 			"discount": {
 				"subtitle": "Voici votre selection. Profitez de prix réduits en commandant plusieurs exemplaires."
 			},
