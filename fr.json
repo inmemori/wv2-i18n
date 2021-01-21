@@ -127,7 +127,7 @@
 		},
 		"manager-partner": {
 			"h1": "Rendez le plus beau des hommages à {{namize firstname}}",
-			"subtitle": "en permettant à tous ceux qui l’ont connu(e) de raconter leurs souvenirs et de partager leurs photos.",
+			"subtitle": "en permettant à tous ceux qui ont connu {{namize firstname}} de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
 				"subtitle": "ont déjà utilisé inmemori pour rendre hommage à un proche.",
