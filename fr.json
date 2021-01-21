@@ -84,6 +84,10 @@
 		"places": "Les informations relatives aux obsèques apparaîtront ici.",
 		"broadcast": "Les informations relatives à la retransmission de la cérémonie apparaîtront ici.",
 		"memories": "Les messages affichés ci-dessous sont des exemples.",
+<<<<<<< HEAD
+=======
+		"memory": "Les messages affichés ci-dessous sont des exemples.",
+>>>>>>> 1eff3b4f4f95070b070dab2c2178638668dc14d3
 		"ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie."
 	},
 
@@ -105,7 +109,11 @@
 		},
 		"labels": {
 			"name": "Veuillez renseigner les informations suivantes à destination de la famille.",
+<<<<<<< HEAD
 			"relationship": "Qui était {{{namize firstname}}} pour vous ?"
+=======
+			"relationship": "Qui était {{firstname}} pour vous ?"
+>>>>>>> 1eff3b4f4f95070b070dab2c2178638668dc14d3
 		},
 		"relationships": {
 			"family": "Famille",
@@ -138,7 +146,7 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Découvrir votre espace"
+				"customize": "Découvrir l'espace"
 			}
     },
     "manager-google": {
@@ -154,7 +162,7 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personnaliser votre espace"
+				"customize": "Découvrir l'espace"
 			}
 		},
 		"user" : {
@@ -287,7 +295,8 @@
 		"relationships": {
 			"family": "Famille",
 			"friend": "Ami(e)",
-			"colleague": "Collègue"
+			"colleague": "Collègue",
+			"other" : "Autre"
 		}
 	},
 
@@ -785,8 +794,8 @@
 	},
 
 	"profile-setup": {
-		"title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
-		"subtitle": "Il a été créé pour vous par votre conseiller."
+		"title": "Conseil pratique",
+		"subtitle": "Renseignez votre email pour avoir le lien d’accès à l'espace en hommage à {{{namize firstname}}} dans votre boite email également."
 	},
 
 	"edit-intro": {
@@ -953,7 +962,11 @@
 			"email-message": "Message",
 			"link-from": "Lien de l'espace",
 			"link-desc": "Copiez-collez le lien ci-dessous dans un sms, sur WhatsApp...",
+<<<<<<< HEAD
 			"email-desc": "Donnez accès à l'espace par email en cliquant ci-dessous."
+=======
+			"email-desc": "Donnez accès à l'espace par email :"
+>>>>>>> 1eff3b4f4f95070b070dab2c2178638668dc14d3
 		},
 
 		"ph": {
