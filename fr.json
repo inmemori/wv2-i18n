@@ -83,9 +83,8 @@
 	"skeleton": {
 		"places": "Les informations relatives aux obsèques apparaîtront ici.",
 		"broadcast": "Les informations relatives à la retransmission de la cérémonie apparaîtront ici.",
-		"memories": "C’est ici qu’apparaîtront les messages en hommage à {{{namize firstname}}}. Les messages affichés ci-dessous sont fictifs.",
-		"memory": "C’est ici qu’apparaîtront les messages en hommage à {{{namize firstname}}}. Les messages affichés ci-dessous sont fictifs.",
-		"ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie. Les messages affichés ci-dessous sont fictifs."
+		"memories": "Les messages affichés ci-dessous sont des exemples.",
+		"ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie."
 	},
 
 	"onboarding": {
@@ -919,7 +918,7 @@
 			}
 		},
 		"splash": {
-			"cta": "Personnaliser votre espace"
+			"cta": "Personnaliser l'espace"
 		}
 	},
 
