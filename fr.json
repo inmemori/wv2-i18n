@@ -953,7 +953,7 @@
 			"email-message": "Message",
 			"link-from": "Lien de l'espace",
 			"link-desc": "Copiez-collez le lien ci-dessous dans un sms, sur WhatsApp...",
-			"email-desc": "Donnez accès à l'espace par email en cliquant ci-dessous."
+			"email-desc": "Donnez accès à l'espace par email :"
 		},
 
 		"ph": {
