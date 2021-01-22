@@ -788,8 +788,8 @@
 	},
 
 	"profile-setup": {
-		"title": "Por favor ingrese su cuenta de correo electrónico para acceder al espacio en homenaje a {{{fullname}}}",
-		"subtitle": "El espacio en homenaje fue creado por su consejero familiar de la agencia {{agency.name}}."
+		"title": "Introduce su correo electrónico",
+		"subtitle": "Ingrese su correo electrónico, le enviaremos un enlace para volver a conectarse con un clic en el dispositivo de su elección."
 	},
 
 	"edit-intro": {
