@@ -137,7 +137,7 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personalizar el espacio"
+				"customize": "Acceder al espacio"
 			}
 		},
 		"manager-google": {
@@ -153,7 +153,7 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personalizar el espacio"
+				"customize": "Acceder al espacio"
 			}
 		},
 		"user" : {
@@ -169,7 +169,7 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Access the space"
+				"customize": "Acceder al espacio"
 			}
 		}
 	},
@@ -286,7 +286,9 @@
 		"relationships": {
 			"family": "Familia",
 			"friend": "Amigo/amiga",
-			"colleague": "Colego/colega"
+			"colleague": "Colego/colega",
+			"acquaintance": "Conocimiento",
+			"other": "Otro"
 		}
 	},
 
