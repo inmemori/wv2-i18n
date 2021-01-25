@@ -46,7 +46,7 @@
 		"or": "O",
 		"login": "Iniciar sesión",
 		"logout": "Cerrar sesión",
-		"other": "Other",
+		"other": "Otros",
 		"errors": {
 			"missing": {
 				"firstname": "Missing required firstname",
@@ -82,7 +82,7 @@
 
 	"skeleton": {
 		"places": "La información del funeral aparecerá aquí",
-		"broadcast": "Broadcast informations",
+		"broadcast": "Información de la transmisión",
 		"memories": "Estos mensajes son solo ejemplos",
 		"memory": "Estos mensajes son solo ejemplos",
 		"ceremony": "Aquí es donde se mostrarán los mensajes de las funerales de {{{capitalize firstname}}}"
