@@ -49,15 +49,15 @@
 		"other": "Otros",
 		"errors": {
 			"missing": {
-				"firstname": "Missing required firstname",
-				"lastname": "Missing required lastname",
-				"email": "Missing required email address",
-				"name": "Missing required fullname",
-				"zone": "Missing required country",
-				"emails": "Missing at least one email address",
-				"phone": "Missing required phone number",
-				"payment": "Error during payment process please try again",
-				"address": "Missing required address"
+				"firstname": "Nombre requerido",
+				"lastname": "Apellido requerido",
+				"email": "Correo electrónico requerido",
+				"name": "Nombre completo requerido",
+				"zone": "País requerido",
+				"emails": "Al menos un correo electrónico es requerido",
+				"phone": "Número telefónico requerido",
+				"payment": "Error durante el proceso de pago, favor de intentar de nuevo",
+				"address": "Dirección requerida"
 			},
 			"invalid": {
 				"email": "Email no válido"
@@ -67,7 +67,7 @@
 
 	"cookies": {
 		"text": "Utilizamos cookies para proporcionar una mejor experiencia y para comprender cómo se utiliza nuestro sitio. Al navegar por el sitio, aceptas nuestra",
-		"link-text": "politique de cookies",
+		"link-text": "Politica de cookies",
 		"link": "https://es.inmemori.com/cookies",
 		"accept": "Aceptar",
 		"cancel": "Cancelar"
@@ -307,9 +307,9 @@
 		"time": "h:mmA",
 		"picker": {
 			"format": "DD/MM/YYYY",
-			"invalid": "Invalid Date Format",
-			"max": "Date should not be after maximal date",
-			"min": "Date should not be before minimal date"
+			"invalid": "Formato de fecha inválido",
+			"max": "La fecha no debe ser posterior a la fecha máxima",
+			"min": "La fecha no debe ser menor a la fecha mínima"
 		}
 	},
 
@@ -347,7 +347,7 @@
 			"link": "Enlace de tranmisión",
 			"passed": "La ceremonía ha concluido",
 			"setup": {
-				"title": "Configure a link con uno de los siguientes servidores:",
+				"title": "Configure el enlace con uno de los siguientes servidores:",
 				"channels": [{
 						"title": "Zoom",
 						"advice": [{
@@ -367,7 +367,7 @@
 								"link": "https://zoom.us/signup"
 							},
 							{
-								"label": "Planea la ceremnoia aquí: ",
+								"label": "Planea la ceremonia aquí: ",
 								"link": "https://zoom.us/meeting/schedule"
 							}
 						]
@@ -386,7 +386,7 @@
 		"cta": {
 			"link": "Mirar ahora",
 			"add": "Añadir el link",
-			"delete": "Quitar el link"
+			"delete": "Borrar el link"
 		}
 	},
 
