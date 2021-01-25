@@ -126,7 +126,7 @@
 			"link": "https://fr.inmemori.com/terms"
 		},
 		"manager-partner": {
-			"h1": "Rendez le plus beau des <span class='text-surline'>hommages</span> à {{namize firstname}}.",
+			"h1": "Rendez le plus beau des <span class='text-surline'>hommages</span> à {{namize firstname}}",
 			"subtitle": "en permettant à tous ceux qui ont connu {{{namize firstname}}} de raconter leurs souvenirs et de partager leurs photos.",
 			"list": [{
 				"title": "1 million de personnes",
@@ -138,7 +138,7 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Découvrir votre espace"
+				"customize": "Découvrir l'espace"
 			}
     },
     "manager-google": {
@@ -154,7 +154,7 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personnaliser votre espace"
+				"customize": "Découvrir l'espace"
 			}
 		},
 		"user" : {
