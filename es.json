@@ -538,7 +538,7 @@
 			"key": "shipping",
 			"label": "Envío",
 			"title": "Escoja el lugar de entrega",
-			"subtitle": "Por favor seleccione el lugar de entrega de su elección. Nuestro partner acuerda entregar antes del tiempo en que finalizará la ceremonia.",
+			"subtitle": "Por favor seleccione el lugar de entrega de su elección. Nuestro tiempo de entrega es de 2 horas a partir de la recepción de su orden.",
 			"cta": "Siguiente"
 		}, {
 			"key": "payment",
