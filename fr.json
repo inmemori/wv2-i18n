@@ -287,7 +287,9 @@
 		"relationships": {
 			"family": "Famille",
 			"friend": "Ami(e)",
-			"colleague": "Collègue"
+			"colleague": "Collègue",
+			"acquaintance": "Connaissance",
+			"other" : "Autre"
 		}
 	},
 
@@ -785,8 +787,8 @@
 	},
 
 	"profile-setup": {
-		"title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
-		"subtitle": "Il a été créé pour vous par votre conseiller."
+		"title": "Renseignez votre email",
+		"subtitle": "Pratique : nous vous enverrons un lien pour vous reconnecter en un clic sur l'appareil de votre choix."
 	},
 
 	"edit-intro": {
