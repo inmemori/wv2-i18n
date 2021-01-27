@@ -1116,9 +1116,9 @@
 	},
 
 	"stop-assistance": {
-    "title": "Title",
-    "subtitle": "subtitle",
-    "cta": "CTA"
+    "title": "Thank you for your feedback",
+    "subtitle": "According to your request, you won't be called or contacted anymore by our service.",
+    "cta": "Cancel"
   },
 
 	"organisations": [
