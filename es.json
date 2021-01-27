@@ -1115,6 +1115,12 @@
 		}
 	},
 
+	"stop-assistance": {
+    "title": "Title",
+    "subtitle": "subtitle",
+    "cta": "CTA"
+  },
+
 	"organisations": [
 		""
 	],

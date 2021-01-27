@@ -1115,6 +1115,12 @@
 		}
 	},
 
+	"stop-assistance": {
+    "title": "Title",
+    "subtitle": "subtitle",
+    "cta": "CTA"
+  },
+
 	"organisations": [
 		"Dana-Farber Cancer Institute", "Alzheimer’s Association", "American Red Cross", "Feeding America", "American Heart Association", "Task Force for Global Health", "St. Jude Children's Research Hospital", "The Black AIDS Institute", "Habitat for Humanity International", "Scholarship America", "Make a Wish Foundation", "AIDS United", "Americares", "Mental Health America", "National Jewish Health", "Catholic Relief Services", "Hispanic Institute", "Islamic Relief USA ", "U.S. Fund for UNICEF", "United Way", "Doctors Without Borders"
 	],
