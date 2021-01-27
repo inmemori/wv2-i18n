@@ -1116,9 +1116,9 @@
 	},
 
 	"stop-assistance": {
-    "title": "Title",
-    "subtitle": "subtitle",
-    "cta": "CTA"
+    "title": "Validación",
+    "subtitle": "El equipo de Relaciones familiares de Inmemori no se comunicará con usted.",
+    "cta": "Cancelar"
   },
 
 	"organisations": [
