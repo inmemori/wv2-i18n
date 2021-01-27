@@ -1173,9 +1173,9 @@
   },
 
   "stop-assistance": {
-    "title": "Title",
-    "subtitle": "subtitle",
-    "cta": "CTA"
+    "title": "Votre demande a été prise en compte.",
+    "subtitle": "Conformément à votre demande, l’équipe Relations Familles d’inmemori ne vous contactera pas.",
+    "cta": "J’ai changé d’avis"
   },
 
   "organisations": [
