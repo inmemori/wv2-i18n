@@ -1259,7 +1259,12 @@
 		"maxFileSizeExceeded": "File is too large",
 		"maxFileSize": "Maximum file size is {filesize}",
 		"maxTotalFileSizeExceeded": "Maximum total size exceeded",
-		"maxTotalFileSize": "Maximum total file size is {filesize}"
+		"maxTotalFileSize": "Maximum total file size is {filesize}",
+		"imageValidateSizeLabelFormatError": "Image type not supported",
+    "imageValidateSizeLabelImageSizeTooSmall": "Image is too small",
+    "imageValidateSizeLabelImageSizeTooBig": "Image is too big",
+    "imageValidateSizeLabelExpectedMinSize": "Minimum size is {minWidth} × {minHeight}",
+    "imageValidateSizeLabelExpectedMaxSize": "Maximum size is {maxWidth} × {maxHeight}"
 	},
 
 	"snackbar": {

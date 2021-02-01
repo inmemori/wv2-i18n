@@ -1343,7 +1343,12 @@
     "maxFileSizeExceeded": "Fichier trop volumineux`",
     "maxFileSize": "La taille de fichier maximum est {filesize}",
     "maxTotalFileSizeExceeded": "Taille total maximum dépassée",
-    "maxTotalFileSize": "La taille total maximum est {filesize}"
+    "maxTotalFileSize": "La taille total maximum est {filesize}",
+    "imageValidateSizeLabelFormatError": "Le format de l'image n'est pas supporté",
+    "imageValidateSizeLabelImageSizeTooSmall": "L'image est trop petite",
+    "imageValidateSizeLabelImageSizeTooBig": "L'image est trop grande",
+    "imageValidateSizeLabelExpectedMinSize": "Taille minimum: {minWidth} x {minHeight}",
+    "imageValidateSizeLabelExpectedMaxSize": "Taille maximum: {maxWidth} x {maxHeight}"
   },
 
   "snackbar": {
