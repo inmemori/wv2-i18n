@@ -83,7 +83,6 @@
 	"skeleton": {
 		"places": "The information about the ceremonies will appear here",
 		"broadcast": "Broadcast informations",
-		"memories": "The messages in tribute to {{{namize firstname}}} will appear here",
 		"memory": "The messages in tribute to {{{namize firstname}}} will appear here",
 		"ceremony": "The messages in tribute to {{{namize firstname}}} will appear here"
 	},
@@ -172,36 +171,6 @@
 				"customize": "Access the space"
 			}
 		}
-	},
-
-	"showcase": {
-		"cta": {
-			"prev": "Back",
-			"next": "Next",
-			"end": "Finish"
-		},
-		"user": [{
-			"title": "Pay tribute to your departed loved one",
-			"text": "This private space gathers {{{namize firstname}}}'s close ones and allows you to share a message, a memory or a photo.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
-		}, {
-			"title": "Invite {{{namize firstname}}}'s close ones",
-			"text": "Share this space with everyone who wishes to gather and pay tribute to {{{namize firstname}}}.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Gerer_v2.svg"
-		}],
-		"manager": [{
-			"title": "Discover an intimate space of tribute and sharing",
-			"text": "Pay tribute to {{{namize firstname}}} in this private and secure space. You are in control and decide who can access it.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
-		}, {
-			"title": "Easily communicate logistic details",
-			"text": "Communicate the funeral information to your loved ones by sharing this space with one click.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
-		}, {
-			"title": "Give your loved ones a dedicated commemoration space",
-			"text": "Your loved ones can share a message or photo and have flowers delivered to the funeral site.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
-		}]
 	},
 
 	"popups": {

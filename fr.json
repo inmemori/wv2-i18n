@@ -83,7 +83,6 @@
   "skeleton": {
     "places": "Les informations relatives aux obsèques apparaîtront ici.",
     "broadcast": "Les informations relatives à la retransmission de la cérémonie apparaîtront ici.",
-    "memories": "Les messages affichés ci-dessous sont des exemples.",
     "memory": "Tous ceux qui ont connu {{{namize firstname}}} pourront écrire un message ou partager une photo, comme dans les exemples ci-dessous.",
     "ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie."
   },
@@ -182,43 +181,6 @@
         "customize": "Accéder à l'espace"
       }
     }
-  },
-
-  "showcase": {
-    "cta": {
-      "prev": "Retour",
-      "next": "Suivant",
-      "end": "Terminer"
-    },
-    "user": [
-      {
-        "title": "Rendez hommage à {{{namize firstname}}}",
-        "text": "Cet espace inmemori vous permet de partager un message, un souvenir ou une photo en hommage à {{{namize firstname}}}.",
-        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456162/web-assets/logo.svg"
-      },
-      {
-        "title": "Invitez vos contacts sur l’espace",
-        "text": "Partagez l’espace en hommage à {{{namize firstname}}} avec vos contacts en leur donnant accès par sms, email ou WhatsApp.",
-        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
-      }
-    ],
-    "manager": [
-      {
-        "title": "Rendez le plus beau des hommages à {{{namize firstname}}}",
-        "text": "Rendez hommage à votre proche en permettant à tous ceux qui l'ont connu de raconter leurs souvenirs et de partager leurs photos.",
-        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances_v3.svg"
-      },
-      {
-        "title": "Personnalisez l'espace en hommage à {{{namize firstname}}}",
-        "text": "Ajoutez simplement une photo de votre proche.",
-        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456091/web-assets/Photo_v2.svg"
-      },
-      {
-        "title": "Invitez votre entourage sur l’espace",
-        "text": "Partagez l’espace en hommage à {{{namize firstname}}} avec votre entourage en leur donnant accès par sms, email ou WhatsApp.",
-        "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
-      }
-    ]
   },
 
   "popups": {

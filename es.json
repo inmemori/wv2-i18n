@@ -83,7 +83,6 @@
 	"skeleton": {
 		"places": "La información del funeral aparecerá aquí",
 		"broadcast": "Información de la transmisión",
-		"memories": "Estos mensajes son solo ejemplos",
 		"memory": "Estos mensajes son solo ejemplos",
 		"ceremony": "Aquí es donde se mostrarán los mensajes de las funerales de {{{capitalize firstname}}}"
 	},
@@ -172,36 +171,6 @@
 				"customize": "Acceder al espacio"
 			}
 		}
-	},
-
-	"showcase": {
-		"cta": {
-			"prev": "Atrás",
-			"next": "Siguiente",
-			"end": "Terminar"
-		},
-		"user": [{
-			"title": "Rinda homenaje a su ser querido fallecido",
-			"text": "Este espacio privado reúne a los seres queridos de {{{capitalize firstname}}} y les permite compartir un mensaje de condolencia, un recuerdo o una fotografía.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
-		}, {
-			"title": "Invite a los seres queridos de {{{capitalize firstname}}}",
-			"text": "Comparta este espacio con todos aquellos que deseen rendirle homenaje a {{{capitalize firstname}}}.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Gerer_v2.svg"
-		}],
-		"manager": [{
-			"title": "Descubra un espacio íntimo para rendir homenaje y compartir",
-			"text": "Rinda homenaje a {{{capitalize firstname}}} en este espacio seguro y privado. Usted decide y tiene el control de quien puede accesar a él.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
-		}, {
-			"title": "Comunique de una manera sencilla los detalles del funeral",
-			"text": "Comunique la información del funeral a sus seres queridos al compartir este espacio con un solo click.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
-		}, {
-			"title": "Ofrezca un espacio dedicado a conmemorar la vida de su ser querido",
-			"text": "Sus seres cercanos pueden compartir un mensaje o una fotografía y envíar flores directo al lugar del funeral.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
-		}]
 	},
 
 	"popups": {
