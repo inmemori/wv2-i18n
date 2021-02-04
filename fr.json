@@ -74,6 +74,7 @@
   },
 
   "helpscout": {
+    "cta": "Besoin d'aide ?",
     "beacons": {
       "manager": "89399fbc-7248-4078-a8f9-2c36d12103e3",
       "user": "a12fef46-6bbb-4709-90f0-02404e9bd111"
