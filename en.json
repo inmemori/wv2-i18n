@@ -74,16 +74,16 @@
 	},
 
 	"helpscout": {
+		"cta": "Need help ?",
 		"beacons": {
-			"manager": "",
-			"user": ""
+			"manager": "3dbb68a0-74eb-4500-ae43-4cfa6c962f2f",
+			"user": "ef5e6036-44dc-4228-bab3-9510b0648167"
 		}
 	},
 
 	"skeleton": {
 		"places": "The information about the ceremonies will appear here",
 		"broadcast": "Broadcast informations",
-		"memories": "The messages in tribute to {{{namize firstname}}} will appear here",
 		"memory": "The messages in tribute to {{{namize firstname}}} will appear here",
 		"ceremony": "The messages in tribute to {{{namize firstname}}} will appear here"
 	},
@@ -172,36 +172,6 @@
 				"customize": "Access the space"
 			}
 		}
-	},
-
-	"showcase": {
-		"cta": {
-			"prev": "Back",
-			"next": "Next",
-			"end": "Finish"
-		},
-		"user": [{
-			"title": "Pay tribute to your departed loved one",
-			"text": "This private space gathers {{{namize firstname}}}'s close ones and allows you to share a message, a memory or a photo.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
-		}, {
-			"title": "Invite {{{namize firstname}}}'s close ones",
-			"text": "Share this space with everyone who wishes to gather and pay tribute to {{{namize firstname}}}.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Gerer_v2.svg"
-		}],
-		"manager": [{
-			"title": "Discover an intimate space of tribute and sharing",
-			"text": "Pay tribute to {{{namize firstname}}} in this private and secure space. You are in control and decide who can access it.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
-		}, {
-			"title": "Easily communicate logistic details",
-			"text": "Communicate the funeral information to your loved ones by sharing this space with one click.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
-		}, {
-			"title": "Give your loved ones a dedicated commemoration space",
-			"text": "Your loved ones can share a message or photo and have flowers delivered to the funeral site.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
-		}]
 	},
 
 	"popups": {
@@ -1115,6 +1085,12 @@
 		}
 	},
 
+	"stop-assistance": {
+    "title": "Thank you for your feedback",
+    "subtitle": "According to your request, you won't be called or contacted anymore by our service.",
+    "cta": "Cancel"
+  },
+
 	"organisations": [
 		"Dana-Farber Cancer Institute", "Alzheimer’s Association", "American Red Cross", "Feeding America", "American Heart Association", "Task Force for Global Health", "St. Jude Children's Research Hospital", "The Black AIDS Institute", "Habitat for Humanity International", "Scholarship America", "Make a Wish Foundation", "AIDS United", "Americares", "Mental Health America", "National Jewish Health", "Catholic Relief Services", "Hispanic Institute", "Islamic Relief USA ", "U.S. Fund for UNICEF", "United Way", "Doctors Without Borders"
 	],
@@ -1253,7 +1229,12 @@
 		"maxFileSizeExceeded": "File is too large",
 		"maxFileSize": "Maximum file size is {filesize}",
 		"maxTotalFileSizeExceeded": "Maximum total size exceeded",
-		"maxTotalFileSize": "Maximum total file size is {filesize}"
+		"maxTotalFileSize": "Maximum total file size is {filesize}",
+		"imageValidateSizeLabelFormatError": "Image type not supported",
+    "imageValidateSizeLabelImageSizeTooSmall": "Image is too small",
+    "imageValidateSizeLabelImageSizeTooBig": "Image is too big",
+    "imageValidateSizeLabelExpectedMinSize": "Minimum size is {minWidth} × {minHeight}",
+    "imageValidateSizeLabelExpectedMaxSize": "Maximum size is {maxWidth} × {maxHeight}"
 	},
 
 	"snackbar": {

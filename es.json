@@ -46,18 +46,18 @@
 		"or": "O",
 		"login": "Iniciar sesión",
 		"logout": "Cerrar sesión",
-		"other": "Other",
+		"other": "Otros",
 		"errors": {
 			"missing": {
-				"firstname": "Missing required firstname",
-				"lastname": "Missing required lastname",
-				"email": "Missing required email address",
-				"name": "Missing required fullname",
-				"zone": "Missing required country",
-				"emails": "Missing at least one email address",
-				"phone": "Missing required phone number",
-				"payment": "Error during payment process please try again",
-				"address": "Missing required address"
+				"firstname": "Nombre requerido",
+				"lastname": "Apellido requerido",
+				"email": "Correo electrónico requerido",
+				"name": "Nombre completo requerido",
+				"zone": "País requerido",
+				"emails": "Al menos un correo electrónico es requerido",
+				"phone": "Número telefónico requerido",
+				"payment": "Error durante el proceso de pago, favor de intentar de nuevo",
+				"address": "Dirección requerida"
 			},
 			"invalid": {
 				"email": "Email no válido"
@@ -67,32 +67,32 @@
 
 	"cookies": {
 		"text": "Utilizamos cookies para proporcionar una mejor experiencia y para comprender cómo se utiliza nuestro sitio. Al navegar por el sitio, aceptas nuestra",
-		"link-text": "politique de cookies",
+		"link-text": "Politica de cookies",
 		"link": "https://es.inmemori.com/cookies",
 		"accept": "Aceptar",
 		"cancel": "Cancelar"
 	},
 
 	"helpscout": {
+		"cta": "¿Necesita ayuda?",
 		"beacons": {
-			"manager": "",
-			"user": ""
+			"manager": "c3d6c5a8-5cb0-4f2e-9612-91d6c123b091",
+			"user": "74f144cf-46fd-4d4e-867b-6561dca048e4"
 		}
 	},
 
 	"skeleton": {
 		"places": "La información del funeral aparecerá aquí",
-		"broadcast": "Broadcast informations",
-		"memories": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}",
-		"memory": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}",
-		"ceremony": "Aquí es donde se mostrarán los mensajes en homenaje a {{{capitalize firstname}}}"
+		"broadcast": "Información de la transmisión",
+		"memory": "Estos mensajes son solo ejemplos",
+		"ceremony": "Aquí es donde se mostrarán los mensajes de las funerales de {{{capitalize firstname}}}"
 	},
 
 	"onboarding": {
 		"actions": {
 			"start": {
 				"title": "",
-				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} vous invite à vous connecter{{else}}Connectez-vous{{/if}} pour raconter un souvenir ou partager des photos de la vie {{{d_de page.firstname}}}{{namize page.firstname}}"
+				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} le invita a conectarse{{else}}{{/if}} con el objetivo de añadir un mensaje o un momento de la vida de {{{d_de page.firstname}}}{{namize page.firstname}}"
 			},
 			"signup": {
 				"title": "",
@@ -112,7 +112,7 @@
 			"family": "Familia",
 			"friend": "Amigo/amiga",
 			"colleague": "Colego/colega",
-			"other":"Otro"
+			"other": "Otro"
 		},
 		"rgpd": {
 			"more": "Leer más",
@@ -137,7 +137,7 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personalizar el espacio"
+				"customize": "Acceder al espacio"
 			}
 		},
 		"manager-google": {
@@ -153,10 +153,10 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personalizar el espacio"
+				"customize": "Acceder al espacio"
 			}
 		},
-		"user" : {
+		"user": {
 			"h1": "Haz el más bello homenaje a {{namize firstname}}.",
 			"subtitle": "permitiendo a todos los que lo conocieron contar sus recuerdos y compartir sus fotos.",
 			"list": [{
@@ -169,39 +169,9 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Access the space"
+				"customize": "Acceder al espacio"
 			}
 		}
-	},
-
-	"showcase": {
-		"cta": {
-			"prev": "Atrás",
-			"next": "Siguiente",
-			"end": "Terminar"
-		},
-		"user": [{
-			"title": "Rinda homenaje a su ser querido fallecido",
-			"text": "Este espacio privado reúne a los seres queridos de {{{capitalize firstname}}} y les permite compartir un mensaje de condolencia, un recuerdo o una fotografía.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
-		}, {
-			"title": "Invite a los seres queridos de {{{capitalize firstname}}}",
-			"text": "Comparta este espacio con todos aquellos que deseen rendirle homenaje a {{{capitalize firstname}}}.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Gerer_v2.svg"
-		}],
-		"manager": [{
-			"title": "Descubra un espacio íntimo para rendir homenaje y compartir",
-			"text": "Rinda homenaje a {{{capitalize firstname}}} en este espacio seguro y privado. Usted decide y tiene el control de quien puede accesar a él.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456089/web-assets/Espace_consacre%CC%81.svg"
-		}, {
-			"title": "Comunique de una manera sencilla los detalles del funeral",
-			"text": "Comunique la información del funeral a sus seres queridos al compartir este espacio con un solo click.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456086/web-assets/Communiquer_v2.svg"
-		}, {
-			"title": "Ofrezca un espacio dedicado a conmemorar la vida de su ser querido",
-			"text": "Sus seres cercanos pueden compartir un mensaje o una fotografía y envíar flores directo al lugar del funeral.",
-			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ance_v2.svg"
-		}]
 	},
 
 	"popups": {
@@ -286,7 +256,9 @@
 		"relationships": {
 			"family": "Familia",
 			"friend": "Amigo/amiga",
-			"colleague": "Colego/colega"
+			"colleague": "Colego/colega",
+			"acquaintance": "Conocimiento",
+			"other": "Otro"
 		}
 	},
 
@@ -305,9 +277,9 @@
 		"time": "h:mmA",
 		"picker": {
 			"format": "DD/MM/YYYY",
-			"invalid": "Invalid Date Format",
-			"max": "Date should not be after maximal date",
-			"min": "Date should not be before minimal date"
+			"invalid": "Formato de fecha inválido",
+			"max": "La fecha no debe ser posterior a la fecha máxima",
+			"min": "La fecha no debe ser menor a la fecha mínima"
 		}
 	},
 
@@ -345,7 +317,7 @@
 			"link": "Enlace de tranmisión",
 			"passed": "La ceremonía ha concluido",
 			"setup": {
-				"title": "Configure a link con uno de los siguientes servidores:",
+				"title": "Configure el enlace con uno de los siguientes servidores:",
 				"channels": [{
 						"title": "Zoom",
 						"advice": [{
@@ -365,7 +337,7 @@
 								"link": "https://zoom.us/signup"
 							},
 							{
-								"label": "Planea la ceremnoia aquí: ",
+								"label": "Planea la ceremonia aquí: ",
 								"link": "https://zoom.us/meeting/schedule"
 							}
 						]
@@ -384,7 +356,7 @@
 		"cta": {
 			"link": "Mirar ahora",
 			"add": "Añadir el link",
-			"delete": "Quitar el link"
+			"delete": "Borrar el link"
 		}
 	},
 
@@ -427,7 +399,7 @@
 			"delete": "Borrar",
 			"add": "Aregar un evento",
 			"map": "Obtener las direcciones",
-			"addInfo": "Aregar información"
+			"addInfo": "Agregar información"
 		}
 
 	},
@@ -454,7 +426,7 @@
 			"price": "Precio",
 			"shipping": "Envío",
 			"total": "Total",
-			"discount": "Discount"
+			"discount": "Descuento"
 		},
 		"shipping": {
 			"unavailable": "Lo sentimos, la entrega no está disponible en este país."
@@ -522,9 +494,9 @@
 	"ft-flower": {
 		"steps": [{
 			"key": "intro",
-			"label": "Elija su ramo de flores",
+			"label": "Elija su arreglo de flores",
 			"title": "Su elección",
-			"subtitle": "Todos los ramos de flores podrán ser envíados al lugar del funeral de su elección.",
+			"subtitle": "Todos los arrgelos de flores podrán ser envíados al lugar del funeral de su elección.",
 			"cta": "Siguiente"
 		}, {
 			"key": "cart",
@@ -536,7 +508,7 @@
 			"key": "shipping",
 			"label": "Envío",
 			"title": "Escoja el lugar de entrega",
-			"subtitle": "Por favor seleccione el lugar de entrega de su elección. Nuestro partner acuerda entregar antes del tiempo en que finalizará la ceremonia.",
+			"subtitle": "Por favor seleccione el lugar de entrega de su elección. Nuestro tiempo de entrega es de 2 horas a partir de la recepción de su orden.",
 			"cta": "Siguiente"
 		}, {
 			"key": "payment",
@@ -598,7 +570,7 @@
 			"key": "config",
 			"label": "Información",
 			"title": "Información",
-			"subtitle": "Quién sera el beneficiario de esta recaudación?",
+			"subtitle": "¿Quién sera el beneficiario de esta recaudación?",
 			"cta": "Siguiente"
 		}, {
 			"key": "bank",
@@ -786,8 +758,8 @@
 	},
 
 	"profile-setup": {
-		"title": "Por favor ingrese su cuenta de correo electrónico para acceder al espacio en homenaje a {{{fullname}}}",
-		"subtitle": "El espacio en homenaje fue creado por su consejero familiar de la agencia {{agency.name}}."
+		"title": "Introduce su correo electrónico",
+		"subtitle": "Ingrese su correo electrónico, le enviaremos un enlace para volver a conectarse con un clic en el dispositivo de su elección."
 	},
 
 	"edit-intro": {
@@ -803,7 +775,7 @@
 		"title": "Agregar evento(s) ",
 		"subtitle": "Complete la información del funeral al agregar las diferentes ceremonias a realizar.",
 		"ph": {
-			"info": "Mas información"
+			"info": "Más información"
 		}
 	},
 
@@ -906,18 +878,18 @@
 	},
 
 	"fullscreen": {
-		"start": "Enlarge view",
-		"stop": "Reduce view",
-		"scrollup": "Go back to top"
+		"start": "Ampliar la pantalla",
+		"stop": "Reducir la pantalla",
+		"scrollup": "Regresar al inicio de la página"
 	},
 
 	"tab-memories": {
 		"segment": {
 			"memory": {
-				"title": "Memories"
+				"title": "Recuerdos"
 			},
 			"ceremony": {
-				"title": "Texts of the ceremony"
+				"title": "Mensajes para la ceremonia"
 			}
 		},
 		"splash": {
@@ -954,7 +926,7 @@
 			"email-from": "De:",
 			"email-to": "Envíar a {{#if total}}{{total}} persona(s) {{/if}}:",
 			"email-message": "Mensaje:",
-			"link-from": "Link of the space"
+			"link-from": "Link del espacio"
 		},
 
 		"ph": {
@@ -968,8 +940,8 @@
 			"share": "Compartir via correo electrónico",
 			"email": "Envíar",
 			"list": "Lista de invitados",
-			"copy": "Copy the link",
-			"copied": "Link copied",
+			"copy": "Copiar el link",
+			"copied": "Link copiado",
 			"link-desc": "Copia y pega el siguiente enlace en un sms o en un bucle de WhatsApp, por ejemplo.",
 			"email-desc": "Dé acceso al espacio por correo electrónico haciendo clic abajo."
 		}
@@ -981,7 +953,7 @@
 
 	"partner": {
 		"promo-1": "El funeral fue organizado por {{{name}}}.{{#if phone}} {{phone}}{{/if}}",
-		"promo-2": "Cet espace Inmemori est proposé par l'agence {{{name}}}."
+		"promo-2": "Este espacio InMemori es propuesto por la agencia {{{name}}}."
 	},
 
 	"tab-settings": {
@@ -1113,6 +1085,12 @@
 		}
 	},
 
+	"stop-assistance": {
+		"title": "Validación",
+		"subtitle": "El equipo de Relaciones familiares de Inmemori no se comunicará con usted.",
+		"cta": "Cancelar"
+	},
+
 	"organisations": [
 		""
 	],
@@ -1149,21 +1127,21 @@
 		},
 		"s-manager|open-collect": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1607010403/web-assets/picto/banner-collect.svg",
-			"text": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère ou bien d'aider la famille. Souhaitez-vous créer une collecte de dons ? ",
-			"cta": "Oui",
-			"ctb": "Non"
+			"text": "La recolección de donaciones permite que a sus seres queridos ayudar a una causa o a algún familiar ¿Quiere iniciar la campaña de recaudación de fondos?",
+			"cta": "Sí",
+			"ctb": "No"
 		},
 		"s-manager|has-thank": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Désirez-vous remercier votre proche suite à son message ?",
-			"cta": "Remercier",
-			"ctb": "Plus tard"
+			"text": "¿Quiere dar las gracias a su ser querido por el mensaje?",
+			"cta": "Gracias",
+			"ctb": "Más tarde"
 		},
 		"s-manager|post-event": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Souhaitez-vous ajouter les textes lus lors de la cérémonie afin qu'il figurent dans le Livre d'or ? ",
-			"cta": "Ajouter",
-			"ctb": "Plus tard"
+			"text": "¿Desea añadir los textos leídos durante la ceremonia para que aparezcan en el libro de visitas? ",
+			"cta": "Añadir",
+			"ctb": "Más tarde"
 		},
 		"s-google|check-places": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-calendar.svg",
@@ -1191,21 +1169,21 @@
 		},
 		"s-google|open-collect": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1607010403/web-assets/picto/banner-collect.svg",
-			"text": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère ou bien d'aider la famille. Souhaitez-vous créer une collecte de dons ? ",
-			"cta": "Oui",
-			"ctb": "Non"
+			"text": "La recolección de donaciones permite que a sus seres queridos ayudar a una causa o a algún familiar ¿Quiere iniciar la campaña de recaudación de fondos? ",
+			"cta": "Sí",
+			"ctb": "No"
 		},
 		"s-google|has-thank": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Désirez-vous remercier votre proche suite à son message ?",
-			"cta": "Remercier",
-			"ctb": "Plus tard"
+			"text": "¿Desea dar las gracias a su ser querido por el mensaje? ",
+			"cta": "Gracias",
+			"ctb": "Más tarde"
 		},
 		"s-google|post-event": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Souhaitez-vous ajouter les textes lus lors de la cérémonie afin qu'il figurent dans le Livre d'or ? ",
-			"cta": "Ajouter",
-			"ctb": "Plus tard"
+			"text": "¿Desea añadir los textos leídos durante la ceremonia para que aparezcan en el libro de visitas?",
+			"cta": "Añadido",
+			"ctb": "Más tarde"
 		},
 		"s-user|has-published": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg",
@@ -1251,7 +1229,12 @@
 		"maxFileSizeExceeded": "El archivo es demasiado largo",
 		"maxFileSize": "Tamaño máximo del archivo {filesize}",
 		"maxTotalFileSizeExceeded": "Tamaño total máximo excedido",
-		"maxTotalFileSize": "El tamaño máximo del arvhivo es {filesize}"
+		"maxTotalFileSize": "El tamaño máximo del arvhivo es {filesize}",
+		"imageValidateSizeLabelFormatError": "Image type not supported",
+		"imageValidateSizeLabelImageSizeTooSmall": "Image is too small",
+		"imageValidateSizeLabelImageSizeTooBig": "Image is too big",
+		"imageValidateSizeLabelExpectedMinSize": "Minimum size is {minWidth} × {minHeight}",
+		"imageValidateSizeLabelExpectedMaxSize": "Maximum size is {maxWidth} × {maxHeight}"
 	},
 
 	"snackbar": {
@@ -1262,9 +1245,9 @@
 			"has-photo": "¿Necesita ayuda para subir una fotografía de {{capitalize firstname}} ?",
 			"has-invited": "¿Necesita ayuda para compartir este espacio?",
 			"has-published": "¿Necesita ayuda para publicar un recuerdo?",
-			"open-collect": "Besoin d'aide pour ouvrir la collecte ?",
-			"has-thank": "Besoin d'aide pour partager un hommage ?",
-			"post-event": "Besoin d'aide pour partager un hommage ?"
+			"open-collect": "¿Necesitas ayuda para iniciar la recaudacción?",
+			"has-thank": "¿Necesitas ayuda para compartir un homenaje?",
+			"post-event": "¿Necesitas ayuda para compartir un homenaje?"
 		},
 		"default": {
 			"success": "Los cambios han sido guardados con éxito",
@@ -1276,3 +1259,4 @@
 	}
 
 }
+	
