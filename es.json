@@ -1032,10 +1032,10 @@
 	},
 
 	"managers-add": {
-		"title": "Agregar mas administradores",
+		"title": "Agregar más administradores",
 		"subtitle": "Ingrese el correo electrónico de las personas que desea invitar como administradores.",
-		"message": "Hola,\n\nTe agregue como administrador del espacio inmemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther de inmemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 7978 7982 o por correo electrónico en contact@inmemori.com.",
-		"snackbar": "Hola,\n\nTe agregue como administrador del espacio inmemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther de inmemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 7978 7982 o por correo electrónico en contact@inmemori.com.",
+		"message": "Hola,\n\nTe agregué como administrador del espacio inmemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther y Andrés de inmemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 11689641 o por correo electrónico en contact@inmemori.com.",
+		"snackbar": "Hola,\n\nTe agregué como administrador del espacio inmemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther y Andrés de inmemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 11689641 o por correo electrónico en contact@inmemori.com.",
 		"cta": {
 			"add": "Añadir"
 		}
