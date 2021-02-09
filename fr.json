@@ -88,6 +88,14 @@
     "ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie."
   },
 
+  "relationships": {
+    "family": "Famille",
+    "friend": "Ami(e)",
+    "colleague": "Collègue",
+    "acquaintance": "Connaissance",
+    "other": "Autre"
+  },
+  
   "onboarding": {
     "actions": {
       "start": {

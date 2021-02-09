@@ -88,6 +88,13 @@
 		"ceremony": "The messages in honor  to {{{namize firstname}}} will appear here"
 	},
 
+	"relationships": {
+		"family": "Family",
+		"friend": "Friend",
+		"colleague": "Colleague",
+		"other": "Other"
+	},
+
 	"onboarding": {
 		"actions": {
 			"start": {

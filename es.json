@@ -88,6 +88,13 @@
 		"ceremony": "Aquí es donde se mostrarán los mensajes de las funerales de {{{capitalize firstname}}}"
 	},
 
+	"relationships": {
+		"family": "Familia",
+		"friend": "Amigo/amiga",
+		"colleague": "Colego/colega",
+		"other": "Otro"
+	},
+	
 	"onboarding": {
 		"actions": {
 			"start": {
