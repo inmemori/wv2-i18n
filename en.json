@@ -115,12 +115,6 @@
 			"name": "Welcome on {{firstname}}'s space. Please write down your fullname in order to log in.",
 			"relationship": "How {{firstname}} and yourself were related ?"
 		},
-		"relationships": {
-			"family": "Family",
-			"friend": "Friend",
-			"colleague": "Colleague",
-			"other": "Other"
-		},
 		"rgpd": {
 			"more": "See more",
 			"small": "inmemori processes personal data to enable its users...",
@@ -259,12 +253,6 @@
 		},
 		"labels": {
 			"relationship": "How {{firstname}} and yourself were related ?"
-		},
-		"relationships": {
-			"family": "Family",
-			"friend": "Friend",
-			"colleague": "Colleague",
-			"other": "Other"
 		}
 	},
 

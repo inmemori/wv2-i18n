@@ -94,7 +94,7 @@
 		"colleague": "Colego/colega",
 		"other": "Otro"
 	},
-	
+
 	"onboarding": {
 		"actions": {
 			"start": {
@@ -114,12 +114,6 @@
 		"labels": {
 			"name": "Bienvenido en el espacio de {{firstname}}. \nPor favor ingrese su nombre y apellido.",
 			"relationship": "¿Quién era {{firstname}} para Ud?"
-		},
-		"relationships": {
-			"family": "Familia",
-			"friend": "Amigo/amiga",
-			"colleague": "Colego/colega",
-			"other": "Otro"
 		},
 		"rgpd": {
 			"more": "Leer más",
@@ -259,13 +253,6 @@
 		},
 		"labels": {
 			"relationship": "Quién era {{firstname}} para Ud ?"
-		},
-		"relationships": {
-			"family": "Familia",
-			"friend": "Amigo/amiga",
-			"colleague": "Colego/colega",
-			"acquaintance": "Conocimiento",
-			"other": "Otro"
 		}
 	},
 

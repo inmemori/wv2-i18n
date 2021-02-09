@@ -95,7 +95,7 @@
     "acquaintance": "Connaissance",
     "other": "Autre"
   },
-  
+
   "onboarding": {
     "actions": {
       "start": {
@@ -115,13 +115,6 @@
     "labels": {
       "name": "Veuillez renseigner les informations suivantes à destination de la famille.",
       "relationship": "Qui était {{{namize firstname}}} pour vous ?"
-    },
-    "relationships": {
-      "family": "Famille",
-      "friend": "Ami(e)",
-      "colleague": "Collègue",
-      "acquaintance": "Connaissance",
-      "other": "Autre"
     },
     "rgpd": {
       "more": "Voir plus",
@@ -270,13 +263,6 @@
     },
     "labels": {
       "relationship": "Qui était {{firstname}} pour vous ?"
-    },
-    "relationships": {
-      "family": "Famille",
-      "friend": "Ami(e)",
-      "colleague": "Collègue",
-      "acquaintance": "Connaissance",
-      "other": "Autre"
     }
   },
 
