@@ -92,7 +92,7 @@
 		"actions": {
 			"start": {
 				"title": "",
-				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} has invited you to connect{{else}}Please connect{{/if}} in order to share a memory or pictures of {{{d_de page.firstname}}}{{namize page.firstname}}"
+				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} has invited you to connect{{else}}Please connect{{/if}} in order to share a memory or pictures of {{namize page.firstname}}"
 			},
 			"signup": {
 				"title": "",
