@@ -92,7 +92,7 @@
 		"actions": {
 			"start": {
 				"title": "",
-				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} le invita a conectarse{{else}}{{/if}} con el objetivo de añadir un mensaje o un momento de la vida de {{{d_de page.firstname}}}{{namize page.firstname}}"
+				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} le invita a conectarse{{else}}{{/if}} con el objetivo de añadir un mensaje o un momento de la vida de {{namize page.firstname}}"
 			},
 			"signup": {
 				"title": "",
