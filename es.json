@@ -88,11 +88,18 @@
 		"ceremony": "Aquí es donde se mostrarán los mensajes de las funerales de {{{capitalize firstname}}}"
 	},
 
+	"relationships": {
+		"family": "Familia",
+		"friend": "Amigo/amiga",
+		"colleague": "Colego/colega",
+		"other": "Otro"
+	},
+
 	"onboarding": {
 		"actions": {
 			"start": {
 				"title": "",
-				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} le invita a conectarse{{else}}{{/if}} con el objetivo de añadir un mensaje o un momento de la vida de {{{d_de page.firstname}}}{{namize page.firstname}}"
+				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} le invita a conectarse{{else}}{{/if}} con el objetivo de añadir un mensaje o un momento de la vida de {{namize page.firstname}}"
 			},
 			"signup": {
 				"title": "",
@@ -107,12 +114,6 @@
 		"labels": {
 			"name": "Bienvenido en el espacio de {{firstname}}. \nPor favor ingrese su nombre y apellido.",
 			"relationship": "¿Quién era {{firstname}} para Ud?"
-		},
-		"relationships": {
-			"family": "Familia",
-			"friend": "Amigo/amiga",
-			"colleague": "Colego/colega",
-			"other": "Otro"
 		},
 		"rgpd": {
 			"more": "Leer más",
@@ -252,13 +253,6 @@
 		},
 		"labels": {
 			"relationship": "Quién era {{firstname}} para Ud ?"
-		},
-		"relationships": {
-			"family": "Familia",
-			"friend": "Amigo/amiga",
-			"colleague": "Colego/colega",
-			"acquaintance": "Conocimiento",
-			"other": "Otro"
 		}
 	},
 
@@ -1032,10 +1026,10 @@
 	},
 
 	"managers-add": {
-		"title": "Agregar mas administradores",
+		"title": "Agregar más administradores",
 		"subtitle": "Ingrese el correo electrónico de las personas que desea invitar como administradores.",
-		"message": "Hola,\n\nTe agregue como administrador del espacio inmemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther de inmemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 7978 7982 o por correo electrónico en contact@inmemori.com.",
-		"snackbar": "Hola,\n\nTe agregue como administrador del espacio inmemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther de inmemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 7978 7982 o por correo electrónico en contact@inmemori.com.",
+		"message": "Hola,\n\nTe agregué como administrador del espacio inmemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther y Andrés de inmemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 11689641 o por correo electrónico en contact@inmemori.com.",
+		"snackbar": "Hola,\n\nTe agregué como administrador del espacio inmemori en homenaje a {{{capitalize firstname}}} de esta forma puedes ayudarme a personalizarlo y adminsitrarlo. \n\nEsther y Andrés de inmemori esta a tu disposición para cualquier pregunta y puede ser contactada al (55) 11689641 o por correo electrónico en contact@inmemori.com.",
 		"cta": {
 			"add": "Añadir"
 		}

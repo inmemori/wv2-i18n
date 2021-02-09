@@ -84,15 +84,22 @@
 	"skeleton": {
 		"places": "The information about the ceremonies will appear here",
 		"broadcast": "Broadcast informations",
-		"memory": "The messages in tribute to {{{namize firstname}}} will appear here",
-		"ceremony": "The messages in tribute to {{{namize firstname}}} will appear here"
+		"memory": "The messages in honor to {{{namize firstname}}} will appear here",
+		"ceremony": "The messages in honor  to {{{namize firstname}}} will appear here"
 	},
 
-  "onboarding": {
-  	"actions": {
+	"relationships": {
+		"family": "Family",
+		"friend": "Friend",
+		"colleague": "Colleague",
+		"other": "Other"
+	},
+
+	"onboarding": {
+		"actions": {
 			"start": {
 				"title": "",
-				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} has invited you to connect{{else}}Please connect{{/if}} in order to share a memory or pictures of {{{d_de page.firstname}}}{{namize page.firstname}}"
+				"subtitle": "{{#if invitedBy.name}}{{invitedBy.name}} has invited you to connect{{else}}Please connect{{/if}} in order to share a memory or pictures of {{namize page.firstname}}"
 			},
 			"signup": {
 				"title": "",
@@ -107,12 +114,6 @@
 		"labels": {
 			"name": "Welcome on {{firstname}}'s space. Please write down your fullname in order to log in.",
 			"relationship": "How {{firstname}} and yourself were related ?"
-		},
-		"relationships": {
-			"family": "Family",
-			"friend": "Friend",
-			"colleague": "Colleague",
-			"other": "Other"
 		},
 		"rgpd": {
 			"more": "See more",
@@ -139,8 +140,8 @@
 			"cta": {
 				"customize": "Personalize the space"
 			}
-    },
-    "manager-google": {
+		},
+		"manager-google": {
 			"h1": "Pay the most beautiful tribute to {{namize firstname}}.",
 			"subtitle": "by allowing everyone who knew him / her to tell their memories and share their photos.",
 			"list": [{
@@ -153,10 +154,10 @@
 				"image": "https://res.cloudinary.com/inmemori/image/upload/v1589456087/web-assets/Condole%CC%81ances.svg"
 			}],
 			"cta": {
-				"customize": "Personalize the space"
+				"customize": "Customize the space"
 			}
 		},
-		"user" : {
+		"user": {
 			"h1": "Pay the most beautiful tribute to {{namize firstname}}.",
 			"subtitle": "by allowing everyone who knew him / her to tell their memories and share their photos.",
 			"list": [{
@@ -252,12 +253,6 @@
 		},
 		"labels": {
 			"relationship": "How {{firstname}} and yourself were related ?"
-		},
-		"relationships": {
-			"family": "Family",
-			"friend": "Friend",
-			"colleague": "Colleague",
-			"other":"Other"
 		}
 	},
 
@@ -349,7 +344,7 @@
 			"date": "mm/dd/yyyy",
 			"time": "hh:mm",
 			"link": "Broadcast link",
-			"info": "More informations (example: PIN Code, ...)"
+			"info": "More information (example: PIN Code, ...)"
 		},
 
 		"cta": {
@@ -752,13 +747,13 @@
 			"email": "Email"
 		},
 		"cta": {
-			"reinvite": "Resend invite"
+			"reinvite": "Forward invite"
 		}
 	},
 
 	"profile-setup": {
-		"title": "Veuillez renseigner votre email afin d'accéder à l'espace en hommage à {{{fullname}}}",
-		"subtitle": "Il a été créé pour vous par votre conseiller de l'agence {{agency.name}}."
+		"title": "Please fill in your email in order to access the space in tribute to {{{fullname}}}",
+		"subtitle": "It has been created for you by your agency advisor {{agency.name}}."
 	},
 
 	"edit-intro": {
@@ -774,7 +769,7 @@
 		"title": "Add event(s)",
 		"subtitle": "Complete the funeral here by adding the different ceremonies.",
 		"ph": {
-			"info": "More informations"
+			"info": "More information"
 		}
 	},
 
@@ -920,7 +915,7 @@
 		}],
 
 		"message": "Hello, with great sadness, we announce the loss of {{{fullname}}}. This inmemori space is intended to pay tribute to {{{namize firstname}}}. Simply enter your email to access the space and share the link with those who knew {{{namize firstname}}}",
-			"email": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private inmemori space on the internet to pay tribute to {{{namize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{namize firstname}}}, please share this space with them.\n\nKindly,",
+		"email": "Hello, \n\nIt is with great sadness that we announce the passing of {{{fullname}}}.\n\nWe share with you this private inmemori space on the internet to pay tribute to {{{namize firstname}}}. By going to space you can : \n\n- See the funeral information\n- Share a condolence message, a memory and/or a photo\n\nWe appreciate your messages of support in these difficult times.\n\nIn order to include everyone who knew {{{namize firstname}}}, please share this space with them.\n\nKindly,",
 
 		"labels": {
 			"email-from": "From:",
@@ -953,7 +948,7 @@
 
 	"partner": {
 		"promo-1": "The funeral is being organized by {{{name}}}.{{#if phone}} {{phone}}{{/if}}",
-		"promo-2": "Cet espace Inmemori est proposé par l'agence {{{name}}}."
+		"promo-2": "It has been created for you by your agency advisor {{{name}}}."
 	},
 
 	"tab-settings": {
@@ -1050,7 +1045,7 @@
 	},
 
 	"donators": {
-		"title": "Donators list",
+		"title": "Donors list",
 		"subtitle": "{{count}} people",
 		"cta": {
 			"export": "Export list"
@@ -1086,10 +1081,10 @@
 	},
 
 	"stop-assistance": {
-    "title": "Thank you for your feedback",
-    "subtitle": "According to your request, you won't be called or contacted anymore by our service.",
-    "cta": "Cancel"
-  },
+		"title": "Thank you for your feedback",
+		"subtitle": "According to your request, you won't be called or contacted anymore by our service.",
+		"cta": "Cancel"
+	},
 
 	"organisations": [
 		"Dana-Farber Cancer Institute", "Alzheimer’s Association", "American Red Cross", "Feeding America", "American Heart Association", "Task Force for Global Health", "St. Jude Children's Research Hospital", "The Black AIDS Institute", "Habitat for Humanity International", "Scholarship America", "Make a Wish Foundation", "AIDS United", "Americares", "Mental Health America", "National Jewish Health", "Catholic Relief Services", "Hispanic Institute", "Islamic Relief USA ", "U.S. Fund for UNICEF", "United Way", "Doctors Without Borders"
@@ -1127,21 +1122,21 @@
 		},
 		"s-manager|open-collect": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1607010403/web-assets/picto/banner-collect.svg",
-			"text": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère ou bien d'aider la famille. Souhaitez-vous créer une collecte de dons ? ",
-			"cta": "Oui",
-			"ctb": "Non"
+			"text": "Collecting donations allows your loved ones to support a cause that is dear to you or to help the family. Would you like to start a fundraising campaign? ",
+			"cta": "Yes",
+			"ctb": "No"
 		},
 		"s-manager|has-thank": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Désirez-vous remercier votre proche suite à son message ?",
-			"cta": "Remercier",
-			"ctb": "Plus tard"
+			"text": "Would you like to thank your loved one following his or her message?",
+			"cta": "Thank you",
+			"ctb": "Later"
 		},
 		"s-manager|post-event": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Souhaitez-vous ajouter les textes lus lors de la cérémonie afin qu'il figurent dans le Livre d'or ? ",
-			"cta": "Ajouter",
-			"ctb": "Plus tard"
+			"text": "Would you like to add the texts read during the ceremony so that they appear in the guestbook? ",
+			"cta": "Add",
+			"ctb": "Later"
 		},
 		"s-google|check-places": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-calendar.svg",
@@ -1169,21 +1164,21 @@
 		},
 		"s-google|open-collect": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1607010403/web-assets/picto/banner-collect.svg",
-			"text": "La collecte de dons permet à vos proches de soutenir une cause qui vous est chère ou bien d'aider la famille. Souhaitez-vous créer une collecte de dons ? ",
-			"cta": "Oui",
-			"ctb": "Non"
+			"text": "Collecting donations allows your loved ones to support a cause that is dear to you or to help the family. Would you like to start a fundraising campaign? ",
+			"cta": "Yes",
+			"ctb": "No"
 		},
 		"s-google|has-thank": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Désirez-vous remercier votre proche suite à son message ?",
-			"cta": "Remercier",
-			"ctb": "Plus tard"
+			"text": "Would you like to thank your loved one following his or her message?",
+			"cta": "Thank you",
+			"ctb": "Later"
 		},
 		"s-google|post-event": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-invite.svg",
-			"text": "Souhaitez-vous ajouter les textes lus lors de la cérémonie afin qu'il figurent dans le Livre d'or ? ",
-			"cta": "Ajouter",
-			"ctb": "Plus tard"
+			"text": "Would you like to add the texts read during the ceremony so that they appear in the guestbook? ",
+			"cta": "Add",
+			"ctb": "Later"
 		},
 		"s-user|has-published": {
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1592221266/web-assets/picto/banner-intro.svg",
@@ -1231,10 +1226,10 @@
 		"maxTotalFileSizeExceeded": "Maximum total size exceeded",
 		"maxTotalFileSize": "Maximum total file size is {filesize}",
 		"imageValidateSizeLabelFormatError": "Image type not supported",
-    "imageValidateSizeLabelImageSizeTooSmall": "Image is too small",
-    "imageValidateSizeLabelImageSizeTooBig": "Image is too big",
-    "imageValidateSizeLabelExpectedMinSize": "Minimum size is {minWidth} × {minHeight}",
-    "imageValidateSizeLabelExpectedMaxSize": "Maximum size is {maxWidth} × {maxHeight}"
+		"imageValidateSizeLabelImageSizeTooSmall": "Image is too small",
+		"imageValidateSizeLabelImageSizeTooBig": "Image is too big",
+		"imageValidateSizeLabelExpectedMinSize": "Minimum size is {minWidth} × {minHeight}",
+		"imageValidateSizeLabelExpectedMaxSize": "Maximum size is {maxWidth} × {maxHeight}"
 	},
 
 	"snackbar": {

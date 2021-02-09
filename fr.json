@@ -88,6 +88,14 @@
     "ceremony": "C’est ici qu’apparaîtront les textes et témoignages lus lors de la cérémonie."
   },
 
+  "relationships": {
+    "family": "Famille",
+    "friend": "Ami(e)",
+    "colleague": "Collègue",
+    "acquaintance": "Connaissance",
+    "other": "Autre"
+  },
+
   "onboarding": {
     "actions": {
       "start": {
@@ -107,13 +115,6 @@
     "labels": {
       "name": "Veuillez renseigner les informations suivantes à destination de la famille.",
       "relationship": "Qui était {{{namize firstname}}} pour vous ?"
-    },
-    "relationships": {
-      "family": "Famille",
-      "friend": "Ami(e)",
-      "colleague": "Collègue",
-      "acquaintance": "Connaissance",
-      "other": "Autre"
     },
     "rgpd": {
       "more": "Voir plus",
@@ -262,13 +263,6 @@
     },
     "labels": {
       "relationship": "Qui était {{firstname}} pour vous ?"
-    },
-    "relationships": {
-      "family": "Famille",
-      "friend": "Ami(e)",
-      "colleague": "Collègue",
-      "acquaintance": "Connaissance",
-      "other": "Autre"
     }
   },
 
@@ -962,6 +956,11 @@
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },
       {
+        "key": "link",
+        "title": "Invitations par lien",
+        "subtitle": "Copiez-collez le lien ci-dessous dans un sms, sur WhatsApp..."
+      },
+      {
         "key": "success",
         "title": "L'envoi a bien été effectué.",
         "subtitle": "",
@@ -990,9 +989,11 @@
 
     "cta": {
       "share": "Inviter par email",
+      "share-email": "Inviter par email",
       "email": "Envoyer",
       "list": "Votre liste d'invités",
       "copy": "Copier le lien",
+      "share-link": "Partager le lien",
       "copied": "Lien copié"
     }
   },
