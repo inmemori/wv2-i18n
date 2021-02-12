@@ -907,6 +907,10 @@
 			"cta": "Envíar un correo electrónico",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
 		}, {
+			"key": "link",
+			"title": "Link del espacio",
+			"subtitle": "Copy and paste the link below into a text message or WhatsApp loop, for example."
+		}, {
 			"key": "success",
 			"title": "Invitación enviada",
 			"subtitle": "",
@@ -920,7 +924,8 @@
 			"email-from": "De:",
 			"email-to": "Envíar a {{#if total}}{{total}} persona(s) {{/if}}:",
 			"email-message": "Mensaje:",
-			"link-from": "Link del espacio"
+			"link-from": "Link del espacio",
+			"link-desc": "Copy and paste the link below into a text message or WhatsApp loop, for example.",
 		},
 
 		"ph": {
@@ -932,12 +937,14 @@
 
 		"cta": {
 			"share": "Compartir via correo electrónico",
+			"share-email": "Compartir via correo electrónico",
 			"email": "Envíar",
 			"list": "Lista de invitados",
 			"copy": "Copiar el link",
 			"copied": "Link copiado",
 			"link-desc": "Copia y pega el siguiente enlace en un sms o en un bucle de WhatsApp, por ejemplo.",
-			"email-desc": "Dé acceso al espacio por correo electrónico haciendo clic abajo."
+			"email-desc": "Dé acceso al espacio por correo electrónico haciendo clic abajo.",
+			"share-link": "Share the link"
 		}
 	},
 

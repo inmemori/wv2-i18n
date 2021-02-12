@@ -907,6 +907,10 @@
 			"cta": "Send an email",
 			"icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
 		}, {
+			"key": "link",
+			"title": "Link of the space",
+			"subtitle": "Copy and paste the link below into a text message or WhatsApp loop, for example."
+		}, {
 			"key": "success",
 			"title": "The message has been sent",
 			"subtitle": "",
@@ -935,10 +939,12 @@
 
 		"cta": {
 			"share": "Share by email",
+			"share-email": "Share by email",
 			"email": "Send",
 			"list": "Guest list",
 			"copy": "Copy the link",
-			"copied": "Link copied"
+			"copied": "Link copied",
+			"share-link": "Share the link"
 		}
 	},
 
