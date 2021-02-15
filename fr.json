@@ -951,7 +951,7 @@
       {
         "key": "email",
         "title": "Inviter par email",
-        "subtitle": "Invitez des proches à rejoindre l'espace {{{d_de firstname}}}{{{namize firstname}}}. Saisissez ou copiez/collez leurs emails dans le champs ci dessous :",
+        "subtitle": "Invitez des proches à rejoindre l'espace {{{d_de firstname}}}{{{namize firstname}}}. Saisissez ou copiez/collez leurs emails dans le champ ci dessous :",
         "cta": "Envoyer un email",
         "icon": "https://res.cloudinary.com/inmemori/image/upload/v1589456088/web-assets/Email.svg"
       },
