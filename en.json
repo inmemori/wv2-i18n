@@ -313,26 +313,24 @@
 			"setup": {
 				"title": "Configure a link with one of the following services:",
 				"channels": [{
-						"title": "Setup Zoom",
+						"title": "Zoom",
 						"advice": [{
 								"label": "Signup here: ",
 								"link": "https://zoom.us/signup"
 							},
 							{
-								"label": "Plan your ceremony here: ",
-								"link": "https://zoom.us/meeting/schedule"
+								"label": "Share the link on inmemori "
 							}
 						]
 					},
 					{
-						"title": "Setup Youtube",
+						"title": "Jitsi",
 						"advice": [{
-								"label": "Signup here: ",
-								"link": "https://zoom.us/signup"
+								"label": "Create your link here: ",
+								"link": "https://meet.jit.si"
 							},
 							{
-								"label": "Plan your ceremony here: ",
-								"link": "https://zoom.us/meeting/schedule"
+								"label": "Share the link on inmemori "
 							}
 						]
 					}
