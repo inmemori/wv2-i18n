@@ -925,7 +925,7 @@
 			"email-to": "Envíar a {{#if total}}{{total}} persona(s) {{/if}}:",
 			"email-message": "Mensaje:",
 			"link-from": "Link del espacio",
-			"link-desc": "Copy and paste the link below into a text message or WhatsApp loop, for example.",
+			"link-desc": "Copy and paste the link below into a text message or WhatsApp loop, for example."
 		},
 
 		"ph": {
